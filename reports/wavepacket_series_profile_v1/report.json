@@ -1,0 +1,2323 @@
+{
+  "device": "NVIDIA H100 80GB HBM3",
+  "rows": [
+    {
+      "module": "revival",
+      "backend": "cpu",
+      "repeat": 0,
+      "seconds": 0.2938993270000001,
+      "exit_code": 0,
+      "functions": [
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival.py",
+          "line": 59,
+          "function": "main",
+          "calls": 1,
+          "self_seconds": 0.00011059500000000001,
+          "cumulative_seconds": 0.29356761000000003
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival.py",
+          "line": 31,
+          "function": "autocorr",
+          "calls": 25152,
+          "self_seconds": 0.24757437200000001,
+          "cumulative_seconds": 0.27983434900000004
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival.py",
+          "line": 51,
+          "function": "revival_quality",
+          "calls": 4,
+          "self_seconds": 1.9508e-05,
+          "cumulative_seconds": 0.27952064600000004
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.max>",
+          "calls": 5,
+          "self_seconds": 0.0036910170000000004,
+          "cumulative_seconds": 0.279363234
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival.py",
+          "line": 56,
+          "function": "<genexpr>",
+          "calls": 24004,
+          "self_seconds": 0.00854129,
+          "cumulative_seconds": 0.275672217
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/_vendor/render_match_scaffold.py",
+          "line": 55,
+          "function": "render_match",
+          "calls": 1,
+          "self_seconds": 2.6787000000000003e-05,
+          "cumulative_seconds": 0.076329331
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival.py",
+          "line": 63,
+          "function": "rfn",
+          "calls": 5,
+          "self_seconds": 2.0524000000000002e-05,
+          "cumulative_seconds": 0.076279601
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.all>",
+          "calls": 2,
+          "self_seconds": 5.189000000000001e-06,
+          "cumulative_seconds": 0.07161640100000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/_vendor/render_match_scaffold.py",
+          "line": 68,
+          "function": "<genexpr>",
+          "calls": 2,
+          "self_seconds": 3.827e-06,
+          "cumulative_seconds": 0.07021310600000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'sum' of 'numpy.ndarray' objects>",
+          "calls": 25152,
+          "self_seconds": 0.008328997000000001,
+          "cumulative_seconds": 0.028599461000000003
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/_methods.py",
+          "line": 47,
+          "function": "_sum",
+          "calls": 25152,
+          "self_seconds": 0.005692442000000001,
+          "cumulative_seconds": 0.020270464000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reduce' of 'numpy.ufunc' objects>",
+          "calls": 25152,
+          "self_seconds": 0.014578022000000001,
+          "cumulative_seconds": 0.014578022000000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival.py",
+          "line": 37,
+          "function": "revival_time",
+          "calls": 7,
+          "self_seconds": 0.00040106200000000004,
+          "cumulative_seconds": 0.010211683000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.abs>",
+          "calls": 25155,
+          "self_seconds": 0.003661249,
+          "cumulative_seconds": 0.003661249
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.min>",
+          "calls": 3,
+          "self_seconds": 6.2699e-05,
+          "cumulative_seconds": 0.0034523210000000004
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival.py",
+          "line": 80,
+          "function": "<genexpr>",
+          "calls": 201,
+          "self_seconds": 7.6703e-05,
+          "cumulative_seconds": 0.002256367
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/_vendor/render_match_scaffold.py",
+          "line": 69,
+          "function": "<genexpr>",
+          "calls": 2,
+          "self_seconds": 3.0600000000000003e-06,
+          "cumulative_seconds": 0.001398106
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival.py",
+          "line": 86,
+          "function": "<genexpr>",
+          "calls": 101,
+          "self_seconds": 4.6978e-05,
+          "cumulative_seconds": 0.0011332550000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/function_base.py",
+          "line": 27,
+          "function": "linspace",
+          "calls": 13,
+          "self_seconds": 0.000299954,
+          "cumulative_seconds": 0.000498486
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 1209,
+          "function": "synchronize",
+          "calls": 1,
+          "self_seconds": 1.6047e-05,
+          "cumulative_seconds": 0.000163196
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.arange>",
+          "calls": 13,
+          "self_seconds": 0.00011411300000000001,
+          "cumulative_seconds": 0.00011411300000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 650,
+          "function": "__init__",
+          "calls": 1,
+          "self_seconds": 4.594e-06,
+          "cumulative_seconds": 9.0055e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/_utils.py",
+          "line": 557,
+          "function": "_get_device_index",
+          "calls": 1,
+          "self_seconds": 9.965e-06,
+          "cumulative_seconds": 8.5461e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 1259,
+          "function": "argmax",
+          "calls": 7,
+          "self_seconds": 2.1968e-05,
+          "cumulative_seconds": 7.715100000000001e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 869,
+          "function": "_get_device_index",
+          "calls": 1,
+          "self_seconds": 6.1350000000000006e-06,
+          "cumulative_seconds": 7.3503e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 843,
+          "function": "_get_current_device_index",
+          "calls": 1,
+          "self_seconds": 2.982e-06,
+          "cumulative_seconds": 6.6845e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 827,
+          "function": "_get_device_attr",
+          "calls": 1,
+          "self_seconds": 6.468000000000001e-06,
+          "cumulative_seconds": 6.386300000000001e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 48,
+          "function": "_wrapfunc",
+          "calls": 7,
+          "self_seconds": 1.1437e-05,
+          "cumulative_seconds": 5.5183000000000003e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.array>",
+          "calls": 7,
+          "self_seconds": 4.5133e-05,
+          "cumulative_seconds": 4.5133e-05
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/_vendor/render_match_scaffold.py",
+          "line": 41,
+          "function": "report",
+          "calls": 1,
+          "self_seconds": 3.7209e-05,
+          "cumulative_seconds": 4.3025e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'argmax' of 'numpy.ndarray' objects>",
+          "calls": 7,
+          "self_seconds": 3.9465e-05,
+          "cumulative_seconds": 3.9465e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 810,
+          "function": "_get_available_device_type",
+          "calls": 1,
+          "self_seconds": 2.098e-06,
+          "cumulative_seconds": 3.9178e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._cuda_synchronize>",
+          "calls": 1,
+          "self_seconds": 3.7662e-05,
+          "cumulative_seconds": 3.7662e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 169,
+          "function": "is_available",
+          "calls": 1,
+          "self_seconds": 5.6830000000000005e-06,
+          "cumulative_seconds": 3.7080000000000004e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.print>",
+          "calls": 17,
+          "self_seconds": 3.4066e-05,
+          "cumulative_seconds": 3.4066e-05
+        }
+      ]
+    },
+    {
+      "module": "revival",
+      "backend": "cpu",
+      "repeat": 1,
+      "seconds": 0.2943496630000002,
+      "exit_code": 0,
+      "functions": [
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival.py",
+          "line": 59,
+          "function": "main",
+          "calls": 1,
+          "self_seconds": 7.3569e-05,
+          "cumulative_seconds": 0.294150972
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival.py",
+          "line": 31,
+          "function": "autocorr",
+          "calls": 25152,
+          "self_seconds": 0.24870251200000001,
+          "cumulative_seconds": 0.281008405
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival.py",
+          "line": 51,
+          "function": "revival_quality",
+          "calls": 4,
+          "self_seconds": 1.6613000000000002e-05,
+          "cumulative_seconds": 0.280683251
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.max>",
+          "calls": 5,
+          "self_seconds": 0.003757073,
+          "cumulative_seconds": 0.280566284
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival.py",
+          "line": 56,
+          "function": "<genexpr>",
+          "calls": 24004,
+          "self_seconds": 0.008384486,
+          "cumulative_seconds": 0.276809211
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/_vendor/render_match_scaffold.py",
+          "line": 55,
+          "function": "render_match",
+          "calls": 1,
+          "self_seconds": 1.6885000000000002e-05,
+          "cumulative_seconds": 0.076447872
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival.py",
+          "line": 63,
+          "function": "rfn",
+          "calls": 5,
+          "self_seconds": 1.0409000000000001e-05,
+          "cumulative_seconds": 0.076419818
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.all>",
+          "calls": 2,
+          "self_seconds": 2.6750000000000002e-06,
+          "cumulative_seconds": 0.072181569
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/_vendor/render_match_scaffold.py",
+          "line": 68,
+          "function": "<genexpr>",
+          "calls": 2,
+          "self_seconds": 1.774e-06,
+          "cumulative_seconds": 0.070773922
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'sum' of 'numpy.ndarray' objects>",
+          "calls": 25152,
+          "self_seconds": 0.008441834,
+          "cumulative_seconds": 0.028723230000000002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/_methods.py",
+          "line": 47,
+          "function": "_sum",
+          "calls": 25152,
+          "self_seconds": 0.0057431750000000005,
+          "cumulative_seconds": 0.020281396
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reduce' of 'numpy.ufunc' objects>",
+          "calls": 25152,
+          "self_seconds": 0.014538221,
+          "cumulative_seconds": 0.014538221
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival.py",
+          "line": 37,
+          "function": "revival_time",
+          "calls": 7,
+          "self_seconds": 0.00032451800000000004,
+          "cumulative_seconds": 0.00980276
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.abs>",
+          "calls": 25155,
+          "self_seconds": 0.003583371,
+          "cumulative_seconds": 0.003583371
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.min>",
+          "calls": 3,
+          "self_seconds": 5.3047e-05,
+          "cumulative_seconds": 0.003415457
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival.py",
+          "line": 80,
+          "function": "<genexpr>",
+          "calls": 201,
+          "self_seconds": 7.2055e-05,
+          "cumulative_seconds": 0.0022332790000000003
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/_vendor/render_match_scaffold.py",
+          "line": 69,
+          "function": "<genexpr>",
+          "calls": 2,
+          "self_seconds": 1.8820000000000001e-06,
+          "cumulative_seconds": 0.001404972
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival.py",
+          "line": 86,
+          "function": "<genexpr>",
+          "calls": 101,
+          "self_seconds": 3.7086000000000004e-05,
+          "cumulative_seconds": 0.001129131
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/function_base.py",
+          "line": 27,
+          "function": "linspace",
+          "calls": 13,
+          "self_seconds": 0.000161633,
+          "cumulative_seconds": 0.00026683100000000003
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 1209,
+          "function": "synchronize",
+          "calls": 1,
+          "self_seconds": 1.0352e-05,
+          "cumulative_seconds": 0.00011797600000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 650,
+          "function": "__init__",
+          "calls": 1,
+          "self_seconds": 2.9350000000000003e-06,
+          "cumulative_seconds": 6.4044e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/_utils.py",
+          "line": 557,
+          "function": "_get_device_index",
+          "calls": 1,
+          "self_seconds": 6.545e-06,
+          "cumulative_seconds": 6.1109e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 869,
+          "function": "_get_device_index",
+          "calls": 1,
+          "self_seconds": 2.751e-06,
+          "cumulative_seconds": 5.3021000000000006e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.arange>",
+          "calls": 13,
+          "self_seconds": 5.216e-05,
+          "cumulative_seconds": 5.216e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 843,
+          "function": "_get_current_device_index",
+          "calls": 1,
+          "self_seconds": 2.632e-06,
+          "cumulative_seconds": 4.9716e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 827,
+          "function": "_get_device_attr",
+          "calls": 1,
+          "self_seconds": 5.2e-06,
+          "cumulative_seconds": 4.7084000000000005e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 1259,
+          "function": "argmax",
+          "calls": 7,
+          "self_seconds": 1.3749000000000002e-05,
+          "cumulative_seconds": 3.3568e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.array>",
+          "calls": 7,
+          "self_seconds": 2.9329000000000003e-05,
+          "cumulative_seconds": 2.9329000000000003e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._cuda_synchronize>",
+          "calls": 1,
+          "self_seconds": 2.922e-05,
+          "cumulative_seconds": 2.922e-05
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/_vendor/render_match_scaffold.py",
+          "line": 41,
+          "function": "report",
+          "calls": 1,
+          "self_seconds": 2.5389e-05,
+          "cumulative_seconds": 2.8695000000000002e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 810,
+          "function": "_get_available_device_type",
+          "calls": 1,
+          "self_seconds": 1.7070000000000001e-06,
+          "cumulative_seconds": 2.8074000000000003e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 169,
+          "function": "is_available",
+          "calls": 1,
+          "self_seconds": 3.5340000000000004e-06,
+          "cumulative_seconds": 2.6367e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'disable' of '_lsprof.Profiler' objects>",
+          "calls": 1,
+          "self_seconds": 2.1296e-05,
+          "cumulative_seconds": 2.1296e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 48,
+          "function": "_wrapfunc",
+          "calls": 7,
+          "self_seconds": 8.272e-06,
+          "cumulative_seconds": 1.9819e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 165,
+          "function": "_nvml_based_avail",
+          "calls": 1,
+          "self_seconds": 2.762e-06,
+          "cumulative_seconds": 1.8775000000000002e-05
+        }
+      ]
+    },
+    {
+      "module": "revival",
+      "backend": "gpu",
+      "repeat": 0,
+      "seconds": 0.05059986200000033,
+      "exit_code": 0,
+      "functions": [
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival_gpu.py",
+          "line": 63,
+          "function": "main",
+          "calls": 1,
+          "self_seconds": 2.8752000000000002e-05,
+          "cumulative_seconds": 0.050400558000000005
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival.py",
+          "line": 59,
+          "function": "main",
+          "calls": 1,
+          "self_seconds": 0.00013709800000000002,
+          "cumulative_seconds": 0.050067466000000005
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival_gpu.py",
+          "line": 42,
+          "function": "__call__",
+          "calls": 316,
+          "self_seconds": 0.00047316500000000005,
+          "cumulative_seconds": 0.047792031000000006
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival_gpu.py",
+          "line": 8,
+          "function": "autocorr",
+          "calls": 316,
+          "self_seconds": 0.0203106,
+          "cumulative_seconds": 0.047318866
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.min>",
+          "calls": 3,
+          "self_seconds": 0.0005721000000000001,
+          "cumulative_seconds": 0.036913725
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival.py",
+          "line": 80,
+          "function": "<genexpr>",
+          "calls": 201,
+          "self_seconds": 0.00019317700000000002,
+          "cumulative_seconds": 0.025276301
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival.py",
+          "line": 86,
+          "function": "<genexpr>",
+          "calls": 101,
+          "self_seconds": 9.692300000000001e-05,
+          "cumulative_seconds": 0.011065324000000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival_gpu.py",
+          "line": 71,
+          "function": "<lambda>",
+          "calls": 4,
+          "self_seconds": 1.3819000000000001e-05,
+          "cumulative_seconds": 0.010005116000000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival_gpu.py",
+          "line": 57,
+          "function": "revival_quality",
+          "calls": 4,
+          "self_seconds": 6.193e-05,
+          "cumulative_seconds": 0.009991297000000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/_vendor/render_match_scaffold.py",
+          "line": 55,
+          "function": "render_match",
+          "calls": 1,
+          "self_seconds": 1.6513000000000003e-05,
+          "cumulative_seconds": 0.009777647
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival.py",
+          "line": 63,
+          "function": "rfn",
+          "calls": 5,
+          "self_seconds": 1.1699000000000001e-05,
+          "cumulative_seconds": 0.009748453
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.all>",
+          "calls": 2,
+          "self_seconds": 4.6400000000000005e-06,
+          "cumulative_seconds": 0.008622526
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/_vendor/render_match_scaffold.py",
+          "line": 68,
+          "function": "<genexpr>",
+          "calls": 2,
+          "self_seconds": 2.663e-06,
+          "cumulative_seconds": 0.008284108
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.abs>",
+          "calls": 316,
+          "self_seconds": 0.006254441,
+          "cumulative_seconds": 0.006254441
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.as_tensor>",
+          "calls": 328,
+          "self_seconds": 0.004992372,
+          "cumulative_seconds": 0.004992372
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'cpu' of 'torch._C.TensorBase' objects>",
+          "calls": 316,
+          "self_seconds": 0.0048576800000000005,
+          "cumulative_seconds": 0.0048576800000000005
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_tensor.py",
+          "line": 32,
+          "function": "wrapped",
+          "calls": 316,
+          "self_seconds": 0.000392383,
+          "cumulative_seconds": 0.0036189580000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'sum' of 'torch._C.TensorBase' objects>",
+          "calls": 316,
+          "self_seconds": 0.0034404720000000004,
+          "cumulative_seconds": 0.0034404720000000004
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'pow' of 'torch._C.TensorBase' objects>",
+          "calls": 316,
+          "self_seconds": 0.0031522010000000003,
+          "cumulative_seconds": 0.0031522010000000003
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.exp>",
+          "calls": 316,
+          "self_seconds": 0.0025024780000000003,
+          "cumulative_seconds": 0.0025024780000000003
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival_gpu.py",
+          "line": 70,
+          "function": "<lambda>",
+          "calls": 7,
+          "self_seconds": 2.1284e-05,
+          "cumulative_seconds": 0.0021042770000000003
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival_gpu.py",
+          "line": 46,
+          "function": "revival_time",
+          "calls": 7,
+          "self_seconds": 9.541100000000001e-05,
+          "cumulative_seconds": 0.002082993
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/function_base.py",
+          "line": 27,
+          "function": "linspace",
+          "calls": 13,
+          "self_seconds": 0.000311089,
+          "cumulative_seconds": 0.0007922490000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'numpy' of 'torch._C.TensorBase' objects>",
+          "calls": 316,
+          "self_seconds": 0.000740429,
+          "cumulative_seconds": 0.000740429
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival_gpu.py",
+          "line": 33,
+          "function": "_arrays",
+          "calls": 316,
+          "self_seconds": 0.00046275600000000004,
+          "cumulative_seconds": 0.0006578560000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.arange>",
+          "calls": 13,
+          "self_seconds": 0.00037998000000000003,
+          "cumulative_seconds": 0.00037998000000000003
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/_vendor/render_match_scaffold.py",
+          "line": 69,
+          "function": "<genexpr>",
+          "calls": 2,
+          "self_seconds": 1.99e-06,
+          "cumulative_seconds": 0.000333778
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival_gpu.py",
+          "line": 26,
+          "function": "__init__",
+          "calls": 1,
+          "self_seconds": 3.1677e-05,
+          "cumulative_seconds": 0.000302884
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.tensor>",
+          "calls": 1,
+          "self_seconds": 0.00026499,
+          "cumulative_seconds": 0.00026499
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.asarray>",
+          "calls": 316,
+          "self_seconds": 0.00013868000000000002,
+          "cumulative_seconds": 0.00013868000000000002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 1209,
+          "function": "synchronize",
+          "calls": 1,
+          "self_seconds": 1.2606000000000001e-05,
+          "cumulative_seconds": 0.00011353900000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'max' of 'numpy.ndarray' objects>",
+          "calls": 4,
+          "self_seconds": 2.0169000000000003e-05,
+          "cumulative_seconds": 9.1481e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 650,
+          "function": "__init__",
+          "calls": 1,
+          "self_seconds": 3.3870000000000004e-06,
+          "cumulative_seconds": 7.755e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._has_torch_function>",
+          "calls": 316,
+          "self_seconds": 7.4374e-05,
+          "cumulative_seconds": 7.4374e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/_utils.py",
+          "line": 557,
+          "function": "_get_device_index",
+          "calls": 1,
+          "self_seconds": 9.606000000000001e-06,
+          "cumulative_seconds": 7.4163e-05
+        }
+      ]
+    },
+    {
+      "module": "revival",
+      "backend": "gpu",
+      "repeat": 1,
+      "seconds": 0.03603998599999869,
+      "exit_code": 0,
+      "functions": [
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival_gpu.py",
+          "line": 63,
+          "function": "main",
+          "calls": 1,
+          "self_seconds": 2.0254000000000003e-05,
+          "cumulative_seconds": 0.035888086
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival.py",
+          "line": 59,
+          "function": "main",
+          "calls": 1,
+          "self_seconds": 8.1247e-05,
+          "cumulative_seconds": 0.035792711000000005
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival_gpu.py",
+          "line": 42,
+          "function": "__call__",
+          "calls": 316,
+          "self_seconds": 0.000452051,
+          "cumulative_seconds": 0.034294910000000005
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival_gpu.py",
+          "line": 8,
+          "function": "autocorr",
+          "calls": 316,
+          "self_seconds": 0.010559095000000001,
+          "cumulative_seconds": 0.033842859
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.min>",
+          "calls": 3,
+          "self_seconds": 0.000522832,
+          "cumulative_seconds": 0.032572897
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival.py",
+          "line": 80,
+          "function": "<genexpr>",
+          "calls": 201,
+          "self_seconds": 0.00017198000000000002,
+          "cumulative_seconds": 0.021465969
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival.py",
+          "line": 86,
+          "function": "<genexpr>",
+          "calls": 101,
+          "self_seconds": 0.0001034,
+          "cumulative_seconds": 0.010584096000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.abs>",
+          "calls": 316,
+          "self_seconds": 0.005225087000000001,
+          "cumulative_seconds": 0.005225087000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'cpu' of 'torch._C.TensorBase' objects>",
+          "calls": 316,
+          "self_seconds": 0.004370804000000001,
+          "cumulative_seconds": 0.004370804000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.as_tensor>",
+          "calls": 328,
+          "self_seconds": 0.004369162,
+          "cumulative_seconds": 0.004369162
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_tensor.py",
+          "line": 32,
+          "function": "wrapped",
+          "calls": 316,
+          "self_seconds": 0.000375833,
+          "cumulative_seconds": 0.0031545960000000004
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'sum' of 'torch._C.TensorBase' objects>",
+          "calls": 316,
+          "self_seconds": 0.002957805,
+          "cumulative_seconds": 0.002957805
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'pow' of 'torch._C.TensorBase' objects>",
+          "calls": 316,
+          "self_seconds": 0.002703029,
+          "cumulative_seconds": 0.002703029
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.exp>",
+          "calls": 316,
+          "self_seconds": 0.0020446880000000002,
+          "cumulative_seconds": 0.0020446880000000002
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival_gpu.py",
+          "line": 70,
+          "function": "<lambda>",
+          "calls": 7,
+          "self_seconds": 1.5189000000000001e-05,
+          "cumulative_seconds": 0.001484326
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival_gpu.py",
+          "line": 46,
+          "function": "revival_time",
+          "calls": 7,
+          "self_seconds": 7.477800000000001e-05,
+          "cumulative_seconds": 0.0014691370000000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/_vendor/render_match_scaffold.py",
+          "line": 55,
+          "function": "render_match",
+          "calls": 1,
+          "self_seconds": 1.4167e-05,
+          "cumulative_seconds": 0.001210986
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival.py",
+          "line": 63,
+          "function": "rfn",
+          "calls": 5,
+          "self_seconds": 9.946000000000001e-06,
+          "cumulative_seconds": 0.001186608
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival_gpu.py",
+          "line": 71,
+          "function": "<lambda>",
+          "calls": 4,
+          "self_seconds": 8.893000000000001e-06,
+          "cumulative_seconds": 0.0009637480000000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival_gpu.py",
+          "line": 57,
+          "function": "revival_quality",
+          "calls": 4,
+          "self_seconds": 3.236e-05,
+          "cumulative_seconds": 0.0009548550000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'numpy' of 'torch._C.TensorBase' objects>",
+          "calls": 316,
+          "self_seconds": 0.0006403100000000001,
+          "cumulative_seconds": 0.0006403100000000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival_gpu.py",
+          "line": 33,
+          "function": "_arrays",
+          "calls": 316,
+          "self_seconds": 0.00039111500000000004,
+          "cumulative_seconds": 0.000553423
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.all>",
+          "calls": 2,
+          "self_seconds": 3.176e-06,
+          "cumulative_seconds": 0.00046661
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/function_base.py",
+          "line": 27,
+          "function": "linspace",
+          "calls": 13,
+          "self_seconds": 0.00019194,
+          "cumulative_seconds": 0.000306864
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/_vendor/render_match_scaffold.py",
+          "line": 68,
+          "function": "<genexpr>",
+          "calls": 2,
+          "self_seconds": 1.906e-06,
+          "cumulative_seconds": 0.000251081
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/_vendor/render_match_scaffold.py",
+          "line": 69,
+          "function": "<genexpr>",
+          "calls": 2,
+          "self_seconds": 2.013e-06,
+          "cumulative_seconds": 0.000212353
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.asarray>",
+          "calls": 316,
+          "self_seconds": 0.000130197,
+          "cumulative_seconds": 0.000130197
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 1209,
+          "function": "synchronize",
+          "calls": 1,
+          "self_seconds": 1.0467e-05,
+          "cumulative_seconds": 7.896e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._has_torch_function>",
+          "calls": 316,
+          "self_seconds": 7.5734e-05,
+          "cumulative_seconds": 7.5734e-05
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/quantum_revival_gpu.py",
+          "line": 26,
+          "function": "__init__",
+          "calls": 1,
+          "self_seconds": 1.344e-05,
+          "cumulative_seconds": 7.385200000000001e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.tensor>",
+          "calls": 1,
+          "self_seconds": 5.6300000000000006e-05,
+          "cumulative_seconds": 5.6300000000000006e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 650,
+          "function": "__init__",
+          "calls": 1,
+          "self_seconds": 2.2360000000000003e-06,
+          "cumulative_seconds": 5.0277e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/_utils.py",
+          "line": 557,
+          "function": "_get_device_index",
+          "calls": 1,
+          "self_seconds": 6.387e-06,
+          "cumulative_seconds": 4.8041e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'max' of 'numpy.ndarray' objects>",
+          "calls": 4,
+          "self_seconds": 5.4e-06,
+          "cumulative_seconds": 4.5692e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.arange>",
+          "calls": 13,
+          "self_seconds": 4.5292000000000006e-05,
+          "cumulative_seconds": 4.5292000000000006e-05
+        }
+      ]
+    },
+    {
+      "module": "bloch",
+      "backend": "cpu",
+      "repeat": 0,
+      "seconds": 0.3065517060000005,
+      "exit_code": 0,
+      "functions": [
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/bloch_oscillation.py",
+          "line": 57,
+          "function": "main",
+          "calls": 1,
+          "self_seconds": 0.00020377600000000002,
+          "cumulative_seconds": 0.306288791
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/bloch_oscillation.py",
+          "line": 32,
+          "function": "bloch_amplitude",
+          "calls": 15,
+          "self_seconds": 0.237729513,
+          "cumulative_seconds": 0.303886649
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/_vendor/render_match_scaffold.py",
+          "line": 55,
+          "function": "render_match",
+          "calls": 1,
+          "self_seconds": 2.9214000000000002e-05,
+          "cumulative_seconds": 0.08777568200000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/bloch_oscillation.py",
+          "line": 61,
+          "function": "rfn",
+          "calls": 5,
+          "self_seconds": 2.7323000000000003e-05,
+          "cumulative_seconds": 0.087727524
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'join' of 'str' objects>",
+          "calls": 3,
+          "self_seconds": 1.3731000000000001e-05,
+          "cumulative_seconds": 0.059555466
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/bloch_oscillation.py",
+          "line": 79,
+          "function": "<genexpr>",
+          "calls": 4,
+          "self_seconds": 3.4351000000000004e-05,
+          "cumulative_seconds": 0.059535496
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/linalg/_linalg.py",
+          "line": 1513,
+          "function": "eigh",
+          "calls": 15,
+          "self_seconds": 0.046783666,
+          "cumulative_seconds": 0.047208567
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.all>",
+          "calls": 2,
+          "self_seconds": 5.992e-06,
+          "cumulative_seconds": 0.020237399
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/_vendor/render_match_scaffold.py",
+          "line": 69,
+          "function": "<genexpr>",
+          "calls": 2,
+          "self_seconds": 3.536e-06,
+          "cumulative_seconds": 0.020116694
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 2342,
+          "function": "sum",
+          "calls": 3600,
+          "self_seconds": 0.004357617,
+          "cumulative_seconds": 0.014815980000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 66,
+          "function": "_wrapreduction",
+          "calls": 3600,
+          "self_seconds": 0.004933906,
+          "cumulative_seconds": 0.009686936
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reduce' of 'numpy.ufunc' objects>",
+          "calls": 3638,
+          "self_seconds": 0.003952298,
+          "cumulative_seconds": 0.003952298
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_twodim_base_impl.py",
+          "line": 260,
+          "function": "diag",
+          "calls": 45,
+          "self_seconds": 0.000663171,
+          "cumulative_seconds": 0.001985408
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.zeros>",
+          "calls": 45,
+          "self_seconds": 0.001289786,
+          "cumulative_seconds": 0.001289786
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 2337,
+          "function": "_sum_dispatcher",
+          "calls": 3600,
+          "self_seconds": 0.000896333,
+          "cumulative_seconds": 0.000896333
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method _io.open>",
+          "calls": 1,
+          "self_seconds": 0.0008899380000000001,
+          "cumulative_seconds": 0.000891108
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'items' of 'dict' objects>",
+          "calls": 3608,
+          "self_seconds": 0.0008833500000000001,
+          "cumulative_seconds": 0.0008833500000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.isinstance>",
+          "calls": 3757,
+          "self_seconds": 0.0008007200000000001,
+          "cumulative_seconds": 0.0008007200000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/function_base.py",
+          "line": 27,
+          "function": "linspace",
+          "calls": 19,
+          "self_seconds": 0.00042848,
+          "cumulative_seconds": 0.000642485
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/bloch_oscillation.py",
+          "line": 47,
+          "function": "free_amplitude",
+          "calls": 4,
+          "self_seconds": 9.461800000000001e-05,
+          "cumulative_seconds": 0.000400293
+        },
+        {
+          "file": "/usr/local/lib/python3.12/json/__init__.py",
+          "line": 120,
+          "function": "dump",
+          "calls": 1,
+          "self_seconds": 6.501200000000001e-05,
+          "cumulative_seconds": 0.000353431
+        },
+        {
+          "file": "/usr/local/lib/python3.12/json/encoder.py",
+          "line": 414,
+          "function": "_iterencode",
+          "calls": 135,
+          "self_seconds": 3.7738000000000004e-05,
+          "cumulative_seconds": 0.000237134
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/linalg/_linalg.py",
+          "line": 2598,
+          "function": "norm",
+          "calls": 15,
+          "self_seconds": 0.00011363100000000001,
+          "cumulative_seconds": 0.00021192400000000003
+        },
+        {
+          "file": "/usr/local/lib/python3.12/json/encoder.py",
+          "line": 334,
+          "function": "_iterencode_dict",
+          "calls": 255,
+          "self_seconds": 0.000138719,
+          "cumulative_seconds": 0.000197672
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method '__exit__' of '_io._IOBase' objects>",
+          "calls": 1,
+          "self_seconds": 0.00018237,
+          "cumulative_seconds": 0.00018237
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 1209,
+          "function": "synchronize",
+          "calls": 1,
+          "self_seconds": 1.3868e-05,
+          "cumulative_seconds": 0.000162757
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 170,
+          "function": "ones",
+          "calls": 30,
+          "self_seconds": 0.000123317,
+          "cumulative_seconds": 0.00016242
+        },
+        {
+          "file": "<frozen os>",
+          "line": 200,
+          "function": "makedirs",
+          "calls": 1,
+          "self_seconds": 1.001e-05,
+          "cumulative_seconds": 0.000155427
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.array>",
+          "calls": 15,
+          "self_seconds": 0.000141857,
+          "cumulative_seconds": 0.000141857
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.arange>",
+          "calls": 34,
+          "self_seconds": 0.0001319,
+          "cumulative_seconds": 0.0001319
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method posix.mkdir>",
+          "calls": 1,
+          "self_seconds": 0.000128295,
+          "cumulative_seconds": 0.000128295
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 2876,
+          "function": "cumsum",
+          "calls": 4,
+          "self_seconds": 1.1429e-05,
+          "cumulative_seconds": 0.00012623500000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 48,
+          "function": "_wrapfunc",
+          "calls": 4,
+          "self_seconds": 9.742000000000001e-06,
+          "cumulative_seconds": 0.00011480600000000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/_vendor/render_match_scaffold.py",
+          "line": 68,
+          "function": "<genexpr>",
+          "calls": 2,
+          "self_seconds": 3.7640000000000003e-06,
+          "cumulative_seconds": 0.00011471300000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'cumsum' of 'numpy.ndarray' objects>",
+          "calls": 4,
+          "self_seconds": 0.00010167700000000001,
+          "cumulative_seconds": 0.00010167700000000001
+        }
+      ]
+    },
+    {
+      "module": "bloch",
+      "backend": "cpu",
+      "repeat": 1,
+      "seconds": 0.3069289340000001,
+      "exit_code": 0,
+      "functions": [
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/bloch_oscillation.py",
+          "line": 57,
+          "function": "main",
+          "calls": 1,
+          "self_seconds": 0.00021418200000000002,
+          "cumulative_seconds": 0.306690881
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/bloch_oscillation.py",
+          "line": 32,
+          "function": "bloch_amplitude",
+          "calls": 15,
+          "self_seconds": 0.2370005,
+          "cumulative_seconds": 0.303876488
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/_vendor/render_match_scaffold.py",
+          "line": 55,
+          "function": "render_match",
+          "calls": 1,
+          "self_seconds": 2.6206000000000003e-05,
+          "cumulative_seconds": 0.08342564300000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/bloch_oscillation.py",
+          "line": 61,
+          "function": "rfn",
+          "calls": 5,
+          "self_seconds": 2.1948e-05,
+          "cumulative_seconds": 0.08338105400000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'join' of 'str' objects>",
+          "calls": 3,
+          "self_seconds": 1.1959e-05,
+          "cumulative_seconds": 0.057894487
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/bloch_oscillation.py",
+          "line": 79,
+          "function": "<genexpr>",
+          "calls": 4,
+          "self_seconds": 2.8394000000000003e-05,
+          "cumulative_seconds": 0.057875564000000004
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/linalg/_linalg.py",
+          "line": 1513,
+          "function": "eigh",
+          "calls": 15,
+          "self_seconds": 0.047643771,
+          "cumulative_seconds": 0.048038969
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.all>",
+          "calls": 2,
+          "self_seconds": 5.625e-06,
+          "cumulative_seconds": 0.020248147
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/_vendor/render_match_scaffold.py",
+          "line": 69,
+          "function": "<genexpr>",
+          "calls": 2,
+          "self_seconds": 3.136e-06,
+          "cumulative_seconds": 0.020131575000000002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 2342,
+          "function": "sum",
+          "calls": 3600,
+          "self_seconds": 0.00462244,
+          "cumulative_seconds": 0.015978936000000003
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 66,
+          "function": "_wrapreduction",
+          "calls": 3600,
+          "self_seconds": 0.005818281000000001,
+          "cumulative_seconds": 0.010551851000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reduce' of 'numpy.ufunc' objects>",
+          "calls": 3638,
+          "self_seconds": 0.0038142410000000003,
+          "cumulative_seconds": 0.0038142410000000003
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'items' of 'dict' objects>",
+          "calls": 3608,
+          "self_seconds": 0.000994042,
+          "cumulative_seconds": 0.000994042
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_twodim_base_impl.py",
+          "line": 260,
+          "function": "diag",
+          "calls": 45,
+          "self_seconds": 0.000267718,
+          "cumulative_seconds": 0.000973393
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.isinstance>",
+          "calls": 3757,
+          "self_seconds": 0.0008370780000000001,
+          "cumulative_seconds": 0.0008370780000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method _io.open>",
+          "calls": 1,
+          "self_seconds": 0.000717693,
+          "cumulative_seconds": 0.000722967
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/function_base.py",
+          "line": 27,
+          "function": "linspace",
+          "calls": 19,
+          "self_seconds": 0.000451634,
+          "cumulative_seconds": 0.0006799740000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.zeros>",
+          "calls": 45,
+          "self_seconds": 0.0006734730000000001,
+          "cumulative_seconds": 0.0006734730000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 2337,
+          "function": "_sum_dispatcher",
+          "calls": 3600,
+          "self_seconds": 0.000664767,
+          "cumulative_seconds": 0.000664767
+        },
+        {
+          "file": "<frozen os>",
+          "line": 200,
+          "function": "makedirs",
+          "calls": 1,
+          "self_seconds": 2.9101e-05,
+          "cumulative_seconds": 0.000627596
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/bloch_oscillation.py",
+          "line": 47,
+          "function": "free_amplitude",
+          "calls": 4,
+          "self_seconds": 0.00011444000000000001,
+          "cumulative_seconds": 0.000489997
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method posix.mkdir>",
+          "calls": 1,
+          "self_seconds": 0.000451651,
+          "cumulative_seconds": 0.000451651
+        },
+        {
+          "file": "/usr/local/lib/python3.12/json/__init__.py",
+          "line": 120,
+          "function": "dump",
+          "calls": 1,
+          "self_seconds": 5.9469e-05,
+          "cumulative_seconds": 0.000357255
+        },
+        {
+          "file": "/usr/local/lib/python3.12/json/encoder.py",
+          "line": 414,
+          "function": "_iterencode",
+          "calls": 135,
+          "self_seconds": 3.3993000000000005e-05,
+          "cumulative_seconds": 0.000249338
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/linalg/_linalg.py",
+          "line": 2598,
+          "function": "norm",
+          "calls": 15,
+          "self_seconds": 0.00010126400000000001,
+          "cumulative_seconds": 0.000215311
+        },
+        {
+          "file": "/usr/local/lib/python3.12/json/encoder.py",
+          "line": 334,
+          "function": "_iterencode_dict",
+          "calls": 255,
+          "self_seconds": 0.000155336,
+          "cumulative_seconds": 0.00021370700000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method '__exit__' of '_io._IOBase' objects>",
+          "calls": 1,
+          "self_seconds": 0.00019982300000000001,
+          "cumulative_seconds": 0.00019982300000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.array>",
+          "calls": 15,
+          "self_seconds": 0.00015977800000000001,
+          "cumulative_seconds": 0.00015977800000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 1209,
+          "function": "synchronize",
+          "calls": 1,
+          "self_seconds": 1.2633000000000001e-05,
+          "cumulative_seconds": 0.000142037
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.arange>",
+          "calls": 34,
+          "self_seconds": 0.000141275,
+          "cumulative_seconds": 0.000141275
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 170,
+          "function": "ones",
+          "calls": 30,
+          "self_seconds": 0.000101311,
+          "cumulative_seconds": 0.000137879
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 2876,
+          "function": "cumsum",
+          "calls": 4,
+          "self_seconds": 1.1592e-05,
+          "cumulative_seconds": 0.000133385
+        },
+        {
+          "file": "<frozen genericpath>",
+          "line": 39,
+          "function": "isdir",
+          "calls": 1,
+          "self_seconds": 2.2564000000000003e-05,
+          "cumulative_seconds": 0.00012737500000000002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 48,
+          "function": "_wrapfunc",
+          "calls": 4,
+          "self_seconds": 1.2625e-05,
+          "cumulative_seconds": 0.000121793
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/_vendor/render_match_scaffold.py",
+          "line": 68,
+          "function": "<genexpr>",
+          "calls": 2,
+          "self_seconds": 3.096e-06,
+          "cumulative_seconds": 0.00011094700000000001
+        }
+      ]
+    },
+    {
+      "module": "bloch",
+      "backend": "gpu",
+      "repeat": 0,
+      "seconds": 0.12090418899999911,
+      "exit_code": 0,
+      "functions": [
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/bloch_oscillation_gpu.py",
+          "line": 24,
+          "function": "main",
+          "calls": 1,
+          "self_seconds": 2.3673000000000002e-05,
+          "cumulative_seconds": 0.12068574800000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/bloch_oscillation.py",
+          "line": 57,
+          "function": "main",
+          "calls": 1,
+          "self_seconds": 0.000197996,
+          "cumulative_seconds": 0.12066111900000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/bloch_oscillation_gpu.py",
+          "line": 25,
+          "function": "<lambda>",
+          "calls": 15,
+          "self_seconds": 0.00018700900000000003,
+          "cumulative_seconds": 0.117718865
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/bloch_oscillation_gpu.py",
+          "line": 8,
+          "function": "bloch_amplitude",
+          "calls": 15,
+          "self_seconds": 0.035596248000000004,
+          "cumulative_seconds": 0.117531856
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/_vendor/render_match_scaffold.py",
+          "line": 55,
+          "function": "render_match",
+          "calls": 1,
+          "self_seconds": 2.9104e-05,
+          "cumulative_seconds": 0.08981143700000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/bloch_oscillation.py",
+          "line": 61,
+          "function": "rfn",
+          "calls": 5,
+          "self_seconds": 2.1192e-05,
+          "cumulative_seconds": 0.089764594
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._linalg.linalg_eigh>",
+          "calls": 15,
+          "self_seconds": 0.074453314,
+          "cumulative_seconds": 0.074453314
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'join' of 'str' objects>",
+          "calls": 3,
+          "self_seconds": 1.3731000000000001e-05,
+          "cumulative_seconds": 0.007940973
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/bloch_oscillation.py",
+          "line": 79,
+          "function": "<genexpr>",
+          "calls": 4,
+          "self_seconds": 2.3701000000000002e-05,
+          "cumulative_seconds": 0.007921725000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.all>",
+          "calls": 2,
+          "self_seconds": 5.62e-06,
+          "cumulative_seconds": 0.002823215
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/_vendor/render_match_scaffold.py",
+          "line": 69,
+          "function": "<genexpr>",
+          "calls": 2,
+          "self_seconds": 3.0830000000000004e-06,
+          "cumulative_seconds": 0.0026257760000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.as_tensor>",
+          "calls": 30,
+          "self_seconds": 0.001132374,
+          "cumulative_seconds": 0.001132374
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.diag>",
+          "calls": 45,
+          "self_seconds": 0.0010051040000000002,
+          "cumulative_seconds": 0.0010051040000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method _io.open>",
+          "calls": 1,
+          "self_seconds": 0.000990962,
+          "cumulative_seconds": 0.0009919170000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/function_base.py",
+          "line": 27,
+          "function": "linspace",
+          "calls": 19,
+          "self_seconds": 0.000592905,
+          "cumulative_seconds": 0.0008735290000000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/bloch_oscillation.py",
+          "line": 47,
+          "function": "free_amplitude",
+          "calls": 4,
+          "self_seconds": 0.00042101000000000004,
+          "cumulative_seconds": 0.0008322710000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_tensor.py",
+          "line": 32,
+          "function": "wrapped",
+          "calls": 30,
+          "self_seconds": 0.000101761,
+          "cumulative_seconds": 0.00070491
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.abs>",
+          "calls": 15,
+          "self_seconds": 0.000672639,
+          "cumulative_seconds": 0.000672639
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'sum' of 'torch._C.TensorBase' objects>",
+          "calls": 15,
+          "self_seconds": 0.000626267,
+          "cumulative_seconds": 0.000626267
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'pow' of 'torch._C.TensorBase' objects>",
+          "calls": 30,
+          "self_seconds": 0.0005849750000000001,
+          "cumulative_seconds": 0.0005849750000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.exp>",
+          "calls": 30,
+          "self_seconds": 0.00041215500000000004,
+          "cumulative_seconds": 0.00041215500000000004
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.full>",
+          "calls": 15,
+          "self_seconds": 0.000364716,
+          "cumulative_seconds": 0.000364716
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._linalg.linalg_vector_norm>",
+          "calls": 15,
+          "self_seconds": 0.00031764900000000003,
+          "cumulative_seconds": 0.00031764900000000003
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'max' of 'torch._C.TensorBase' objects>",
+          "calls": 15,
+          "self_seconds": 0.000315923,
+          "cumulative_seconds": 0.000315923
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'to' of 'torch._C.TensorBase' objects>",
+          "calls": 15,
+          "self_seconds": 0.00030968,
+          "cumulative_seconds": 0.00030968
+        },
+        {
+          "file": "/usr/local/lib/python3.12/json/__init__.py",
+          "line": 120,
+          "function": "dump",
+          "calls": 1,
+          "self_seconds": 5.745900000000001e-05,
+          "cumulative_seconds": 0.000306382
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'item' of 'torch._C.TensorBase' objects>",
+          "calls": 15,
+          "self_seconds": 0.00030524,
+          "cumulative_seconds": 0.00030524
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'min' of 'torch._C.TensorBase' objects>",
+          "calls": 15,
+          "self_seconds": 0.000235557,
+          "cumulative_seconds": 0.000235557
+        },
+        {
+          "file": "<frozen os>",
+          "line": 200,
+          "function": "makedirs",
+          "calls": 1,
+          "self_seconds": 1.8178e-05,
+          "cumulative_seconds": 0.000234984
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.len>",
+          "calls": 15,
+          "self_seconds": 3.7424e-05,
+          "cumulative_seconds": 0.000202427
+        },
+        {
+          "file": "/usr/local/lib/python3.12/json/encoder.py",
+          "line": 414,
+          "function": "_iterencode",
+          "calls": 135,
+          "self_seconds": 3.2031e-05,
+          "cumulative_seconds": 0.00020197500000000002
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/_vendor/render_match_scaffold.py",
+          "line": 68,
+          "function": "<genexpr>",
+          "calls": 2,
+          "self_seconds": 2.7490000000000003e-06,
+          "cumulative_seconds": 0.000191819
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.arange>",
+          "calls": 34,
+          "self_seconds": 0.00018763200000000002,
+          "cumulative_seconds": 0.00018763200000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method '__exit__' of '_io._IOBase' objects>",
+          "calls": 1,
+          "self_seconds": 0.00017810000000000002,
+          "cumulative_seconds": 0.00017810000000000002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/json/encoder.py",
+          "line": 334,
+          "function": "_iterencode_dict",
+          "calls": 255,
+          "self_seconds": 0.00011003400000000001,
+          "cumulative_seconds": 0.000167855
+        }
+      ]
+    },
+    {
+      "module": "bloch",
+      "backend": "gpu",
+      "repeat": 1,
+      "seconds": 0.04054758100000022,
+      "exit_code": 0,
+      "functions": [
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/bloch_oscillation_gpu.py",
+          "line": 24,
+          "function": "main",
+          "calls": 1,
+          "self_seconds": 2.2126e-05,
+          "cumulative_seconds": 0.040358092000000005
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/bloch_oscillation.py",
+          "line": 57,
+          "function": "main",
+          "calls": 1,
+          "self_seconds": 0.000142649,
+          "cumulative_seconds": 0.040334880000000004
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/bloch_oscillation_gpu.py",
+          "line": 25,
+          "function": "<lambda>",
+          "calls": 15,
+          "self_seconds": 0.000157536,
+          "cumulative_seconds": 0.038245816
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/bloch_oscillation_gpu.py",
+          "line": 8,
+          "function": "bloch_amplitude",
+          "calls": 15,
+          "self_seconds": 0.0040955160000000004,
+          "cumulative_seconds": 0.03808828
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._linalg.linalg_eigh>",
+          "calls": 15,
+          "self_seconds": 0.028136553,
+          "cumulative_seconds": 0.028136553
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/_vendor/render_match_scaffold.py",
+          "line": 55,
+          "function": "render_match",
+          "calls": 1,
+          "self_seconds": 3.5308e-05,
+          "cumulative_seconds": 0.010588987000000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/bloch_oscillation.py",
+          "line": 61,
+          "function": "rfn",
+          "calls": 5,
+          "self_seconds": 1.3812000000000001e-05,
+          "cumulative_seconds": 0.010540550000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'join' of 'str' objects>",
+          "calls": 3,
+          "self_seconds": 1.092e-05,
+          "cumulative_seconds": 0.007653558
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/bloch_oscillation.py",
+          "line": 79,
+          "function": "<genexpr>",
+          "calls": 4,
+          "self_seconds": 2.1424e-05,
+          "cumulative_seconds": 0.007628651
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.all>",
+          "calls": 2,
+          "self_seconds": 4.026e-06,
+          "cumulative_seconds": 0.002658731
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/_vendor/render_match_scaffold.py",
+          "line": 69,
+          "function": "<genexpr>",
+          "calls": 2,
+          "self_seconds": 2.779e-06,
+          "cumulative_seconds": 0.002534749
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.diag>",
+          "calls": 45,
+          "self_seconds": 0.00087748,
+          "cumulative_seconds": 0.00087748
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.as_tensor>",
+          "calls": 30,
+          "self_seconds": 0.0008601590000000001,
+          "cumulative_seconds": 0.0008601590000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/function_base.py",
+          "line": 27,
+          "function": "linspace",
+          "calls": 19,
+          "self_seconds": 0.000470684,
+          "cumulative_seconds": 0.000699725
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_tensor.py",
+          "line": 32,
+          "function": "wrapped",
+          "calls": 30,
+          "self_seconds": 7.3343e-05,
+          "cumulative_seconds": 0.000572371
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.abs>",
+          "calls": 15,
+          "self_seconds": 0.000570836,
+          "cumulative_seconds": 0.000570836
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method _io.open>",
+          "calls": 1,
+          "self_seconds": 0.000493009,
+          "cumulative_seconds": 0.0004938550000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'pow' of 'torch._C.TensorBase' objects>",
+          "calls": 30,
+          "self_seconds": 0.00048447500000000005,
+          "cumulative_seconds": 0.00048447500000000005
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/bloch_oscillation.py",
+          "line": 47,
+          "function": "free_amplitude",
+          "calls": 4,
+          "self_seconds": 0.00012194500000000001,
+          "cumulative_seconds": 0.000403884
+        },
+        {
+          "file": "/usr/local/lib/python3.12/json/__init__.py",
+          "line": 120,
+          "function": "dump",
+          "calls": 1,
+          "self_seconds": 5.9099000000000005e-05,
+          "cumulative_seconds": 0.000330827
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method '__exit__' of '_io._IOBase' objects>",
+          "calls": 1,
+          "self_seconds": 0.00032963700000000003,
+          "cumulative_seconds": 0.00032963700000000003
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.exp>",
+          "calls": 30,
+          "self_seconds": 0.000327786,
+          "cumulative_seconds": 0.000327786
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'to' of 'torch._C.TensorBase' objects>",
+          "calls": 15,
+          "self_seconds": 0.00028023400000000003,
+          "cumulative_seconds": 0.00028023400000000003
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.full>",
+          "calls": 15,
+          "self_seconds": 0.00027616500000000004,
+          "cumulative_seconds": 0.00027616500000000004
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'item' of 'torch._C.TensorBase' objects>",
+          "calls": 15,
+          "self_seconds": 0.000272996,
+          "cumulative_seconds": 0.000272996
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._linalg.linalg_vector_norm>",
+          "calls": 15,
+          "self_seconds": 0.000269993,
+          "cumulative_seconds": 0.000269993
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'sum' of 'torch._C.TensorBase' objects>",
+          "calls": 15,
+          "self_seconds": 0.000258563,
+          "cumulative_seconds": 0.000258563
+        },
+        {
+          "file": "/usr/local/lib/python3.12/json/encoder.py",
+          "line": 414,
+          "function": "_iterencode",
+          "calls": 135,
+          "self_seconds": 3.3662000000000004e-05,
+          "cumulative_seconds": 0.00022985100000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'max' of 'torch._C.TensorBase' objects>",
+          "calls": 15,
+          "self_seconds": 0.00022272100000000002,
+          "cumulative_seconds": 0.00022272100000000002
+        },
+        {
+          "file": "<frozen os>",
+          "line": 200,
+          "function": "makedirs",
+          "calls": 1,
+          "self_seconds": 1.7858e-05,
+          "cumulative_seconds": 0.000215612
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'min' of 'torch._C.TensorBase' objects>",
+          "calls": 15,
+          "self_seconds": 0.00020196500000000002,
+          "cumulative_seconds": 0.00020196500000000002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/json/encoder.py",
+          "line": 334,
+          "function": "_iterencode_dict",
+          "calls": 255,
+          "self_seconds": 0.000124296,
+          "cumulative_seconds": 0.000194758
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.arange>",
+          "calls": 34,
+          "self_seconds": 0.000133057,
+          "cumulative_seconds": 0.000133057
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.len>",
+          "calls": 15,
+          "self_seconds": 2.0715e-05,
+          "cumulative_seconds": 0.000133038
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/_vendor/render_match_scaffold.py",
+          "line": 68,
+          "function": "<genexpr>",
+          "calls": 2,
+          "self_seconds": 2.5340000000000002e-06,
+          "cumulative_seconds": 0.000119956
+        }
+      ]
+    }
+  ],
+  "source_sha256": {
+    "physics_engine.quantum.quantum_revival": "58247bfbd8432c93a60e271f2302272b6124b82f70a69aeaa3e0119ede27d339",
+    "physics_engine.quantum.quantum_revival_gpu": "f62ee659bb91f279da6f3e9bfe74ac71de9f2ce9572e83e20dd42f7975277cfe",
+    "physics_engine.quantum.bloch_oscillation": "dc0087705c6f2f1773b7a10931b7598a2435bb54a0f2e52abf1bac57ed8ea8dd",
+    "physics_engine.quantum.bloch_oscillation_gpu": "85b13b890f628da80885ef5f4e40f240054e1f3841d509ae5b6a66e4119cc05a"
+  }
+}

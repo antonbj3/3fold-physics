@@ -1,0 +1,7 @@
+{
+  "source_hashes_match": true,
+  "full_arrays_repeat_exact": true,
+  "array_count": 394,
+  "forward_max_abs_error": 2.0201648316595247e-10,
+  "adjoint_max_abs_error": 5.579980921766037e-13
+}

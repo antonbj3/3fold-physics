@@ -1,0 +1,26 @@
+[
+  {
+    "leg": 0,
+    "module": "revival",
+    "values": 25152,
+    "exact": true
+  },
+  {
+    "leg": 0,
+    "module": "bloch",
+    "values": 871200,
+    "exact": true
+  },
+  {
+    "leg": 1,
+    "module": "revival",
+    "values": 25152,
+    "exact": true
+  },
+  {
+    "leg": 1,
+    "module": "bloch",
+    "values": 871200,
+    "exact": true
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "legs": [
+    {
+      "numbers": {
+        "peak": 4307.1545687550415,
+        "final_peak": 136.43666006393195,
+        "point_relative": 0.00013942645874751052,
+        "refinement": 1.0557952904344137e-16,
+        "tail": 1.0557952904344137e-16,
+        "double_relative": 0.0
+      },
+      "gates": {
+        "point_limit": true,
+        "quadrature": true,
+        "tail": true,
+        "zero": true,
+        "linearity": true,
+        "finite_nonnegative": true
+      },
+      "hashes": {
+        "coarse": "a1d660c78d892d6fb804504220b123db78c229269c06de650f3ce9690c37169a",
+        "fine": "bf920544bf5e672f2964dd989562b805eb373713d0d8d2def72823ccaa7b341d",
+        "wide": "cc34ab60da58599dbcd6434a76eae04c2bf78486d4c092c53421459cddb6c460",
+        "point": "5d3f4b36f62062402139a7f73fe982b73e554b63a9e66e6fc0b5d32c22d30118",
+        "closed": "f57373d9023fb924c94c9249f04fa98e0fa6cbcd9f71552428752ce5f7efbbd2",
+        "zero": "0da724c4fdf897be18912f0dd48feee46e232b8e2724edf85baf212d1a042583",
+        "double": "1130a4692b60b2d886e301bf29ede90ec92492afab5ed16e95228718b4cba7b9"
+      }
+    },
+    {
+      "numbers": {
+        "peak": 4307.1545687550415,
+        "final_peak": 136.43666006393195,
+        "point_relative": 0.00013942645874751052,
+        "refinement": 1.0557952904344137e-16,
+        "tail": 1.0557952904344137e-16,
+        "double_relative": 0.0
+      },
+      "gates": {
+        "point_limit": true,
+        "quadrature": true,
+        "tail": true,
+        "zero": true,
+        "linearity": true,
+        "finite_nonnegative": true
+      },
+      "hashes": {
+        "coarse": "a1d660c78d892d6fb804504220b123db78c229269c06de650f3ce9690c37169a",
+        "fine": "bf920544bf5e672f2964dd989562b805eb373713d0d8d2def72823ccaa7b341d",
+        "wide": "cc34ab60da58599dbcd6434a76eae04c2bf78486d4c092c53421459cddb6c460",
+        "point": "5d3f4b36f62062402139a7f73fe982b73e554b63a9e66e6fc0b5d32c22d30118",
+        "closed": "f57373d9023fb924c94c9249f04fa98e0fa6cbcd9f71552428752ce5f7efbbd2",
+        "zero": "0da724c4fdf897be18912f0dd48feee46e232b8e2724edf85baf212d1a042583",
+        "double": "1130a4692b60b2d886e301bf29ede90ec92492afab5ed16e95228718b4cba7b9"
+      }
+    }
+  ],
+  "gates": {
+    "point_limit": true,
+    "quadrature": true,
+    "tail": true,
+    "zero": true,
+    "linearity": true,
+    "finite_nonnegative": true,
+    "exact_repeats": true
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "leg": 0,
+    "module": "revival",
+    "arrays": 1,
+    "values": 25152,
+    "exact": true
+  },
+  {
+    "leg": 0,
+    "module": "bloch",
+    "arrays": 30,
+    "values": 871200,
+    "exact": true
+  },
+  {
+    "leg": 1,
+    "module": "revival",
+    "arrays": 1,
+    "values": 25152,
+    "exact": true
+  },
+  {
+    "leg": 1,
+    "module": "bloch",
+    "arrays": 30,
+    "values": 871200,
+    "exact": true
+  }
+]

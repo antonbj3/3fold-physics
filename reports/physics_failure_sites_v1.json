@@ -1,0 +1,741 @@
+{
+  "boiling": {
+    "G3_noise_ratio": 1.2039323335820125,
+    "G3_selected_powered_tag": "CHF",
+    "G3_time_site": {
+      "min_samples": 256,
+      "q_mean": 1755.9121007331873,
+      "q_std": 98.7151298209139,
+      "scope": "First retained failing half; sibling failures remain evidence against a unique time site",
+      "start": 83448,
+      "stop": 84546,
+      "trace": [
+        {
+          "q_mean": 828.0864140295616,
+          "q_std": 757.1864367226198,
+          "start": 0,
+          "stop": 281088,
+          "verdict": "FAIL"
+        },
+        {
+          "q_mean": 214.79158552746,
+          "q_std": 163.74380216421147,
+          "start": 281088,
+          "stop": 562176,
+          "verdict": "FAIL"
+        },
+        {
+          "q_mean": 1378.4205990365222,
+          "q_std": 735.3833678265057,
+          "start": 0,
+          "stop": 140544,
+          "verdict": "FAIL"
+        },
+        {
+          "q_mean": 277.75222902260106,
+          "q_std": 11.767406808256485,
+          "start": 140544,
+          "stop": 281088,
+          "verdict": "PASS"
+        },
+        {
+          "q_mean": 1954.4332675222129,
+          "q_std": 40.35797485842454,
+          "start": 0,
+          "stop": 70272,
+          "verdict": "PASS"
+        },
+        {
+          "q_mean": 802.4079305508315,
+          "q_std": 645.2654033070596,
+          "start": 70272,
+          "stop": 140544,
+          "verdict": "FAIL"
+        },
+        {
+          "q_mean": 1248.4779955849037,
+          "q_std": 658.4741762507745,
+          "start": 70272,
+          "stop": 105408,
+          "verdict": "FAIL"
+        },
+        {
+          "q_mean": 356.33786551675917,
+          "q_std": 34.49108264327616,
+          "start": 105408,
+          "stop": 140544,
+          "verdict": "FAIL"
+        },
+        {
+          "q_mean": 1857.4703203655895,
+          "q_std": 317.44322057543565,
+          "start": 70272,
+          "stop": 87840,
+          "verdict": "FAIL"
+        },
+        {
+          "q_mean": 639.4856708042182,
+          "q_std": 157.04451599912352,
+          "start": 87840,
+          "stop": 105408,
+          "verdict": "FAIL"
+        },
+        {
+          "q_mean": 2028.3968118293822,
+          "q_std": 2.855817494821124,
+          "start": 70272,
+          "stop": 79056,
+          "verdict": "PASS"
+        },
+        {
+          "q_mean": 1686.543828901797,
+          "q_std": 378.2862803708348,
+          "start": 79056,
+          "stop": 87840,
+          "verdict": "FAIL"
+        },
+        {
+          "q_mean": 2009.7983403131673,
+          "q_std": 29.591214655179186,
+          "start": 79056,
+          "stop": 83448,
+          "verdict": "PASS"
+        },
+        {
+          "q_mean": 1363.2893174904266,
+          "q_std": 276.29408526645466,
+          "start": 83448,
+          "stop": 87840,
+          "verdict": "FAIL"
+        },
+        {
+          "q_mean": 1598.1134301470104,
+          "q_std": 184.37247884211612,
+          "start": 83448,
+          "stop": 85644,
+          "verdict": "FAIL"
+        },
+        {
+          "q_mean": 1128.4652048338426,
+          "q_std": 91.64553661888382,
+          "start": 85644,
+          "stop": 87840,
+          "verdict": "FAIL"
+        },
+        {
+          "q_mean": 1755.9121007331873,
+          "q_std": 98.7151298209139,
+          "start": 83448,
+          "stop": 84546,
+          "verdict": "FAIL"
+        },
+        {
+          "q_mean": 1440.3147595608334,
+          "q_std": 91.87439347110637,
+          "start": 84546,
+          "stop": 85644,
+          "verdict": "FAIL"
+        },
+        {
+          "q_mean": 1841.63723222294,
+          "q_std": 41.88287793662569,
+          "start": 83448,
+          "stop": 83997,
+          "verdict": "PASS"
+        },
+        {
+          "q_mean": 1670.1869692434348,
+          "q_std": 55.11426230110335,
+          "start": 83997,
+          "stop": 84546,
+          "verdict": "PASS"
+        }
+      ]
+    },
+    "frozen": {
+      "printed_gates": {
+        "G1": "FAIL",
+        "G2": "PASS",
+        "G3": "FAIL",
+        "G4": "FAIL"
+      },
+      "returncode": 1,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "66b94234a17ef4cd1782ede57733979e67d7c762153ce03209da9cd15b9fd9a5"
+    },
+    "gates": {
+      "G1": "FAIL",
+      "G2": "PASS",
+      "G3": "FAIL",
+      "G4": "FAIL"
+    },
+    "inversions": [
+      {
+        "flux_difference": -395.4355364526024,
+        "higher_superheat": "CHF",
+        "lower_superheat": "105"
+      }
+    ],
+    "points": [
+      {
+        "dt_mean": -7.333969958738352,
+        "finite": true,
+        "flux": {
+          "dtype": "float64",
+          "sha256": "67a63b3e50baa2e345d6a1db023063294028df1b4c4510987f462592b0519490",
+          "shape": [
+            398336
+          ]
+        },
+        "order": 0,
+        "q_mean": -41.03259579230148,
+        "q_std": 1.437708783950393,
+        "raw": {
+          "dtype": "float64",
+          "sha256": "8872748809fcc7f538bc7fdc74a36e95331414d2a53470cb279a7d5d2ef655d1",
+          "shape": [
+            398336,
+            6
+          ]
+        },
+        "samples": 398336,
+        "superheat": {
+          "dtype": "float64",
+          "sha256": "ecb3a006d77b4fa8b8a2dd9238f91a14e64cda293ecdc7a43bc9315922aa3ea1",
+          "shape": [
+            398336
+          ]
+        },
+        "tag": "0"
+      },
+      {
+        "dt_mean": 72.17714026846753,
+        "finite": true,
+        "flux": {
+          "dtype": "float64",
+          "sha256": "32e2a075c570d3e0279517f2b42183591da04a119b1cde1efd795b8ee03afb2b",
+          "shape": [
+            562176
+          ]
+        },
+        "order": 0,
+        "q_mean": 521.4389997785108,
+        "q_std": 627.777271824013,
+        "raw": {
+          "dtype": "float64",
+          "sha256": "a2bba64579ab06c138f63fb15d1c91adce70662af94259f4ab32d365b859c666",
+          "shape": [
+            562176,
+            6
+          ]
+        },
+        "samples": 562176,
+        "superheat": {
+          "dtype": "float64",
+          "sha256": "2c14060c7364fe76e4c8233982ab71711faeb7fcb8ac333b17331095a87b9ba1",
+          "shape": [
+            562176
+          ]
+        },
+        "tag": "CHF"
+      },
+      {
+        "dt_mean": 8.379074627214568,
+        "finite": true,
+        "flux": {
+          "dtype": "float64",
+          "sha256": "1f05dc1ad92cdf2a2066787f5524e342d8bb64ae7399fb632da549ab13d6e6ab",
+          "shape": [
+            390144
+          ]
+        },
+        "order": 15,
+        "q_mean": 96.69956050226881,
+        "q_std": 0.9678002321163741,
+        "raw": {
+          "dtype": "float64",
+          "sha256": "d990f7b16627f4eeedb02aa415bd33c9dde03ceefaf016e8262b1477fd03763d",
+          "shape": [
+            390144,
+            6
+          ]
+        },
+        "samples": 390144,
+        "superheat": {
+          "dtype": "float64",
+          "sha256": "d21b486515bf02363374ce5de26b716e56e8978a4a1a9d9b10a57fa4bd4144f5",
+          "shape": [
+            390144
+          ]
+        },
+        "tag": "15"
+      },
+      {
+        "dt_mean": 41.9422234174588,
+        "finite": true,
+        "flux": {
+          "dtype": "float64",
+          "sha256": "8e8bbae42ea93a1fc775e1faa4b52ba2e8a5add49048bc384e2721e1c6b27133",
+          "shape": [
+            392192
+          ]
+        },
+        "order": 105,
+        "q_mean": 916.8745362311132,
+        "q_std": 1.503973095151815,
+        "raw": {
+          "dtype": "float64",
+          "sha256": "98e4587bf446c5e920dfb8e99b8b6954eb1812073eefabb6c0b179e83abeae44",
+          "shape": [
+            392192,
+            6
+          ]
+        },
+        "samples": 392192,
+        "superheat": {
+          "dtype": "float64",
+          "sha256": "7e3eb5f62bd402c79fc69c499a5660968a7913946f090d89fd95af281ecaf65c",
+          "shape": [
+            392192
+          ]
+        },
+        "tag": "105"
+      }
+    ],
+    "predicate_note": "Frozen G3 checks powered-record noise and negative unpowered superheat, not near-zero unpowered heat flux",
+    "scope": "Data/predicate witnesses, not a diagnosed calibration, sensor mapping or physical boiling mechanism",
+    "site": "G1 aggregate flux/superheat ordering; G3 standard-deviation predicate on first powered record",
+    "synthetic_control": {
+      "G1": "PASS",
+      "G2": "PASS",
+      "G3": "PASS",
+      "G4": "PASS"
+    },
+    "witnesses": {
+      "G1": {
+        "all_failing_pairs": [
+          [
+            "CHF",
+            "105"
+          ]
+        ],
+        "deletion_checks": [
+          {
+            "removed": "CHF",
+            "verdict": "INVALID"
+          },
+          {
+            "removed": "105",
+            "verdict": "INVALID"
+          }
+        ],
+        "deletion_minimal": true,
+        "scope": "Deletion-minimal witness, not unique root cause or global minimum",
+        "trace": [
+          {
+            "inputs": [
+              "0",
+              "CHF",
+              "15",
+              "105"
+            ],
+            "verdict": "FAIL"
+          },
+          {
+            "inputs": [
+              "0",
+              "CHF"
+            ],
+            "verdict": "INVALID"
+          },
+          {
+            "inputs": [
+              "15",
+              "105"
+            ],
+            "verdict": "PASS"
+          },
+          {
+            "inputs": [
+              "0"
+            ],
+            "verdict": "INVALID"
+          },
+          {
+            "inputs": [
+              "CHF"
+            ],
+            "verdict": "INVALID"
+          },
+          {
+            "inputs": [
+              "15"
+            ],
+            "verdict": "INVALID"
+          },
+          {
+            "inputs": [
+              "105"
+            ],
+            "verdict": "INVALID"
+          },
+          {
+            "inputs": [
+              "CHF",
+              "15",
+              "105"
+            ],
+            "verdict": "FAIL"
+          },
+          {
+            "inputs": [
+              "CHF",
+              "105"
+            ],
+            "verdict": "FAIL"
+          }
+        ],
+        "verdict": "FAIL",
+        "witness": [
+          "CHF",
+          "105"
+        ]
+      },
+      "G3": {
+        "all_failing_pairs": [
+          [
+            "0",
+            "CHF"
+          ]
+        ],
+        "deletion_checks": [
+          {
+            "removed": "0",
+            "verdict": "INVALID"
+          },
+          {
+            "removed": "CHF",
+            "verdict": "INVALID"
+          }
+        ],
+        "deletion_minimal": true,
+        "scope": "Deletion-minimal witness, not unique root cause or global minimum",
+        "trace": [
+          {
+            "inputs": [
+              "0",
+              "CHF",
+              "15",
+              "105"
+            ],
+            "verdict": "FAIL"
+          },
+          {
+            "inputs": [
+              "0",
+              "CHF"
+            ],
+            "verdict": "FAIL"
+          },
+          {
+            "inputs": [
+              "0"
+            ],
+            "verdict": "INVALID"
+          },
+          {
+            "inputs": [
+              "CHF"
+            ],
+            "verdict": "INVALID"
+          }
+        ],
+        "verdict": "FAIL",
+        "witness": [
+          "0",
+          "CHF"
+        ]
+      }
+    }
+  },
+  "datasets": {
+    "data/phononic-metamaterial-transmission/FIG4_Transmission_a_61e-2um.csv": "2de6d82ddbd2841fb05795c4365a19615d41d24eccecef31eaeac40855214d0c",
+    "data/phononic-metamaterial-transmission/FIG4_Transmission_b_136e-2um.csv": "1785f6ee333f3799363b75f575cd713b629131f7f9e2a2f5e5f7142761f455a0",
+    "data/phononic-metamaterial-transmission/FIG4_Transmission_c_92e-1um.csv": "3eb9275ee727bac0c803f365faf0cdf4e7ee0da2ebff915f8b187aceb0ff61bb",
+    "data/phononic-metamaterial-transmission/FIG4_Transmission_d_68um.csv": "ae848ffde0f024dc204e70f658585f2c4b90929a87514c067c2e465653add2a7",
+    "data/phononic-metamaterial-transmission/FIG4_Transmission_e_140um.csv": "43136a6caca0683f0ad21d745ae5cfe2a05bd05743dd7760e30aba478c4b6f7d",
+    "data/pool-boiling-multimodal/SS_Temperature_Polished_MC_0.lvm": "7c4e0704127c1b022f5bcefe9c9fdc812dcd832d9919a9a55d62968e45d3ae06",
+    "data/pool-boiling-multimodal/SS_Temperature_Polished_MC_105.lvm": "6f1db9ce8329cf3429bc396c04cee55ca2cf21aa47f110b7b3fbeb41cde50bbe",
+    "data/pool-boiling-multimodal/SS_Temperature_Polished_MC_15.lvm": "9ccec5fefdf1460eae24b77c1738af89440facaf82bdfcfbbfcf4bb5481926c8",
+    "data/pool-boiling-multimodal/SS_Temperature_Polished_MC_CHF.lvm": "74ef94d1b915b9129e96eba03ba7b7b6bd7a74c6c2c389551c198b227da5862f"
+  },
+  "gates": {
+    "frozen_exit_parity": true,
+    "input_integrity": true,
+    "minimal_witnesses": true,
+    "original_failures": true,
+    "synthetic_boiling_control": true
+  },
+  "kk": {
+    "diagnosis": "No single measurement site",
+    "frozen": {
+      "printed_gates": {},
+      "returncode": 1,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "7f342e5f9f72bd640a43bad4b22f0021f55e14a360f0ae3098b32f0ded4b93df"
+    },
+    "gate": "FAIL",
+    "intervention": "Only aggregate membership changes; full frequency grids, reconstruction and original scrambled control remain fixed",
+    "leave_one_out": [
+      {
+        "removed": "a_61e-2um",
+        "verdict": "FAIL"
+      },
+      {
+        "removed": "b_136e-2um",
+        "verdict": "FAIL"
+      },
+      {
+        "removed": "c_92e-1um",
+        "verdict": "FAIL"
+      },
+      {
+        "removed": "d_68um",
+        "verdict": "FAIL"
+      },
+      {
+        "removed": "e_140um",
+        "verdict": "FAIL"
+      }
+    ],
+    "median": 3.3174,
+    "phase_scrambled_control": 1.1142,
+    "rows": [
+      {
+        "finite": true,
+        "frequency": {
+          "dtype": "float64",
+          "sha256": "557b542b6b2ae4d1804956a715ce0d1a6e84b4fafa54617b6cc25b95e81e34a9",
+          "shape": [
+            751
+          ]
+        },
+        "name": "a_61e-2um",
+        "raw": {
+          "dtype": "float64",
+          "sha256": "46fcd549938c083bf33457f9c3765a363a80222719f027dc175bfb4bd9412c98",
+          "shape": [
+            751,
+            5
+          ]
+        },
+        "residual": 1.3026,
+        "strict_frequency": true,
+        "susceptibility": {
+          "dtype": "complex128",
+          "sha256": "646499ca507acad2892847d9c78bb93acb1aa58362420c27346a35832d7e14f0",
+          "shape": [
+            751
+          ]
+        }
+      },
+      {
+        "finite": true,
+        "frequency": {
+          "dtype": "float64",
+          "sha256": "557b542b6b2ae4d1804956a715ce0d1a6e84b4fafa54617b6cc25b95e81e34a9",
+          "shape": [
+            751
+          ]
+        },
+        "name": "b_136e-2um",
+        "raw": {
+          "dtype": "float64",
+          "sha256": "19fe4a8fa589d1c441ab758431b441768aa30f32303bae2d68f8e474732aaefa",
+          "shape": [
+            751,
+            5
+          ]
+        },
+        "residual": 1.2994,
+        "strict_frequency": true,
+        "susceptibility": {
+          "dtype": "complex128",
+          "sha256": "321731fb0823067ac5a97989d49478de130eb5d0ffa456165fb96f6879cbdf7e",
+          "shape": [
+            751
+          ]
+        }
+      },
+      {
+        "finite": true,
+        "frequency": {
+          "dtype": "float64",
+          "sha256": "557b542b6b2ae4d1804956a715ce0d1a6e84b4fafa54617b6cc25b95e81e34a9",
+          "shape": [
+            751
+          ]
+        },
+        "name": "c_92e-1um",
+        "raw": {
+          "dtype": "float64",
+          "sha256": "b6fc704f7cb49ea8cf156ad70c3fe5b21a229d3cf7fa749c923ecb62afbf2bb0",
+          "shape": [
+            751,
+            5
+          ]
+        },
+        "residual": 26.1635,
+        "strict_frequency": true,
+        "susceptibility": {
+          "dtype": "complex128",
+          "sha256": "b348ff3f55fea9a3b714a1b7e9c8e344aa4f38ff1f3b46fc339f0935d5923895",
+          "shape": [
+            751
+          ]
+        }
+      },
+      {
+        "finite": true,
+        "frequency": {
+          "dtype": "float64",
+          "sha256": "557b542b6b2ae4d1804956a715ce0d1a6e84b4fafa54617b6cc25b95e81e34a9",
+          "shape": [
+            751
+          ]
+        },
+        "name": "d_68um",
+        "raw": {
+          "dtype": "float64",
+          "sha256": "1f29f6333b6791c23c3f4836db5774bdd9133cf927d4a465b4ae5e7c87509950",
+          "shape": [
+            751,
+            5
+          ]
+        },
+        "residual": 3.3174,
+        "strict_frequency": true,
+        "susceptibility": {
+          "dtype": "complex128",
+          "sha256": "8a98dc76ca3fb53c233cfef9493b23d6b3d63d7d730a1fe6357442357dc1e4bb",
+          "shape": [
+            751
+          ]
+        }
+      },
+      {
+        "finite": true,
+        "frequency": {
+          "dtype": "float64",
+          "sha256": "557b542b6b2ae4d1804956a715ce0d1a6e84b4fafa54617b6cc25b95e81e34a9",
+          "shape": [
+            751
+          ]
+        },
+        "name": "e_140um",
+        "raw": {
+          "dtype": "float64",
+          "sha256": "35a62ab2223fc5520dc02d84decbb668fbde4917c9c1056f2933179a88e4a57b",
+          "shape": [
+            751,
+            5
+          ]
+        },
+        "residual": 4.9353,
+        "strict_frequency": true,
+        "susceptibility": {
+          "dtype": "complex128",
+          "sha256": "06ffa6424cc84bf4aa7faed13175e5b2fad0d83c555a25df7e5e3e923b552c7a",
+          "shape": [
+            751
+          ]
+        }
+      }
+    ],
+    "scope": "The failing finite-band predicate does not establish acausality, a phase fault or a quadrature defect",
+    "singletons": [
+      {
+        "name": "a_61e-2um",
+        "verdict": "FAIL"
+      },
+      {
+        "name": "b_136e-2um",
+        "verdict": "FAIL"
+      },
+      {
+        "name": "c_92e-1um",
+        "verdict": "FAIL"
+      },
+      {
+        "name": "d_68um",
+        "verdict": "FAIL"
+      },
+      {
+        "name": "e_140um",
+        "verdict": "FAIL"
+      }
+    ],
+    "site": "gate_evaluation: median KK residual versus fixed original first-file scrambled control",
+    "threshold": 0.5571,
+    "witness": {
+      "deletion_checks": [
+        {
+          "removed": "a_61e-2um",
+          "verdict": "INVALID"
+        }
+      ],
+      "deletion_minimal": true,
+      "scope": "Deletion-minimal witness, not unique root cause or global minimum",
+      "trace": [
+        {
+          "inputs": [
+            "a_61e-2um",
+            "b_136e-2um",
+            "c_92e-1um",
+            "d_68um",
+            "e_140um"
+          ],
+          "verdict": "FAIL"
+        },
+        {
+          "inputs": [
+            "a_61e-2um",
+            "b_136e-2um",
+            "c_92e-1um"
+          ],
+          "verdict": "FAIL"
+        },
+        {
+          "inputs": [
+            "a_61e-2um",
+            "b_136e-2um"
+          ],
+          "verdict": "FAIL"
+        },
+        {
+          "inputs": [
+            "a_61e-2um"
+          ],
+          "verdict": "FAIL"
+        },
+        {
+          "inputs": [],
+          "verdict": "INVALID"
+        }
+      ],
+      "verdict": "FAIL",
+      "witness": [
+        "a_61e-2um"
+      ]
+    }
+  },
+  "schema": 1,
+  "scope": "Localization observer only; original real-data modules remain OWN-GATE-FAIL with unchanged thresholds",
+  "sources": {
+    "src/physics_engine/chains/failure_localization_v1.py": "309e6e15e93e3403fb804a1de2430c64555d3d8ff38cf821cfb035090062e446",
+    "src/physics_engine/chains/physics_failure_sites_v1.py": "280bf1050aa77a695e12457df19eee6f1c9b73634f16f44886070cef775882b2",
+    "src/physics_engine/electrochem/battery_boiling_curve_zuber_chf.py": "e0f09ee4a0ab808c64e6e692e88a7b5c4c933f07e59d3e7db4d584a9235f18cc",
+    "src/physics_engine/wave_optics/l_kk_real_metamaterial.py": "5550240812a5db4f71b54ccc8efb956960121b5659617f920d24551e8859ef1c",
+    "src/physics_engine/wave_optics/l_kk_susceptibility_cert.py": "25d675efa041e0f4a5c2243400742a22dd5a8fe39167ab806c3275435db7ed65"
+  }
+}

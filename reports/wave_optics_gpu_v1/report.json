@@ -1,0 +1,32 @@
+{
+  "device": "NVIDIA H100 80GB HBM3",
+  "atol": 1e-12,
+  "rtol": 1e-09,
+  "runs": [
+    {
+      "cpu_s": 1.8465709799999992,
+      "gpu_s": 1.522302303,
+      "full_array_parity": 1.054569175174968e-05,
+      "record_parity": 0.23178653388799947,
+      "full_array_count": 45,
+      "full_bytes_per_leg": 303334224,
+      "all_pass": true
+    },
+    {
+      "cpu_s": 1.753500068000001,
+      "gpu_s": 0.7890614850000013,
+      "full_array_parity": 1.054569175174968e-05,
+      "record_parity": 0.23178653388799947,
+      "full_array_count": 45,
+      "full_bytes_per_leg": 303334224,
+      "all_pass": true
+    }
+  ],
+  "complete_hashes_repeat_exact": true,
+  "all_pass": true,
+  "source_sha256": {
+    "src/physics_engine/wave_optics/wave_optics_cell.py": "beda74df55b596686678c799fccf0e86512d146f81e3548c83a392d35e408c9a",
+    "src/physics_engine/wave_optics/wave_optics_cell_gpu.py": "7bf94f83c0c86f7925128cc129d58e75f37997751b0496ca41f1860c7af95b69",
+    "scripts/verify_wave_optics_gpu.py": "48761154309a85666ea10964c7a6a66981c02b621abef6d4c0825b4689b15cc0"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "module": "vof_zalesak_cert",
+  "provenance": "self-contained: geometric PLIC (Youngs normal + analytic Scardovelli-Zaleski alpha) + Weymouth-Yue conservative operator-split advection; Zalesak slotted disk, one revolution; 0 fit params",
+  "crit": {
+    "mass_conservation_pct": {
+      "64": 0.0,
+      "100": 0.0,
+      "128": 0.0
+    },
+    "interface_thickness_cells": {
+      "64": 0.9444444444444444,
+      "100": 1.0136986301369864,
+      "128": 1.0
+    }
+  },
+  "sigma_L1_shape_pct": {
+    "64": 6.0056064298130885,
+    "100": 2.893409141448099,
+    "128": 2.082202068517779
+  },
+  "analytic_area": 0.058199456249999997,
+  "advected_area": {
+    "64": 0.0580902099609375,
+    "100": 0.058225,
+    "128": 0.05804252624511719
+  },
+  "null_upwind_thickness_cells": 15.75925925925926,
+  "gates": {
+    "render_match": true,
+    "conservation<1%": true,
+    "thickness<=2": true,
+    "sigma_convergent": true,
+    "cross_method_area": true,
+    "null_fails": true
+  },
+  "ok": true
+}

@@ -1,0 +1,261 @@
+{
+  "device": "NVIDIA H100 80GB HBM3",
+  "batch_forward": true,
+  "torch": "2.13.0+cu129",
+  "atol": 1e-09,
+  "rtol": 1e-08,
+  "runs": [
+    {
+      "forward_cpu_s": 0.6274609120000001,
+      "forward_gpu_s": 1.3623027050000012,
+      "forward_cpu_errors": [
+        1.580769635586991e-16,
+        1.4684501976244035e-14,
+        5.419689434488792e-12,
+        2.4835571870155034e-11,
+        2.783837849600067e-14
+      ],
+      "forward_gpu_errors": [
+        0.0,
+        5.95130232871638e-13,
+        5.101386113494013e-12,
+        2.3483985834120618e-11,
+        1.7032692106103334e-14
+      ],
+      "forward_parity": 0.09861096110893011,
+      "adjoint": [
+        {
+          "kappa": 0.0,
+          "cpu_s": 0.21850695999999914,
+          "gpu_s": 0.0011342079999998589,
+          "parity": 2.8080346611447666e-07,
+          "envelope_parity": 3.794314872519767e-10,
+          "ray_parity": 3.828086227531571e-10,
+          "zero_parity": 0.0,
+          "sign_changes_cpu": 0,
+          "sign_changes_gpu": 0,
+          "residual_inf": 7.771561172376096e-15
+        },
+        {
+          "kappa": 10.0,
+          "cpu_s": 0.2103740289999969,
+          "gpu_s": 0.001356316999999052,
+          "parity": 0.00023653762974006252,
+          "envelope_parity": 5.861023743626697e-07,
+          "ray_parity": 6.098255462513783e-07,
+          "zero_parity": 8.725885878004198e-06,
+          "sign_changes_cpu": 1,
+          "sign_changes_gpu": 1,
+          "residual_inf": 5.240252676230739e-14
+        },
+        {
+          "kappa": 20.0,
+          "cpu_s": 0.21202637600000074,
+          "gpu_s": 0.0012726179999980047,
+          "parity": 3.545828265662036e-06,
+          "envelope_parity": 1.761894541292863e-10,
+          "ray_parity": 2.2488380077215358e-10,
+          "zero_parity": 1.197873463246875e-06,
+          "sign_changes_cpu": 3,
+          "sign_changes_gpu": 3,
+          "residual_inf": 9.048317650695026e-15
+        },
+        {
+          "kappa": 40.0,
+          "cpu_s": 0.20656345500000128,
+          "gpu_s": 0.0014917750000016383,
+          "parity": 5.1109774698044025e-05,
+          "envelope_parity": 1.032901857106563e-08,
+          "ray_parity": 1.942572614957676e-08,
+          "zero_parity": 1.9194703319224647e-06,
+          "sign_changes_cpu": 4,
+          "sign_changes_gpu": 4,
+          "residual_inf": 1.021405182655144e-14
+        },
+        {
+          "kappa": 70.0,
+          "cpu_s": 0.21400786700000296,
+          "gpu_s": 0.001636684999997584,
+          "parity": 2.0680427375187982e-05,
+          "envelope_parity": 2.5304926231149912e-11,
+          "ray_parity": 6.077381462115214e-11,
+          "zero_parity": 1.8008146025351464e-07,
+          "sign_changes_cpu": 8,
+          "sign_changes_gpu": 8,
+          "residual_inf": 7.951972413877684e-15
+        }
+      ],
+      "gates": {
+        "G1_single_cylinder_matches_closed_form": true,
+        "G2_energy_conservation_optical_theorem": true,
+        "G3_reciprocity": true,
+        "G4_convergence_in_truncation": true,
+        "G5_energy_conserved_across_frequency_sweep": true,
+        "forward_full_array_parity": true,
+        "adjoint_full_array_parity": true,
+        "adjoint_sign_changes": true,
+        "adjoint_original_operator_residual": true
+      }
+    },
+    {
+      "forward_cpu_s": 0.6271422710000003,
+      "forward_gpu_s": 0.037064974999999833,
+      "forward_cpu_errors": [
+        1.580769635586991e-16,
+        1.4684501976244035e-14,
+        5.419689434488792e-12,
+        2.4835571870155034e-11,
+        2.783837849600067e-14
+      ],
+      "forward_gpu_errors": [
+        0.0,
+        5.95130232871638e-13,
+        5.101386113494013e-12,
+        2.3483985834120618e-11,
+        1.7032692106103334e-14
+      ],
+      "forward_parity": 0.09861096110893011,
+      "adjoint": [
+        {
+          "kappa": 0.0,
+          "cpu_s": 0.21360109900000168,
+          "gpu_s": 0.0014181640000003881,
+          "parity": 2.8080346611447666e-07,
+          "envelope_parity": 3.794314872519767e-10,
+          "ray_parity": 3.828086227531571e-10,
+          "zero_parity": 0.0,
+          "sign_changes_cpu": 0,
+          "sign_changes_gpu": 0,
+          "residual_inf": 7.771561172376096e-15
+        },
+        {
+          "kappa": 10.0,
+          "cpu_s": 0.21764527400000233,
+          "gpu_s": 0.0012000079999978652,
+          "parity": 0.00023653762974006252,
+          "envelope_parity": 5.861023743626697e-07,
+          "ray_parity": 6.098255462513783e-07,
+          "zero_parity": 8.725885878004198e-06,
+          "sign_changes_cpu": 1,
+          "sign_changes_gpu": 1,
+          "residual_inf": 5.240252676230739e-14
+        },
+        {
+          "kappa": 20.0,
+          "cpu_s": 0.19631770400000192,
+          "gpu_s": 0.0011166199999976811,
+          "parity": 3.545828265662036e-06,
+          "envelope_parity": 1.761894541292863e-10,
+          "ray_parity": 2.2488380077215358e-10,
+          "zero_parity": 1.197873463246875e-06,
+          "sign_changes_cpu": 3,
+          "sign_changes_gpu": 3,
+          "residual_inf": 9.048317650695026e-15
+        },
+        {
+          "kappa": 40.0,
+          "cpu_s": 0.19412917200000024,
+          "gpu_s": 0.0010849020000023302,
+          "parity": 5.1109774698044025e-05,
+          "envelope_parity": 1.032901857106563e-08,
+          "ray_parity": 1.942572614957676e-08,
+          "zero_parity": 1.9194703319224647e-06,
+          "sign_changes_cpu": 4,
+          "sign_changes_gpu": 4,
+          "residual_inf": 1.021405182655144e-14
+        },
+        {
+          "kappa": 70.0,
+          "cpu_s": 0.1923373039999987,
+          "gpu_s": 0.00104835699999839,
+          "parity": 2.0680427375187982e-05,
+          "envelope_parity": 2.5304926231149912e-11,
+          "ray_parity": 6.077381462115214e-11,
+          "zero_parity": 1.8008146025351464e-07,
+          "sign_changes_cpu": 8,
+          "sign_changes_gpu": 8,
+          "residual_inf": 7.951972413877684e-15
+        }
+      ],
+      "gates": {
+        "G1_single_cylinder_matches_closed_form": true,
+        "G2_energy_conservation_optical_theorem": true,
+        "G3_reciprocity": true,
+        "G4_convergence_in_truncation": true,
+        "G5_energy_conserved_across_frequency_sweep": true,
+        "forward_full_array_parity": true,
+        "adjoint_full_array_parity": true,
+        "adjoint_sign_changes": true,
+        "adjoint_original_operator_residual": true
+      }
+    }
+  ],
+  "exact_full_array_repeat": true,
+  "source_sha256": {
+    "src/physics_engine/scattering/spine_scatter2d_multiple_helmholtz_forward_C.py": "b7ee5b1825a813e508265c1f2ff819f83e59f17e3c4e7545eeb3fac96de3690a",
+    "src/physics_engine/scattering/pa_adjoint_helmholtz_envelope.py": "c13512ac7ee3ba77d0a91ad55f987252ddd06a8b56588a751dfd6fb77b8530d6",
+    "src/physics_engine/scattering/spine_scatter2d_multiple_helmholtz_forward_C_gpu.py": "5f09891ce07c562784d7793fb12ac6a57b711d30c53e69808c3918b00eaae578",
+    "src/physics_engine/scattering/pa_adjoint_helmholtz_envelope_gpu.py": "c0f2aefae6e9dbec5efaa73f870948f4a5c3562d086aadb6b75b55659165f1ca",
+    "scripts/verify_scattering_gpu.py": "ffa5a895f365938e159729bdd61ebcca402fdf437145a587f5c1e940045ab6fa"
+  },
+  "array_count": 394,
+  "array_bytes": 4442256,
+  "all_pass": true
+}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/cupy/cuda/compiler.py", line 860, in compile
+    nvrtc.compileProgram(self.ptr, options)
+  File "cupy_backends/cuda/libs/nvrtc.pyx", line 125, in cupy_backends.cuda.libs.nvrtc.compileProgram
+  File "cupy_backends/cuda/libs/nvrtc.pyx", line 138, in cupy_backends.cuda.libs.nvrtc.compileProgram
+  File "cupy_backends/cuda/libs/nvrtc.pyx", line 53, in cupy_backends.cuda.libs.nvrtc.check_status
+cupy_backends.cuda.libs.nvrtc.NVRTCError: NVRTC_ERROR_COMPILATION (6)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/work/3fold-physics-e-hankel-check/scripts/verify_scattering_gpu.py", line 167, in <module>
+    if __name__=='__main__': raise SystemExit(main())
+                                              ^^^^^^
+  File "/work/3fold-physics-e-hankel-check/scripts/verify_scattering_gpu.py", line 136, in main
+    cross(1.1, cpu['ring'], 1., .4, 12)
+  File "/work/3fold-physics-e-hankel-check/scripts/verify_scattering_gpu.py", line 134, in <lambda>
+    cross=lambda *a: gpu.cross_sections(*a, device=args.device)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/3fold-physics-e-hankel-check/src/physics_engine/scattering/spine_scatter2d_multiple_helmholtz_forward_C_gpu.py", line 113, in cross_sections
+    A, ns, positions = solve_MS(k, pos, a, theta_inc, M, device)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/3fold-physics-e-hankel-check/src/physics_engine/scattering/spine_scatter2d_multiple_helmholtz_forward_C_gpu.py", line 80, in solve_MS
+    values = _hankel_values(distinct_orders[None, :], arguments[:, None], device)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/3fold-physics-e-hankel-check/src/physics_engine/scattering/spine_scatter2d_multiple_helmholtz_forward_C_gpu.py", line 49, in _hankel_values
+    return _device_hankel(orders, arguments, device)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/3fold-physics-e-hankel-check/src/physics_engine/scattering/spine_scatter2d_multiple_helmholtz_forward_C_gpu.py", line 42, in _device_hankel
+    _HANKEL_KERNEL(((ns.size + 127)//128,), (128,),
+  File "cupy/_core/raw.pyx", line 101, in cupy._core.raw.RawKernel.__call__
+  File "cupy/_core/raw.pyx", line 108, in cupy._core.raw.RawKernel.kernel.__get__
+  File "cupy/_core/raw.pyx", line 125, in cupy._core.raw.RawKernel._kernel
+  File "cupy/_util.pyx", line 67, in cupy._util.memoize.decorator.ret
+  File "cupy/_core/raw.pyx", line 549, in cupy._core.raw._get_raw_module
+  File "cupy/_core/core.pyx", line 2621, in cupy._core.core.compile_with_cache
+  File "cupy/_core/core.pyx", line 2639, in cupy._core.core.compile_with_cache
+  File "/usr/local/lib/python3.12/site-packages/cupy/cuda/compiler.py", line 649, in _compile_module_with_cache
+    return _compile_with_cache_cuda(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/cupy/cuda/compiler.py", line 748, in _compile_with_cache_cuda
+    ptx, mapping = _compile_using_nvrtc_no_warning(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/cupy/cuda/compiler.py", line 402, in _compile_using_nvrtc_no_warning
+    return _compile(source, options, cu_path, name_expressions,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/cupy/cuda/compiler.py", line 384, in _compile
+    compiled_obj, mapping = prog.compile(options, log_stream)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/cupy/cuda/compiler.py", line 879, in compile
+    raise CompileException(log, self.src, self.name, options,
+cupy.cuda.compiler.CompileException: /tmp/tmp7tgkzxec/9b242ccf03ccfcb84ec836d3d62fa5f8b5ca5ce7.cubin.cu(2): catastrophic error: cannot open source file "math.h"
+              #include <math.h>
+                               ^
+
+1 catastrophic error detected in the compilation of "/tmp/tmp7tgkzxec/9b242ccf03ccfcb84ec836d3d62fa5f8b5ca5ce7.cubin.cu".
+Compilation terminated.

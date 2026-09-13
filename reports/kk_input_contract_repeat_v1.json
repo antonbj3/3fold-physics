@@ -1,0 +1,11 @@
+{
+  "independent_reports_exact": true,
+  "report_sha256": "3c3865c2d6ba621e93dc989f21bf2ae2cffaa94228708f5b83f7d678a57fe1d4",
+  "gates": {
+    "all_directional_refused": true,
+    "five_pinned_files": true,
+    "intensity_phase_ambiguity": true,
+    "known_dataset_relabel_refused": true,
+    "unchanged_positive": true
+  }
+}

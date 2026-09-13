@@ -1,0 +1,136 @@
+{
+  "device": "NVIDIA L4",
+  "scope": "whole original main, no observer, first calls include lazy initialization; reversed pairs",
+  "rows": [
+    {
+      "leg": 0,
+      "implementation": "before",
+      "seconds": 0.19737576800000056,
+      "rc": 0,
+      "source_sha256": "f62ee659bb91f279da6f3e9bfe74ac71de9f2ce9572e83e20dd42f7975277cfe"
+    },
+    {
+      "leg": 0,
+      "implementation": "after",
+      "seconds": 0.043904086000001286,
+      "rc": 0,
+      "source_sha256": "bf3f5a9948b266137942fd65a87267df9dff0b966733c877f443174e42f70e55"
+    },
+    {
+      "leg": 1,
+      "implementation": "after",
+      "seconds": 0.0381663529999976,
+      "rc": 0,
+      "source_sha256": "bf3f5a9948b266137942fd65a87267df9dff0b966733c877f443174e42f70e55"
+    },
+    {
+      "leg": 1,
+      "implementation": "before",
+      "seconds": 0.06628097799999821,
+      "rc": 0,
+      "source_sha256": "f62ee659bb91f279da6f3e9bfe74ac71de9f2ce9572e83e20dd42f7975277cfe"
+    },
+    {
+      "leg": 2,
+      "implementation": "before",
+      "seconds": 0.07346715399999937,
+      "rc": 0,
+      "source_sha256": "f62ee659bb91f279da6f3e9bfe74ac71de9f2ce9572e83e20dd42f7975277cfe"
+    },
+    {
+      "leg": 2,
+      "implementation": "after",
+      "seconds": 0.03626339200000217,
+      "rc": 0,
+      "source_sha256": "bf3f5a9948b266137942fd65a87267df9dff0b966733c877f443174e42f70e55"
+    },
+    {
+      "leg": 3,
+      "implementation": "after",
+      "seconds": 0.03595772599999947,
+      "rc": 0,
+      "source_sha256": "bf3f5a9948b266137942fd65a87267df9dff0b966733c877f443174e42f70e55"
+    },
+    {
+      "leg": 3,
+      "implementation": "before",
+      "seconds": 0.0669906410000003,
+      "rc": 0,
+      "source_sha256": "f62ee659bb91f279da6f3e9bfe74ac71de9f2ce9572e83e20dd42f7975277cfe"
+    }
+  ],
+  "components": [
+    {
+      "n": 1,
+      "leg": 0,
+      "implementation": "before",
+      "seconds": 0.00028304124999998235
+    },
+    {
+      "n": 1,
+      "leg": 0,
+      "implementation": "after",
+      "seconds": 0.0002659558499999548
+    },
+    {
+      "n": 1,
+      "leg": 1,
+      "implementation": "after",
+      "seconds": 0.00027508369999988956
+    },
+    {
+      "n": 1,
+      "leg": 1,
+      "implementation": "before",
+      "seconds": 0.0002646517500000556
+    },
+    {
+      "n": 121,
+      "leg": 0,
+      "implementation": "before",
+      "seconds": 0.0002700257499999026
+    },
+    {
+      "n": 121,
+      "leg": 0,
+      "implementation": "after",
+      "seconds": 0.0002660210000000163
+    },
+    {
+      "n": 121,
+      "leg": 1,
+      "implementation": "after",
+      "seconds": 0.0002641749500000401
+    },
+    {
+      "n": 121,
+      "leg": 1,
+      "implementation": "before",
+      "seconds": 0.00027202724999995096
+    },
+    {
+      "n": 6000,
+      "leg": 0,
+      "implementation": "before",
+      "seconds": 0.0004236816000000587
+    },
+    {
+      "n": 6000,
+      "leg": 0,
+      "implementation": "after",
+      "seconds": 0.00041275160000004975
+    },
+    {
+      "n": 6000,
+      "leg": 1,
+      "implementation": "after",
+      "seconds": 0.00040558155000010033
+    },
+    {
+      "n": 6000,
+      "leg": 1,
+      "implementation": "before",
+      "seconds": 0.0004087861000000359
+    }
+  ]
+}

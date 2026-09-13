@@ -1,0 +1,12 @@
+{
+  "repo": "3fold-physics-e-hankel-check",
+  "cmd": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONPATH=src:scripts python scripts/time_hankel_device.py",
+  "gpu": "NVIDIA H100 80GB HBM3, 81559 MiB, 580.95.05",
+  "rc": 1,
+  "seconds": 5.1,
+  "stamp": "20260913T200608Z",
+  "files": [],
+  "extras": [
+    "cupy-cuda12x"
+  ]
+}

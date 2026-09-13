@@ -1,0 +1,15 @@
+{
+  "repo": "3fold-physics-e-gpu-check",
+  "cmd": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONPATH=src python scripts/profile_ilt_jacobian_stage.py",
+  "gpu": "NVIDIA H100 80GB HBM3, 81559 MiB, 580.95.05",
+  "rc": 0,
+  "seconds": 3.8,
+  "stamp": "20260913T173813Z",
+  "files": [
+    "reports/ilt_jacobian_stage_profile_v1/report.json",
+    "reports/process_gpu_inputs_v1/Al_Spot_TDA_Results.csv",
+    "reports/process_gpu_inputs_v1/Al_Spot_TDW_Results.csv",
+    "reports/process_gpu_inputs_v1/manifest.json"
+  ],
+  "extras": []
+}

@@ -1,0 +1,10 @@
+{
+  "independent_reports_exact": true,
+  "sha256": "cb4695a26f9a7961fa41ed73028980f19347b64920cb26d33661eb57ee92f025",
+  "gates": {
+    "complete_channels": true,
+    "complete_independent_parse": true,
+    "four_files": true,
+    "frozen_parity": true
+  }
+}

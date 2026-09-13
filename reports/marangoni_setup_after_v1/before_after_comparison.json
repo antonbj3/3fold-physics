@@ -1,0 +1,13 @@
+{
+  "rows": [
+    {
+      "leg": 0,
+      "all_fields_exact": true
+    },
+    {
+      "leg": 1,
+      "all_fields_exact": true
+    }
+  ],
+  "record_bytes_exact": true
+}

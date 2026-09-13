@@ -1,0 +1,1518 @@
+{
+  "device": "NVIDIA H100 80GB HBM3",
+  "rows": [
+    {
+      "backend": "cpu",
+      "repeat": 0,
+      "wall_seconds": 2.1613949110000004,
+      "result": [
+        {
+          "gate": "G1_single_slit",
+          "a": 2e-05,
+          "wavelength": 5.32e-07,
+          "analytic_sin_theta": 0.026600000000000002,
+          "measured_sin_theta": 0.026613300000000003,
+          "rel_err_pct": 0.05000000000000305,
+          "pass_": true
+        },
+        {
+          "gate": "G2_double_slit",
+          "a": 1e-06,
+          "d": 4e-05,
+          "wavelength": 5.32e-07,
+          "analytic_fringe_spacing": 0.013300000000000001,
+          "measured_fringe_spacing": 0.013303362094406865,
+          "n_peaks_used": 5,
+          "rel_err_pct": 0.02527890531476752,
+          "pass_": true
+        },
+        {
+          "gate": "G3_circular_aperture",
+          "D": 5e-05,
+          "wavelength": 5.32e-07,
+          "analytic_sin_theta": 0.0129808,
+          "measured_sin_theta": 0.012945333333333335,
+          "grid_sin_theta_resolution": 8.866666666666668e-05,
+          "rel_err_pct": 0.27322404371584136,
+          "pass_": true
+        },
+        {
+          "geometry": {
+            "half_angle_obj_deg": 23.679732877656658,
+            "na_obj": 0.4016238560047921,
+            "sigma": 0.15,
+            "na_illum": 0.06024357840071881,
+            "half_angle_illum_deg": 3.453794073388055
+          },
+          "order_info": {
+            "m_max": 16,
+            "n_orders_total": 33,
+            "n_orders_one_side_incl_zero": 17
+          },
+          "n_orders_passed_coherent": 33,
+          "n_orders_passed_partial_union": 39,
+          "ripple_pct_coherent_sigma0": 136.95459370691182,
+          "ripple_pct_partial_sigma015": 133.92907670941577,
+          "washout_factor": 1.0225904416862404
+        }
+      ],
+      "functions": [
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell.py",
+          "line": 221,
+          "function": "run_all",
+          "calls": 1,
+          "self_seconds": 0.002511108,
+          "cumulative_seconds": 2.1611248180000002
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell.py",
+          "line": 117,
+          "function": "gate_G3_circular_aperture",
+          "calls": 1,
+          "self_seconds": 0.21907015400000002,
+          "cumulative_seconds": 1.859045657
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/fft/_pocketfft.py",
+          "line": 120,
+          "function": "fft",
+          "calls": 4,
+          "self_seconds": 2.9397000000000003e-05,
+          "cumulative_seconds": 1.5480521100000002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/fft/_pocketfft.py",
+          "line": 58,
+          "function": "_raw_fft",
+          "calls": 4,
+          "self_seconds": 1.5480145870000002,
+          "cumulative_seconds": 1.548020388
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/fft/_pocketfft.py",
+          "line": 1019,
+          "function": "fft2",
+          "calls": 1,
+          "self_seconds": 9.646e-06,
+          "cumulative_seconds": 1.484248795
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/fft/_pocketfft.py",
+          "line": 741,
+          "function": "_raw_fftnd",
+          "calls": 1,
+          "self_seconds": 0.000261554,
+          "cumulative_seconds": 1.4842391490000002
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell.py",
+          "line": 184,
+          "function": "e13_ripple",
+          "calls": 1,
+          "self_seconds": 0.000343715,
+          "cumulative_seconds": 0.12932980400000002
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell.py",
+          "line": 170,
+          "function": "_coherent_image_intensity",
+          "calls": 42,
+          "self_seconds": 0.11431344700000001,
+          "cumulative_seconds": 0.128565452
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell.py",
+          "line": 39,
+          "function": "fraunhofer_1d",
+          "calls": 2,
+          "self_seconds": 0.007765458,
+          "cumulative_seconds": 0.10487191400000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell.py",
+          "line": 77,
+          "function": "gate_G2_double_slit",
+          "calls": 1,
+          "self_seconds": 0.031031020000000003,
+          "cumulative_seconds": 0.09403343900000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/fft/_helper.py",
+          "line": 19,
+          "function": "fftshift",
+          "calls": 6,
+          "self_seconds": 0.000138021,
+          "cumulative_seconds": 0.08697133800000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 1226,
+          "function": "roll",
+          "calls": 6,
+          "self_seconds": 0.08674022,
+          "cumulative_seconds": 0.086827551
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell.py",
+          "line": 61,
+          "function": "gate_G1_single_slit",
+          "calls": 1,
+          "self_seconds": 0.011331697,
+          "cumulative_seconds": 0.07620481
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 5062,
+          "function": "meshgrid",
+          "calls": 1,
+          "self_seconds": 3.1671e-05,
+          "cumulative_seconds": 0.052624214
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 5208,
+          "function": "<genexpr>",
+          "calls": 3,
+          "self_seconds": 7.995e-06,
+          "cumulative_seconds": 0.052518655000000004
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'copy' of 'numpy.ndarray' objects>",
+          "calls": 2,
+          "self_seconds": 0.05251066,
+          "cumulative_seconds": 0.05251066
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'astype' of 'numpy.ndarray' objects>",
+          "calls": 4,
+          "self_seconds": 0.027182964,
+          "cumulative_seconds": 0.027182964
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/__init__.py",
+          "line": 700,
+          "function": "__getattr__",
+          "calls": 2,
+          "self_seconds": 2.4940000000000002e-05,
+          "cumulative_seconds": 0.020333703
+        },
+        {
+          "file": "<frozen importlib._bootstrap>",
+          "line": 1349,
+          "function": "_find_and_load",
+          "calls": 7,
+          "self_seconds": 7.002000000000001e-05,
+          "cumulative_seconds": 0.020308763
+        },
+        {
+          "file": "<frozen importlib._bootstrap>",
+          "line": 1304,
+          "function": "_find_and_load_unlocked",
+          "calls": 7,
+          "self_seconds": 5.7776000000000004e-05,
+          "cumulative_seconds": 0.020153277
+        },
+        {
+          "file": "<frozen importlib._bootstrap>",
+          "line": 911,
+          "function": "_load_unlocked",
+          "calls": 7,
+          "self_seconds": 3.9587000000000006e-05,
+          "cumulative_seconds": 0.018816436000000002
+        },
+        {
+          "file": "<frozen importlib._bootstrap_external>",
+          "line": 988,
+          "function": "exec_module",
+          "calls": 6,
+          "self_seconds": 3.5836e-05,
+          "cumulative_seconds": 0.018697619000000002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/fft/_helper.py",
+          "line": 125,
+          "function": "fftfreq",
+          "calls": 3,
+          "self_seconds": 0.010773538000000001,
+          "cumulative_seconds": 0.01730858
+        },
+        {
+          "file": "<frozen importlib._bootstrap>",
+          "line": 480,
+          "function": "_call_with_frames_removed",
+          "calls": 20,
+          "self_seconds": 2.8396e-05,
+          "cumulative_seconds": 0.016999873000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.exec>",
+          "calls": 6,
+          "self_seconds": 4.7508e-05,
+          "cumulative_seconds": 0.016990572000000002
+        },
+        {
+          "file": "<frozen importlib._bootstrap>",
+          "line": 1390,
+          "function": "_handle_fromlist",
+          "calls": 10,
+          "self_seconds": 2.9296000000000002e-05,
+          "cumulative_seconds": 0.016767911
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.__import__>",
+          "calls": 5,
+          "self_seconds": 2.182e-05,
+          "cumulative_seconds": 0.016751656
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 3914,
+          "function": "median",
+          "calls": 1,
+          "self_seconds": 7.778e-06,
+          "cumulative_seconds": 0.015017814
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 3827,
+          "function": "_ureduce",
+          "calls": 1,
+          "self_seconds": 1.0177000000000001e-05,
+          "cumulative_seconds": 0.015010036000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 4003,
+          "function": "_median",
+          "calls": 1,
+          "self_seconds": 2.6738e-05,
+          "cumulative_seconds": 0.014998748000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_utils_impl.py",
+          "line": 407,
+          "function": "_median_nancheck",
+          "calls": 1,
+          "self_seconds": 3.0565e-05,
+          "cumulative_seconds": 0.014843144
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/ma/__init__.py",
+          "line": 1,
+          "function": "<module>",
+          "calls": 1,
+          "self_seconds": 8.590300000000001e-05,
+          "cumulative_seconds": 0.013081806000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.arange>",
+          "calls": 53,
+          "self_seconds": 0.01221294,
+          "cumulative_seconds": 0.01221294
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell.py",
+          "line": 147,
+          "function": "grating_fourier_coeff",
+          "calls": 1392,
+          "self_seconds": 0.00218211,
+          "cumulative_seconds": 0.007773689
+        },
+        {
+          "file": "<frozen importlib._bootstrap_external>",
+          "line": 1061,
+          "function": "get_code",
+          "calls": 6,
+          "self_seconds": 0.00015237100000000002,
+          "cumulative_seconds": 0.006772295
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/ma/core.py",
+          "line": 1,
+          "function": "<module>",
+          "calls": 1,
+          "self_seconds": 0.00036826800000000005,
+          "cumulative_seconds": 0.0064077430000000005
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 905,
+          "function": "outer",
+          "calls": 42,
+          "self_seconds": 0.006277762,
+          "cumulative_seconds": 0.006317013000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 3742,
+          "function": "sinc",
+          "calls": 1350,
+          "self_seconds": 0.0046281460000000005,
+          "cumulative_seconds": 0.005491209
+        },
+        {
+          "file": "<frozen importlib._bootstrap_external>",
+          "line": 1182,
+          "function": "get_data",
+          "calls": 12,
+          "self_seconds": 0.000103289,
+          "cumulative_seconds": 0.004634549
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/fft/__init__.py",
+          "line": 1,
+          "function": "<module>",
+          "calls": 1,
+          "self_seconds": 2.8525000000000002e-05,
+          "cumulative_seconds": 0.003900319
+        }
+      ]
+    },
+    {
+      "backend": "cpu",
+      "repeat": 1,
+      "wall_seconds": 2.110669122000001,
+      "result": [
+        {
+          "gate": "G1_single_slit",
+          "a": 2e-05,
+          "wavelength": 5.32e-07,
+          "analytic_sin_theta": 0.026600000000000002,
+          "measured_sin_theta": 0.026613300000000003,
+          "rel_err_pct": 0.05000000000000305,
+          "pass_": true
+        },
+        {
+          "gate": "G2_double_slit",
+          "a": 1e-06,
+          "d": 4e-05,
+          "wavelength": 5.32e-07,
+          "analytic_fringe_spacing": 0.013300000000000001,
+          "measured_fringe_spacing": 0.013303362094406865,
+          "n_peaks_used": 5,
+          "rel_err_pct": 0.02527890531476752,
+          "pass_": true
+        },
+        {
+          "gate": "G3_circular_aperture",
+          "D": 5e-05,
+          "wavelength": 5.32e-07,
+          "analytic_sin_theta": 0.0129808,
+          "measured_sin_theta": 0.012945333333333335,
+          "grid_sin_theta_resolution": 8.866666666666668e-05,
+          "rel_err_pct": 0.27322404371584136,
+          "pass_": true
+        },
+        {
+          "geometry": {
+            "half_angle_obj_deg": 23.679732877656658,
+            "na_obj": 0.4016238560047921,
+            "sigma": 0.15,
+            "na_illum": 0.06024357840071881,
+            "half_angle_illum_deg": 3.453794073388055
+          },
+          "order_info": {
+            "m_max": 16,
+            "n_orders_total": 33,
+            "n_orders_one_side_incl_zero": 17
+          },
+          "n_orders_passed_coherent": 33,
+          "n_orders_passed_partial_union": 39,
+          "ripple_pct_coherent_sigma0": 136.95459370691182,
+          "ripple_pct_partial_sigma015": 133.92907670941577,
+          "washout_factor": 1.0225904416862404
+        }
+      ],
+      "functions": [
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell.py",
+          "line": 221,
+          "function": "run_all",
+          "calls": 1,
+          "self_seconds": 0.001830758,
+          "cumulative_seconds": 2.1104671550000003
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell.py",
+          "line": 117,
+          "function": "gate_G3_circular_aperture",
+          "calls": 1,
+          "self_seconds": 0.223851285,
+          "cumulative_seconds": 1.8508837980000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/fft/_pocketfft.py",
+          "line": 120,
+          "function": "fft",
+          "calls": 4,
+          "self_seconds": 2.5213e-05,
+          "cumulative_seconds": 1.533533921
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/fft/_pocketfft.py",
+          "line": 58,
+          "function": "_raw_fft",
+          "calls": 4,
+          "self_seconds": 1.5335007920000001,
+          "cumulative_seconds": 1.5335065790000002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/fft/_pocketfft.py",
+          "line": 1019,
+          "function": "fft2",
+          "calls": 1,
+          "self_seconds": 1.0132e-05,
+          "cumulative_seconds": 1.471530537
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/fft/_pocketfft.py",
+          "line": 741,
+          "function": "_raw_fftnd",
+          "calls": 1,
+          "self_seconds": 0.000282549,
+          "cumulative_seconds": 1.4715204050000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell.py",
+          "line": 184,
+          "function": "e13_ripple",
+          "calls": 1,
+          "self_seconds": 0.00029592100000000004,
+          "cumulative_seconds": 0.12613711
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell.py",
+          "line": 170,
+          "function": "_coherent_image_intensity",
+          "calls": 42,
+          "self_seconds": 0.11165118800000001,
+          "cumulative_seconds": 0.125541608
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell.py",
+          "line": 39,
+          "function": "fraunhofer_1d",
+          "calls": 2,
+          "self_seconds": 0.0054214300000000005,
+          "cumulative_seconds": 0.09147057500000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/fft/_helper.py",
+          "line": 19,
+          "function": "fftshift",
+          "calls": 6,
+          "self_seconds": 0.000147334,
+          "cumulative_seconds": 0.08314563200000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 1226,
+          "function": "roll",
+          "calls": 6,
+          "self_seconds": 0.08291279400000001,
+          "cumulative_seconds": 0.082992756
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell.py",
+          "line": 77,
+          "function": "gate_G2_double_slit",
+          "calls": 1,
+          "self_seconds": 0.027100747,
+          "cumulative_seconds": 0.074879979
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell.py",
+          "line": 61,
+          "function": "gate_G1_single_slit",
+          "calls": 1,
+          "self_seconds": 0.007706444000000001,
+          "cumulative_seconds": 0.05673551
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 5062,
+          "function": "meshgrid",
+          "calls": 1,
+          "self_seconds": 4.4561e-05,
+          "cumulative_seconds": 0.052943615000000006
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 5208,
+          "function": "<genexpr>",
+          "calls": 3,
+          "self_seconds": 1.0653000000000001e-05,
+          "cumulative_seconds": 0.052812679
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'copy' of 'numpy.ndarray' objects>",
+          "calls": 2,
+          "self_seconds": 0.052802026,
+          "cumulative_seconds": 0.052802026
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'astype' of 'numpy.ndarray' objects>",
+          "calls": 4,
+          "self_seconds": 0.028692690000000003,
+          "cumulative_seconds": 0.028692690000000003
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/fft/_helper.py",
+          "line": 125,
+          "function": "fftfreq",
+          "calls": 3,
+          "self_seconds": 0.009422638,
+          "cumulative_seconds": 0.016204755
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.arange>",
+          "calls": 53,
+          "self_seconds": 0.008851755000000001,
+          "cumulative_seconds": 0.008851755000000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell.py",
+          "line": 147,
+          "function": "grating_fourier_coeff",
+          "calls": 1392,
+          "self_seconds": 0.002127972,
+          "cumulative_seconds": 0.0076259050000000005
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 905,
+          "function": "outer",
+          "calls": 42,
+          "self_seconds": 0.0060802550000000006,
+          "cumulative_seconds": 0.006113235000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 3742,
+          "function": "sinc",
+          "calls": 1350,
+          "self_seconds": 0.004566922,
+          "cumulative_seconds": 0.005399667
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell.py",
+          "line": 50,
+          "function": "_first_zero_sintheta",
+          "calls": 2,
+          "self_seconds": 0.0012730830000000002,
+          "cumulative_seconds": 0.0012754250000000002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/getlimits.py",
+          "line": 169,
+          "function": "__new__",
+          "calls": 1350,
+          "self_seconds": 0.000302406,
+          "cumulative_seconds": 0.00047518100000000003
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.asanyarray>",
+          "calls": 1365,
+          "self_seconds": 0.00026125700000000004,
+          "cumulative_seconds": 0.00026125700000000004
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'get' of 'dict' objects>",
+          "calls": 1352,
+          "self_seconds": 0.00017409400000000002,
+          "cumulative_seconds": 0.00017409400000000002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 1209,
+          "function": "synchronize",
+          "calls": 1,
+          "self_seconds": 1.2046000000000001e-05,
+          "cumulative_seconds": 0.00014978000000000002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 3914,
+          "function": "median",
+          "calls": 1,
+          "self_seconds": 7.091e-06,
+          "cumulative_seconds": 0.00013874500000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 3827,
+          "function": "_ureduce",
+          "calls": 1,
+          "self_seconds": 9.787000000000001e-06,
+          "cumulative_seconds": 0.000131654
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 4003,
+          "function": "_median",
+          "calls": 1,
+          "self_seconds": 1.8395000000000003e-05,
+          "cumulative_seconds": 0.000120353
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/multiarray.py",
+          "line": 406,
+          "function": "where",
+          "calls": 1351,
+          "self_seconds": 0.00010084300000000001,
+          "cumulative_seconds": 0.00010084300000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 3738,
+          "function": "_sinc_dispatcher",
+          "calls": 1350,
+          "self_seconds": 9.826600000000001e-05,
+          "cumulative_seconds": 9.826600000000001e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/fft/_pocketfft.py",
+          "line": 704,
+          "function": "_cook_nd_args",
+          "calls": 1,
+          "self_seconds": 3.6861000000000005e-05,
+          "cumulative_seconds": 9.608900000000001e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/_methods.py",
+          "line": 115,
+          "function": "_mean",
+          "calls": 3,
+          "self_seconds": 3.4486e-05,
+          "cumulative_seconds": 8.846200000000001e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 650,
+          "function": "__init__",
+          "calls": 1,
+          "self_seconds": 3.6130000000000004e-06,
+          "cumulative_seconds": 8.5833e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/_utils.py",
+          "line": 557,
+          "function": "_get_device_index",
+          "calls": 1,
+          "self_seconds": 9.75e-06,
+          "cumulative_seconds": 8.222000000000001e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_stride_tricks_impl.py",
+          "line": 588,
+          "function": "broadcast_arrays",
+          "calls": 1,
+          "self_seconds": 1.1101000000000001e-05,
+          "cumulative_seconds": 7.899e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.empty>",
+          "calls": 3,
+          "self_seconds": 7.7496e-05,
+          "cumulative_seconds": 7.7496e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.array>",
+          "calls": 47,
+          "self_seconds": 7.694900000000001e-05,
+          "cumulative_seconds": 7.694900000000001e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 869,
+          "function": "_get_device_index",
+          "calls": 1,
+          "self_seconds": 5.976e-06,
+          "cumulative_seconds": 7.0548e-05
+        }
+      ]
+    },
+    {
+      "backend": "gpu",
+      "repeat": 0,
+      "wall_seconds": 1.1719448789999998,
+      "result": [
+        {
+          "gate": "G1_single_slit",
+          "a": 2e-05,
+          "wavelength": 5.32e-07,
+          "analytic_sin_theta": 0.026600000000000002,
+          "measured_sin_theta": 0.026613300000000003,
+          "rel_err_pct": 0.05000000000000305,
+          "pass_": true
+        },
+        {
+          "gate": "G2_double_slit",
+          "a": 1e-06,
+          "d": 4e-05,
+          "wavelength": 5.32e-07,
+          "analytic_fringe_spacing": 0.013300000000000001,
+          "measured_fringe_spacing": 0.013303362094406055,
+          "n_peaks_used": 5,
+          "rel_err_pct": 0.025278905308676422,
+          "pass_": true
+        },
+        {
+          "gate": "G3_circular_aperture",
+          "D": 5e-05,
+          "wavelength": 5.32e-07,
+          "analytic_sin_theta": 0.0129808,
+          "measured_sin_theta": 0.012945333333333335,
+          "grid_sin_theta_resolution": 8.866666666666668e-05,
+          "rel_err_pct": 0.27322404371584136,
+          "pass_": true
+        },
+        {
+          "geometry": {
+            "half_angle_obj_deg": 23.679732877656658,
+            "na_obj": 0.4016238560047921,
+            "sigma": 0.15,
+            "na_illum": 0.06024357840071881,
+            "half_angle_illum_deg": 3.453794073388055
+          },
+          "order_info": {
+            "m_max": 16,
+            "n_orders_total": 33,
+            "n_orders_one_side_incl_zero": 17
+          },
+          "n_orders_passed_coherent": 33,
+          "n_orders_passed_partial_union": 39,
+          "ripple_pct_coherent_sigma0": 136.95459370691188,
+          "ripple_pct_partial_sigma015": 133.92907670941577,
+          "washout_factor": 1.0225904416862406
+        }
+      ],
+      "functions": [
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell_gpu.py",
+          "line": 63,
+          "function": "run_all",
+          "calls": 1,
+          "self_seconds": 1.6875e-05,
+          "cumulative_seconds": 1.171805223
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell.py",
+          "line": 221,
+          "function": "run_all",
+          "calls": 1,
+          "self_seconds": 3.4145e-05,
+          "cumulative_seconds": 1.1717858010000002
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell_gpu.py",
+          "line": 67,
+          "function": "<lambda>",
+          "calls": 1,
+          "self_seconds": 0.000821663,
+          "cumulative_seconds": 0.561594251
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell_gpu.py",
+          "line": 37,
+          "function": "gate_G3_circular_aperture",
+          "calls": 1,
+          "self_seconds": 0.26820517,
+          "cumulative_seconds": 0.5607725880000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell.py",
+          "line": 184,
+          "function": "e13_ripple",
+          "calls": 1,
+          "self_seconds": 0.00037850000000000004,
+          "cumulative_seconds": 0.415305101
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell_gpu.py",
+          "line": 66,
+          "function": "<lambda>",
+          "calls": 42,
+          "self_seconds": 0.000162594,
+          "cumulative_seconds": 0.414599266
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell_gpu.py",
+          "line": 24,
+          "function": "_coherent_image_intensity",
+          "calls": 42,
+          "self_seconds": 0.082294698,
+          "cumulative_seconds": 0.414436672
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell_gpu.py",
+          "line": 20,
+          "function": "_fft2_shift",
+          "calls": 1,
+          "self_seconds": 5.0190000000000006e-05,
+          "cumulative_seconds": 0.212279187
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.exp>",
+          "calls": 42,
+          "self_seconds": 0.195233616,
+          "cumulative_seconds": 0.195233616
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell_gpu.py",
+          "line": 65,
+          "function": "<lambda>",
+          "calls": 2,
+          "self_seconds": 3.2325e-05,
+          "cumulative_seconds": 0.150762066
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell_gpu.py",
+          "line": 13,
+          "function": "fraunhofer_1d",
+          "calls": 2,
+          "self_seconds": 0.012537631,
+          "cumulative_seconds": 0.150729741
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell.py",
+          "line": 61,
+          "function": "gate_G1_single_slit",
+          "calls": 1,
+          "self_seconds": 0.007089329,
+          "cumulative_seconds": 0.147211857
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._fft.fft_fft2>",
+          "calls": 1,
+          "self_seconds": 0.125821595,
+          "cumulative_seconds": 0.125821595
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._fft.fft_fft>",
+          "calls": 2,
+          "self_seconds": 0.09271249100000001,
+          "cumulative_seconds": 0.09271249100000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.abs>",
+          "calls": 42,
+          "self_seconds": 0.085663692,
+          "cumulative_seconds": 0.085663692
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'cpu' of 'torch._C.TensorBase' objects>",
+          "calls": 45,
+          "self_seconds": 0.079888943,
+          "cumulative_seconds": 0.079888943
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 5062,
+          "function": "meshgrid",
+          "calls": 1,
+          "self_seconds": 2.9887e-05,
+          "cumulative_seconds": 0.053041536
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 5208,
+          "function": "<genexpr>",
+          "calls": 3,
+          "self_seconds": 1.2980000000000001e-05,
+          "cumulative_seconds": 0.052951039000000005
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'copy' of 'numpy.ndarray' objects>",
+          "calls": 2,
+          "self_seconds": 0.052938059,
+          "cumulative_seconds": 0.052938059
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell.py",
+          "line": 77,
+          "function": "gate_G2_double_slit",
+          "calls": 1,
+          "self_seconds": 0.031210799,
+          "cumulative_seconds": 0.047640447
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.as_tensor>",
+          "calls": 129,
+          "self_seconds": 0.041664823000000004,
+          "cumulative_seconds": 0.041664823000000004
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_tensor.py",
+          "line": 32,
+          "function": "wrapped",
+          "calls": 42,
+          "self_seconds": 7.704600000000001e-05,
+          "cumulative_seconds": 0.037719263
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'pow' of 'torch._C.TensorBase' objects>",
+          "calls": 42,
+          "self_seconds": 0.037630171000000004,
+          "cumulative_seconds": 0.037630171000000004
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'astype' of 'numpy.ndarray' objects>",
+          "calls": 4,
+          "self_seconds": 0.029220965,
+          "cumulative_seconds": 0.029220965
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/fft/_helper.py",
+          "line": 125,
+          "function": "fftfreq",
+          "calls": 3,
+          "self_seconds": 0.007750046000000001,
+          "cumulative_seconds": 0.012387955
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell.py",
+          "line": 147,
+          "function": "grating_fourier_coeff",
+          "calls": 1392,
+          "self_seconds": 0.002139377,
+          "cumulative_seconds": 0.007620997000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.arange>",
+          "calls": 53,
+          "self_seconds": 0.00689164,
+          "cumulative_seconds": 0.00689164
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 3742,
+          "function": "sinc",
+          "calls": 1350,
+          "self_seconds": 0.0045533760000000005,
+          "cumulative_seconds": 0.005385442000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/fft/_helper.py",
+          "line": 19,
+          "function": "fftshift",
+          "calls": 3,
+          "self_seconds": 5.7035000000000005e-05,
+          "cumulative_seconds": 0.002740212
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 1226,
+          "function": "roll",
+          "calls": 3,
+          "self_seconds": 0.0026410630000000004,
+          "cumulative_seconds": 0.002681034
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell.py",
+          "line": 50,
+          "function": "_first_zero_sintheta",
+          "calls": 2,
+          "self_seconds": 0.001288408,
+          "cumulative_seconds": 0.0012903810000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.outer>",
+          "calls": 42,
+          "self_seconds": 0.000696917,
+          "cumulative_seconds": 0.000696917
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/getlimits.py",
+          "line": 169,
+          "function": "__new__",
+          "calls": 1350,
+          "self_seconds": 0.000305319,
+          "cumulative_seconds": 0.00047792900000000004
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.asanyarray>",
+          "calls": 1362,
+          "self_seconds": 0.000250402,
+          "cumulative_seconds": 0.000250402
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'numpy' of 'torch._C.TensorBase' objects>",
+          "calls": 45,
+          "self_seconds": 0.00022632000000000002,
+          "cumulative_seconds": 0.00022632000000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'get' of 'dict' objects>",
+          "calls": 1352,
+          "self_seconds": 0.000173837,
+          "cumulative_seconds": 0.000173837
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._fft.fft_fftshift>",
+          "calls": 3,
+          "self_seconds": 0.00015597700000000001,
+          "cumulative_seconds": 0.00015597700000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 3914,
+          "function": "median",
+          "calls": 1,
+          "self_seconds": 3.96e-06,
+          "cumulative_seconds": 0.000129485
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 3827,
+          "function": "_ureduce",
+          "calls": 1,
+          "self_seconds": 9.296e-06,
+          "cumulative_seconds": 0.000125525
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 4003,
+          "function": "_median",
+          "calls": 1,
+          "self_seconds": 1.6895e-05,
+          "cumulative_seconds": 0.00011475500000000001
+        }
+      ]
+    },
+    {
+      "backend": "gpu",
+      "repeat": 1,
+      "wall_seconds": 0.5268537680000005,
+      "result": [
+        {
+          "gate": "G1_single_slit",
+          "a": 2e-05,
+          "wavelength": 5.32e-07,
+          "analytic_sin_theta": 0.026600000000000002,
+          "measured_sin_theta": 0.026613300000000003,
+          "rel_err_pct": 0.05000000000000305,
+          "pass_": true
+        },
+        {
+          "gate": "G2_double_slit",
+          "a": 1e-06,
+          "d": 4e-05,
+          "wavelength": 5.32e-07,
+          "analytic_fringe_spacing": 0.013300000000000001,
+          "measured_fringe_spacing": 0.013303362094406055,
+          "n_peaks_used": 5,
+          "rel_err_pct": 0.025278905308676422,
+          "pass_": true
+        },
+        {
+          "gate": "G3_circular_aperture",
+          "D": 5e-05,
+          "wavelength": 5.32e-07,
+          "analytic_sin_theta": 0.0129808,
+          "measured_sin_theta": 0.012945333333333335,
+          "grid_sin_theta_resolution": 8.866666666666668e-05,
+          "rel_err_pct": 0.27322404371584136,
+          "pass_": true
+        },
+        {
+          "geometry": {
+            "half_angle_obj_deg": 23.679732877656658,
+            "na_obj": 0.4016238560047921,
+            "sigma": 0.15,
+            "na_illum": 0.06024357840071881,
+            "half_angle_illum_deg": 3.453794073388055
+          },
+          "order_info": {
+            "m_max": 16,
+            "n_orders_total": 33,
+            "n_orders_one_side_incl_zero": 17
+          },
+          "n_orders_passed_coherent": 33,
+          "n_orders_passed_partial_union": 39,
+          "ripple_pct_coherent_sigma0": 136.95459370691188,
+          "ripple_pct_partial_sigma015": 133.92907670941577,
+          "washout_factor": 1.0225904416862406
+        }
+      ],
+      "functions": [
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell_gpu.py",
+          "line": 63,
+          "function": "run_all",
+          "calls": 1,
+          "self_seconds": 1.3813000000000001e-05,
+          "cumulative_seconds": 0.526719347
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell.py",
+          "line": 221,
+          "function": "run_all",
+          "calls": 1,
+          "self_seconds": 0.000979017,
+          "cumulative_seconds": 0.526703687
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell_gpu.py",
+          "line": 67,
+          "function": "<lambda>",
+          "calls": 1,
+          "self_seconds": 0.0023172130000000003,
+          "cumulative_seconds": 0.43111039100000004
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell_gpu.py",
+          "line": 37,
+          "function": "gate_G3_circular_aperture",
+          "calls": 1,
+          "self_seconds": 0.261193993,
+          "cumulative_seconds": 0.42879317800000005
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell_gpu.py",
+          "line": 20,
+          "function": "_fft2_shift",
+          "calls": 1,
+          "self_seconds": 5.6345000000000003e-05,
+          "cumulative_seconds": 0.087687523
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'cpu' of 'torch._C.TensorBase' objects>",
+          "calls": 45,
+          "self_seconds": 0.08211111900000001,
+          "cumulative_seconds": 0.08211111900000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 5062,
+          "function": "meshgrid",
+          "calls": 1,
+          "self_seconds": 4.0378000000000005e-05,
+          "cumulative_seconds": 0.053201363
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 5208,
+          "function": "<genexpr>",
+          "calls": 3,
+          "self_seconds": 1.0492e-05,
+          "cumulative_seconds": 0.053078274
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'copy' of 'numpy.ndarray' objects>",
+          "calls": 2,
+          "self_seconds": 0.053067782,
+          "cumulative_seconds": 0.053067782
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell.py",
+          "line": 77,
+          "function": "gate_G2_double_slit",
+          "calls": 1,
+          "self_seconds": 0.033497334000000004,
+          "cumulative_seconds": 0.04871736
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell.py",
+          "line": 61,
+          "function": "gate_G1_single_slit",
+          "calls": 1,
+          "self_seconds": 0.010108214,
+          "cumulative_seconds": 0.030094551
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'astype' of 'numpy.ndarray' objects>",
+          "calls": 4,
+          "self_seconds": 0.02873753,
+          "cumulative_seconds": 0.02873753
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell_gpu.py",
+          "line": 65,
+          "function": "<lambda>",
+          "calls": 2,
+          "self_seconds": 2.5050000000000002e-05,
+          "cumulative_seconds": 0.026227768000000002
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell_gpu.py",
+          "line": 13,
+          "function": "fraunhofer_1d",
+          "calls": 2,
+          "self_seconds": 0.0022173220000000003,
+          "cumulative_seconds": 0.026202718000000003
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.as_tensor>",
+          "calls": 129,
+          "self_seconds": 0.016629402,
+          "cumulative_seconds": 0.016629402
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell.py",
+          "line": 184,
+          "function": "e13_ripple",
+          "calls": 1,
+          "self_seconds": 0.000336556,
+          "cumulative_seconds": 0.015802368
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell_gpu.py",
+          "line": 66,
+          "function": "<lambda>",
+          "calls": 42,
+          "self_seconds": 0.000142564,
+          "cumulative_seconds": 0.015196437
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell_gpu.py",
+          "line": 24,
+          "function": "_coherent_image_intensity",
+          "calls": 42,
+          "self_seconds": 0.002345709,
+          "cumulative_seconds": 0.015053873
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/fft/_helper.py",
+          "line": 125,
+          "function": "fftfreq",
+          "calls": 3,
+          "self_seconds": 0.009374149,
+          "cumulative_seconds": 0.013052927
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.arange>",
+          "calls": 53,
+          "self_seconds": 0.00905333,
+          "cumulative_seconds": 0.00905333
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell.py",
+          "line": 147,
+          "function": "grating_fourier_coeff",
+          "calls": 1392,
+          "self_seconds": 0.0021256390000000003,
+          "cumulative_seconds": 0.007533336000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 3742,
+          "function": "sinc",
+          "calls": 1350,
+          "self_seconds": 0.004477144000000001,
+          "cumulative_seconds": 0.005308999
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/fft/_helper.py",
+          "line": 19,
+          "function": "fftshift",
+          "calls": 3,
+          "self_seconds": 4.7416e-05,
+          "cumulative_seconds": 0.001705268
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 1226,
+          "function": "roll",
+          "calls": 3,
+          "self_seconds": 0.001616404,
+          "cumulative_seconds": 0.0016553140000000002
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/wave_optics/wave_optics_cell.py",
+          "line": 50,
+          "function": "_first_zero_sintheta",
+          "calls": 2,
+          "self_seconds": 0.001279166,
+          "cumulative_seconds": 0.0012809400000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._fft.fft_fft2>",
+          "calls": 1,
+          "self_seconds": 0.0008463100000000001,
+          "cumulative_seconds": 0.0008463100000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.abs>",
+          "calls": 42,
+          "self_seconds": 0.000755056,
+          "cumulative_seconds": 0.000755056
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.outer>",
+          "calls": 42,
+          "self_seconds": 0.00048137200000000004,
+          "cumulative_seconds": 0.00048137200000000004
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/getlimits.py",
+          "line": 169,
+          "function": "__new__",
+          "calls": 1350,
+          "self_seconds": 0.000307514,
+          "cumulative_seconds": 0.00047937600000000005
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_tensor.py",
+          "line": 32,
+          "function": "wrapped",
+          "calls": 42,
+          "self_seconds": 5.6842e-05,
+          "cumulative_seconds": 0.000393475
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'pow' of 'torch._C.TensorBase' objects>",
+          "calls": 42,
+          "self_seconds": 0.00032544700000000003,
+          "cumulative_seconds": 0.00032544700000000003
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.asanyarray>",
+          "calls": 1362,
+          "self_seconds": 0.00025394,
+          "cumulative_seconds": 0.00025394
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._fft.fft_fft>",
+          "calls": 2,
+          "self_seconds": 0.000252586,
+          "cumulative_seconds": 0.000252586
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.exp>",
+          "calls": 42,
+          "self_seconds": 0.00025241200000000004,
+          "cumulative_seconds": 0.00025241200000000004
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'numpy' of 'torch._C.TensorBase' objects>",
+          "calls": 45,
+          "self_seconds": 0.000195601,
+          "cumulative_seconds": 0.000195601
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'get' of 'dict' objects>",
+          "calls": 1352,
+          "self_seconds": 0.000172771,
+          "cumulative_seconds": 0.000172771
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.empty>",
+          "calls": 3,
+          "self_seconds": 0.00012302800000000002,
+          "cumulative_seconds": 0.00012302800000000002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 3914,
+          "function": "median",
+          "calls": 1,
+          "self_seconds": 4.044000000000001e-06,
+          "cumulative_seconds": 0.00011586100000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 3827,
+          "function": "_ureduce",
+          "calls": 1,
+          "self_seconds": 6.746e-06,
+          "cumulative_seconds": 0.000111817
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 4003,
+          "function": "_median",
+          "calls": 1,
+          "self_seconds": 1.7658000000000003e-05,
+          "cumulative_seconds": 0.00010400100000000001
+        }
+      ]
+    }
+  ],
+  "source_sha256": "514840411769a596cd9b0199882b280996ef3a13b0e8157d7e55bcff53f044de"
+}

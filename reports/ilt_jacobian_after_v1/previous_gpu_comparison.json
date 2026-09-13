@@ -1,0 +1,14 @@
+{
+  "rows": [
+    {
+      "leg": 0,
+      "previous_candidate_arrays_exact": true,
+      "previous_record_parity": 0.0005526286499090902
+    },
+    {
+      "leg": 1,
+      "previous_candidate_arrays_exact": true,
+      "previous_record_parity": 0.0005526286499090902
+    }
+  ]
+}

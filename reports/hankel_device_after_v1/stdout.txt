@@ -1,0 +1,226 @@
+{
+  "device": "NVIDIA H100 80GB HBM3",
+  "batch_forward": true,
+  "torch": "2.13.0+cu129",
+  "atol": 1e-09,
+  "rtol": 1e-08,
+  "runs": [
+    {
+      "forward_cpu_s": 0.6359557980000012,
+      "forward_gpu_s": 0.12485688699999997,
+      "forward_cpu_errors": [
+        1.580769635586991e-16,
+        1.4684501976244035e-14,
+        5.419689434488792e-12,
+        2.4835571870155034e-11,
+        2.783837849600067e-14
+      ],
+      "forward_gpu_errors": [
+        3.161539271173982e-16,
+        6.26334799570052e-13,
+        2.406012217754272e-12,
+        2.420332247952581e-11,
+        4.458297356895105e-14
+      ],
+      "forward_parity": 0.07387663366879849,
+      "adjoint": [
+        {
+          "kappa": 0.0,
+          "cpu_s": 0.1872106510000009,
+          "gpu_s": 0.001276210000000333,
+          "parity": 2.8080346611447666e-07,
+          "envelope_parity": 3.794314872519767e-10,
+          "ray_parity": 3.828086227531571e-10,
+          "zero_parity": 0.0,
+          "sign_changes_cpu": 0,
+          "sign_changes_gpu": 0,
+          "residual_inf": 7.771561172376096e-15
+        },
+        {
+          "kappa": 10.0,
+          "cpu_s": 0.186857775,
+          "gpu_s": 0.0011964400000010755,
+          "parity": 0.00023653762974006252,
+          "envelope_parity": 5.861023743626697e-07,
+          "ray_parity": 6.098255462513783e-07,
+          "zero_parity": 8.725885878004198e-06,
+          "sign_changes_cpu": 1,
+          "sign_changes_gpu": 1,
+          "residual_inf": 5.240252676230739e-14
+        },
+        {
+          "kappa": 20.0,
+          "cpu_s": 0.19123836600000033,
+          "gpu_s": 0.001261924999999664,
+          "parity": 3.545828265662036e-06,
+          "envelope_parity": 1.761894541292863e-10,
+          "ray_parity": 2.2488380077215358e-10,
+          "zero_parity": 1.197873463246875e-06,
+          "sign_changes_cpu": 3,
+          "sign_changes_gpu": 3,
+          "residual_inf": 9.048317650695026e-15
+        },
+        {
+          "kappa": 40.0,
+          "cpu_s": 0.18275744500000002,
+          "gpu_s": 0.0011635520000012889,
+          "parity": 5.1109774698044025e-05,
+          "envelope_parity": 1.032901857106563e-08,
+          "ray_parity": 1.942572614957676e-08,
+          "zero_parity": 1.9194703319224647e-06,
+          "sign_changes_cpu": 4,
+          "sign_changes_gpu": 4,
+          "residual_inf": 1.021405182655144e-14
+        },
+        {
+          "kappa": 70.0,
+          "cpu_s": 0.18483856900000006,
+          "gpu_s": 0.001139949000000584,
+          "parity": 2.0680427375187982e-05,
+          "envelope_parity": 2.5304926231149912e-11,
+          "ray_parity": 6.077381462115214e-11,
+          "zero_parity": 1.8008146025351464e-07,
+          "sign_changes_cpu": 8,
+          "sign_changes_gpu": 8,
+          "residual_inf": 7.951972413877684e-15
+        }
+      ],
+      "gates": {
+        "G1_single_cylinder_matches_closed_form": true,
+        "G2_energy_conservation_optical_theorem": true,
+        "G3_reciprocity": true,
+        "G4_convergence_in_truncation": true,
+        "G5_energy_conserved_across_frequency_sweep": true,
+        "forward_full_array_parity": true,
+        "adjoint_full_array_parity": true,
+        "adjoint_sign_changes": true,
+        "adjoint_original_operator_residual": true
+      }
+    },
+    {
+      "forward_cpu_s": 0.6339932620000006,
+      "forward_gpu_s": 0.03489616199999901,
+      "forward_cpu_errors": [
+        1.580769635586991e-16,
+        1.4684501976244035e-14,
+        5.419689434488792e-12,
+        2.4835571870155034e-11,
+        2.783837849600067e-14
+      ],
+      "forward_gpu_errors": [
+        3.161539271173982e-16,
+        6.26334799570052e-13,
+        2.406012217754272e-12,
+        2.420332247952581e-11,
+        4.458297356895105e-14
+      ],
+      "forward_parity": 0.07387663366879849,
+      "adjoint": [
+        {
+          "kappa": 0.0,
+          "cpu_s": 0.18987546799999677,
+          "gpu_s": 0.0011871770000020376,
+          "parity": 2.8080346611447666e-07,
+          "envelope_parity": 3.794314872519767e-10,
+          "ray_parity": 3.828086227531571e-10,
+          "zero_parity": 0.0,
+          "sign_changes_cpu": 0,
+          "sign_changes_gpu": 0,
+          "residual_inf": 7.771561172376096e-15
+        },
+        {
+          "kappa": 10.0,
+          "cpu_s": 0.1886273850000002,
+          "gpu_s": 0.0011824609999990798,
+          "parity": 0.00023653762974006252,
+          "envelope_parity": 5.861023743626697e-07,
+          "ray_parity": 6.098255462513783e-07,
+          "zero_parity": 8.725885878004198e-06,
+          "sign_changes_cpu": 1,
+          "sign_changes_gpu": 1,
+          "residual_inf": 5.240252676230739e-14
+        },
+        {
+          "kappa": 20.0,
+          "cpu_s": 0.18836050300000196,
+          "gpu_s": 0.0012019380000012347,
+          "parity": 3.545828265662036e-06,
+          "envelope_parity": 1.761894541292863e-10,
+          "ray_parity": 2.2488380077215358e-10,
+          "zero_parity": 1.197873463246875e-06,
+          "sign_changes_cpu": 3,
+          "sign_changes_gpu": 3,
+          "residual_inf": 9.048317650695026e-15
+        },
+        {
+          "kappa": 40.0,
+          "cpu_s": 0.18817116600000006,
+          "gpu_s": 0.0012412640000007968,
+          "parity": 5.1109774698044025e-05,
+          "envelope_parity": 1.032901857106563e-08,
+          "ray_parity": 1.942572614957676e-08,
+          "zero_parity": 1.9194703319224647e-06,
+          "sign_changes_cpu": 4,
+          "sign_changes_gpu": 4,
+          "residual_inf": 1.021405182655144e-14
+        },
+        {
+          "kappa": 70.0,
+          "cpu_s": 0.19817674000000096,
+          "gpu_s": 0.001186132999997369,
+          "parity": 2.0680427375187982e-05,
+          "envelope_parity": 2.5304926231149912e-11,
+          "ray_parity": 6.077381462115214e-11,
+          "zero_parity": 1.8008146025351464e-07,
+          "sign_changes_cpu": 8,
+          "sign_changes_gpu": 8,
+          "residual_inf": 7.951972413877684e-15
+        }
+      ],
+      "gates": {
+        "G1_single_cylinder_matches_closed_form": true,
+        "G2_energy_conservation_optical_theorem": true,
+        "G3_reciprocity": true,
+        "G4_convergence_in_truncation": true,
+        "G5_energy_conserved_across_frequency_sweep": true,
+        "forward_full_array_parity": true,
+        "adjoint_full_array_parity": true,
+        "adjoint_sign_changes": true,
+        "adjoint_original_operator_residual": true
+      }
+    }
+  ],
+  "exact_full_array_repeat": true,
+  "source_sha256": {
+    "src/physics_engine/scattering/spine_scatter2d_multiple_helmholtz_forward_C.py": "b7ee5b1825a813e508265c1f2ff819f83e59f17e3c4e7545eeb3fac96de3690a",
+    "src/physics_engine/scattering/pa_adjoint_helmholtz_envelope.py": "c13512ac7ee3ba77d0a91ad55f987252ddd06a8b56588a751dfd6fb77b8530d6",
+    "src/physics_engine/scattering/spine_scatter2d_multiple_helmholtz_forward_C_gpu.py": "496b50afda7f4adfdc5ab6f4fb9b971b5c97ee9880b4243d55316edbb0fcbc2a",
+    "src/physics_engine/scattering/pa_adjoint_helmholtz_envelope_gpu.py": "c0f2aefae6e9dbec5efaa73f870948f4a5c3562d086aadb6b75b55659165f1ca",
+    "scripts/verify_scattering_gpu.py": "ffa5a895f365938e159729bdd61ebcca402fdf437145a587f5c1e940045ab6fa"
+  },
+  "array_count": 394,
+  "array_bytes": 4442256,
+  "all_pass": true
+}
+........................                                                 [100%]
+=============================== warnings summary ===============================
+tests/test_scattering_gpu.py: 16 warnings
+  /work/3fold-physics-e-hankel-check/src/physics_engine/scattering/spine_scatter2d_multiple_helmholtz_forward_C_gpu.py:48: DeprecationWarning: ExternalStream is deprecated. Use Stream.from_external() instead to interoperate with external streams that implement the CUDA stream protocol.
+    return _device_hankel(orders, arguments, device)
+
+tests/test_scattering_gpu.py: 16 warnings
+  /work/3fold-physics-e-hankel-check/src/physics_engine/scattering/spine_scatter2d_multiple_helmholtz_forward_C_gpu.py:54: DeprecationWarning: ExternalStream is deprecated. Use Stream.from_external() instead to interoperate with external streams that implement the CUDA stream protocol.
+    h = _device_hankel(orders, arguments, device)
+
+tests/test_scattering_gpu.py::test_device_integer_hankel_and_bessel_complete_orders[0.1]
+tests/test_scattering_gpu.py::test_device_integer_hankel_and_bessel_complete_orders[0.3]
+tests/test_scattering_gpu.py::test_device_integer_hankel_and_bessel_complete_orders[1.3]
+tests/test_scattering_gpu.py::test_device_integer_hankel_and_bessel_complete_orders[3.0]
+tests/test_scattering_gpu.py::test_device_integer_hankel_and_bessel_complete_orders[18.0]
+tests/test_scattering_gpu.py::test_device_integer_hankel_and_bessel_complete_orders[50.0]
+  /work/3fold-physics-e-hankel-check/tests/test_scattering_gpu.py:84: DeprecationWarning: ExternalStream is deprecated. Use Stream.from_external() instead to interoperate with external streams that implement the CUDA stream protocol.
+    actual=gpu._device_hankel(orders,argument,'cuda').cpu().numpy()
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+24 passed, 38 warnings in 3.81s
+[(False, 'before', 0.4770374209999986), (False, 'after', 0.3658508430000005), (False, 'after', 0.11935833600000123), (False, 'before', 0.105828810000002), (False, 'before', 0.10377338700000038), (False, 'after', 0.12600591699999697), (False, 'after', 0.12734533400000103), (False, 'before', 0.10663154399999897), (True, 'before', 0.09499040999999764), (True, 'after', 0.03099432799999846), (True, 'after', 0.03035762599999714), (True, 'before', 0.03913803600000065), (True, 'before', 0.037679231000002034), (True, 'after', 0.03087007299999911), (True, 'after', 0.0309678550000001), (True, 'before', 0.03783104300000062)]

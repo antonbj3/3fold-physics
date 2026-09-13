@@ -1,0 +1,1730 @@
+{
+  "device": "NVIDIA H100 80GB HBM3",
+  "rows": [
+    {
+      "backend": "cpu",
+      "case": "oscillator",
+      "repeat": 0,
+      "wall_seconds": 0.005634291000001568,
+      "energies": [
+        0.4999988738744343,
+        1.4999943693479605,
+        2.4999853602785826,
+        3.499971846698661,
+        4.499953829568195,
+        5.499931320277769
+      ],
+      "functions": [
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/schrodinger_1d.py",
+          "line": 28,
+          "function": "solve",
+          "calls": 1,
+          "self_seconds": 0.000157333,
+          "cumulative_seconds": 0.00536981
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/_lib/_util.py",
+          "line": 1102,
+          "function": "wrapper",
+          "calls": 1,
+          "self_seconds": 6.323e-05,
+          "cumulative_seconds": 0.005181719
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/linalg/_decomp.py",
+          "line": 1267,
+          "function": "eigh_tridiagonal",
+          "calls": 1,
+          "self_seconds": 0.004713869,
+          "cumulative_seconds": 0.005057537
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 1209,
+          "function": "synchronize",
+          "calls": 1,
+          "self_seconds": 1.9297000000000002e-05,
+          "cumulative_seconds": 0.000179624
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/_lib/_util.py",
+          "line": 364,
+          "function": "_asarray_validated",
+          "calls": 2,
+          "self_seconds": 1.5142000000000002e-05,
+          "cumulative_seconds": 0.00017797800000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.isinstance>",
+          "calls": 18,
+          "self_seconds": 9.17e-06,
+          "cumulative_seconds": 0.00012431600000000002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/_lib/_sparse.py",
+          "line": 10,
+          "function": "issparse",
+          "calls": 2,
+          "self_seconds": 3.0080000000000003e-06,
+          "cumulative_seconds": 0.000121552
+        },
+        {
+          "file": "<frozen abc>",
+          "line": 117,
+          "function": "__instancecheck__",
+          "calls": 2,
+          "self_seconds": 2.9410000000000003e-06,
+          "cumulative_seconds": 0.00011514600000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method _abc._abc_instancecheck>",
+          "calls": 2,
+          "self_seconds": 4.684e-06,
+          "cumulative_seconds": 0.000112205
+        },
+        {
+          "file": "<frozen abc>",
+          "line": 121,
+          "function": "__subclasscheck__",
+          "calls": 25,
+          "self_seconds": 7.203e-06,
+          "cumulative_seconds": 0.000107521
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method _abc._abc_subclasscheck>",
+          "calls": 25,
+          "self_seconds": 0.00010031800000000001,
+          "cumulative_seconds": 0.000106223
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 650,
+          "function": "__init__",
+          "calls": 1,
+          "self_seconds": 5.889000000000001e-06,
+          "cumulative_seconds": 0.00010480400000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/_utils.py",
+          "line": 557,
+          "function": "_get_device_index",
+          "calls": 1,
+          "self_seconds": 1.2430000000000001e-05,
+          "cumulative_seconds": 9.891500000000001e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 869,
+          "function": "_get_device_index",
+          "calls": 1,
+          "self_seconds": 6.9620000000000004e-06,
+          "cumulative_seconds": 8.2768e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/linalg/blas.py",
+          "line": 403,
+          "function": "getter",
+          "calls": 3,
+          "self_seconds": 1.3009e-05,
+          "cumulative_seconds": 7.8435e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 843,
+          "function": "_get_current_device_index",
+          "calls": 1,
+          "self_seconds": 1.0131e-05,
+          "cumulative_seconds": 7.516800000000001e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 827,
+          "function": "_get_device_attr",
+          "calls": 1,
+          "self_seconds": 5.715e-06,
+          "cumulative_seconds": 6.503700000000001e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/linalg/lapack.py",
+          "line": 951,
+          "function": "get_lapack_funcs",
+          "calls": 2,
+          "self_seconds": 8.587000000000001e-06,
+          "cumulative_seconds": 6.3409e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/linalg/blas.py",
+          "line": 356,
+          "function": "_get_funcs",
+          "calls": 2,
+          "self_seconds": 2.5295e-05,
+          "cumulative_seconds": 5.4538000000000005e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/linalg/_decomp.py",
+          "line": 655,
+          "function": "_check_select",
+          "calls": 1,
+          "self_seconds": 4.176e-05,
+          "cumulative_seconds": 4.8771000000000005e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 810,
+          "function": "_get_available_device_type",
+          "calls": 1,
+          "self_seconds": 2.342e-06,
+          "cumulative_seconds": 4.5471000000000006e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 169,
+          "function": "is_available",
+          "calls": 1,
+          "self_seconds": 6.2180000000000004e-06,
+          "cumulative_seconds": 4.3129e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 614,
+          "function": "asarray_chkfinite",
+          "calls": 2,
+          "self_seconds": 1.8176e-05,
+          "cumulative_seconds": 3.7857e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 1115,
+          "function": "argsort",
+          "calls": 1,
+          "self_seconds": 5.997e-06,
+          "cumulative_seconds": 3.703e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/_external/array_api_compat/numpy/_aliases.py",
+          "line": 70,
+          "function": "asarray",
+          "calls": 2,
+          "self_seconds": 1.216e-05,
+          "cumulative_seconds": 3.5244000000000003e-05
+        }
+      ]
+    },
+    {
+      "backend": "cpu",
+      "case": "oscillator",
+      "repeat": 1,
+      "wall_seconds": 0.005071042999999165,
+      "energies": [
+        0.4999988738744343,
+        1.4999943693479605,
+        2.4999853602785826,
+        3.499971846698661,
+        4.499953829568195,
+        5.499931320277769
+      ],
+      "functions": [
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/schrodinger_1d.py",
+          "line": 28,
+          "function": "solve",
+          "calls": 1,
+          "self_seconds": 9.6005e-05,
+          "cumulative_seconds": 0.0049274240000000006
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/_lib/_util.py",
+          "line": 1102,
+          "function": "wrapper",
+          "calls": 1,
+          "self_seconds": 3.7205e-05,
+          "cumulative_seconds": 0.00480658
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/linalg/_decomp.py",
+          "line": 1267,
+          "function": "eigh_tridiagonal",
+          "calls": 1,
+          "self_seconds": 0.004641854,
+          "cumulative_seconds": 0.0047434090000000005
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 1209,
+          "function": "synchronize",
+          "calls": 1,
+          "self_seconds": 9.122e-06,
+          "cumulative_seconds": 8.7835e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 650,
+          "function": "__init__",
+          "calls": 1,
+          "self_seconds": 1.93e-06,
+          "cumulative_seconds": 4.4874000000000004e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/_utils.py",
+          "line": 557,
+          "function": "_get_device_index",
+          "calls": 1,
+          "self_seconds": 4.929000000000001e-06,
+          "cumulative_seconds": 4.2944e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/_lib/_util.py",
+          "line": 364,
+          "function": "_asarray_validated",
+          "calls": 2,
+          "self_seconds": 7.781e-06,
+          "cumulative_seconds": 4.1048000000000004e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 869,
+          "function": "_get_device_index",
+          "calls": 1,
+          "self_seconds": 2.319e-06,
+          "cumulative_seconds": 3.6373000000000006e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/linalg/_decomp.py",
+          "line": 655,
+          "function": "_check_select",
+          "calls": 1,
+          "self_seconds": 2.6562e-05,
+          "cumulative_seconds": 3.4868e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 843,
+          "function": "_get_current_device_index",
+          "calls": 1,
+          "self_seconds": 2.3780000000000004e-06,
+          "cumulative_seconds": 3.3563000000000004e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 827,
+          "function": "_get_device_attr",
+          "calls": 1,
+          "self_seconds": 2.848e-06,
+          "cumulative_seconds": 3.1185e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 614,
+          "function": "asarray_chkfinite",
+          "calls": 2,
+          "self_seconds": 1.1067000000000001e-05,
+          "cumulative_seconds": 2.4800000000000003e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 170,
+          "function": "ones",
+          "calls": 1,
+          "self_seconds": 1.8287e-05,
+          "cumulative_seconds": 2.2795e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._cuda_synchronize>",
+          "calls": 1,
+          "self_seconds": 2.2201e-05,
+          "cumulative_seconds": 2.2201e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 810,
+          "function": "_get_available_device_type",
+          "calls": 1,
+          "self_seconds": 1.0250000000000001e-06,
+          "cumulative_seconds": 2.0936e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 169,
+          "function": "is_available",
+          "calls": 1,
+          "self_seconds": 3.344e-06,
+          "cumulative_seconds": 1.9911e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/_external/array_api_compat/numpy/_aliases.py",
+          "line": 70,
+          "function": "asarray",
+          "calls": 2,
+          "self_seconds": 6.97e-06,
+          "cumulative_seconds": 1.9526000000000002e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 1115,
+          "function": "argsort",
+          "calls": 1,
+          "self_seconds": 3.4700000000000002e-06,
+          "cumulative_seconds": 1.6194e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 165,
+          "function": "_nvml_based_avail",
+          "calls": 1,
+          "self_seconds": 1.608e-06,
+          "cumulative_seconds": 1.3305e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'disable' of '_lsprof.Profiler' objects>",
+          "calls": 1,
+          "self_seconds": 1.2907e-05,
+          "cumulative_seconds": 1.2907e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 48,
+          "function": "_wrapfunc",
+          "calls": 1,
+          "self_seconds": 4.177e-06,
+          "cumulative_seconds": 1.2724e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'all' of 'numpy.ndarray' objects>",
+          "calls": 2,
+          "self_seconds": 2.2080000000000003e-06,
+          "cumulative_seconds": 1.2374e-05
+        },
+        {
+          "file": "<frozen os>",
+          "line": 779,
+          "function": "getenv",
+          "calls": 1,
+          "self_seconds": 1.275e-06,
+          "cumulative_seconds": 1.1697e-05
+        },
+        {
+          "file": "<frozen _collections_abc>",
+          "line": 804,
+          "function": "get",
+          "calls": 1,
+          "self_seconds": 2.3150000000000003e-06,
+          "cumulative_seconds": 1.0422000000000001e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/_methods.py",
+          "line": 64,
+          "function": "_all",
+          "calls": 2,
+          "self_seconds": 2.2930000000000003e-06,
+          "cumulative_seconds": 1.0166e-05
+        }
+      ]
+    },
+    {
+      "backend": "cpu",
+      "case": "well",
+      "repeat": 0,
+      "wall_seconds": 0.003334263999999365,
+      "energies": [
+        4.924941446218053,
+        19.699753647293235,
+        44.32440018272481,
+        78.79882035408127,
+        123.122929185555
+      ],
+      "functions": [
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/schrodinger_1d.py",
+          "line": 28,
+          "function": "solve",
+          "calls": 1,
+          "self_seconds": 3.3746000000000005e-05,
+          "cumulative_seconds": 0.0032567100000000003
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/_lib/_util.py",
+          "line": 1102,
+          "function": "wrapper",
+          "calls": 1,
+          "self_seconds": 1.738e-05,
+          "cumulative_seconds": 0.0032121330000000003
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/linalg/_decomp.py",
+          "line": 1267,
+          "function": "eigh_tridiagonal",
+          "calls": 1,
+          "self_seconds": 0.0031133330000000002,
+          "cumulative_seconds": 0.003177881
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 1209,
+          "function": "synchronize",
+          "calls": 1,
+          "self_seconds": 6.8620000000000005e-06,
+          "cumulative_seconds": 4.6807e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/_lib/_util.py",
+          "line": 364,
+          "function": "_asarray_validated",
+          "calls": 2,
+          "self_seconds": 5.5760000000000005e-06,
+          "cumulative_seconds": 2.9203e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 650,
+          "function": "__init__",
+          "calls": 1,
+          "self_seconds": 1.624e-06,
+          "cumulative_seconds": 2.8427e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/_utils.py",
+          "line": 557,
+          "function": "_get_device_index",
+          "calls": 1,
+          "self_seconds": 3.1830000000000003e-06,
+          "cumulative_seconds": 2.6803e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 869,
+          "function": "_get_device_index",
+          "calls": 1,
+          "self_seconds": 1.6400000000000002e-06,
+          "cumulative_seconds": 2.2732000000000002e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 843,
+          "function": "_get_current_device_index",
+          "calls": 1,
+          "self_seconds": 1.633e-06,
+          "cumulative_seconds": 2.0653e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/linalg/_decomp.py",
+          "line": 655,
+          "function": "_check_select",
+          "calls": 1,
+          "self_seconds": 1.5203000000000002e-05,
+          "cumulative_seconds": 1.9044000000000003e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 827,
+          "function": "_get_device_attr",
+          "calls": 1,
+          "self_seconds": 2.341e-06,
+          "cumulative_seconds": 1.902e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 614,
+          "function": "asarray_chkfinite",
+          "calls": 2,
+          "self_seconds": 8.331e-06,
+          "cumulative_seconds": 1.6634e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/_external/array_api_compat/numpy/_aliases.py",
+          "line": 70,
+          "function": "asarray",
+          "calls": 2,
+          "self_seconds": 4.634e-06,
+          "cumulative_seconds": 1.2673e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 810,
+          "function": "_get_available_device_type",
+          "calls": 1,
+          "self_seconds": 8.46e-07,
+          "cumulative_seconds": 1.2606000000000001e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 169,
+          "function": "is_available",
+          "calls": 1,
+          "self_seconds": 2.466e-06,
+          "cumulative_seconds": 1.1760000000000001e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 170,
+          "function": "ones",
+          "calls": 1,
+          "self_seconds": 8.429e-06,
+          "cumulative_seconds": 1.0463000000000001e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'disable' of '_lsprof.Profiler' objects>",
+          "calls": 1,
+          "self_seconds": 9.918e-06,
+          "cumulative_seconds": 9.918e-06
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 1115,
+          "function": "argsort",
+          "calls": 1,
+          "self_seconds": 1.6290000000000002e-06,
+          "cumulative_seconds": 9.155000000000001e-06
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'all' of 'numpy.ndarray' objects>",
+          "calls": 2,
+          "self_seconds": 1.5950000000000002e-06,
+          "cumulative_seconds": 7.566e-06
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 48,
+          "function": "_wrapfunc",
+          "calls": 1,
+          "self_seconds": 3.3470000000000003e-06,
+          "cumulative_seconds": 7.5260000000000004e-06
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 165,
+          "function": "_nvml_based_avail",
+          "calls": 1,
+          "self_seconds": 7.71e-07,
+          "cumulative_seconds": 7.508000000000001e-06
+        },
+        {
+          "file": "<frozen os>",
+          "line": 779,
+          "function": "getenv",
+          "calls": 1,
+          "self_seconds": 9.210000000000001e-07,
+          "cumulative_seconds": 6.737e-06
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/linalg/blas.py",
+          "line": 403,
+          "function": "getter",
+          "calls": 3,
+          "self_seconds": 4.401e-06,
+          "cumulative_seconds": 6.058e-06
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.isinstance>",
+          "calls": 14,
+          "self_seconds": 3.0880000000000003e-06,
+          "cumulative_seconds": 6.041e-06
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/_methods.py",
+          "line": 64,
+          "function": "_all",
+          "calls": 2,
+          "self_seconds": 1.975e-06,
+          "cumulative_seconds": 5.971e-06
+        }
+      ]
+    },
+    {
+      "backend": "cpu",
+      "case": "well",
+      "repeat": 1,
+      "wall_seconds": 0.0032326640000004403,
+      "energies": [
+        4.924941446218053,
+        19.699753647293235,
+        44.32440018272481,
+        78.79882035408127,
+        123.122929185555
+      ],
+      "functions": [
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/schrodinger_1d.py",
+          "line": 28,
+          "function": "solve",
+          "calls": 1,
+          "self_seconds": 2.014e-05,
+          "cumulative_seconds": 0.003153424
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/_lib/_util.py",
+          "line": 1102,
+          "function": "wrapper",
+          "calls": 1,
+          "self_seconds": 1.3838e-05,
+          "cumulative_seconds": 0.0031267150000000004
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/linalg/_decomp.py",
+          "line": 1267,
+          "function": "eigh_tridiagonal",
+          "calls": 1,
+          "self_seconds": 0.0030501390000000003,
+          "cumulative_seconds": 0.003100269
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 1209,
+          "function": "synchronize",
+          "calls": 1,
+          "self_seconds": 1.3091e-05,
+          "cumulative_seconds": 5.2002e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 650,
+          "function": "__init__",
+          "calls": 1,
+          "self_seconds": 1.4310000000000001e-06,
+          "cumulative_seconds": 2.8359e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/_utils.py",
+          "line": 557,
+          "function": "_get_device_index",
+          "calls": 1,
+          "self_seconds": 3.1260000000000002e-06,
+          "cumulative_seconds": 2.6928e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/_lib/_util.py",
+          "line": 364,
+          "function": "_asarray_validated",
+          "calls": 2,
+          "self_seconds": 3.6920000000000004e-06,
+          "cumulative_seconds": 2.1889e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 869,
+          "function": "_get_device_index",
+          "calls": 1,
+          "self_seconds": 2.077e-06,
+          "cumulative_seconds": 2.1777000000000002e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 843,
+          "function": "_get_current_device_index",
+          "calls": 1,
+          "self_seconds": 1.4570000000000002e-06,
+          "cumulative_seconds": 1.9166000000000003e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 827,
+          "function": "_get_device_attr",
+          "calls": 1,
+          "self_seconds": 2.316e-06,
+          "cumulative_seconds": 1.7709000000000003e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/linalg/_decomp.py",
+          "line": 655,
+          "function": "_check_select",
+          "calls": 1,
+          "self_seconds": 1.1624000000000001e-05,
+          "cumulative_seconds": 1.4942e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 614,
+          "function": "asarray_chkfinite",
+          "calls": 2,
+          "self_seconds": 6.311e-06,
+          "cumulative_seconds": 1.2611e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 810,
+          "function": "_get_available_device_type",
+          "calls": 1,
+          "self_seconds": 7.32e-07,
+          "cumulative_seconds": 1.1498e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 169,
+          "function": "is_available",
+          "calls": 1,
+          "self_seconds": 2.133e-06,
+          "cumulative_seconds": 1.0766e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/_external/array_api_compat/numpy/_aliases.py",
+          "line": 70,
+          "function": "asarray",
+          "calls": 2,
+          "self_seconds": 3.6980000000000004e-06,
+          "cumulative_seconds": 9.608e-06
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'disable' of '_lsprof.Profiler' objects>",
+          "calls": 1,
+          "self_seconds": 8.604000000000001e-06,
+          "cumulative_seconds": 8.604000000000001e-06
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 1115,
+          "function": "argsort",
+          "calls": 1,
+          "self_seconds": 1.5660000000000001e-06,
+          "cumulative_seconds": 7.5210000000000005e-06
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 165,
+          "function": "_nvml_based_avail",
+          "calls": 1,
+          "self_seconds": 7.440000000000001e-07,
+          "cumulative_seconds": 7.007000000000001e-06
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.isinstance>",
+          "calls": 14,
+          "self_seconds": 4.245e-06,
+          "cumulative_seconds": 6.5970000000000005e-06
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 170,
+          "function": "ones",
+          "calls": 1,
+          "self_seconds": 5.1480000000000005e-06,
+          "cumulative_seconds": 6.318e-06
+        },
+        {
+          "file": "<frozen os>",
+          "line": 779,
+          "function": "getenv",
+          "calls": 1,
+          "self_seconds": 8.25e-07,
+          "cumulative_seconds": 6.263e-06
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 48,
+          "function": "_wrapfunc",
+          "calls": 1,
+          "self_seconds": 2.8840000000000003e-06,
+          "cumulative_seconds": 5.955000000000001e-06
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'all' of 'numpy.ndarray' objects>",
+          "calls": 2,
+          "self_seconds": 1.281e-06,
+          "cumulative_seconds": 5.821000000000001e-06
+        },
+        {
+          "file": "<frozen _collections_abc>",
+          "line": 804,
+          "function": "get",
+          "calls": 1,
+          "self_seconds": 1.503e-06,
+          "cumulative_seconds": 5.438e-06
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._cuda_synchronize>",
+          "calls": 1,
+          "self_seconds": 4.966e-06,
+          "cumulative_seconds": 4.966e-06
+        }
+      ]
+    },
+    {
+      "backend": "gpu",
+      "case": "oscillator",
+      "repeat": 0,
+      "wall_seconds": 0.14532618500000005,
+      "energies": [
+        0.49999887387396186,
+        1.4999943693493696,
+        2.499985360278785,
+        3.499971846699747,
+        4.499953829565952,
+        5.499931320282123
+      ],
+      "functions": [
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/schrodinger_1d_gpu.py",
+          "line": 13,
+          "function": "solve",
+          "calls": 1,
+          "self_seconds": 0.0007540670000000001,
+          "cumulative_seconds": 0.145143548
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._linalg.linalg_eigh>",
+          "calls": 1,
+          "self_seconds": 0.141766147,
+          "cumulative_seconds": 0.141766147
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.diag>",
+          "calls": 3,
+          "self_seconds": 0.0022575240000000003,
+          "cumulative_seconds": 0.0022575240000000003
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.as_tensor>",
+          "calls": 2,
+          "self_seconds": 0.00018947700000000002,
+          "cumulative_seconds": 0.00018947700000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'cpu' of 'torch._C.TensorBase' objects>",
+          "calls": 2,
+          "self_seconds": 0.000140252,
+          "cumulative_seconds": 0.000140252
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 1209,
+          "function": "synchronize",
+          "calls": 1,
+          "self_seconds": 1.2801000000000002e-05,
+          "cumulative_seconds": 0.000111254
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 650,
+          "function": "__init__",
+          "calls": 1,
+          "self_seconds": 3.157e-06,
+          "cumulative_seconds": 7.4375e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/_utils.py",
+          "line": 557,
+          "function": "_get_device_index",
+          "calls": 1,
+          "self_seconds": 1.0956000000000001e-05,
+          "cumulative_seconds": 7.121800000000001e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 869,
+          "function": "_get_device_index",
+          "calls": 1,
+          "self_seconds": 3.4160000000000004e-06,
+          "cumulative_seconds": 5.834900000000001e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 843,
+          "function": "_get_current_device_index",
+          "calls": 1,
+          "self_seconds": 4.118e-06,
+          "cumulative_seconds": 5.4299e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 827,
+          "function": "_get_device_attr",
+          "calls": 1,
+          "self_seconds": 5.4e-06,
+          "cumulative_seconds": 5.0181000000000006e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 810,
+          "function": "_get_available_device_type",
+          "calls": 1,
+          "self_seconds": 2.139e-06,
+          "cumulative_seconds": 3.7838e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 169,
+          "function": "is_available",
+          "calls": 1,
+          "self_seconds": 4.232e-06,
+          "cumulative_seconds": 3.5699000000000005e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'disable' of '_lsprof.Profiler' objects>",
+          "calls": 1,
+          "self_seconds": 2.5948000000000003e-05,
+          "cumulative_seconds": 2.5948000000000003e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 165,
+          "function": "_nvml_based_avail",
+          "calls": 1,
+          "self_seconds": 3.571e-06,
+          "cumulative_seconds": 2.5531e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'numpy' of 'torch._C.TensorBase' objects>",
+          "calls": 2,
+          "self_seconds": 2.3773e-05,
+          "cumulative_seconds": 2.3773e-05
+        },
+        {
+          "file": "<frozen os>",
+          "line": 779,
+          "function": "getenv",
+          "calls": 1,
+          "self_seconds": 1.759e-06,
+          "cumulative_seconds": 2.196e-05
+        },
+        {
+          "file": "<frozen _collections_abc>",
+          "line": 804,
+          "function": "get",
+          "calls": 1,
+          "self_seconds": 4.3360000000000005e-06,
+          "cumulative_seconds": 2.0201000000000002e-05
+        },
+        {
+          "file": "<frozen os>",
+          "line": 680,
+          "function": "__getitem__",
+          "calls": 1,
+          "self_seconds": 8.731e-06,
+          "cumulative_seconds": 1.5865e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._cuda_synchronize>",
+          "calls": 1,
+          "self_seconds": 1.0063e-05,
+          "cumulative_seconds": 1.0063e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 501,
+          "function": "_lazy_init",
+          "calls": 2,
+          "self_seconds": 2.2920000000000002e-06,
+          "cumulative_seconds": 9.255e-06
+        },
+        {
+          "file": "<frozen os>",
+          "line": 762,
+          "function": "encode",
+          "calls": 1,
+          "self_seconds": 3.909e-06,
+          "cumulative_seconds": 7.134000000000001e-06
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 452,
+          "function": "is_initialized",
+          "calls": 2,
+          "self_seconds": 5.2090000000000004e-06,
+          "cumulative_seconds": 6.963e-06
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 170,
+          "function": "ones",
+          "calls": 1,
+          "self_seconds": 5.156e-06,
+          "cumulative_seconds": 6.586e-06
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 845,
+          "function": "<lambda>",
+          "calls": 1,
+          "self_seconds": 1.0790000000000002e-06,
+          "cumulative_seconds": 6.023000000000001e-06
+        }
+      ]
+    },
+    {
+      "backend": "gpu",
+      "case": "oscillator",
+      "repeat": 1,
+      "wall_seconds": 0.02789203400000062,
+      "energies": [
+        0.49999887387396186,
+        1.4999943693493696,
+        2.499985360278785,
+        3.499971846699747,
+        4.499953829565952,
+        5.499931320282123
+      ],
+      "functions": [
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/schrodinger_1d_gpu.py",
+          "line": 13,
+          "function": "solve",
+          "calls": 1,
+          "self_seconds": 0.00019582800000000002,
+          "cumulative_seconds": 0.027685267000000003
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._linalg.linalg_eigh>",
+          "calls": 1,
+          "self_seconds": 0.026364825,
+          "cumulative_seconds": 0.026364825
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'cpu' of 'torch._C.TensorBase' objects>",
+          "calls": 2,
+          "self_seconds": 0.000852077,
+          "cumulative_seconds": 0.000852077
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 1209,
+          "function": "synchronize",
+          "calls": 1,
+          "self_seconds": 1.5412e-05,
+          "cumulative_seconds": 0.000122556
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.as_tensor>",
+          "calls": 2,
+          "self_seconds": 9.963700000000001e-05,
+          "cumulative_seconds": 9.963700000000001e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.diag>",
+          "calls": 3,
+          "self_seconds": 9.0377e-05,
+          "cumulative_seconds": 9.0377e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 650,
+          "function": "__init__",
+          "calls": 1,
+          "self_seconds": 2.91e-06,
+          "cumulative_seconds": 7.570000000000001e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/_utils.py",
+          "line": 557,
+          "function": "_get_device_index",
+          "calls": 1,
+          "self_seconds": 1.1325e-05,
+          "cumulative_seconds": 7.279e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 869,
+          "function": "_get_device_index",
+          "calls": 1,
+          "self_seconds": 4.182e-06,
+          "cumulative_seconds": 5.8078e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 843,
+          "function": "_get_current_device_index",
+          "calls": 1,
+          "self_seconds": 4.659000000000001e-06,
+          "cumulative_seconds": 5.3404000000000006e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 827,
+          "function": "_get_device_attr",
+          "calls": 1,
+          "self_seconds": 5.653000000000001e-06,
+          "cumulative_seconds": 4.8745e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'numpy' of 'torch._C.TensorBase' objects>",
+          "calls": 2,
+          "self_seconds": 4.3258000000000005e-05,
+          "cumulative_seconds": 4.3258000000000005e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 810,
+          "function": "_get_available_device_type",
+          "calls": 1,
+          "self_seconds": 1.978e-06,
+          "cumulative_seconds": 3.6361e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 169,
+          "function": "is_available",
+          "calls": 1,
+          "self_seconds": 4.175e-06,
+          "cumulative_seconds": 3.4383e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 165,
+          "function": "_nvml_based_avail",
+          "calls": 1,
+          "self_seconds": 3.1610000000000003e-06,
+          "cumulative_seconds": 2.4871000000000003e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'disable' of '_lsprof.Profiler' objects>",
+          "calls": 1,
+          "self_seconds": 2.1886e-05,
+          "cumulative_seconds": 2.1886e-05
+        },
+        {
+          "file": "<frozen os>",
+          "line": 779,
+          "function": "getenv",
+          "calls": 1,
+          "self_seconds": 1.908e-06,
+          "cumulative_seconds": 2.171e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 170,
+          "function": "ones",
+          "calls": 1,
+          "self_seconds": 1.7315e-05,
+          "cumulative_seconds": 2.0204000000000002e-05
+        },
+        {
+          "file": "<frozen _collections_abc>",
+          "line": 804,
+          "function": "get",
+          "calls": 1,
+          "self_seconds": 3.4940000000000003e-06,
+          "cumulative_seconds": 1.9802e-05
+        },
+        {
+          "file": "<frozen os>",
+          "line": 680,
+          "function": "__getitem__",
+          "calls": 1,
+          "self_seconds": 8.971000000000001e-06,
+          "cumulative_seconds": 1.6308e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'all' of 'numpy.ndarray' objects>",
+          "calls": 1,
+          "self_seconds": 2.8060000000000003e-06,
+          "cumulative_seconds": 1.5776e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 501,
+          "function": "_lazy_init",
+          "calls": 2,
+          "self_seconds": 2.2080000000000003e-06,
+          "cumulative_seconds": 1.5392e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 452,
+          "function": "is_initialized",
+          "calls": 2,
+          "self_seconds": 1.1277e-05,
+          "cumulative_seconds": 1.3184000000000001e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/_methods.py",
+          "line": 64,
+          "function": "_all",
+          "calls": 1,
+          "self_seconds": 3.1780000000000003e-06,
+          "cumulative_seconds": 1.2970000000000001e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._cuda_synchronize>",
+          "calls": 1,
+          "self_seconds": 1.0794e-05,
+          "cumulative_seconds": 1.0794e-05
+        }
+      ]
+    },
+    {
+      "backend": "gpu",
+      "case": "well",
+      "repeat": 0,
+      "wall_seconds": 0.02742387900000054,
+      "energies": [
+        4.924941447011211,
+        19.699753647486403,
+        44.32440018277247,
+        78.7988203547153,
+        123.12292918610848
+      ],
+      "functions": [
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/schrodinger_1d_gpu.py",
+          "line": 13,
+          "function": "solve",
+          "calls": 1,
+          "self_seconds": 0.00020763000000000002,
+          "cumulative_seconds": 0.027298987
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._linalg.linalg_eigh>",
+          "calls": 1,
+          "self_seconds": 0.026759837,
+          "cumulative_seconds": 0.026759837
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.diag>",
+          "calls": 3,
+          "self_seconds": 0.000114148,
+          "cumulative_seconds": 0.000114148
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.as_tensor>",
+          "calls": 2,
+          "self_seconds": 0.00010484,
+          "cumulative_seconds": 0.00010484
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 1209,
+          "function": "synchronize",
+          "calls": 1,
+          "self_seconds": 9.712000000000001e-06,
+          "cumulative_seconds": 7.264600000000001e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'cpu' of 'torch._C.TensorBase' objects>",
+          "calls": 2,
+          "self_seconds": 6.5191e-05,
+          "cumulative_seconds": 6.5191e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 650,
+          "function": "__init__",
+          "calls": 1,
+          "self_seconds": 2.408e-06,
+          "cumulative_seconds": 4.6769000000000006e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/_utils.py",
+          "line": 557,
+          "function": "_get_device_index",
+          "calls": 1,
+          "self_seconds": 5.868e-06,
+          "cumulative_seconds": 4.4361000000000004e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 869,
+          "function": "_get_device_index",
+          "calls": 1,
+          "self_seconds": 2.565e-06,
+          "cumulative_seconds": 3.723e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 843,
+          "function": "_get_current_device_index",
+          "calls": 1,
+          "self_seconds": 2.843e-06,
+          "cumulative_seconds": 3.3859e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 827,
+          "function": "_get_device_attr",
+          "calls": 1,
+          "self_seconds": 4.116e-06,
+          "cumulative_seconds": 3.1016e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 810,
+          "function": "_get_available_device_type",
+          "calls": 1,
+          "self_seconds": 1.35e-06,
+          "cumulative_seconds": 2.2327e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 169,
+          "function": "is_available",
+          "calls": 1,
+          "self_seconds": 3.1770000000000002e-06,
+          "cumulative_seconds": 2.0977000000000003e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 170,
+          "function": "ones",
+          "calls": 1,
+          "self_seconds": 1.4136000000000002e-05,
+          "cumulative_seconds": 1.6866e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'all' of 'numpy.ndarray' objects>",
+          "calls": 1,
+          "self_seconds": 2.5120000000000003e-06,
+          "cumulative_seconds": 1.5246000000000001e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 165,
+          "function": "_nvml_based_avail",
+          "calls": 1,
+          "self_seconds": 2.362e-06,
+          "cumulative_seconds": 1.4582e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'disable' of '_lsprof.Profiler' objects>",
+          "calls": 1,
+          "self_seconds": 1.3552e-05,
+          "cumulative_seconds": 1.3552e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/_methods.py",
+          "line": 64,
+          "function": "_all",
+          "calls": 1,
+          "self_seconds": 3.2390000000000002e-06,
+          "cumulative_seconds": 1.2734e-05
+        },
+        {
+          "file": "<frozen os>",
+          "line": 779,
+          "function": "getenv",
+          "calls": 1,
+          "self_seconds": 1.5210000000000001e-06,
+          "cumulative_seconds": 1.2220000000000002e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'numpy' of 'torch._C.TensorBase' objects>",
+          "calls": 2,
+          "self_seconds": 1.1672000000000001e-05,
+          "cumulative_seconds": 1.1672000000000001e-05
+        },
+        {
+          "file": "<frozen _collections_abc>",
+          "line": 804,
+          "function": "get",
+          "calls": 1,
+          "self_seconds": 2.4280000000000003e-06,
+          "cumulative_seconds": 1.0699e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reduce' of 'numpy.ufunc' objects>",
+          "calls": 1,
+          "self_seconds": 9.495000000000001e-06,
+          "cumulative_seconds": 9.495000000000001e-06
+        },
+        {
+          "file": "<frozen os>",
+          "line": 680,
+          "function": "__getitem__",
+          "calls": 1,
+          "self_seconds": 4.929000000000001e-06,
+          "cumulative_seconds": 8.271000000000001e-06
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._cuda_synchronize>",
+          "calls": 1,
+          "self_seconds": 6.4900000000000005e-06,
+          "cumulative_seconds": 6.4900000000000005e-06
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 501,
+          "function": "_lazy_init",
+          "calls": 2,
+          "self_seconds": 1.7160000000000002e-06,
+          "cumulative_seconds": 6.017e-06
+        }
+      ]
+    },
+    {
+      "backend": "gpu",
+      "case": "well",
+      "repeat": 1,
+      "wall_seconds": 0.027221775000001003,
+      "energies": [
+        4.924941447011211,
+        19.699753647486403,
+        44.32440018277247,
+        78.7988203547153,
+        123.12292918610848
+      ],
+      "functions": [
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/schrodinger_1d_gpu.py",
+          "line": 13,
+          "function": "solve",
+          "calls": 1,
+          "self_seconds": 0.000153546,
+          "cumulative_seconds": 0.027094598
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._linalg.linalg_eigh>",
+          "calls": 1,
+          "self_seconds": 0.026703007,
+          "cumulative_seconds": 0.026703007
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.diag>",
+          "calls": 3,
+          "self_seconds": 9.0487e-05,
+          "cumulative_seconds": 9.0487e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 1209,
+          "function": "synchronize",
+          "calls": 1,
+          "self_seconds": 8.27e-06,
+          "cumulative_seconds": 6.589100000000001e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.as_tensor>",
+          "calls": 2,
+          "self_seconds": 5.9847000000000005e-05,
+          "cumulative_seconds": 5.9847000000000005e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'cpu' of 'torch._C.TensorBase' objects>",
+          "calls": 2,
+          "self_seconds": 5.3482e-05,
+          "cumulative_seconds": 5.3482e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 650,
+          "function": "__init__",
+          "calls": 1,
+          "self_seconds": 2.345e-06,
+          "cumulative_seconds": 4.3493000000000005e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/_utils.py",
+          "line": 557,
+          "function": "_get_device_index",
+          "calls": 1,
+          "self_seconds": 5.437000000000001e-06,
+          "cumulative_seconds": 4.1148e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 869,
+          "function": "_get_device_index",
+          "calls": 1,
+          "self_seconds": 2.4510000000000003e-06,
+          "cumulative_seconds": 3.4757e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 843,
+          "function": "_get_current_device_index",
+          "calls": 1,
+          "self_seconds": 2.329e-06,
+          "cumulative_seconds": 3.1793e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 827,
+          "function": "_get_device_attr",
+          "calls": 1,
+          "self_seconds": 4.163000000000001e-06,
+          "cumulative_seconds": 2.9464e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'disable' of '_lsprof.Profiler' objects>",
+          "calls": 1,
+          "self_seconds": 2.6362000000000003e-05,
+          "cumulative_seconds": 2.6362000000000003e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_utils.py",
+          "line": 810,
+          "function": "_get_available_device_type",
+          "calls": 1,
+          "self_seconds": 1.071e-06,
+          "cumulative_seconds": 2.0336e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 169,
+          "function": "is_available",
+          "calls": 1,
+          "self_seconds": 2.955e-06,
+          "cumulative_seconds": 1.9265000000000003e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 165,
+          "function": "_nvml_based_avail",
+          "calls": 1,
+          "self_seconds": 1.5040000000000001e-06,
+          "cumulative_seconds": 1.3500000000000001e-05
+        },
+        {
+          "file": "<frozen os>",
+          "line": 779,
+          "function": "getenv",
+          "calls": 1,
+          "self_seconds": 1.243e-06,
+          "cumulative_seconds": 1.1996e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'numpy' of 'torch._C.TensorBase' objects>",
+          "calls": 2,
+          "self_seconds": 1.1552e-05,
+          "cumulative_seconds": 1.1552e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 170,
+          "function": "ones",
+          "calls": 1,
+          "self_seconds": 9.692000000000001e-06,
+          "cumulative_seconds": 1.127e-05
+        },
+        {
+          "file": "<frozen _collections_abc>",
+          "line": 804,
+          "function": "get",
+          "calls": 1,
+          "self_seconds": 2.424e-06,
+          "cumulative_seconds": 1.0753e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'all' of 'numpy.ndarray' objects>",
+          "calls": 1,
+          "self_seconds": 1.6000000000000001e-06,
+          "cumulative_seconds": 9.164e-06
+        },
+        {
+          "file": "<frozen os>",
+          "line": 680,
+          "function": "__getitem__",
+          "calls": 1,
+          "self_seconds": 4.4820000000000005e-06,
+          "cumulative_seconds": 8.329000000000001e-06
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/_methods.py",
+          "line": 64,
+          "function": "_all",
+          "calls": 1,
+          "self_seconds": 2.262e-06,
+          "cumulative_seconds": 7.564000000000001e-06
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._cuda_synchronize>",
+          "calls": 1,
+          "self_seconds": 5.769e-06,
+          "cumulative_seconds": 5.769e-06
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reduce' of 'numpy.ufunc' objects>",
+          "calls": 1,
+          "self_seconds": 5.302e-06,
+          "cumulative_seconds": 5.302e-06
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 501,
+          "function": "_lazy_init",
+          "calls": 2,
+          "self_seconds": 1.345e-06,
+          "cumulative_seconds": 5.116000000000001e-06
+        }
+      ]
+    }
+  ],
+  "source_sha256": "2adab51f407ecbdb61bf5f904fd49c0df910fef57419f99c4d0f691589044419"
+}

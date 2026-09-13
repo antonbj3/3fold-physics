@@ -1,0 +1,16 @@
+[
+  {
+    "leg": 0,
+    "value_count": 25152,
+    "before_after_exact": true,
+    "h100_l4_exact": false,
+    "max_abs": 0.0
+  },
+  {
+    "leg": 1,
+    "value_count": 25152,
+    "before_after_exact": true,
+    "h100_l4_exact": false,
+    "max_abs": 0.0
+  }
+]

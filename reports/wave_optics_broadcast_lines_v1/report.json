@@ -1,0 +1,238 @@
+{
+  "device": "NVIDIA H100 80GB HBM3",
+  "rows": [
+    {
+      "repeat": 0,
+      "seconds": 0.6705709679999998,
+      "result": {
+        "gate": "G3_circular_aperture",
+        "D": 5e-05,
+        "wavelength": 5.32e-07,
+        "analytic_sin_theta": 0.0129808,
+        "measured_sin_theta": 0.012945333333333335,
+        "grid_sin_theta_resolution": 8.866666666666668e-05,
+        "rel_err_pct": 0.27322404371584136,
+        "pass_": true
+      },
+      "lines": [
+        {
+          "line": 39,
+          "text": "    x_max = window_factor * D",
+          "seconds": 7.160000000894229e-06
+        },
+        {
+          "line": 40,
+          "text": "    dx = 2 * x_max / n",
+          "seconds": 9.355999999627329e-06
+        },
+        {
+          "line": 41,
+          "text": "    coords = (np.arange(n) - n // 2) * dx",
+          "seconds": 0.00011162300000044922
+        },
+        {
+          "line": 42,
+          "text": "    R = np.sqrt(coords[None, :] ** 2 + coords[:, None] ** 2)",
+          "seconds": 0.08360214799999888
+        },
+        {
+          "line": 43,
+          "text": "    aperture = (R <= D / 2).astype(float)",
+          "seconds": 0.05467386800000007
+        },
+        {
+          "line": 44,
+          "text": "    field = _fft2_shift(aperture, device) * dx ** 2",
+          "seconds": 0.440855698
+        },
+        {
+          "line": 45,
+          "text": "    intensity = np.abs(field) ** 2",
+          "seconds": 0.08074980399999987
+        },
+        {
+          "line": 46,
+          "text": "    freqs = np.fft.fftshift(np.fft.fftfreq(n, d=dx))",
+          "seconds": 0.008621104999999574
+        },
+        {
+          "line": 47,
+          "text": "    sin_theta_axis = wavelength * freqs",
+          "seconds": 1.974900000156765e-05
+        },
+        {
+          "line": 49,
+          "text": "    center = n // 2",
+          "seconds": 3.175999999882606e-06
+        },
+        {
+          "line": 50,
+          "text": "    row = intensity[center, :]",
+          "seconds": 3.476999999918462e-06
+        },
+        {
+          "line": 51,
+          "text": "    sin_theta_row = sin_theta_axis",
+          "seconds": 3.375999998667112e-06
+        },
+        {
+          "line": 52,
+          "text": "    analytic = 1.22 * wavelength / D",
+          "seconds": 2.7780000007027184e-06
+        },
+        {
+          "line": 54,
+          "text": "    measured = _first_zero_sintheta(sin_theta_row, row, exclude_radius=0.3 * analytic)",
+          "seconds": 5.0957000000906305e-05
+        },
+        {
+          "line": 55,
+          "text": "    rel_err = abs(measured - analytic) / analytic",
+          "seconds": 4.139999999708266e-06
+        },
+        {
+          "line": 56,
+          "text": "    grid_angular_resolution = wavelength * (1.0 / (n * dx))   # sin_theta bin size \u2014 the honest resolution note",
+          "seconds": 3.2440000001798808e-06
+        },
+        {
+          "line": 57,
+          "text": "    return dict(gate=\"G3_circular_aperture\", D=D, wavelength=wavelength,",
+          "seconds": 6.171999997306443e-06
+        },
+        {
+          "line": 58,
+          "text": "                analytic_sin_theta=analytic, measured_sin_theta=measured,",
+          "seconds": 2.478000000749603e-06
+        },
+        {
+          "line": 59,
+          "text": "                grid_sin_theta_resolution=grid_angular_resolution,",
+          "seconds": 2.419999999503375e-06
+        },
+        {
+          "line": 60,
+          "text": "                rel_err_pct=100 * rel_err, pass_=rel_err < 0.5)",
+          "seconds": 3.211000001002162e-06
+        }
+      ]
+    },
+    {
+      "repeat": 1,
+      "seconds": 0.45510439300000094,
+      "result": {
+        "gate": "G3_circular_aperture",
+        "D": 5e-05,
+        "wavelength": 5.32e-07,
+        "analytic_sin_theta": 0.0129808,
+        "measured_sin_theta": 0.012945333333333335,
+        "grid_sin_theta_resolution": 8.866666666666668e-05,
+        "rel_err_pct": 0.27322404371584136,
+        "pass_": true
+      },
+      "lines": [
+        {
+          "line": 39,
+          "text": "    x_max = window_factor * D",
+          "seconds": 4.548999999798298e-06
+        },
+        {
+          "line": 40,
+          "text": "    dx = 2 * x_max / n",
+          "seconds": 4.836000000452145e-06
+        },
+        {
+          "line": 41,
+          "text": "    coords = (np.arange(n) - n // 2) * dx",
+          "seconds": 7.044500000041864e-05
+        },
+        {
+          "line": 42,
+          "text": "    R = np.sqrt(coords[None, :] ** 2 + coords[:, None] ** 2)",
+          "seconds": 0.08980041799999938
+        },
+        {
+          "line": 43,
+          "text": "    aperture = (R <= D / 2).astype(float)",
+          "seconds": 0.052887350000000666
+        },
+        {
+          "line": 44,
+          "text": "    field = _fft2_shift(aperture, device) * dx ** 2",
+          "seconds": 0.22704927799999908
+        },
+        {
+          "line": 45,
+          "text": "    intensity = np.abs(field) ** 2",
+          "seconds": 0.08315923000000147
+        },
+        {
+          "line": 46,
+          "text": "    freqs = np.fft.fftshift(np.fft.fftfreq(n, d=dx))",
+          "seconds": 0.00020718099999861295
+        },
+        {
+          "line": 47,
+          "text": "    sin_theta_axis = wavelength * freqs",
+          "seconds": 7.572000001232482e-06
+        },
+        {
+          "line": 49,
+          "text": "    center = n // 2",
+          "seconds": 3.016999999161385e-06
+        },
+        {
+          "line": 50,
+          "text": "    row = intensity[center, :]",
+          "seconds": 3.557000001208621e-06
+        },
+        {
+          "line": 51,
+          "text": "    sin_theta_row = sin_theta_axis",
+          "seconds": 3.8349999993414485e-06
+        },
+        {
+          "line": 52,
+          "text": "    analytic = 1.22 * wavelength / D",
+          "seconds": 3.164999998972462e-06
+        },
+        {
+          "line": 54,
+          "text": "    measured = _first_zero_sintheta(sin_theta_row, row, exclude_radius=0.3 * analytic)",
+          "seconds": 5.141700000166338e-05
+        },
+        {
+          "line": 55,
+          "text": "    rel_err = abs(measured - analytic) / analytic",
+          "seconds": 4.921999998686033e-06
+        },
+        {
+          "line": 56,
+          "text": "    grid_angular_resolution = wavelength * (1.0 / (n * dx))   # sin_theta bin size \u2014 the honest resolution note",
+          "seconds": 3.0400000010644135e-06
+        },
+        {
+          "line": 57,
+          "text": "    return dict(gate=\"G3_circular_aperture\", D=D, wavelength=wavelength,",
+          "seconds": 7.11799999919549e-06
+        },
+        {
+          "line": 58,
+          "text": "                analytic_sin_theta=analytic, measured_sin_theta=measured,",
+          "seconds": 2.4399999993818255e-06
+        },
+        {
+          "line": 59,
+          "text": "                grid_sin_theta_resolution=grid_angular_resolution,",
+          "seconds": 2.549999999601482e-06
+        },
+        {
+          "line": 60,
+          "text": "                rel_err_pct=100 * rel_err, pass_=rel_err < 0.5)",
+          "seconds": 3.277000001133956e-06
+        }
+      ]
+    }
+  ],
+  "source_sha256": "4f638be85dd8d4986dbb87340739dde5cef8fbe8d7abb60c437b81d19b749848"
+}

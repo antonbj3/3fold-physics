@@ -1,0 +1,55 @@
+{
+  "device": "cpu",
+  "atol": 1e-12,
+  "rtol": 1e-10,
+  "runs": [
+    {
+      "cpu_gates": {
+        "g1": true,
+        "g2": true,
+        "g3": true,
+        "g4": true
+      },
+      "gpu_gates": {
+        "g1": true,
+        "g2": true,
+        "g3": true,
+        "g4": true
+      },
+      "batch_size": 256,
+      "cpu_s": 0.12636556501092855,
+      "gpu_s": 0.002845030991011299,
+      "parity": 2.6380426803929744e-06,
+      "max_abs_error": 1.1102230246251565e-16,
+      "all_pass": true
+    },
+    {
+      "cpu_gates": {
+        "g1": true,
+        "g2": true,
+        "g3": true,
+        "g4": true
+      },
+      "gpu_gates": {
+        "g1": true,
+        "g2": true,
+        "g3": true,
+        "g4": true
+      },
+      "batch_size": 256,
+      "cpu_s": 0.12587333499686792,
+      "gpu_s": 0.002638246995047666,
+      "parity": 2.6380426803929744e-06,
+      "max_abs_error": 1.1102230246251565e-16,
+      "all_pass": true
+    }
+  ],
+  "full_repeat_exact": true,
+  "all_pass": true,
+  "source_sha256": {
+    "src/physics_engine/litho/litho_etch_levelset_ballistic.py": "002feed2b01b1ab9e1d8a54dc0533bd6e3bc3f81f69ea59af0dbd10ccbf74673",
+    "src/physics_engine/litho/litho_etch_levelset_ballistic_gpu.py": "2590b8a24778abc43fb0e0b69fbce27df7ac1f7ab672bcb987990e9c3c5feee7",
+    "src/physics_engine/litho/vof_zalesak_cert_gpu.py": "faf311825fbb2037484ffd18c5fbbb6db9887a8aa9daca7f326d701f2481922f",
+    "scripts/verify_etch_gpu.py": "02e5931cc0a1569bbb25b0395251f9270f5c0bb7c00d05dc70c382d951755458"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "device": "NVIDIA L4",
+  "atol": 1e-12,
+  "rtol": 1e-09,
+  "runs": [
+    {
+      "cpu_s": 2.105385896999998,
+      "gpu_s": 1.4477839520000018,
+      "full_array_parity": 1.3743975315804912e-05,
+      "record_parity": 0.23178653388799947,
+      "full_array_count": 46,
+      "full_bytes_per_leg": 303366992,
+      "all_pass": true
+    },
+    {
+      "cpu_s": 2.0052501750000005,
+      "gpu_s": 0.4223896529999962,
+      "full_array_parity": 1.3743975315804912e-05,
+      "record_parity": 0.23178653388799947,
+      "full_array_count": 46,
+      "full_bytes_per_leg": 303366992,
+      "all_pass": true
+    }
+  ],
+  "complete_hashes_repeat_exact": true,
+  "all_pass": true,
+  "source_sha256": {
+    "src/physics_engine/wave_optics/wave_optics_cell.py": "beda74df55b596686678c799fccf0e86512d146f81e3548c83a392d35e408c9a",
+    "src/physics_engine/wave_optics/wave_optics_cell_gpu.py": "4aa13426be2eb088d7fc0b580e92fae7cb0cd09e1b2ff54b61f132c93511ec90",
+    "scripts/verify_wave_optics_gpu.py": "7ee9c23c8cd06c96880b9b4338feed48fd9349e72c3f73db0a88f685f30327ff"
+  }
+}

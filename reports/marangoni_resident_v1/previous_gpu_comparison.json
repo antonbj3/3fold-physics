@@ -1,0 +1,19 @@
+{
+  "rows": [
+    {
+      "leg": 0,
+      "arrays": 18,
+      "exact": false,
+      "max_absolute_error": 2.0691004465334117e-11,
+      "normalized_error": 1.1342008897302494e-06
+    },
+    {
+      "leg": 1,
+      "arrays": 18,
+      "exact": false,
+      "max_absolute_error": 2.0691004465334117e-11,
+      "normalized_error": 1.1342008897302494e-06
+    }
+  ],
+  "iterations_exact": true
+}

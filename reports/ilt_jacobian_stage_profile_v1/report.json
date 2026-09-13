@@ -1,0 +1,818 @@
+{
+  "device": "NVIDIA H100 80GB HBM3",
+  "rows": [
+    {
+      "repeat": 0,
+      "wall_seconds": 0.6493799159999991,
+      "functions": [
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt_gpu.py",
+          "line": 104,
+          "function": "section_c",
+          "calls": 1,
+          "self_seconds": 9.6223e-05,
+          "cumulative_seconds": 0.6490493230000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt_gpu.py",
+          "line": 37,
+          "function": "batch",
+          "calls": 14,
+          "self_seconds": 0.00057264,
+          "cumulative_seconds": 0.5691551570000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/socs_batched_tcc_apply_gpu_api_for_ilt.py",
+          "line": 39,
+          "function": "batched_aerial",
+          "calls": 14,
+          "self_seconds": 0.07734702,
+          "cumulative_seconds": 0.563604108
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt_gpu.py",
+          "line": 69,
+          "function": "prepare_candidates",
+          "calls": 1,
+          "self_seconds": 0.0012448300000000002,
+          "cumulative_seconds": 0.49780830000000004
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.as_tensor>",
+          "calls": 42,
+          "self_seconds": 0.21424504000000003,
+          "cumulative_seconds": 0.214251043
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 502,
+          "function": "section_c",
+          "calls": 1,
+          "self_seconds": 0.0006602940000000001,
+          "cumulative_seconds": 0.151139996
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._fft.fft_ifft>",
+          "calls": 21,
+          "self_seconds": 0.10378949000000001,
+          "cumulative_seconds": 0.10378949000000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt_gpu.py",
+          "line": 48,
+          "function": "aerial",
+          "calls": 2310,
+          "self_seconds": 0.008722157000000001,
+          "cumulative_seconds": 0.07850922
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._fft.fft_fft>",
+          "calls": 21,
+          "self_seconds": 0.07310095300000001,
+          "cumulative_seconds": 0.07310095300000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_tensor.py",
+          "line": 32,
+          "function": "wrapped",
+          "calls": 42,
+          "self_seconds": 0.000132652,
+          "cumulative_seconds": 0.06333686300000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'pow' of 'torch._C.TensorBase' objects>",
+          "calls": 42,
+          "self_seconds": 0.063189436,
+          "cumulative_seconds": 0.063189436
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 529,
+          "function": "pw_of",
+          "calls": 36,
+          "self_seconds": 3.7266000000000005e-05,
+          "cumulative_seconds": 0.054986248
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 469,
+          "function": "process_window_1d",
+          "calls": 36,
+          "self_seconds": 0.007819737,
+          "cumulative_seconds": 0.054948982
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt_gpu.py",
+          "line": 84,
+          "function": "find_edges_1d",
+          "calls": 2508,
+          "self_seconds": 0.022244959,
+          "cumulative_seconds": 0.03683166
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'sum' of 'torch._C.TensorBase' objects>",
+          "calls": 21,
+          "self_seconds": 0.030274703000000003,
+          "cumulative_seconds": 0.030274703000000003
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/linalg/_linalg.py",
+          "line": 1666,
+          "function": "svd",
+          "calls": 10,
+          "self_seconds": 0.014508485000000002,
+          "cumulative_seconds": 0.014824416000000002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 675,
+          "function": "flatnonzero",
+          "calls": 2508,
+          "self_seconds": 0.0033027710000000004,
+          "cumulative_seconds": 0.011035461
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt_gpu.py",
+          "line": 56,
+          "function": "jacobian",
+          "calls": 1,
+          "self_seconds": 0.000729452,
+          "cumulative_seconds": 0.008053219
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.min>",
+          "calls": 2248,
+          "self_seconds": 0.0021393930000000003,
+          "cumulative_seconds": 0.006087673
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt_gpu.py",
+          "line": 16,
+          "function": "kernels",
+          "calls": 9,
+          "self_seconds": 0.0005396660000000001,
+          "cumulative_seconds": 0.004776813
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 527,
+          "function": "<lambda>",
+          "calls": 240,
+          "self_seconds": 0.00014811500000000001,
+          "cumulative_seconds": 0.003980071
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 523,
+          "function": "cd_at",
+          "calls": 240,
+          "self_seconds": 0.000295954,
+          "cumulative_seconds": 0.003796564
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 48,
+          "function": "_wrapfunc",
+          "calls": 2581,
+          "self_seconds": 0.001323223,
+          "cumulative_seconds": 0.0037469440000000003
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 2031,
+          "function": "nonzero",
+          "calls": 2508,
+          "self_seconds": 0.0009474580000000001,
+          "cumulative_seconds": 0.0036162990000000003
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 1917,
+          "function": "ravel",
+          "calls": 2508,
+          "self_seconds": 0.001965461,
+          "cumulative_seconds": 0.0035316270000000003
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.array>",
+          "calls": 2126,
+          "self_seconds": 0.0017387790000000002,
+          "cumulative_seconds": 0.0017387790000000002
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 492,
+          "function": "_mask_from_knobs",
+          "calls": 72,
+          "self_seconds": 0.001011592,
+          "cumulative_seconds": 0.001654366
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.asarray>",
+          "calls": 7410,
+          "self_seconds": 0.001499143,
+          "cumulative_seconds": 0.001499143
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'astype' of 'numpy.ndarray' objects>",
+          "calls": 5192,
+          "self_seconds": 0.0012928680000000002,
+          "cumulative_seconds": 0.0012928680000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.abs>",
+          "calls": 2380,
+          "self_seconds": 0.001165894,
+          "cumulative_seconds": 0.001165894
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'tobytes' of 'numpy.ndarray' objects>",
+          "calls": 2625,
+          "self_seconds": 0.001157264,
+          "cumulative_seconds": 0.001157264
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 1226,
+          "function": "roll",
+          "calls": 90,
+          "self_seconds": 0.0008113090000000001,
+          "cumulative_seconds": 0.001126627
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'nonzero' of 'numpy.ndarray' objects>",
+          "calls": 2508,
+          "self_seconds": 0.0009492890000000001,
+          "cumulative_seconds": 0.0009492890000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 437,
+          "function": "repeat",
+          "calls": 1,
+          "self_seconds": 2.9190000000000003e-06,
+          "cumulative_seconds": 0.0007817130000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'repeat' of 'numpy.ndarray' objects>",
+          "calls": 1,
+          "self_seconds": 0.0007710340000000001,
+          "cumulative_seconds": 0.0007710340000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'ravel' of 'numpy.ndarray' objects>",
+          "calls": 2557,
+          "self_seconds": 0.0007527090000000001,
+          "cumulative_seconds": 0.0007527090000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'cpu' of 'torch._C.TensorBase' objects>",
+          "calls": 14,
+          "self_seconds": 0.0007343040000000001,
+          "cumulative_seconds": 0.0007343040000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'append' of 'list' objects>",
+          "calls": 3231,
+          "self_seconds": 0.000712982,
+          "cumulative_seconds": 0.000712982
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 151,
+          "function": "pupil_1d",
+          "calls": 9,
+          "self_seconds": 0.000328127,
+          "cumulative_seconds": 0.0005578320000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.isinstance>",
+          "calls": 2575,
+          "self_seconds": 0.000506832,
+          "cumulative_seconds": 0.000506832
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'copy' of 'numpy.ndarray' objects>",
+          "calls": 1,
+          "self_seconds": 0.00047992700000000006,
+          "cumulative_seconds": 0.00047992700000000006
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.getattr>",
+          "calls": 2591,
+          "self_seconds": 0.000477225,
+          "cumulative_seconds": 0.000477225
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.len>",
+          "calls": 2799,
+          "self_seconds": 0.00041308100000000004,
+          "cumulative_seconds": 0.00041308100000000004
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 2245,
+          "function": "clip",
+          "calls": 72,
+          "self_seconds": 9.8485e-05,
+          "cumulative_seconds": 0.00039779400000000003
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.empty>",
+          "calls": 14,
+          "self_seconds": 0.000393764,
+          "cumulative_seconds": 0.000393764
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.asanyarray>",
+          "calls": 2643,
+          "self_seconds": 0.000370572,
+          "cumulative_seconds": 0.000370572
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 671,
+          "function": "_flatnonzero_dispatcher",
+          "calls": 2508,
+          "self_seconds": 0.00034804700000000004,
+          "cumulative_seconds": 0.00034804700000000004
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 1913,
+          "function": "_ravel_dispatcher",
+          "calls": 2508,
+          "self_seconds": 0.00030375300000000003,
+          "cumulative_seconds": 0.00030375300000000003
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 2027,
+          "function": "_nonzero_dispatcher",
+          "calls": 2508,
+          "self_seconds": 0.000281011,
+          "cumulative_seconds": 0.000281011
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reduce' of 'numpy.ufunc' objects>",
+          "calls": 85,
+          "self_seconds": 0.00027515300000000004,
+          "cumulative_seconds": 0.00027515300000000004
+        }
+      ]
+    },
+    {
+      "repeat": 1,
+      "wall_seconds": 0.08984626600000034,
+      "functions": [
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt_gpu.py",
+          "line": 104,
+          "function": "section_c",
+          "calls": 1,
+          "self_seconds": 6.0075e-05,
+          "cumulative_seconds": 0.08958352500000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 502,
+          "function": "section_c",
+          "calls": 1,
+          "self_seconds": 0.000593104,
+          "cumulative_seconds": 0.079439943
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 529,
+          "function": "pw_of",
+          "calls": 36,
+          "self_seconds": 3.4363e-05,
+          "cumulative_seconds": 0.055569175000000005
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 469,
+          "function": "process_window_1d",
+          "calls": 36,
+          "self_seconds": 0.007858429,
+          "cumulative_seconds": 0.055534812
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt_gpu.py",
+          "line": 84,
+          "function": "find_edges_1d",
+          "calls": 2508,
+          "self_seconds": 0.022496118000000002,
+          "cumulative_seconds": 0.037276589
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/linalg/_linalg.py",
+          "line": 1666,
+          "function": "svd",
+          "calls": 10,
+          "self_seconds": 0.012555804,
+          "cumulative_seconds": 0.012787602
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt_gpu.py",
+          "line": 37,
+          "function": "batch",
+          "calls": 14,
+          "self_seconds": 0.00033635800000000003,
+          "cumulative_seconds": 0.012647440000000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt_gpu.py",
+          "line": 48,
+          "function": "aerial",
+          "calls": 2310,
+          "self_seconds": 0.008769725,
+          "cumulative_seconds": 0.011678547000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 675,
+          "function": "flatnonzero",
+          "calls": 2508,
+          "self_seconds": 0.0033359640000000003,
+          "cumulative_seconds": 0.011111873000000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt_gpu.py",
+          "line": 69,
+          "function": "prepare_candidates",
+          "calls": 1,
+          "self_seconds": 0.000929709,
+          "cumulative_seconds": 0.010080655
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/socs_batched_tcc_apply_gpu_api_for_ilt.py",
+          "line": 39,
+          "function": "batched_aerial",
+          "calls": 14,
+          "self_seconds": 0.002546866,
+          "cumulative_seconds": 0.009111820000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.min>",
+          "calls": 2248,
+          "self_seconds": 0.002114148,
+          "cumulative_seconds": 0.006126811
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 527,
+          "function": "<lambda>",
+          "calls": 240,
+          "self_seconds": 0.000146255,
+          "cumulative_seconds": 0.004045023
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt_gpu.py",
+          "line": 56,
+          "function": "jacobian",
+          "calls": 1,
+          "self_seconds": 0.000609377,
+          "cumulative_seconds": 0.003941104
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 523,
+          "function": "cd_at",
+          "calls": 240,
+          "self_seconds": 0.000283046,
+          "cumulative_seconds": 0.0038628630000000002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 2031,
+          "function": "nonzero",
+          "calls": 2508,
+          "self_seconds": 0.0009442570000000001,
+          "cumulative_seconds": 0.0036370440000000003
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 1917,
+          "function": "ravel",
+          "calls": 2508,
+          "self_seconds": 0.0020091320000000003,
+          "cumulative_seconds": 0.003517661
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 48,
+          "function": "_wrapfunc",
+          "calls": 2581,
+          "self_seconds": 0.0013019770000000002,
+          "cumulative_seconds": 0.003092619
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt_gpu.py",
+          "line": 16,
+          "function": "kernels",
+          "calls": 9,
+          "self_seconds": 0.00040330300000000004,
+          "cumulative_seconds": 0.00307863
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.as_tensor>",
+          "calls": 42,
+          "self_seconds": 0.002665962,
+          "cumulative_seconds": 0.002665962
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.asarray>",
+          "calls": 7410,
+          "self_seconds": 0.0015404210000000002,
+          "cumulative_seconds": 0.0015404210000000002
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 492,
+          "function": "_mask_from_knobs",
+          "calls": 72,
+          "self_seconds": 0.0009018100000000001,
+          "cumulative_seconds": 0.001463206
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'astype' of 'numpy.ndarray' objects>",
+          "calls": 5192,
+          "self_seconds": 0.0013129230000000001,
+          "cumulative_seconds": 0.0013129230000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.array>",
+          "calls": 2126,
+          "self_seconds": 0.001191587,
+          "cumulative_seconds": 0.001191587
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.abs>",
+          "calls": 2380,
+          "self_seconds": 0.001176558,
+          "cumulative_seconds": 0.001176558
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'tobytes' of 'numpy.ndarray' objects>",
+          "calls": 2625,
+          "self_seconds": 0.0010211250000000001,
+          "cumulative_seconds": 0.0010211250000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._fft.fft_ifft>",
+          "calls": 21,
+          "self_seconds": 0.001020333,
+          "cumulative_seconds": 0.001020333
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'nonzero' of 'numpy.ndarray' objects>",
+          "calls": 2508,
+          "self_seconds": 0.0009785430000000001,
+          "cumulative_seconds": 0.0009785430000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 1226,
+          "function": "roll",
+          "calls": 90,
+          "self_seconds": 0.000619904,
+          "cumulative_seconds": 0.000878196
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'append' of 'list' objects>",
+          "calls": 3231,
+          "self_seconds": 0.000730133,
+          "cumulative_seconds": 0.000730133
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'ravel' of 'numpy.ndarray' objects>",
+          "calls": 2557,
+          "self_seconds": 0.0007229840000000001,
+          "cumulative_seconds": 0.0007229840000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._fft.fft_fft>",
+          "calls": 21,
+          "self_seconds": 0.000699914,
+          "cumulative_seconds": 0.000699914
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'cpu' of 'torch._C.TensorBase' objects>",
+          "calls": 14,
+          "self_seconds": 0.0006931810000000001,
+          "cumulative_seconds": 0.0006931810000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_tensor.py",
+          "line": 32,
+          "function": "wrapped",
+          "calls": 42,
+          "self_seconds": 9.4202e-05,
+          "cumulative_seconds": 0.0006880800000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'pow' of 'torch._C.TensorBase' objects>",
+          "calls": 42,
+          "self_seconds": 0.000581518,
+          "cumulative_seconds": 0.000581518
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.isinstance>",
+          "calls": 2575,
+          "self_seconds": 0.000483711,
+          "cumulative_seconds": 0.000483711
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.getattr>",
+          "calls": 2591,
+          "self_seconds": 0.000483054,
+          "cumulative_seconds": 0.000483054
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.len>",
+          "calls": 2799,
+          "self_seconds": 0.000402035,
+          "cumulative_seconds": 0.000402035
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 151,
+          "function": "pupil_1d",
+          "calls": 9,
+          "self_seconds": 0.00021141900000000002,
+          "cumulative_seconds": 0.000369268
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'sum' of 'torch._C.TensorBase' objects>",
+          "calls": 21,
+          "self_seconds": 0.000358936,
+          "cumulative_seconds": 0.000358936
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.asanyarray>",
+          "calls": 2643,
+          "self_seconds": 0.000357896,
+          "cumulative_seconds": 0.000357896
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 671,
+          "function": "_flatnonzero_dispatcher",
+          "calls": 2508,
+          "self_seconds": 0.00035442700000000004,
+          "cumulative_seconds": 0.00035442700000000004
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 2245,
+          "function": "clip",
+          "calls": 72,
+          "self_seconds": 8.748100000000001e-05,
+          "cumulative_seconds": 0.000348479
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 1913,
+          "function": "_ravel_dispatcher",
+          "calls": 2508,
+          "self_seconds": 0.00032282000000000003,
+          "cumulative_seconds": 0.00032282000000000003
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 2027,
+          "function": "_nonzero_dispatcher",
+          "calls": 2508,
+          "self_seconds": 0.000298384,
+          "cumulative_seconds": 0.000298384
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.print>",
+          "calls": 2,
+          "self_seconds": 0.00025854700000000003,
+          "cumulative_seconds": 0.00025854700000000003
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'copy' of 'numpy.ndarray' objects>",
+          "calls": 1,
+          "self_seconds": 0.00022784000000000001,
+          "cumulative_seconds": 0.00022784000000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'clip' of 'numpy.ndarray' objects>",
+          "calls": 72,
+          "self_seconds": 4.0332e-05,
+          "cumulative_seconds": 0.00019791600000000002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/__init__.py",
+          "line": 1209,
+          "function": "synchronize",
+          "calls": 1,
+          "self_seconds": 1.7803000000000002e-05,
+          "cumulative_seconds": 0.00018927
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reduce' of 'numpy.ufunc' objects>",
+          "calls": 85,
+          "self_seconds": 0.00018800000000000002,
+          "cumulative_seconds": 0.00018800000000000002
+        }
+      ]
+    }
+  ],
+  "source_sha256": "25cc7b2bfdf9269db107ab46a87e907e0877aed9177dbc369a48d41d6d69e87f"
+}

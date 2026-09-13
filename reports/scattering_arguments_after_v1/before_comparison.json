@@ -1,0 +1,16 @@
+[
+  {
+    "repeat": 0,
+    "arrays": 394,
+    "bytes": 4442256,
+    "exact": true,
+    "numeric_records_exact": true
+  },
+  {
+    "repeat": 1,
+    "arrays": 394,
+    "bytes": 4442256,
+    "exact": true,
+    "numeric_records_exact": true
+  }
+]

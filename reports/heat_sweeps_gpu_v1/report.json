@@ -1,0 +1,113 @@
+{
+  "device": "NVIDIA H100 80GB HBM3",
+  "input_sha256": {
+    "Al_Spot_TDA_Results.csv": "3f0b6812f98535f5ffbb0e2fed31f084ad9a7f9cc393c04a43ed57f0bb14bf69",
+    "Al_Spot_TDW_Results.csv": "06b280222eab5f82eb9dcfb0689f20a5011c16e115548cd94ce120e5a97b4f5c"
+  },
+  "atol": 1e-08,
+  "rtol": 1e-09,
+  "rows": [
+    {
+      "module": "spot",
+      "runs": [
+        {
+          "cpu_gates": {
+            "g1": true,
+            "g2": true,
+            "g3": true
+          },
+          "gpu_gates": {
+            "g1": true,
+            "g2": true,
+            "g3": true
+          },
+          "cpu_s": 0.6739780969999885,
+          "gpu_s": 0.763030833000002,
+          "field_count": 7,
+          "parity": 5.808191211547226e-06,
+          "max_abs_error": 5.638867150992155e-11,
+          "all_pass": true
+        },
+        {
+          "cpu_gates": {
+            "g1": true,
+            "g2": true,
+            "g3": true
+          },
+          "gpu_gates": {
+            "g1": true,
+            "g2": true,
+            "g3": true
+          },
+          "cpu_s": 0.826038847999996,
+          "gpu_s": 0.42092376600000136,
+          "field_count": 7,
+          "parity": 5.808191211547226e-06,
+          "max_abs_error": 5.638867150992155e-11,
+          "all_pass": true
+        }
+      ],
+      "full_repeat_exact": true,
+      "all_pass": true
+    },
+    {
+      "module": "lpbf",
+      "runs": [
+        {
+          "cpu_gates": {
+            "g1": true,
+            "g2": true,
+            "g3": true,
+            "g4": true,
+            "g5": true
+          },
+          "gpu_gates": {
+            "g1": true,
+            "g2": true,
+            "g3": true,
+            "g4": true,
+            "g5": true
+          },
+          "cpu_s": 73.60438553299998,
+          "gpu_s": 0.272768152999987,
+          "field_count": 78,
+          "parity": 7.077774764212363e-07,
+          "max_abs_error": 5.4569682106375694e-12,
+          "all_pass": true
+        },
+        {
+          "cpu_gates": {
+            "g1": true,
+            "g2": true,
+            "g3": true,
+            "g4": true,
+            "g5": true
+          },
+          "gpu_gates": {
+            "g1": true,
+            "g2": true,
+            "g3": true,
+            "g4": true,
+            "g5": true
+          },
+          "cpu_s": 72.03822596399999,
+          "gpu_s": 0.1984389760000056,
+          "field_count": 78,
+          "parity": 7.077774764212363e-07,
+          "max_abs_error": 5.4569682106375694e-12,
+          "all_pass": true
+        }
+      ],
+      "full_repeat_exact": true,
+      "all_pass": true
+    }
+  ],
+  "all_pass": true,
+  "source_sha256": {
+    "src/physics_engine/process/weld_goldak_spot_nist.py": "dfc9066259b962d29ae46d816cb48b7852b4c10c86c2d8aeaf8b8014bdc685eb",
+    "src/physics_engine/process/weld_goldak_spot_nist_gpu.py": "28571dea19ed24026bea55eb547446a731892921d07aecc5dc49f4119d21625e",
+    "src/physics_engine/process/lpbf_meltpool_render_match.py": "122946ffdabf7bf12635f3e53bedb4c95070a2d07f42afcae942845b63f6f843",
+    "src/physics_engine/process/lpbf_meltpool_render_match_gpu.py": "1caa3aa8a5136d4f61083917b3104b6cafc33f23eaf772dc330c9ba59e32d5d5",
+    "scripts/verify_heat_sweeps_gpu.py": "134b09dd04142844aa7c6348e5ff6dda31532a89c5365ea068da9610cb06fde4"
+  }
+}

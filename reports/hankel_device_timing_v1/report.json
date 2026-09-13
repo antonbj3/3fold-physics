@@ -1,0 +1,230 @@
+{
+  "device": "NVIDIA H100 80GB HBM3",
+  "scope": "Complete existing forward_suite including every angular capture and transfer; first scalar calls include initialization/JIT, reversed pairs",
+  "rows": [
+    {
+      "batch": false,
+      "leg": 0,
+      "implementation": "before",
+      "seconds": 0.4770374209999986,
+      "errors": [
+        0.0,
+        5.95130232871638e-13,
+        5.101386113494013e-12,
+        2.3483985834120618e-11,
+        8.352038512498951e-15
+      ],
+      "source_sha256": "5f09891ce07c562784d7793fb12ac6a57b711d30c53e69808c3918b00eaae578"
+    },
+    {
+      "batch": false,
+      "leg": 0,
+      "implementation": "after",
+      "seconds": 0.3658508430000005,
+      "errors": [
+        3.161539271173982e-16,
+        6.26334799570052e-13,
+        2.406012217754272e-12,
+        2.420332247952581e-11,
+        4.0347132123815163e-14
+      ],
+      "source_sha256": "496b50afda7f4adfdc5ab6f4fb9b971b5c97ee9880b4243d55316edbb0fcbc2a"
+    },
+    {
+      "batch": false,
+      "leg": 1,
+      "implementation": "after",
+      "seconds": 0.11935833600000123,
+      "errors": [
+        3.161539271173982e-16,
+        6.26334799570052e-13,
+        2.406012217754272e-12,
+        2.420332247952581e-11,
+        4.0347132123815163e-14
+      ],
+      "source_sha256": "496b50afda7f4adfdc5ab6f4fb9b971b5c97ee9880b4243d55316edbb0fcbc2a"
+    },
+    {
+      "batch": false,
+      "leg": 1,
+      "implementation": "before",
+      "seconds": 0.105828810000002,
+      "errors": [
+        0.0,
+        5.95130232871638e-13,
+        5.101386113494013e-12,
+        2.3483985834120618e-11,
+        8.352038512498951e-15
+      ],
+      "source_sha256": "5f09891ce07c562784d7793fb12ac6a57b711d30c53e69808c3918b00eaae578"
+    },
+    {
+      "batch": false,
+      "leg": 2,
+      "implementation": "before",
+      "seconds": 0.10377338700000038,
+      "errors": [
+        0.0,
+        5.95130232871638e-13,
+        5.101386113494013e-12,
+        2.3483985834120618e-11,
+        8.352038512498951e-15
+      ],
+      "source_sha256": "5f09891ce07c562784d7793fb12ac6a57b711d30c53e69808c3918b00eaae578"
+    },
+    {
+      "batch": false,
+      "leg": 2,
+      "implementation": "after",
+      "seconds": 0.12600591699999697,
+      "errors": [
+        3.161539271173982e-16,
+        6.26334799570052e-13,
+        2.406012217754272e-12,
+        2.420332247952581e-11,
+        4.0347132123815163e-14
+      ],
+      "source_sha256": "496b50afda7f4adfdc5ab6f4fb9b971b5c97ee9880b4243d55316edbb0fcbc2a"
+    },
+    {
+      "batch": false,
+      "leg": 3,
+      "implementation": "after",
+      "seconds": 0.12734533400000103,
+      "errors": [
+        3.161539271173982e-16,
+        6.26334799570052e-13,
+        2.406012217754272e-12,
+        2.420332247952581e-11,
+        4.0347132123815163e-14
+      ],
+      "source_sha256": "496b50afda7f4adfdc5ab6f4fb9b971b5c97ee9880b4243d55316edbb0fcbc2a"
+    },
+    {
+      "batch": false,
+      "leg": 3,
+      "implementation": "before",
+      "seconds": 0.10663154399999897,
+      "errors": [
+        0.0,
+        5.95130232871638e-13,
+        5.101386113494013e-12,
+        2.3483985834120618e-11,
+        8.352038512498951e-15
+      ],
+      "source_sha256": "5f09891ce07c562784d7793fb12ac6a57b711d30c53e69808c3918b00eaae578"
+    },
+    {
+      "batch": true,
+      "leg": 0,
+      "implementation": "before",
+      "seconds": 0.09499040999999764,
+      "errors": [
+        0.0,
+        5.95130232871638e-13,
+        5.101386113494013e-12,
+        2.3483985834120618e-11,
+        1.7032692106103334e-14
+      ],
+      "source_sha256": "5f09891ce07c562784d7793fb12ac6a57b711d30c53e69808c3918b00eaae578"
+    },
+    {
+      "batch": true,
+      "leg": 0,
+      "implementation": "after",
+      "seconds": 0.03099432799999846,
+      "errors": [
+        3.161539271173982e-16,
+        6.26334799570052e-13,
+        2.406012217754272e-12,
+        2.420332247952581e-11,
+        4.458297356895105e-14
+      ],
+      "source_sha256": "496b50afda7f4adfdc5ab6f4fb9b971b5c97ee9880b4243d55316edbb0fcbc2a"
+    },
+    {
+      "batch": true,
+      "leg": 1,
+      "implementation": "after",
+      "seconds": 0.03035762599999714,
+      "errors": [
+        3.161539271173982e-16,
+        6.26334799570052e-13,
+        2.406012217754272e-12,
+        2.420332247952581e-11,
+        4.458297356895105e-14
+      ],
+      "source_sha256": "496b50afda7f4adfdc5ab6f4fb9b971b5c97ee9880b4243d55316edbb0fcbc2a"
+    },
+    {
+      "batch": true,
+      "leg": 1,
+      "implementation": "before",
+      "seconds": 0.03913803600000065,
+      "errors": [
+        0.0,
+        5.95130232871638e-13,
+        5.101386113494013e-12,
+        2.3483985834120618e-11,
+        1.7032692106103334e-14
+      ],
+      "source_sha256": "5f09891ce07c562784d7793fb12ac6a57b711d30c53e69808c3918b00eaae578"
+    },
+    {
+      "batch": true,
+      "leg": 2,
+      "implementation": "before",
+      "seconds": 0.037679231000002034,
+      "errors": [
+        0.0,
+        5.95130232871638e-13,
+        5.101386113494013e-12,
+        2.3483985834120618e-11,
+        1.7032692106103334e-14
+      ],
+      "source_sha256": "5f09891ce07c562784d7793fb12ac6a57b711d30c53e69808c3918b00eaae578"
+    },
+    {
+      "batch": true,
+      "leg": 2,
+      "implementation": "after",
+      "seconds": 0.03087007299999911,
+      "errors": [
+        3.161539271173982e-16,
+        6.26334799570052e-13,
+        2.406012217754272e-12,
+        2.420332247952581e-11,
+        4.458297356895105e-14
+      ],
+      "source_sha256": "496b50afda7f4adfdc5ab6f4fb9b971b5c97ee9880b4243d55316edbb0fcbc2a"
+    },
+    {
+      "batch": true,
+      "leg": 3,
+      "implementation": "after",
+      "seconds": 0.0309678550000001,
+      "errors": [
+        3.161539271173982e-16,
+        6.26334799570052e-13,
+        2.406012217754272e-12,
+        2.420332247952581e-11,
+        4.458297356895105e-14
+      ],
+      "source_sha256": "496b50afda7f4adfdc5ab6f4fb9b971b5c97ee9880b4243d55316edbb0fcbc2a"
+    },
+    {
+      "batch": true,
+      "leg": 3,
+      "implementation": "before",
+      "seconds": 0.03783104300000062,
+      "errors": [
+        0.0,
+        5.95130232871638e-13,
+        5.101386113494013e-12,
+        2.3483985834120618e-11,
+        1.7032692106103334e-14
+      ],
+      "source_sha256": "5f09891ce07c562784d7793fb12ac6a57b711d30c53e69808c3918b00eaae578"
+    }
+  ]
+}

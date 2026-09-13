@@ -1,0 +1,16 @@
+{
+  "repo": "3fold-physics-e-gpu-check",
+  "cmd": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONPATH=src python scripts/profile_schrodinger_parallel128.py && OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONPATH=src python scripts/profile_schrodinger_parallel1024.py",
+  "gpu": "NVIDIA H100 NVL, 95830 MiB, 580.95.05",
+  "rc": 0,
+  "seconds": 10.7,
+  "stamp": "20260913T180341Z",
+  "files": [
+    "reports/process_gpu_inputs_v1/Al_Spot_TDA_Results.csv",
+    "reports/process_gpu_inputs_v1/Al_Spot_TDW_Results.csv",
+    "reports/process_gpu_inputs_v1/manifest.json",
+    "reports/schrodinger_parallel1024_experiment_v1/report.json",
+    "reports/schrodinger_parallel128_experiment_v1/report.json"
+  ],
+  "extras": []
+}

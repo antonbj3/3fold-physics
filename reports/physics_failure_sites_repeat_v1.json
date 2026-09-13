@@ -1,0 +1,12 @@
+{
+  "independent_reports_exact": true,
+  "sha256": "2da0a04b587e4dbe94a7e17216fcd5f7cc39c567bfcc83caf1b9dded1d16a9b7",
+  "gates_per_run": {
+    "frozen_exit_parity": true,
+    "input_integrity": true,
+    "minimal_witnesses": true,
+    "original_failures": true,
+    "synthetic_boiling_control": true
+  },
+  "original_status": "OWN-GATE-FAIL retained for both baselines"
+}

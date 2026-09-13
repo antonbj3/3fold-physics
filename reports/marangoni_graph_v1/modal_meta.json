@@ -1,0 +1,19 @@
+{
+  "repo": "3fold-physics-e-gpu-check",
+  "cmd": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONPATH=src PHYSICS_TEST_DEVICE=cuda python -m pytest -q tests/test_marangoni_gpu.py -k reuse_with_changed && OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONPATH=src python scripts/verify_marangoni_gpu.py --out reports/marangoni_graph_v1",
+  "gpu": "NVIDIA H100 80GB HBM3, 81559 MiB, 580.95.05",
+  "rc": 0,
+  "seconds": 48.2,
+  "stamp": "20260913T172422Z",
+  "files": [
+    "reports/marangoni_graph_v1/fields_0.npz",
+    "reports/marangoni_graph_v1/fields_1.npz",
+    "reports/marangoni_graph_v1/records_0.json",
+    "reports/marangoni_graph_v1/records_1.json",
+    "reports/marangoni_graph_v1/report.json",
+    "reports/process_gpu_inputs_v1/Al_Spot_TDA_Results.csv",
+    "reports/process_gpu_inputs_v1/Al_Spot_TDW_Results.csv",
+    "reports/process_gpu_inputs_v1/manifest.json"
+  ],
+  "extras": []
+}

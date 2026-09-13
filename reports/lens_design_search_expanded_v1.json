@@ -1,0 +1,315 @@
+{
+  "measurement": {
+    "frozen_baseline": {
+      "best_obj": 0.0666418727014525,
+      "best_vec": [
+        29.83613415812539,
+        2.429874043052409,
+        287.75887727806753,
+        -399.2274937829234
+      ],
+      "best_rms": [
+        0.07397324839287882,
+        0.03788099027588044,
+        0.08807137943559827
+      ],
+      "best_efl": 105.91932485746511,
+      "best_vig": 0.2950495049504951,
+      "best_fno": 0.9912837002999542,
+      "counts": {
+        "certified": 12099,
+        "rejected": 12477,
+        "rej_efl": 12117,
+        "rej_vig": 2723,
+        "rej_fno": 5913,
+        "rej_nonfinite": 0,
+        "evaluated": 24576
+      },
+      "log": [
+        [
+          0,
+          45,
+          0.09297423981485793,
+          0.09297423981485793,
+          0.35
+        ],
+        [
+          1,
+          877,
+          0.0803193435473884,
+          0.0803193435473884,
+          0.252
+        ],
+        [
+          2,
+          1851,
+          0.06994383684065227,
+          0.06994383684065227,
+          0.18144
+        ],
+        [
+          3,
+          2917,
+          0.06888580370423456,
+          0.06888580370423456,
+          0.1306368
+        ],
+        [
+          4,
+          3291,
+          0.06744682328450949,
+          0.06744682328450949,
+          0.09405849599999999
+        ],
+        [
+          5,
+          3118,
+          0.0666418727014525,
+          0.0666418727014525,
+          0.06772211712
+        ]
+      ],
+      "refs": [
+        105.8224262497045,
+        0.2950495049504951,
+        0.9913731861683283,
+        0.09297423981485793,
+        [
+          0.014291995384818745,
+          0.10364230172230986,
+          0.16098842233744523
+        ]
+      ]
+    },
+    "continuation": {
+      "index": null,
+      "best": {
+        "objective_mm": 0.06454175840195553,
+        "vector": [
+          29.66339426305865,
+          2.305015877857796,
+          288.7587631303799,
+          -399.328612285423,
+          -188.88198407433157,
+          232.8633186639115
+        ],
+        "efl_mm": 105.81855206251129,
+        "vignetting": 0.2950495049504951,
+        "f_number": 0.9912314327359485,
+        "rms_mm": [
+          0.08114423712227035,
+          0.031501696309527386,
+          0.08097934177406886
+        ],
+        "certified": true
+      },
+      "certified": 8493,
+      "rejected": 16083,
+      "evaluated": 24576,
+      "generation_sha256": "f134199f78d74b6f082a2d725031362f9669f050acdfee95c0b68c68c88a87bf",
+      "log": [
+        {
+          "generation": 0,
+          "certified": 29,
+          "best_objective_mm": 0.0666418727014525
+        },
+        {
+          "generation": 1,
+          "certified": 839,
+          "best_objective_mm": 0.0666418727014525
+        },
+        {
+          "generation": 2,
+          "certified": 1331,
+          "best_objective_mm": 0.0666418727014525
+        },
+        {
+          "generation": 3,
+          "certified": 1492,
+          "best_objective_mm": 0.06641052155516335
+        },
+        {
+          "generation": 4,
+          "certified": 2158,
+          "best_objective_mm": 0.06574646907267309
+        },
+        {
+          "generation": 5,
+          "certified": 2644,
+          "best_objective_mm": 0.06454175840195553
+        }
+      ]
+    },
+    "fixed_index_families": [
+      {
+        "index": 1.48914,
+        "best": null,
+        "certified": 0,
+        "rejected": 2048,
+        "evaluated": 2048,
+        "generation_sha256": "045c736ed1a92744ac2660986b6d6cfc7deb2e39d7189e8ae84e8fd995802b14",
+        "log": [
+          {
+            "generation": 0,
+            "certified": 0,
+            "best_objective_mm": null
+          },
+          {
+            "generation": 1,
+            "certified": 0,
+            "best_objective_mm": null
+          },
+          {
+            "generation": 2,
+            "certified": 0,
+            "best_objective_mm": null
+          },
+          {
+            "generation": 3,
+            "certified": 0,
+            "best_objective_mm": null
+          }
+        ]
+      },
+      {
+        "index": 1.51872,
+        "best": null,
+        "certified": 0,
+        "rejected": 2048,
+        "evaluated": 2048,
+        "generation_sha256": "cb4fc83c828eb7d13130cc1042e4ff2df0d498077f099ed65ede12a48a300651",
+        "log": [
+          {
+            "generation": 0,
+            "certified": 0,
+            "best_objective_mm": null
+          },
+          {
+            "generation": 1,
+            "certified": 0,
+            "best_objective_mm": null
+          },
+          {
+            "generation": 2,
+            "certified": 0,
+            "best_objective_mm": null
+          },
+          {
+            "generation": 3,
+            "certified": 0,
+            "best_objective_mm": null
+          }
+        ]
+      },
+      {
+        "index": 1.64128,
+        "best": null,
+        "certified": 0,
+        "rejected": 2048,
+        "evaluated": 2048,
+        "generation_sha256": "5cb9f9ae4f8b263b5fa45b740e5a9625916e0aad07e628441b48baf71d39f96a",
+        "log": [
+          {
+            "generation": 0,
+            "certified": 0,
+            "best_objective_mm": null
+          },
+          {
+            "generation": 1,
+            "certified": 0,
+            "best_objective_mm": null
+          },
+          {
+            "generation": 2,
+            "certified": 0,
+            "best_objective_mm": null
+          },
+          {
+            "generation": 3,
+            "certified": 0,
+            "best_objective_mm": null
+          }
+        ]
+      },
+      {
+        "index": 1.81265,
+        "best": null,
+        "certified": 0,
+        "rejected": 2048,
+        "evaluated": 2048,
+        "generation_sha256": "4a20d4bcd9c51267aa0951dca81d12e1eb9692374237947a2e092a9183136e9c",
+        "log": [
+          {
+            "generation": 0,
+            "certified": 0,
+            "best_objective_mm": null
+          },
+          {
+            "generation": 1,
+            "certified": 0,
+            "best_objective_mm": null
+          },
+          {
+            "generation": 2,
+            "certified": 0,
+            "best_objective_mm": null
+          },
+          {
+            "generation": 3,
+            "certified": 0,
+            "best_objective_mm": null
+          }
+        ]
+      }
+    ],
+    "collapsed_null": {
+      "index": null,
+      "best": {
+        "objective_mm": 0.09297423981485793,
+        "vector": [
+          29.3,
+          2.52,
+          287.1786,
+          -398.702,
+          -189.1711,
+          233.4301
+        ],
+        "efl_mm": 105.8224262497045,
+        "vignetting": 0.2950495049504951,
+        "f_number": 0.9913731861683283,
+        "rms_mm": [
+          0.014291995384818745,
+          0.10364230172230986,
+          0.16098842233744523
+        ],
+        "certified": true
+      },
+      "certified": 16,
+      "rejected": 0,
+      "evaluated": 16,
+      "generation_sha256": "d54bd57924c5a8fc04fb4713a2796f481aba7abc68e07dc82f2250460e303f51",
+      "log": [
+        {
+          "generation": 0,
+          "certified": 8,
+          "best_objective_mm": 0.09297423981485793
+        },
+        {
+          "generation": 1,
+          "certified": 8,
+          "best_objective_mm": 0.09297423981485793
+        }
+      ]
+    },
+    "patent_objective_mm": 0.09297423981485793
+  },
+  "sha256": "f473e1709194092ee8641e771be8d1a12fc12e882aa4f47897d88a1c3c61f3b1",
+  "gates": {
+    "two_full_sweeps_identical": true,
+    "all_reported_winners_certified": true,
+    "strict_continuation_improvement": true,
+    "exact_collapsed_null": true,
+    "all_candidates_accounted": true
+  },
+  "scope": "single-index continuation; extra search budget; no dispersion/manufacturing certificate"
+}

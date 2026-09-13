@@ -1,0 +1,463 @@
+{
+  "device": "NVIDIA H100 80GB HBM3",
+  "scope": "uninstrumented run_all, one explicit initial warmup, both traversal orders",
+  "warmup_seconds": 1.9641981200000007,
+  "rows": [
+    {
+      "leg": 0,
+      "implementation": "broadcast_before",
+      "seconds": 0.737639183999999,
+      "result": [
+        {
+          "gate": "G1_single_slit",
+          "a": 2e-05,
+          "wavelength": 5.32e-07,
+          "analytic_sin_theta": 0.026600000000000002,
+          "measured_sin_theta": 0.026613300000000003,
+          "rel_err_pct": 0.05000000000000305,
+          "pass_": true
+        },
+        {
+          "gate": "G2_double_slit",
+          "a": 1e-06,
+          "d": 4e-05,
+          "wavelength": 5.32e-07,
+          "analytic_fringe_spacing": 0.013300000000000001,
+          "measured_fringe_spacing": 0.013303362094406055,
+          "n_peaks_used": 5,
+          "rel_err_pct": 0.025278905308676422,
+          "pass_": true
+        },
+        {
+          "gate": "G3_circular_aperture",
+          "D": 5e-05,
+          "wavelength": 5.32e-07,
+          "analytic_sin_theta": 0.0129808,
+          "measured_sin_theta": 0.012945333333333335,
+          "grid_sin_theta_resolution": 8.866666666666668e-05,
+          "rel_err_pct": 0.27322404371584136,
+          "pass_": true
+        },
+        {
+          "geometry": {
+            "half_angle_obj_deg": 23.679732877656658,
+            "na_obj": 0.4016238560047921,
+            "sigma": 0.15,
+            "na_illum": 0.06024357840071881,
+            "half_angle_illum_deg": 3.453794073388055
+          },
+          "order_info": {
+            "m_max": 16,
+            "n_orders_total": 33,
+            "n_orders_one_side_incl_zero": 17
+          },
+          "n_orders_passed_coherent": 33,
+          "n_orders_passed_partial_union": 39,
+          "ripple_pct_coherent_sigma0": 136.95459370691188,
+          "ripple_pct_partial_sigma015": 133.92907670941577,
+          "washout_factor": 1.0225904416862406
+        }
+      ],
+      "source_sha256": "514840411769a596cd9b0199882b280996ef3a13b0e8157d7e55bcff53f044de"
+    },
+    {
+      "leg": 0,
+      "implementation": "broadcast_after",
+      "seconds": 0.5509723179999995,
+      "result": [
+        {
+          "gate": "G1_single_slit",
+          "a": 2e-05,
+          "wavelength": 5.32e-07,
+          "analytic_sin_theta": 0.026600000000000002,
+          "measured_sin_theta": 0.026613300000000003,
+          "rel_err_pct": 0.05000000000000305,
+          "pass_": true
+        },
+        {
+          "gate": "G2_double_slit",
+          "a": 1e-06,
+          "d": 4e-05,
+          "wavelength": 5.32e-07,
+          "analytic_fringe_spacing": 0.013300000000000001,
+          "measured_fringe_spacing": 0.013303362094406055,
+          "n_peaks_used": 5,
+          "rel_err_pct": 0.025278905308676422,
+          "pass_": true
+        },
+        {
+          "gate": "G3_circular_aperture",
+          "D": 5e-05,
+          "wavelength": 5.32e-07,
+          "analytic_sin_theta": 0.0129808,
+          "measured_sin_theta": 0.012945333333333335,
+          "grid_sin_theta_resolution": 8.866666666666668e-05,
+          "rel_err_pct": 0.27322404371584136,
+          "pass_": true
+        },
+        {
+          "geometry": {
+            "half_angle_obj_deg": 23.679732877656658,
+            "na_obj": 0.4016238560047921,
+            "sigma": 0.15,
+            "na_illum": 0.06024357840071881,
+            "half_angle_illum_deg": 3.453794073388055
+          },
+          "order_info": {
+            "m_max": 16,
+            "n_orders_total": 33,
+            "n_orders_one_side_incl_zero": 17
+          },
+          "n_orders_passed_coherent": 33,
+          "n_orders_passed_partial_union": 39,
+          "ripple_pct_coherent_sigma0": 136.95459370691188,
+          "ripple_pct_partial_sigma015": 133.92907670941577,
+          "washout_factor": 1.0225904416862406
+        }
+      ],
+      "source_sha256": "4f638be85dd8d4986dbb87340739dde5cef8fbe8d7abb60c437b81d19b749848"
+    },
+    {
+      "leg": 0,
+      "implementation": "row_after",
+      "seconds": 0.4762152759999996,
+      "result": [
+        {
+          "gate": "G1_single_slit",
+          "a": 2e-05,
+          "wavelength": 5.32e-07,
+          "analytic_sin_theta": 0.026600000000000002,
+          "measured_sin_theta": 0.026613300000000003,
+          "rel_err_pct": 0.05000000000000305,
+          "pass_": true
+        },
+        {
+          "gate": "G2_double_slit",
+          "a": 1e-06,
+          "d": 4e-05,
+          "wavelength": 5.32e-07,
+          "analytic_fringe_spacing": 0.013300000000000001,
+          "measured_fringe_spacing": 0.013303362094406055,
+          "n_peaks_used": 5,
+          "rel_err_pct": 0.025278905308676422,
+          "pass_": true
+        },
+        {
+          "gate": "G3_circular_aperture",
+          "D": 5e-05,
+          "wavelength": 5.32e-07,
+          "analytic_sin_theta": 0.0129808,
+          "measured_sin_theta": 0.012945333333333335,
+          "grid_sin_theta_resolution": 8.866666666666668e-05,
+          "rel_err_pct": 0.27322404371584136,
+          "pass_": true
+        },
+        {
+          "geometry": {
+            "half_angle_obj_deg": 23.679732877656658,
+            "na_obj": 0.4016238560047921,
+            "sigma": 0.15,
+            "na_illum": 0.06024357840071881,
+            "half_angle_illum_deg": 3.453794073388055
+          },
+          "order_info": {
+            "m_max": 16,
+            "n_orders_total": 33,
+            "n_orders_one_side_incl_zero": 17
+          },
+          "n_orders_passed_coherent": 33,
+          "n_orders_passed_partial_union": 39,
+          "ripple_pct_coherent_sigma0": 136.95459370691188,
+          "ripple_pct_partial_sigma015": 133.92907670941577,
+          "washout_factor": 1.0225904416862406
+        }
+      ],
+      "source_sha256": "a12a1a22ab024b9accaeb53dc6e83191fd98045bacd34e75090fda05ad3cce65"
+    },
+    {
+      "leg": 0,
+      "implementation": "aperture_after",
+      "seconds": 0.40119009100000014,
+      "result": [
+        {
+          "gate": "G1_single_slit",
+          "a": 2e-05,
+          "wavelength": 5.32e-07,
+          "analytic_sin_theta": 0.026600000000000002,
+          "measured_sin_theta": 0.026613300000000003,
+          "rel_err_pct": 0.05000000000000305,
+          "pass_": true
+        },
+        {
+          "gate": "G2_double_slit",
+          "a": 1e-06,
+          "d": 4e-05,
+          "wavelength": 5.32e-07,
+          "analytic_fringe_spacing": 0.013300000000000001,
+          "measured_fringe_spacing": 0.013303362094406055,
+          "n_peaks_used": 5,
+          "rel_err_pct": 0.025278905308676422,
+          "pass_": true
+        },
+        {
+          "gate": "G3_circular_aperture",
+          "D": 5e-05,
+          "wavelength": 5.32e-07,
+          "analytic_sin_theta": 0.0129808,
+          "measured_sin_theta": 0.012945333333333335,
+          "grid_sin_theta_resolution": 8.866666666666668e-05,
+          "rel_err_pct": 0.27322404371584136,
+          "pass_": true
+        },
+        {
+          "geometry": {
+            "half_angle_obj_deg": 23.679732877656658,
+            "na_obj": 0.4016238560047921,
+            "sigma": 0.15,
+            "na_illum": 0.06024357840071881,
+            "half_angle_illum_deg": 3.453794073388055
+          },
+          "order_info": {
+            "m_max": 16,
+            "n_orders_total": 33,
+            "n_orders_one_side_incl_zero": 17
+          },
+          "n_orders_passed_coherent": 33,
+          "n_orders_passed_partial_union": 39,
+          "ripple_pct_coherent_sigma0": 136.95459370691188,
+          "ripple_pct_partial_sigma015": 133.92907670941577,
+          "washout_factor": 1.0225904416862406
+        }
+      ],
+      "source_sha256": "9a439ab9f782d8c9181782b3e5e54b0a260741deb2315269abb91f456b037f58"
+    },
+    {
+      "leg": 1,
+      "implementation": "aperture_after",
+      "seconds": 0.3195001200000007,
+      "result": [
+        {
+          "gate": "G1_single_slit",
+          "a": 2e-05,
+          "wavelength": 5.32e-07,
+          "analytic_sin_theta": 0.026600000000000002,
+          "measured_sin_theta": 0.026613300000000003,
+          "rel_err_pct": 0.05000000000000305,
+          "pass_": true
+        },
+        {
+          "gate": "G2_double_slit",
+          "a": 1e-06,
+          "d": 4e-05,
+          "wavelength": 5.32e-07,
+          "analytic_fringe_spacing": 0.013300000000000001,
+          "measured_fringe_spacing": 0.013303362094406055,
+          "n_peaks_used": 5,
+          "rel_err_pct": 0.025278905308676422,
+          "pass_": true
+        },
+        {
+          "gate": "G3_circular_aperture",
+          "D": 5e-05,
+          "wavelength": 5.32e-07,
+          "analytic_sin_theta": 0.0129808,
+          "measured_sin_theta": 0.012945333333333335,
+          "grid_sin_theta_resolution": 8.866666666666668e-05,
+          "rel_err_pct": 0.27322404371584136,
+          "pass_": true
+        },
+        {
+          "geometry": {
+            "half_angle_obj_deg": 23.679732877656658,
+            "na_obj": 0.4016238560047921,
+            "sigma": 0.15,
+            "na_illum": 0.06024357840071881,
+            "half_angle_illum_deg": 3.453794073388055
+          },
+          "order_info": {
+            "m_max": 16,
+            "n_orders_total": 33,
+            "n_orders_one_side_incl_zero": 17
+          },
+          "n_orders_passed_coherent": 33,
+          "n_orders_passed_partial_union": 39,
+          "ripple_pct_coherent_sigma0": 136.95459370691188,
+          "ripple_pct_partial_sigma015": 133.92907670941577,
+          "washout_factor": 1.0225904416862406
+        }
+      ],
+      "source_sha256": "9a439ab9f782d8c9181782b3e5e54b0a260741deb2315269abb91f456b037f58"
+    },
+    {
+      "leg": 1,
+      "implementation": "row_after",
+      "seconds": 0.46150595699999997,
+      "result": [
+        {
+          "gate": "G1_single_slit",
+          "a": 2e-05,
+          "wavelength": 5.32e-07,
+          "analytic_sin_theta": 0.026600000000000002,
+          "measured_sin_theta": 0.026613300000000003,
+          "rel_err_pct": 0.05000000000000305,
+          "pass_": true
+        },
+        {
+          "gate": "G2_double_slit",
+          "a": 1e-06,
+          "d": 4e-05,
+          "wavelength": 5.32e-07,
+          "analytic_fringe_spacing": 0.013300000000000001,
+          "measured_fringe_spacing": 0.013303362094406055,
+          "n_peaks_used": 5,
+          "rel_err_pct": 0.025278905308676422,
+          "pass_": true
+        },
+        {
+          "gate": "G3_circular_aperture",
+          "D": 5e-05,
+          "wavelength": 5.32e-07,
+          "analytic_sin_theta": 0.0129808,
+          "measured_sin_theta": 0.012945333333333335,
+          "grid_sin_theta_resolution": 8.866666666666668e-05,
+          "rel_err_pct": 0.27322404371584136,
+          "pass_": true
+        },
+        {
+          "geometry": {
+            "half_angle_obj_deg": 23.679732877656658,
+            "na_obj": 0.4016238560047921,
+            "sigma": 0.15,
+            "na_illum": 0.06024357840071881,
+            "half_angle_illum_deg": 3.453794073388055
+          },
+          "order_info": {
+            "m_max": 16,
+            "n_orders_total": 33,
+            "n_orders_one_side_incl_zero": 17
+          },
+          "n_orders_passed_coherent": 33,
+          "n_orders_passed_partial_union": 39,
+          "ripple_pct_coherent_sigma0": 136.95459370691188,
+          "ripple_pct_partial_sigma015": 133.92907670941577,
+          "washout_factor": 1.0225904416862406
+        }
+      ],
+      "source_sha256": "a12a1a22ab024b9accaeb53dc6e83191fd98045bacd34e75090fda05ad3cce65"
+    },
+    {
+      "leg": 1,
+      "implementation": "broadcast_after",
+      "seconds": 0.5225139979999991,
+      "result": [
+        {
+          "gate": "G1_single_slit",
+          "a": 2e-05,
+          "wavelength": 5.32e-07,
+          "analytic_sin_theta": 0.026600000000000002,
+          "measured_sin_theta": 0.026613300000000003,
+          "rel_err_pct": 0.05000000000000305,
+          "pass_": true
+        },
+        {
+          "gate": "G2_double_slit",
+          "a": 1e-06,
+          "d": 4e-05,
+          "wavelength": 5.32e-07,
+          "analytic_fringe_spacing": 0.013300000000000001,
+          "measured_fringe_spacing": 0.013303362094406055,
+          "n_peaks_used": 5,
+          "rel_err_pct": 0.025278905308676422,
+          "pass_": true
+        },
+        {
+          "gate": "G3_circular_aperture",
+          "D": 5e-05,
+          "wavelength": 5.32e-07,
+          "analytic_sin_theta": 0.0129808,
+          "measured_sin_theta": 0.012945333333333335,
+          "grid_sin_theta_resolution": 8.866666666666668e-05,
+          "rel_err_pct": 0.27322404371584136,
+          "pass_": true
+        },
+        {
+          "geometry": {
+            "half_angle_obj_deg": 23.679732877656658,
+            "na_obj": 0.4016238560047921,
+            "sigma": 0.15,
+            "na_illum": 0.06024357840071881,
+            "half_angle_illum_deg": 3.453794073388055
+          },
+          "order_info": {
+            "m_max": 16,
+            "n_orders_total": 33,
+            "n_orders_one_side_incl_zero": 17
+          },
+          "n_orders_passed_coherent": 33,
+          "n_orders_passed_partial_union": 39,
+          "ripple_pct_coherent_sigma0": 136.95459370691188,
+          "ripple_pct_partial_sigma015": 133.92907670941577,
+          "washout_factor": 1.0225904416862406
+        }
+      ],
+      "source_sha256": "4f638be85dd8d4986dbb87340739dde5cef8fbe8d7abb60c437b81d19b749848"
+    },
+    {
+      "leg": 1,
+      "implementation": "broadcast_before",
+      "seconds": 0.690809956999999,
+      "result": [
+        {
+          "gate": "G1_single_slit",
+          "a": 2e-05,
+          "wavelength": 5.32e-07,
+          "analytic_sin_theta": 0.026600000000000002,
+          "measured_sin_theta": 0.026613300000000003,
+          "rel_err_pct": 0.05000000000000305,
+          "pass_": true
+        },
+        {
+          "gate": "G2_double_slit",
+          "a": 1e-06,
+          "d": 4e-05,
+          "wavelength": 5.32e-07,
+          "analytic_fringe_spacing": 0.013300000000000001,
+          "measured_fringe_spacing": 0.013303362094406055,
+          "n_peaks_used": 5,
+          "rel_err_pct": 0.025278905308676422,
+          "pass_": true
+        },
+        {
+          "gate": "G3_circular_aperture",
+          "D": 5e-05,
+          "wavelength": 5.32e-07,
+          "analytic_sin_theta": 0.0129808,
+          "measured_sin_theta": 0.012945333333333335,
+          "grid_sin_theta_resolution": 8.866666666666668e-05,
+          "rel_err_pct": 0.27322404371584136,
+          "pass_": true
+        },
+        {
+          "geometry": {
+            "half_angle_obj_deg": 23.679732877656658,
+            "na_obj": 0.4016238560047921,
+            "sigma": 0.15,
+            "na_illum": 0.06024357840071881,
+            "half_angle_illum_deg": 3.453794073388055
+          },
+          "order_info": {
+            "m_max": 16,
+            "n_orders_total": 33,
+            "n_orders_one_side_incl_zero": 17
+          },
+          "n_orders_passed_coherent": 33,
+          "n_orders_passed_partial_union": 39,
+          "ripple_pct_coherent_sigma0": 136.95459370691188,
+          "ripple_pct_partial_sigma015": 133.92907670941577,
+          "washout_factor": 1.0225904416862406
+        }
+      ],
+      "source_sha256": "514840411769a596cd9b0199882b280996ef3a13b0e8157d7e55bcff53f044de"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "device": "NVIDIA H100 80GB HBM3",
+  "atol": 1e-10,
+  "rtol": 1e-09,
+  "rows": [
+    {
+      "module": "scalar",
+      "runs": [
+        {
+          "cpu_gates": {
+            "g1": true,
+            "g2": true,
+            "g3": true,
+            "g4": true
+          },
+          "gpu_gates": {
+            "g1": true,
+            "g2": true,
+            "g3": true,
+            "g4": true
+          },
+          "cpu_s": 0.29122594000000035,
+          "gpu_s": 0.10029237299999849,
+          "image_count": 213,
+          "parity": 1.1917342420157517e-06,
+          "max_abs_error": 1.3322676295501878e-15,
+          "all_pass": true
+        },
+        {
+          "cpu_gates": {
+            "g1": true,
+            "g2": true,
+            "g3": true,
+            "g4": true
+          },
+          "gpu_gates": {
+            "g1": true,
+            "g2": true,
+            "g3": true,
+            "g4": true
+          },
+          "cpu_s": 0.2841401550000011,
+          "gpu_s": 0.10135486899999968,
+          "image_count": 213,
+          "parity": 1.1917342420157517e-06,
+          "max_abs_error": 1.3322676295501878e-15,
+          "all_pass": true
+        }
+      ],
+      "full_images_repeat_exact": true,
+      "all_pass": true
+    },
+    {
+      "module": "focus",
+      "runs": [
+        {
+          "cpu_gates": {
+            "g1": true,
+            "g2": true,
+            "g3": true,
+            "g4": true
+          },
+          "gpu_gates": {
+            "g1": true,
+            "g2": true,
+            "g3": true,
+            "g4": true
+          },
+          "cpu_s": 1.5737603050000004,
+          "gpu_s": 0.1315386580000002,
+          "image_count": 211,
+          "parity": 1.1102529990025215e-06,
+          "max_abs_error": 9.992007221626409e-16,
+          "all_pass": true
+        },
+        {
+          "cpu_gates": {
+            "g1": true,
+            "g2": true,
+            "g3": true,
+            "g4": true
+          },
+          "gpu_gates": {
+            "g1": true,
+            "g2": true,
+            "g3": true,
+            "g4": true
+          },
+          "cpu_s": 1.5682797079999986,
+          "gpu_s": 0.12956516700000265,
+          "image_count": 211,
+          "parity": 1.1102529990025215e-06,
+          "max_abs_error": 9.992007221626409e-16,
+          "all_pass": true
+        }
+      ],
+      "full_images_repeat_exact": true,
+      "all_pass": true
+    }
+  ],
+  "all_pass": true,
+  "source_sha256": {
+    "src/physics_engine/litho/litho_aerial_image_scalar.py": "3073bf8a23d868196d3d4ce1ed243e9fbeecb1b41d586bca4f4bf5d47e394e0f",
+    "src/physics_engine/litho/litho_depth_of_focus_cert.py": "fc1645c16269a58dc217fdf0a1d5fa5dcfc9f424926addb8d46cae2838b6d4c7",
+    "src/physics_engine/litho/litho_aerial_image_scalar_gpu.py": "64de85f6cf4b16ef2dece5394f73a7e37ecb12be17fb8c17d173a3ceb308fc5f",
+    "src/physics_engine/litho/litho_depth_of_focus_cert_gpu.py": "adcc8655c164f9ee26d335afdc9be26a26c203df94bad2805f756e49e2f98147",
+    "scripts/verify_aerial_gpu.py": "56c9000ae87d8b9629347c7750807e3d8e27571ed37914cb58f272e7a29b65f7"
+  }
+}

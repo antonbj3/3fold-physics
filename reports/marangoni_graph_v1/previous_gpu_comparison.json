@@ -1,0 +1,17 @@
+{
+  "rows": [
+    {
+      "leg": 0,
+      "arrays": 18,
+      "bytes": 799440,
+      "exact": true
+    },
+    {
+      "leg": 1,
+      "arrays": 18,
+      "bytes": 799440,
+      "exact": true
+    }
+  ],
+  "complete_records_exact": true
+}

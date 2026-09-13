@@ -1,0 +1,141 @@
+{
+  "device": "NVIDIA H100 80GB HBM3",
+  "rows": [
+    {
+      "history": false,
+      "leg": 0,
+      "implementation": "before",
+      "seconds": 0.4011005479999987,
+      "outputs_sha256": "a5a8063ae596b1a0f6a3ec57aecd6f124f14968cfaf478a0f5a491bef323de9c",
+      "rng_state": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 76457920720666404314485983950443070435,
+          "inc": 87136372517582989555478159403783844777
+        },
+        "has_uint32": 0,
+        "uinteger": 2686215074
+      },
+      "source_sha256": "46d2d50a6b68f9876efd8dd6e4438fda18c496a02cdae91c9553ebb66d53b9d6"
+    },
+    {
+      "history": false,
+      "leg": 0,
+      "implementation": "after",
+      "seconds": 0.2283056289999994,
+      "outputs_sha256": "a5a8063ae596b1a0f6a3ec57aecd6f124f14968cfaf478a0f5a491bef323de9c",
+      "rng_state": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 76457920720666404314485983950443070435,
+          "inc": 87136372517582989555478159403783844777
+        },
+        "has_uint32": 0,
+        "uinteger": 2686215074
+      },
+      "source_sha256": "b222cb7fad99f45b9b6e174c4434ab5e96c1c601e2003e62e40119d71d4d711f"
+    },
+    {
+      "history": false,
+      "leg": 1,
+      "implementation": "after",
+      "seconds": 0.22105624000000113,
+      "outputs_sha256": "a5a8063ae596b1a0f6a3ec57aecd6f124f14968cfaf478a0f5a491bef323de9c",
+      "rng_state": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 76457920720666404314485983950443070435,
+          "inc": 87136372517582989555478159403783844777
+        },
+        "has_uint32": 0,
+        "uinteger": 2686215074
+      },
+      "source_sha256": "b222cb7fad99f45b9b6e174c4434ab5e96c1c601e2003e62e40119d71d4d711f"
+    },
+    {
+      "history": false,
+      "leg": 1,
+      "implementation": "before",
+      "seconds": 0.390355327,
+      "outputs_sha256": "a5a8063ae596b1a0f6a3ec57aecd6f124f14968cfaf478a0f5a491bef323de9c",
+      "rng_state": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 76457920720666404314485983950443070435,
+          "inc": 87136372517582989555478159403783844777
+        },
+        "has_uint32": 0,
+        "uinteger": 2686215074
+      },
+      "source_sha256": "46d2d50a6b68f9876efd8dd6e4438fda18c496a02cdae91c9553ebb66d53b9d6"
+    },
+    {
+      "history": true,
+      "leg": 0,
+      "implementation": "before",
+      "seconds": 0.4139458960000013,
+      "outputs_sha256": "f7a16e4e56c309bdb70a309573e81958b80a50916578da08a401363ac42e6ac9",
+      "rng_state": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 76457920720666404314485983950443070435,
+          "inc": 87136372517582989555478159403783844777
+        },
+        "has_uint32": 0,
+        "uinteger": 2686215074
+      },
+      "source_sha256": "46d2d50a6b68f9876efd8dd6e4438fda18c496a02cdae91c9553ebb66d53b9d6"
+    },
+    {
+      "history": true,
+      "leg": 0,
+      "implementation": "after",
+      "seconds": 0.26632066899999884,
+      "outputs_sha256": "f7a16e4e56c309bdb70a309573e81958b80a50916578da08a401363ac42e6ac9",
+      "rng_state": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 76457920720666404314485983950443070435,
+          "inc": 87136372517582989555478159403783844777
+        },
+        "has_uint32": 0,
+        "uinteger": 2686215074
+      },
+      "source_sha256": "b222cb7fad99f45b9b6e174c4434ab5e96c1c601e2003e62e40119d71d4d711f"
+    },
+    {
+      "history": true,
+      "leg": 1,
+      "implementation": "after",
+      "seconds": 0.2413121700000005,
+      "outputs_sha256": "f7a16e4e56c309bdb70a309573e81958b80a50916578da08a401363ac42e6ac9",
+      "rng_state": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 76457920720666404314485983950443070435,
+          "inc": 87136372517582989555478159403783844777
+        },
+        "has_uint32": 0,
+        "uinteger": 2686215074
+      },
+      "source_sha256": "b222cb7fad99f45b9b6e174c4434ab5e96c1c601e2003e62e40119d71d4d711f"
+    },
+    {
+      "history": true,
+      "leg": 1,
+      "implementation": "before",
+      "seconds": 0.375122146999999,
+      "outputs_sha256": "f7a16e4e56c309bdb70a309573e81958b80a50916578da08a401363ac42e6ac9",
+      "rng_state": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 76457920720666404314485983950443070435,
+          "inc": 87136372517582989555478159403783844777
+        },
+        "has_uint32": 0,
+        "uinteger": 2686215074
+      },
+      "source_sha256": "46d2d50a6b68f9876efd8dd6e4438fda18c496a02cdae91c9553ebb66d53b9d6"
+    }
+  ]
+}

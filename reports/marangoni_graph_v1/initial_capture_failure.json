@@ -1,0 +1,8 @@
+{
+  "app": "ap-zstPsRA6Rz9A2BcNlhKEeM",
+  "test": "test_momentum_reuse_with_changed_temperature_and_tension",
+  "error": "Cannot copy between CPU and CUDA tensors during CUDA graph capture unless the CPU tensor is pinned",
+  "site": "rhs[0] = 0.0",
+  "numerical_suite_started": false,
+  "fix": "Use device zero_ for scalar pressure/RHS reference slots."
+}

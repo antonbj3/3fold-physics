@@ -1,0 +1,21 @@
+{
+  "repo": "3fold-physics-e-gpu-check",
+  "cmd": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONPATH=src python scripts/verify_wavepacket_gpu.py --out reports/revival_graph_l4_v1 && OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONPATH=src python scripts/time_revival_graph_l4.py",
+  "gpu": "NVIDIA L4, 23034 MiB, 580.95.05",
+  "rc": 0,
+  "seconds": 17.5,
+  "stamp": "20260913T193151Z",
+  "files": [
+    "artifacts/bloch_oscillation.json",
+    "reports/process_gpu_inputs_v1/Al_Spot_TDA_Results.csv",
+    "reports/process_gpu_inputs_v1/Al_Spot_TDW_Results.csv",
+    "reports/process_gpu_inputs_v1/manifest.json",
+    "reports/revival_graph_l4_v1/bloch_0.npz",
+    "reports/revival_graph_l4_v1/bloch_1.npz",
+    "reports/revival_graph_l4_v1/report.json",
+    "reports/revival_graph_l4_v1/revival_0.npz",
+    "reports/revival_graph_l4_v1/revival_1.npz",
+    "reports/revival_graph_timing_l4_v1/report.json"
+  ],
+  "extras": []
+}

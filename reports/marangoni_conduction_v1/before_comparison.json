@@ -1,0 +1,16 @@
+[
+  {
+    "repeat": 0,
+    "gpu_arrays": 18,
+    "gpu_bytes": 799440,
+    "gpu_fields_exact": true,
+    "records_exact": true
+  },
+  {
+    "repeat": 1,
+    "gpu_arrays": 18,
+    "gpu_bytes": 799440,
+    "gpu_fields_exact": true,
+    "records_exact": true
+  }
+]

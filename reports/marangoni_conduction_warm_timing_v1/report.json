@@ -1,0 +1,168 @@
+{
+  "device": "NVIDIA H100 80GB HBM3",
+  "scope": "uninstrumented constructor and nominal width; explicit whole-call warmup for both paths, fresh solver/graph each timed call",
+  "component": [
+    {
+      "leg": 0,
+      "implementation": "before",
+      "seconds_per_build": 0.007980766600000067
+    },
+    {
+      "leg": 0,
+      "implementation": "after",
+      "seconds_per_build": 0.0004269072999999679
+    },
+    {
+      "leg": 1,
+      "implementation": "after",
+      "seconds_per_build": 0.00041189940000005973
+    },
+    {
+      "leg": 1,
+      "implementation": "before",
+      "seconds_per_build": 0.007922604300000025
+    },
+    {
+      "leg": 2,
+      "implementation": "before",
+      "seconds_per_build": 0.007848642399999939
+    },
+    {
+      "leg": 2,
+      "implementation": "after",
+      "seconds_per_build": 0.0004215716000000036
+    },
+    {
+      "leg": 3,
+      "implementation": "after",
+      "seconds_per_build": 0.00041181479999998773
+    },
+    {
+      "leg": 3,
+      "implementation": "before",
+      "seconds_per_build": 0.007848511800000058
+    }
+  ],
+  "rows": [
+    {
+      "leg": 0,
+      "implementation": "before",
+      "seconds": 0.6109320910000005,
+      "result": {
+        "ratio": 1.394655536574506,
+        "hw_cond": 75.00000000013375,
+        "hw_mar": 104.59916524327448,
+        "hd_cond": 63.16325005622713,
+        "hd_mar": 41.274668346437856,
+        "u_max": 2.3208381908835727,
+        "Tmin": 300.05230091819686
+      },
+      "source_sha256": "f456315a8f613f2eaa550f33af15387a30d79524daa98091f23687cba4ebd9a8"
+    },
+    {
+      "leg": 0,
+      "implementation": "after",
+      "seconds": 0.5914031499999997,
+      "result": {
+        "ratio": 1.394655536574506,
+        "hw_cond": 75.00000000013375,
+        "hw_mar": 104.59916524327448,
+        "hd_cond": 63.16325005622713,
+        "hd_mar": 41.274668346437856,
+        "u_max": 2.3208381908835727,
+        "Tmin": 300.05230091819686
+      },
+      "source_sha256": "b2dad17aab6deb08931ae4798267e4674c1af84d5ed7236f7a077d3f9838f4a6"
+    },
+    {
+      "leg": 1,
+      "implementation": "after",
+      "seconds": 0.5967783860000004,
+      "result": {
+        "ratio": 1.394655536574506,
+        "hw_cond": 75.00000000013375,
+        "hw_mar": 104.59916524327448,
+        "hd_cond": 63.16325005622713,
+        "hd_mar": 41.274668346437856,
+        "u_max": 2.3208381908835727,
+        "Tmin": 300.05230091819686
+      },
+      "source_sha256": "b2dad17aab6deb08931ae4798267e4674c1af84d5ed7236f7a077d3f9838f4a6"
+    },
+    {
+      "leg": 1,
+      "implementation": "before",
+      "seconds": 0.5992551820000003,
+      "result": {
+        "ratio": 1.394655536574506,
+        "hw_cond": 75.00000000013375,
+        "hw_mar": 104.59916524327448,
+        "hd_cond": 63.16325005622713,
+        "hd_mar": 41.274668346437856,
+        "u_max": 2.3208381908835727,
+        "Tmin": 300.05230091819686
+      },
+      "source_sha256": "f456315a8f613f2eaa550f33af15387a30d79524daa98091f23687cba4ebd9a8"
+    },
+    {
+      "leg": 2,
+      "implementation": "before",
+      "seconds": 0.6068243710000001,
+      "result": {
+        "ratio": 1.394655536574506,
+        "hw_cond": 75.00000000013375,
+        "hw_mar": 104.59916524327448,
+        "hd_cond": 63.16325005622713,
+        "hd_mar": 41.274668346437856,
+        "u_max": 2.3208381908835727,
+        "Tmin": 300.05230091819686
+      },
+      "source_sha256": "f456315a8f613f2eaa550f33af15387a30d79524daa98091f23687cba4ebd9a8"
+    },
+    {
+      "leg": 2,
+      "implementation": "after",
+      "seconds": 0.5795235450000007,
+      "result": {
+        "ratio": 1.394655536574506,
+        "hw_cond": 75.00000000013375,
+        "hw_mar": 104.59916524327448,
+        "hd_cond": 63.16325005622713,
+        "hd_mar": 41.274668346437856,
+        "u_max": 2.3208381908835727,
+        "Tmin": 300.05230091819686
+      },
+      "source_sha256": "b2dad17aab6deb08931ae4798267e4674c1af84d5ed7236f7a077d3f9838f4a6"
+    },
+    {
+      "leg": 3,
+      "implementation": "after",
+      "seconds": 0.6477505610000005,
+      "result": {
+        "ratio": 1.394655536574506,
+        "hw_cond": 75.00000000013375,
+        "hw_mar": 104.59916524327448,
+        "hd_cond": 63.16325005622713,
+        "hd_mar": 41.274668346437856,
+        "u_max": 2.3208381908835727,
+        "Tmin": 300.05230091819686
+      },
+      "source_sha256": "b2dad17aab6deb08931ae4798267e4674c1af84d5ed7236f7a077d3f9838f4a6"
+    },
+    {
+      "leg": 3,
+      "implementation": "before",
+      "seconds": 0.6060229879999994,
+      "result": {
+        "ratio": 1.394655536574506,
+        "hw_cond": 75.00000000013375,
+        "hw_mar": 104.59916524327448,
+        "hd_cond": 63.16325005622713,
+        "hd_mar": 41.274668346437856,
+        "u_max": 2.3208381908835727,
+        "Tmin": 300.05230091819686
+      },
+      "source_sha256": "f456315a8f613f2eaa550f33af15387a30d79524daa98091f23687cba4ebd9a8"
+    }
+  ]
+}

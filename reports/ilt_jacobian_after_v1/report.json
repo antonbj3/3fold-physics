@@ -1,0 +1,55 @@
+{
+  "device": "NVIDIA H100 80GB HBM3",
+  "atol": 1e-09,
+  "rtol": 1e-08,
+  "runs": [
+    {
+      "cpu_s": 0.5339994860000026,
+      "gpu_s": 0.08230112100000042,
+      "image_parity": 1.2287952266670584e-07,
+      "record_parity": 0.0005526286499090902,
+      "jacobian_parity": 0.0001665116688768086,
+      "max_image_abs_error": 5.551115123125783e-16,
+      "gates": {
+        "original_forward_anchors": true,
+        "original_b": true,
+        "original_c_cpu": true,
+        "original_c_gpu": true,
+        "original_d": true,
+        "full_candidate_images": true,
+        "full_ilt_record": true,
+        "full_jacobian": true,
+        "selected_knobs_exact": true,
+        "process_windows_exact": true
+      }
+    },
+    {
+      "cpu_s": 0.5120791259999997,
+      "gpu_s": 0.05904237600000073,
+      "image_parity": 1.2287952266670584e-07,
+      "record_parity": 0.0005526286499090902,
+      "jacobian_parity": 0.0001665116688768086,
+      "max_image_abs_error": 5.551115123125783e-16,
+      "gates": {
+        "original_forward_anchors": true,
+        "original_b": true,
+        "original_c_cpu": true,
+        "original_c_gpu": true,
+        "original_d": true,
+        "full_candidate_images": true,
+        "full_ilt_record": true,
+        "full_jacobian": true,
+        "selected_knobs_exact": true,
+        "process_windows_exact": true
+      }
+    }
+  ],
+  "full_repeat_exact": true,
+  "source_sha256": {
+    "src/physics_engine/litho/d_litho_certified_imaging_ilt.py": "c85446a13b13258e8eef4685f059e65cc1be81c2bec3b05632df9f99cb9e8563",
+    "src/physics_engine/litho/d_litho_certified_imaging_ilt_gpu.py": "25cc7b2bfdf9269db107ab46a87e907e0877aed9177dbc369a48d41d6d69e87f",
+    "src/physics_engine/litho/socs_batched_tcc_apply_gpu_api_for_ilt.py": "95e545e39796a811dbd26c118e1da4695ffff2b7ef1ca045a1b49e62b3d05123",
+    "scripts/verify_ilt_gpu.py": "b6eab16f058117067a50be2738a3651fad9ef542d640f17b8ad09ac9706b8898"
+  },
+  "all_pass": true
+}

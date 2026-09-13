@@ -1,0 +1,2234 @@
+{
+  "rows": [
+    {
+      "backend": "cpu",
+      "repeat": 0,
+      "wall_seconds": 3.1389055810000013,
+      "result": {
+        "ratio": 1.3946555365744724,
+        "hw_cond": 75.00000000013375,
+        "hw_mar": 104.59916524327198,
+        "hd_cond": 63.16325005622713,
+        "hd_mar": 41.27466834643732,
+        "u_max": 2.320838190883506,
+        "Tmin": 300.05230091819686
+      },
+      "functions": [
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 201,
+          "function": "width_ratio",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 0.002194192,
+          "cumulative_seconds": 3.138174327
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 190,
+          "function": "tune_q0",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 0.022523814000000003,
+          "cumulative_seconds": 1.9433969780000002
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 56,
+          "function": "build_conduction",
+          "primitive_calls": 41,
+          "calls": 41,
+          "self_seconds": 0.671159967,
+          "cumulative_seconds": 1.376196447
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 175,
+          "function": "segregated_solve",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 0.001318264,
+          "cumulative_seconds": 1.0764593580000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 128,
+          "function": "relax_momentum",
+          "primitive_calls": 15,
+          "calls": 15,
+          "self_seconds": 0.40131799,
+          "cumulative_seconds": 0.8089832730000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/linalg/_dsolve/linsolve.py",
+          "line": 137,
+          "function": "spsolve",
+          "primitive_calls": 56,
+          "calls": 56,
+          "self_seconds": 0.001258919,
+          "cumulative_seconds": 0.8059130520000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse.linalg._dsolve._superlu.gssv>",
+          "primitive_calls": 56,
+          "calls": 56,
+          "self_seconds": 0.801582246,
+          "cumulative_seconds": 0.801582246
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'solve' of 'SuperLU' objects>",
+          "primitive_calls": 840,
+          "calls": 840,
+          "self_seconds": 0.382573998,
+          "cumulative_seconds": 0.382573998
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'append' of 'list' objects>",
+          "primitive_calls": 3426300,
+          "calls": 3426300,
+          "self_seconds": 0.36555817,
+          "cumulative_seconds": 0.36555817
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 30,
+          "function": "__init__",
+          "primitive_calls": 145,
+          "calls": 145,
+          "self_seconds": 0.002188447,
+          "cumulative_seconds": 0.27572567000000003
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 170,
+          "function": "solve_energy_steady",
+          "primitive_calls": 15,
+          "calls": 15,
+          "self_seconds": 0.000409296,
+          "cumulative_seconds": 0.265325875
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_coo.py",
+          "line": 32,
+          "function": "__init__",
+          "primitive_calls": 57,
+          "calls": 57,
+          "self_seconds": 0.001192052,
+          "cumulative_seconds": 0.189211295
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.asarray>",
+          "primitive_calls": 978,
+          "calls": 978,
+          "self_seconds": 0.13352987200000002,
+          "cumulative_seconds": 0.13352987200000002
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 61,
+          "function": "idx",
+          "primitive_calls": 1114790,
+          "calls": 1114790,
+          "self_seconds": 0.11189093100000001,
+          "cumulative_seconds": 0.11189093100000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.array>",
+          "primitive_calls": 510,
+          "calls": 510,
+          "self_seconds": 0.082544744,
+          "cumulative_seconds": 0.082544744
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 1695,
+          "function": "_get_index_dtype",
+          "primitive_calls": 316,
+          "calls": 316,
+          "self_seconds": 0.0014347700000000001,
+          "cumulative_seconds": 0.07399451500000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 371,
+          "function": "isshape",
+          "primitive_calls": 188,
+          "calls": 188,
+          "self_seconds": 0.000315202,
+          "cumulative_seconds": 0.07303338200000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 349,
+          "function": "isintlike",
+          "primitive_calls": 116,
+          "calls": 116,
+          "self_seconds": 0.000451244,
+          "cumulative_seconds": 0.072669597
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 3520,
+          "function": "ndim",
+          "primitive_calls": 116,
+          "calls": 116,
+          "self_seconds": 0.0008799750000000001,
+          "cumulative_seconds": 0.07219574100000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 263,
+          "function": "get_index_dtype",
+          "primitive_calls": 316,
+          "calls": 316,
+          "self_seconds": 0.004679349,
+          "cumulative_seconds": 0.07203364500000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 93,
+          "function": "build_pressure",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 0.019569097,
+          "cumulative_seconds": 0.067245545
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_coo.py",
+          "line": 62,
+          "function": "<genexpr>",
+          "primitive_calls": 171,
+          "calls": 171,
+          "self_seconds": 0.000185488,
+          "cumulative_seconds": 0.055935164
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 76,
+          "function": "build_advection",
+          "primitive_calls": 15,
+          "calls": 15,
+          "self_seconds": 0.006109785,
+          "cumulative_seconds": 0.035093593
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 141,
+          "function": "getdata",
+          "primitive_calls": 57,
+          "calls": 57,
+          "self_seconds": 0.00020051400000000003,
+          "cumulative_seconds": 0.027288949000000003
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_coo.py",
+          "line": 414,
+          "function": "_coo_to_compressed",
+          "primitive_calls": 57,
+          "calls": 57,
+          "self_seconds": 0.00884249,
+          "cumulative_seconds": 0.023748469
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/linalg/_dsolve/linsolve.py",
+          "line": 340,
+          "function": "splu",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 2.5073000000000002e-05,
+          "cumulative_seconds": 0.014481770000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse.linalg._dsolve._superlu.gstrf>",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 0.014391810000000001,
+          "cumulative_seconds": 0.014391810000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.coo_tocsr>",
+          "primitive_calls": 57,
+          "calls": 57,
+          "self_seconds": 0.013493095,
+          "cumulative_seconds": 0.013493095
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 1072,
+          "function": "sum_duplicates",
+          "primitive_calls": 115,
+          "calls": 115,
+          "self_seconds": 0.000417455,
+          "cumulative_seconds": 0.011602075
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_csr.py",
+          "line": 73,
+          "function": "tocsc",
+          "primitive_calls": 57,
+          "calls": 57,
+          "self_seconds": 0.000770198,
+          "cumulative_seconds": 0.01136957
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_csr.py",
+          "line": 36,
+          "function": "tolil",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 0.0044584740000000005,
+          "cumulative_seconds": 0.011133269000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reduce' of 'numpy.ufunc' objects>",
+          "primitive_calls": 3143,
+          "calls": 3143,
+          "self_seconds": 0.009046897,
+          "cumulative_seconds": 0.009046897
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'max' of 'numpy.ndarray' objects>",
+          "primitive_calls": 2059,
+          "calls": 2059,
+          "self_seconds": 0.001443913,
+          "cumulative_seconds": 0.008411793
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 2586,
+          "function": "all",
+          "primitive_calls": 855,
+          "calls": 855,
+          "self_seconds": 0.001600758,
+          "cumulative_seconds": 0.007053869000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/_methods.py",
+          "line": 39,
+          "function": "_amax",
+          "primitive_calls": 2059,
+          "calls": 2059,
+          "self_seconds": 0.000989571,
+          "cumulative_seconds": 0.00696788
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 1124,
+          "function": "sort_indices",
+          "primitive_calls": 57,
+          "calls": 57,
+          "self_seconds": 0.00016556100000000002,
+          "cumulative_seconds": 0.005869629
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csr_sort_indices>",
+          "primitive_calls": 57,
+          "calls": 57,
+          "self_seconds": 0.005493696,
+          "cumulative_seconds": 0.005493696
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 86,
+          "function": "_wrapreduction_any_all",
+          "primitive_calls": 855,
+          "calls": 855,
+          "self_seconds": 0.002924058,
+          "cumulative_seconds": 0.005453111
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_coo.py",
+          "line": 203,
+          "function": "_check",
+          "primitive_calls": 57,
+          "calls": 57,
+          "self_seconds": 0.0009730190000000001,
+          "cumulative_seconds": 0.005206497
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 827,
+          "function": "__add__",
+          "primitive_calls": 15,
+          "calls": 15,
+          "self_seconds": 7.0256e-05,
+          "cumulative_seconds": 0.004624367
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csr_tocsc>",
+          "primitive_calls": 57,
+          "calls": 57,
+          "self_seconds": 0.004446954,
+          "cumulative_seconds": 0.004446954
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 257,
+          "function": "_add_sparse",
+          "primitive_calls": 15,
+          "calls": 15,
+          "self_seconds": 2.9483000000000002e-05,
+          "cumulative_seconds": 0.004225382000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 1203,
+          "function": "_binopt",
+          "primitive_calls": 15,
+          "calls": 15,
+          "self_seconds": 0.000422626,
+          "cumulative_seconds": 0.004195899
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'copy' of 'numpy.ndarray' objects>",
+          "primitive_calls": 1741,
+          "calls": 1741,
+          "self_seconds": 0.004042297,
+          "cumulative_seconds": 0.004042297
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.zeros>",
+          "primitive_calls": 2563,
+          "calls": 2563,
+          "self_seconds": 0.0038307410000000004,
+          "cumulative_seconds": 0.0038307410000000004
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'tolist' of 'numpy.ndarray' objects>",
+          "primitive_calls": 11000,
+          "calls": 11000,
+          "self_seconds": 0.003596671,
+          "cumulative_seconds": 0.003596671
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 95,
+          "function": "idx",
+          "primitive_calls": 27190,
+          "calls": 27190,
+          "self_seconds": 0.00324841,
+          "cumulative_seconds": 0.00324841
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_lil.py",
+          "line": 23,
+          "function": "__init__",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 0.00297639,
+          "cumulative_seconds": 0.003051114
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reshape' of 'numpy.ndarray' objects>",
+          "primitive_calls": 1796,
+          "calls": 1796,
+          "self_seconds": 0.002463615,
+          "cumulative_seconds": 0.002463615
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 443,
+          "function": "check_shape",
+          "primitive_calls": 188,
+          "calls": 188,
+          "self_seconds": 0.001118515,
+          "cumulative_seconds": 0.0024019740000000003
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 1043,
+          "function": "has_canonical_format",
+          "primitive_calls": 115,
+          "calls": 115,
+          "self_seconds": 0.00048382100000000006,
+          "cumulative_seconds": 0.002315321
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 1132,
+          "function": "prune",
+          "primitive_calls": 217,
+          "calls": 217,
+          "self_seconds": 0.001041742,
+          "cumulative_seconds": 0.002245972
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 110,
+          "function": "half_width",
+          "primitive_calls": 58,
+          "calls": 58,
+          "self_seconds": 0.0017346170000000001,
+          "cumulative_seconds": 0.0022168830000000002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 166,
+          "function": "check_format",
+          "primitive_calls": 145,
+          "calls": 145,
+          "self_seconds": 0.000826318,
+          "cumulative_seconds": 0.002211905
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 5062,
+          "function": "meshgrid",
+          "primitive_calls": 30,
+          "calls": 30,
+          "self_seconds": 0.00034850500000000004,
+          "cumulative_seconds": 0.001999329
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csr_sum_duplicates>",
+          "primitive_calls": 57,
+          "calls": 57,
+          "self_seconds": 0.001936493,
+          "cumulative_seconds": 0.001936493
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 372,
+          "function": "nnz",
+          "primitive_calls": 1240,
+          "calls": 1240,
+          "self_seconds": 0.000554475,
+          "cumulative_seconds": 0.0018750070000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csr_plus_csr>",
+          "primitive_calls": 15,
+          "calls": 15,
+          "self_seconds": 0.001801487,
+          "cumulative_seconds": 0.001801487
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.isinstance>",
+          "primitive_calls": 1164,
+          "calls": 1164,
+          "self_seconds": 0.0007108240000000001,
+          "cumulative_seconds": 0.0016848820000000002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 1410,
+          "function": "tocsc",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 1.0659e-05,
+          "cumulative_seconds": 0.001662332
+        }
+      ]
+    },
+    {
+      "backend": "cpu",
+      "repeat": 1,
+      "wall_seconds": 3.3207665780000006,
+      "result": {
+        "ratio": 1.3946555365744724,
+        "hw_cond": 75.00000000013375,
+        "hw_mar": 104.59916524327198,
+        "hd_cond": 63.16325005622713,
+        "hd_mar": 41.27466834643732,
+        "u_max": 2.320838190883506,
+        "Tmin": 300.05230091819686
+      },
+      "functions": [
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 201,
+          "function": "width_ratio",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 0.0026648680000000004,
+          "cumulative_seconds": 3.3202084160000003
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 190,
+          "function": "tune_q0",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 0.021962386,
+          "cumulative_seconds": 2.0597137990000003
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 56,
+          "function": "build_conduction",
+          "primitive_calls": 41,
+          "calls": 41,
+          "self_seconds": 0.708475462,
+          "cumulative_seconds": 1.4569585900000002
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 175,
+          "function": "segregated_solve",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 0.0016635250000000001,
+          "cumulative_seconds": 1.097324141
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/linalg/_dsolve/linsolve.py",
+          "line": 137,
+          "function": "spsolve",
+          "primitive_calls": 56,
+          "calls": 56,
+          "self_seconds": 0.0013639540000000001,
+          "cumulative_seconds": 0.8559760390000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse.linalg._dsolve._superlu.gssv>",
+          "primitive_calls": 56,
+          "calls": 56,
+          "self_seconds": 0.8516474610000001,
+          "cumulative_seconds": 0.8516474610000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 128,
+          "function": "relax_momentum",
+          "primitive_calls": 15,
+          "calls": 15,
+          "self_seconds": 0.40090673800000004,
+          "cumulative_seconds": 0.8131163250000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'solve' of 'SuperLU' objects>",
+          "primitive_calls": 840,
+          "calls": 840,
+          "self_seconds": 0.38677025000000004,
+          "cumulative_seconds": 0.38677025000000004
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'append' of 'list' objects>",
+          "primitive_calls": 3426300,
+          "calls": 3426300,
+          "self_seconds": 0.38478252100000004,
+          "cumulative_seconds": 0.38478252100000004
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 30,
+          "function": "__init__",
+          "primitive_calls": 145,
+          "calls": 145,
+          "self_seconds": 0.002373444,
+          "cumulative_seconds": 0.290441381
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 170,
+          "function": "solve_energy_steady",
+          "primitive_calls": 15,
+          "calls": 15,
+          "self_seconds": 0.00037917900000000005,
+          "cumulative_seconds": 0.281544601
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_coo.py",
+          "line": 32,
+          "function": "__init__",
+          "primitive_calls": 57,
+          "calls": 57,
+          "self_seconds": 0.0012409060000000002,
+          "cumulative_seconds": 0.19112525400000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.asarray>",
+          "primitive_calls": 978,
+          "calls": 978,
+          "self_seconds": 0.149180892,
+          "cumulative_seconds": 0.149180892
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 61,
+          "function": "idx",
+          "primitive_calls": 1114790,
+          "calls": 1114790,
+          "self_seconds": 0.11821888600000001,
+          "cumulative_seconds": 0.11821888600000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 93,
+          "function": "build_pressure",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 0.016131152,
+          "cumulative_seconds": 0.111458047
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 371,
+          "function": "isshape",
+          "primitive_calls": 188,
+          "calls": 188,
+          "self_seconds": 0.000328568,
+          "cumulative_seconds": 0.08701496900000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 349,
+          "function": "isintlike",
+          "primitive_calls": 116,
+          "calls": 116,
+          "self_seconds": 0.0005321120000000001,
+          "cumulative_seconds": 0.086626755
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 3520,
+          "function": "ndim",
+          "primitive_calls": 116,
+          "calls": 116,
+          "self_seconds": 0.00098476,
+          "cumulative_seconds": 0.086068054
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.array>",
+          "primitive_calls": 510,
+          "calls": 510,
+          "self_seconds": 0.081590756,
+          "cumulative_seconds": 0.081590756
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 1695,
+          "function": "_get_index_dtype",
+          "primitive_calls": 316,
+          "calls": 316,
+          "self_seconds": 0.0014894930000000002,
+          "cumulative_seconds": 0.076389383
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 263,
+          "function": "get_index_dtype",
+          "primitive_calls": 316,
+          "calls": 316,
+          "self_seconds": 0.004920509,
+          "cumulative_seconds": 0.07436129400000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_csr.py",
+          "line": 36,
+          "function": "tolil",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 0.00398975,
+          "cumulative_seconds": 0.06423213800000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_lil.py",
+          "line": 23,
+          "function": "__init__",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 0.057523048,
+          "cumulative_seconds": 0.057588615
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_coo.py",
+          "line": 62,
+          "function": "<genexpr>",
+          "primitive_calls": 171,
+          "calls": 171,
+          "self_seconds": 0.00019524100000000002,
+          "cumulative_seconds": 0.055808564000000005
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 76,
+          "function": "build_advection",
+          "primitive_calls": 15,
+          "calls": 15,
+          "self_seconds": 0.007695999,
+          "cumulative_seconds": 0.037895904
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 141,
+          "function": "getdata",
+          "primitive_calls": 57,
+          "calls": 57,
+          "self_seconds": 0.00018620100000000002,
+          "cumulative_seconds": 0.026505226000000003
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_coo.py",
+          "line": 414,
+          "function": "_coo_to_compressed",
+          "primitive_calls": 57,
+          "calls": 57,
+          "self_seconds": 0.008600934000000001,
+          "cumulative_seconds": 0.023247886000000002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/linalg/_dsolve/linsolve.py",
+          "line": 340,
+          "function": "splu",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 2.5472000000000003e-05,
+          "cumulative_seconds": 0.013869832
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse.linalg._dsolve._superlu.gstrf>",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 0.013786454,
+          "cumulative_seconds": 0.013786454
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.coo_tocsr>",
+          "primitive_calls": 57,
+          "calls": 57,
+          "self_seconds": 0.013231885,
+          "cumulative_seconds": 0.013231885
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 1072,
+          "function": "sum_duplicates",
+          "primitive_calls": 115,
+          "calls": 115,
+          "self_seconds": 0.00043347700000000004,
+          "cumulative_seconds": 0.011350712
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_csr.py",
+          "line": 73,
+          "function": "tocsc",
+          "primitive_calls": 57,
+          "calls": 57,
+          "self_seconds": 0.0007605750000000001,
+          "cumulative_seconds": 0.010663848
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reduce' of 'numpy.ufunc' objects>",
+          "primitive_calls": 3143,
+          "calls": 3143,
+          "self_seconds": 0.009382595,
+          "cumulative_seconds": 0.009382595
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'max' of 'numpy.ndarray' objects>",
+          "primitive_calls": 2059,
+          "calls": 2059,
+          "self_seconds": 0.0015374280000000002,
+          "cumulative_seconds": 0.008760139
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 2586,
+          "function": "all",
+          "primitive_calls": 855,
+          "calls": 855,
+          "self_seconds": 0.0016450680000000002,
+          "cumulative_seconds": 0.007328002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/_methods.py",
+          "line": 39,
+          "function": "_amax",
+          "primitive_calls": 2059,
+          "calls": 2059,
+          "self_seconds": 0.001025663,
+          "cumulative_seconds": 0.007222711000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 1124,
+          "function": "sort_indices",
+          "primitive_calls": 57,
+          "calls": 57,
+          "self_seconds": 0.00017142900000000001,
+          "cumulative_seconds": 0.005798332000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 86,
+          "function": "_wrapreduction_any_all",
+          "primitive_calls": 855,
+          "calls": 855,
+          "self_seconds": 0.003044732,
+          "cumulative_seconds": 0.005682934000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csr_sort_indices>",
+          "primitive_calls": 57,
+          "calls": 57,
+          "self_seconds": 0.005406176,
+          "cumulative_seconds": 0.005406176
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_coo.py",
+          "line": 203,
+          "function": "_check",
+          "primitive_calls": 57,
+          "calls": 57,
+          "self_seconds": 0.001061874,
+          "cumulative_seconds": 0.00527355
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 827,
+          "function": "__add__",
+          "primitive_calls": 15,
+          "calls": 15,
+          "self_seconds": 6.0768000000000005e-05,
+          "cumulative_seconds": 0.004298563
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csr_tocsc>",
+          "primitive_calls": 57,
+          "calls": 57,
+          "self_seconds": 0.004194833,
+          "cumulative_seconds": 0.004194833
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'copy' of 'numpy.ndarray' objects>",
+          "primitive_calls": 1741,
+          "calls": 1741,
+          "self_seconds": 0.0039979690000000005,
+          "cumulative_seconds": 0.0039979690000000005
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 257,
+          "function": "_add_sparse",
+          "primitive_calls": 15,
+          "calls": 15,
+          "self_seconds": 2.5914000000000003e-05,
+          "cumulative_seconds": 0.003972614
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 1203,
+          "function": "_binopt",
+          "primitive_calls": 15,
+          "calls": 15,
+          "self_seconds": 0.00025630600000000004,
+          "cumulative_seconds": 0.0039467
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.zeros>",
+          "primitive_calls": 2563,
+          "calls": 2563,
+          "self_seconds": 0.0037788630000000004,
+          "cumulative_seconds": 0.0037788630000000004
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 95,
+          "function": "idx",
+          "primitive_calls": 27190,
+          "calls": 27190,
+          "self_seconds": 0.002898968,
+          "cumulative_seconds": 0.002898968
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'tolist' of 'numpy.ndarray' objects>",
+          "primitive_calls": 11000,
+          "calls": 11000,
+          "self_seconds": 0.002628483,
+          "cumulative_seconds": 0.002628483
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reshape' of 'numpy.ndarray' objects>",
+          "primitive_calls": 1796,
+          "calls": 1796,
+          "self_seconds": 0.002550585,
+          "cumulative_seconds": 0.002550585
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 110,
+          "function": "half_width",
+          "primitive_calls": 58,
+          "calls": 58,
+          "self_seconds": 0.0018942400000000002,
+          "cumulative_seconds": 0.0024710120000000003
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 5062,
+          "function": "meshgrid",
+          "primitive_calls": 30,
+          "calls": 30,
+          "self_seconds": 0.00041575700000000005,
+          "cumulative_seconds": 0.0024132560000000003
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 1043,
+          "function": "has_canonical_format",
+          "primitive_calls": 115,
+          "calls": 115,
+          "self_seconds": 0.0004944470000000001,
+          "cumulative_seconds": 0.0022799300000000003
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 1132,
+          "function": "prune",
+          "primitive_calls": 217,
+          "calls": 217,
+          "self_seconds": 0.001010863,
+          "cumulative_seconds": 0.002225308
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 166,
+          "function": "check_format",
+          "primitive_calls": 145,
+          "calls": 145,
+          "self_seconds": 0.0008220930000000001,
+          "cumulative_seconds": 0.002163068
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 443,
+          "function": "check_shape",
+          "primitive_calls": 188,
+          "calls": 188,
+          "self_seconds": 0.001127202,
+          "cumulative_seconds": 0.0019259580000000002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 372,
+          "function": "nnz",
+          "primitive_calls": 1240,
+          "calls": 1240,
+          "self_seconds": 0.000564606,
+          "cumulative_seconds": 0.001908792
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csr_sum_duplicates>",
+          "primitive_calls": 57,
+          "calls": 57,
+          "self_seconds": 0.001798422,
+          "cumulative_seconds": 0.001798422
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csr_plus_csr>",
+          "primitive_calls": 15,
+          "calls": 15,
+          "self_seconds": 0.0016958000000000001,
+          "cumulative_seconds": 0.0016958000000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.max>",
+          "primitive_calls": 2072,
+          "calls": 2072,
+          "self_seconds": 0.0016578,
+          "cumulative_seconds": 0.0016578
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csr_has_canonical_format>",
+          "primitive_calls": 114,
+          "calls": 114,
+          "self_seconds": 0.001561784,
+          "cumulative_seconds": 0.001561784
+        }
+      ]
+    },
+    {
+      "backend": "gpu",
+      "repeat": 0,
+      "wall_seconds": 1.1049222839999988,
+      "result": {
+        "ratio": 1.394655536574506,
+        "hw_cond": 75.00000000013375,
+        "hw_mar": 104.59916524327448,
+        "hd_cond": 63.16325005622713,
+        "hd_mar": 41.274668346437856,
+        "u_max": 2.3208381908835727,
+        "Tmin": 300.05230091819686
+      },
+      "functions": [
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/graphs.py",
+          "line": 182,
+          "function": "replay",
+          "primitive_calls": 3,
+          "calls": 31,
+          "self_seconds": 0.0047949740000000005,
+          "cumulative_seconds": 1.0332736340000002
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd_gpu.py",
+          "line": 134,
+          "function": "__init__",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 7.141600000000001e-05,
+          "cumulative_seconds": 0.32053264600000003
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/graphs.py",
+          "line": 471,
+          "function": "__exit__",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 0.000136748,
+          "cumulative_seconds": 0.320380677
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/graphs.py",
+          "line": 437,
+          "function": "__enter__",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 0.00022519100000000002,
+          "cumulative_seconds": 0.31347029600000004
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd_gpu.py",
+          "line": 92,
+          "function": "momentum_step",
+          "primitive_calls": 3,
+          "calls": 3,
+          "self_seconds": 0.078389288,
+          "cumulative_seconds": 0.30822870700000005
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 170,
+          "function": "solve_energy_steady",
+          "primitive_calls": 15,
+          "calls": 15,
+          "self_seconds": 0.000598883,
+          "cumulative_seconds": 0.298925104
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'cpu' of 'torch._C.TensorBase' objects>",
+          "primitive_calls": 870,
+          "calls": 870,
+          "self_seconds": 0.27228035,
+          "cumulative_seconds": 0.27228035
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/linalg/_dsolve/linsolve.py",
+          "line": 137,
+          "function": "spsolve",
+          "primitive_calls": 16,
+          "calls": 16,
+          "self_seconds": 0.000496439,
+          "cumulative_seconds": 0.252058906
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse.linalg._dsolve._superlu.gssv>",
+          "primitive_calls": 16,
+          "calls": 16,
+          "self_seconds": 0.250634711,
+          "cumulative_seconds": 0.250634711
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 56,
+          "function": "build_conduction",
+          "primitive_calls": 2,
+          "calls": 2,
+          "self_seconds": 0.035292809,
+          "cumulative_seconds": 0.07377834700000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd_gpu.py",
+          "line": 181,
+          "function": "tune_q0",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 0.0012009890000000002,
+          "cumulative_seconds": 0.068742756
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 93,
+          "function": "build_pressure",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 0.018468279,
+          "cumulative_seconds": 0.065702173
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 76,
+          "function": "build_advection",
+          "primitive_calls": 15,
+          "calls": 15,
+          "self_seconds": 0.023042482000000003,
+          "cumulative_seconds": 0.056467536000000006
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 30,
+          "function": "__init__",
+          "primitive_calls": 67,
+          "calls": 67,
+          "self_seconds": 0.0009331550000000001,
+          "cumulative_seconds": 0.051364377
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd_gpu.py",
+          "line": 41,
+          "function": "solve",
+          "primitive_calls": 3,
+          "calls": 3,
+          "self_seconds": 0.04256974,
+          "cumulative_seconds": 0.042819412
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.minimum>",
+          "primitive_calls": 3,
+          "calls": 3,
+          "self_seconds": 0.03822227,
+          "cumulative_seconds": 0.03822227
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/linalg/_dsolve/linsolve.py",
+          "line": 340,
+          "function": "splu",
+          "primitive_calls": 2,
+          "calls": 2,
+          "self_seconds": 3.1343e-05,
+          "cumulative_seconds": 0.030876488
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse.linalg._dsolve._superlu.gstrf>",
+          "primitive_calls": 2,
+          "calls": 2,
+          "self_seconds": 0.030741429,
+          "cumulative_seconds": 0.030741429
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd_gpu.py",
+          "line": 22,
+          "function": "liquid_fraction",
+          "primitive_calls": 3,
+          "calls": 3,
+          "self_seconds": 0.001443033,
+          "cumulative_seconds": 0.029135300000000003
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'append' of 'list' objects>",
+          "primitive_calls": 245070,
+          "calls": 245070,
+          "self_seconds": 0.028274340000000002,
+          "cumulative_seconds": 0.028274340000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.clamp>",
+          "primitive_calls": 3,
+          "calls": 3,
+          "self_seconds": 0.027692267000000003,
+          "cumulative_seconds": 0.027692267000000003
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_coo.py",
+          "line": 32,
+          "function": "__init__",
+          "primitive_calls": 18,
+          "calls": 18,
+          "self_seconds": 0.00046665000000000004,
+          "cumulative_seconds": 0.026959820000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.isfinite>",
+          "primitive_calls": 3,
+          "calls": 3,
+          "self_seconds": 0.024350731,
+          "cumulative_seconds": 0.024350731
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_tensor.py",
+          "line": 32,
+          "function": "wrapped",
+          "primitive_calls": 29,
+          "calls": 29,
+          "self_seconds": 9.723400000000001e-05,
+          "cumulative_seconds": 0.022593511
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_tensor.py",
+          "line": 1110,
+          "function": "__rdiv__",
+          "primitive_calls": 9,
+          "calls": 9,
+          "self_seconds": 0.000230375,
+          "cumulative_seconds": 0.022041557
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.cat>",
+          "primitive_calls": 3,
+          "calls": 3,
+          "self_seconds": 0.021900583,
+          "cumulative_seconds": 0.021900583
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reciprocal' of 'torch._C.TensorBase' objects>",
+          "primitive_calls": 9,
+          "calls": 9,
+          "self_seconds": 0.021811182000000002,
+          "cumulative_seconds": 0.021811182000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'max' of 'torch._C.TensorBase' objects>",
+          "primitive_calls": 9,
+          "calls": 9,
+          "self_seconds": 0.020382305,
+          "cumulative_seconds": 0.020382305
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.abs>",
+          "primitive_calls": 12,
+          "calls": 12,
+          "self_seconds": 0.016824031,
+          "cumulative_seconds": 0.016824031
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'solve' of 'SuperLU' objects>",
+          "primitive_calls": 40,
+          "calls": 40,
+          "self_seconds": 0.016622905,
+          "cumulative_seconds": 0.016622905
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.array>",
+          "primitive_calls": 276,
+          "calls": 276,
+          "self_seconds": 0.013950416,
+          "cumulative_seconds": 0.013950416
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.all>",
+          "primitive_calls": 3,
+          "calls": 3,
+          "self_seconds": 0.012570754,
+          "cumulative_seconds": 0.012570754
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_coo.py",
+          "line": 414,
+          "function": "_coo_to_compressed",
+          "primitive_calls": 18,
+          "calls": 18,
+          "self_seconds": 0.004440400000000001,
+          "cumulative_seconds": 0.012553544000000002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_csr.py",
+          "line": 36,
+          "function": "tolil",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 0.006135046000000001,
+          "cumulative_seconds": 0.012384840000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_coo.py",
+          "line": 62,
+          "function": "<genexpr>",
+          "primitive_calls": 54,
+          "calls": 54,
+          "self_seconds": 0.00011050900000000001,
+          "cumulative_seconds": 0.011939058
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.asarray>",
+          "primitive_calls": 392,
+          "calls": 392,
+          "self_seconds": 0.010848043,
+          "cumulative_seconds": 0.010848043
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 1695,
+          "function": "_get_index_dtype",
+          "primitive_calls": 121,
+          "calls": 121,
+          "self_seconds": 0.000549132,
+          "cumulative_seconds": 0.009809952
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 263,
+          "function": "get_index_dtype",
+          "primitive_calls": 121,
+          "calls": 121,
+          "self_seconds": 0.001972283,
+          "cumulative_seconds": 0.009030483
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.coo_tocsr>",
+          "primitive_calls": 18,
+          "calls": 18,
+          "self_seconds": 0.007563642000000001,
+          "cumulative_seconds": 0.007563642000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/streams.py",
+          "line": 37,
+          "function": "__new__",
+          "primitive_calls": 5,
+          "calls": 5,
+          "self_seconds": 6.3688e-05,
+          "cumulative_seconds": 0.006794481000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method __new__ of type object at 0x2ae01af604a0>",
+          "primitive_calls": 8,
+          "calls": 8,
+          "self_seconds": 0.006697059,
+          "cumulative_seconds": 0.006697059
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 371,
+          "function": "isshape",
+          "primitive_calls": 71,
+          "calls": 71,
+          "self_seconds": 0.000104939,
+          "cumulative_seconds": 0.006301817
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 349,
+          "function": "isintlike",
+          "primitive_calls": 38,
+          "calls": 38,
+          "self_seconds": 0.00015990200000000002,
+          "cumulative_seconds": 0.006179231
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 3520,
+          "function": "ndim",
+          "primitive_calls": 38,
+          "calls": 38,
+          "self_seconds": 9.612000000000001e-05,
+          "cumulative_seconds": 0.006005931
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 61,
+          "function": "idx",
+          "primitive_calls": 54380,
+          "calls": 54380,
+          "self_seconds": 0.005923364,
+          "cumulative_seconds": 0.005923364
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 827,
+          "function": "__add__",
+          "primitive_calls": 15,
+          "calls": 15,
+          "self_seconds": 6.2749e-05,
+          "cumulative_seconds": 0.004524536
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 1072,
+          "function": "sum_duplicates",
+          "primitive_calls": 37,
+          "calls": 37,
+          "self_seconds": 0.00019309400000000002,
+          "cumulative_seconds": 0.004444195000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.as_tensor>",
+          "primitive_calls": 48,
+          "calls": 48,
+          "self_seconds": 0.004209295,
+          "cumulative_seconds": 0.004209295
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 257,
+          "function": "_add_sparse",
+          "primitive_calls": 15,
+          "calls": 15,
+          "self_seconds": 3.0915000000000005e-05,
+          "cumulative_seconds": 0.004181987
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 1203,
+          "function": "_binopt",
+          "primitive_calls": 15,
+          "calls": 15,
+          "self_seconds": 0.000280942,
+          "cumulative_seconds": 0.0041510720000000004
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'tolist' of 'numpy.ndarray' objects>",
+          "primitive_calls": 11000,
+          "calls": 11000,
+          "self_seconds": 0.0036264250000000004,
+          "cumulative_seconds": 0.0036264250000000004
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_csr.py",
+          "line": 73,
+          "function": "tocsc",
+          "primitive_calls": 18,
+          "calls": 18,
+          "self_seconds": 0.00025506300000000003,
+          "cumulative_seconds": 0.0034307540000000003
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 5062,
+          "function": "meshgrid",
+          "primitive_calls": 30,
+          "calls": 30,
+          "self_seconds": 0.000500511,
+          "cumulative_seconds": 0.003310908
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 95,
+          "function": "idx",
+          "primitive_calls": 27190,
+          "calls": 27190,
+          "self_seconds": 0.003015335,
+          "cumulative_seconds": 0.003015335
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_lil.py",
+          "line": 23,
+          "function": "__init__",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 0.002501086,
+          "cumulative_seconds": 0.002595637
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/graphs.py",
+          "line": 160,
+          "function": "capture_end",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 0.002420181,
+          "cumulative_seconds": 0.002420181
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'numpy' of 'torch._C.TensorBase' objects>",
+          "primitive_calls": 870,
+          "calls": 870,
+          "self_seconds": 0.002358661,
+          "cumulative_seconds": 0.002358661
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 1124,
+          "function": "sort_indices",
+          "primitive_calls": 18,
+          "calls": 18,
+          "self_seconds": 7.1666e-05,
+          "cumulative_seconds": 0.002334028
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 141,
+          "function": "getdata",
+          "primitive_calls": 18,
+          "calls": 18,
+          "self_seconds": 7.080500000000001e-05,
+          "cumulative_seconds": 0.002288843
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_coo.py",
+          "line": 203,
+          "function": "_check",
+          "primitive_calls": 18,
+          "calls": 18,
+          "self_seconds": 0.000374994,
+          "cumulative_seconds": 0.0022258910000000002
+        }
+      ]
+    },
+    {
+      "backend": "gpu",
+      "repeat": 1,
+      "wall_seconds": 0.7907264400000003,
+      "result": {
+        "ratio": 1.394655536574506,
+        "hw_cond": 75.00000000013375,
+        "hw_mar": 104.59916524327448,
+        "hd_cond": 63.16325005622713,
+        "hd_mar": 41.274668346437856,
+        "u_max": 2.3208381908835727,
+        "Tmin": 300.05230091819686
+      },
+      "functions": [
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/graphs.py",
+          "line": 182,
+          "function": "replay",
+          "primitive_calls": 3,
+          "calls": 31,
+          "self_seconds": 0.0044239710000000005,
+          "cumulative_seconds": 0.441295378
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 170,
+          "function": "solve_energy_steady",
+          "primitive_calls": 15,
+          "calls": 15,
+          "self_seconds": 0.00049308,
+          "cumulative_seconds": 0.28379486400000004
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'cpu' of 'torch._C.TensorBase' objects>",
+          "primitive_calls": 870,
+          "calls": 870,
+          "self_seconds": 0.27028719,
+          "cumulative_seconds": 0.27028719
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/linalg/_dsolve/linsolve.py",
+          "line": 137,
+          "function": "spsolve",
+          "primitive_calls": 16,
+          "calls": 16,
+          "self_seconds": 0.00045941000000000005,
+          "cumulative_seconds": 0.246257944
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse.linalg._dsolve._superlu.gssv>",
+          "primitive_calls": 16,
+          "calls": 16,
+          "self_seconds": 0.24491974400000002,
+          "cumulative_seconds": 0.24491974400000002
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 56,
+          "function": "build_conduction",
+          "primitive_calls": 2,
+          "calls": 2,
+          "self_seconds": 0.040625018000000006,
+          "cumulative_seconds": 0.085259713
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd_gpu.py",
+          "line": 181,
+          "function": "tune_q0",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 0.001080803,
+          "cumulative_seconds": 0.078994254
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 93,
+          "function": "build_pressure",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 0.021723214,
+          "cumulative_seconds": 0.067545437
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 30,
+          "function": "__init__",
+          "primitive_calls": 67,
+          "calls": 67,
+          "self_seconds": 0.0009354480000000001,
+          "cumulative_seconds": 0.052851913
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 76,
+          "function": "build_advection",
+          "primitive_calls": 15,
+          "calls": 15,
+          "self_seconds": 0.010497846,
+          "cumulative_seconds": 0.040959947000000003
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'append' of 'list' objects>",
+          "primitive_calls": 245070,
+          "calls": 245070,
+          "self_seconds": 0.033402081,
+          "cumulative_seconds": 0.033402081
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_coo.py",
+          "line": 32,
+          "function": "__init__",
+          "primitive_calls": 18,
+          "calls": 18,
+          "self_seconds": 0.00042748700000000005,
+          "cumulative_seconds": 0.026943299
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/linalg/_dsolve/linsolve.py",
+          "line": 340,
+          "function": "splu",
+          "primitive_calls": 2,
+          "calls": 2,
+          "self_seconds": 3.8784e-05,
+          "cumulative_seconds": 0.024394225000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse.linalg._dsolve._superlu.gstrf>",
+          "primitive_calls": 2,
+          "calls": 2,
+          "self_seconds": 0.024250209000000002,
+          "cumulative_seconds": 0.024250209000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'solve' of 'SuperLU' objects>",
+          "primitive_calls": 40,
+          "calls": 40,
+          "self_seconds": 0.022962322,
+          "cumulative_seconds": 0.022962322
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.asarray>",
+          "primitive_calls": 392,
+          "calls": 392,
+          "self_seconds": 0.013889175,
+          "cumulative_seconds": 0.013889175
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd_gpu.py",
+          "line": 134,
+          "function": "__init__",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 6.1382e-05,
+          "cumulative_seconds": 0.013494345000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/graphs.py",
+          "line": 471,
+          "function": "__exit__",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 0.00013693600000000002,
+          "cumulative_seconds": 0.013354866000000002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_coo.py",
+          "line": 414,
+          "function": "_coo_to_compressed",
+          "primitive_calls": 18,
+          "calls": 18,
+          "self_seconds": 0.005386748,
+          "cumulative_seconds": 0.012752686000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.array>",
+          "primitive_calls": 276,
+          "calls": 276,
+          "self_seconds": 0.012008317000000001,
+          "cumulative_seconds": 0.012008317000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 1695,
+          "function": "_get_index_dtype",
+          "primitive_calls": 121,
+          "calls": 121,
+          "self_seconds": 0.000558874,
+          "cumulative_seconds": 0.011441336
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 263,
+          "function": "get_index_dtype",
+          "primitive_calls": 121,
+          "calls": 121,
+          "self_seconds": 0.001972611,
+          "cumulative_seconds": 0.010656633
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_csr.py",
+          "line": 36,
+          "function": "tolil",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 0.004813309,
+          "cumulative_seconds": 0.010590752
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd_gpu.py",
+          "line": 92,
+          "function": "momentum_step",
+          "primitive_calls": 3,
+          "calls": 3,
+          "self_seconds": 0.004861361000000001,
+          "cumulative_seconds": 0.009787852000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_coo.py",
+          "line": 62,
+          "function": "<genexpr>",
+          "primitive_calls": 54,
+          "calls": 54,
+          "self_seconds": 7.3805e-05,
+          "cumulative_seconds": 0.009124263
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/graphs.py",
+          "line": 437,
+          "function": "__enter__",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 0.00014058200000000002,
+          "cumulative_seconds": 0.008055791
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 371,
+          "function": "isshape",
+          "primitive_calls": 71,
+          "calls": 71,
+          "self_seconds": 0.000109203,
+          "cumulative_seconds": 0.0078117510000000005
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 349,
+          "function": "isintlike",
+          "primitive_calls": 38,
+          "calls": 38,
+          "self_seconds": 0.000159227,
+          "cumulative_seconds": 0.007682854
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 3520,
+          "function": "ndim",
+          "primitive_calls": 38,
+          "calls": 38,
+          "self_seconds": 0.00010279100000000001,
+          "cumulative_seconds": 0.0075113390000000006
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 61,
+          "function": "idx",
+          "primitive_calls": 54380,
+          "calls": 54380,
+          "self_seconds": 0.0069654800000000005,
+          "cumulative_seconds": 0.0069654800000000005
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.coo_tocsr>",
+          "primitive_calls": 18,
+          "calls": 18,
+          "self_seconds": 0.006838645000000001,
+          "cumulative_seconds": 0.006838645000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 1072,
+          "function": "sum_duplicates",
+          "primitive_calls": 37,
+          "calls": 37,
+          "self_seconds": 0.000181964,
+          "cumulative_seconds": 0.0046294330000000005
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 827,
+          "function": "__add__",
+          "primitive_calls": 15,
+          "calls": 15,
+          "self_seconds": 7.19e-05,
+          "cumulative_seconds": 0.0046069990000000005
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 257,
+          "function": "_add_sparse",
+          "primitive_calls": 15,
+          "calls": 15,
+          "self_seconds": 3.0599e-05,
+          "cumulative_seconds": 0.0042473120000000005
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 1203,
+          "function": "_binopt",
+          "primitive_calls": 15,
+          "calls": 15,
+          "self_seconds": 0.000264532,
+          "cumulative_seconds": 0.004216713
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.as_tensor>",
+          "primitive_calls": 48,
+          "calls": 48,
+          "self_seconds": 0.0037672350000000003,
+          "cumulative_seconds": 0.0037672350000000003
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 95,
+          "function": "idx",
+          "primitive_calls": 27190,
+          "calls": 27190,
+          "self_seconds": 0.0035346310000000003,
+          "cumulative_seconds": 0.0035346310000000003
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_csr.py",
+          "line": 73,
+          "function": "tocsc",
+          "primitive_calls": 18,
+          "calls": 18,
+          "self_seconds": 0.00024165900000000003,
+          "cumulative_seconds": 0.003328689
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'tolist' of 'numpy.ndarray' objects>",
+          "primitive_calls": 11000,
+          "calls": 11000,
+          "self_seconds": 0.003237409,
+          "cumulative_seconds": 0.003237409
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_sputils.py",
+          "line": 141,
+          "function": "getdata",
+          "primitive_calls": 18,
+          "calls": 18,
+          "self_seconds": 7.5176e-05,
+          "cumulative_seconds": 0.0031338850000000003
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_function_base_impl.py",
+          "line": 5062,
+          "function": "meshgrid",
+          "primitive_calls": 30,
+          "calls": 30,
+          "self_seconds": 0.000522357,
+          "cumulative_seconds": 0.003035443
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_lil.py",
+          "line": 23,
+          "function": "__init__",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 0.002477987,
+          "cumulative_seconds": 0.002526874
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 1124,
+          "function": "sort_indices",
+          "primitive_calls": 18,
+          "calls": 18,
+          "self_seconds": 6.8619e-05,
+          "cumulative_seconds": 0.00249012
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csr_sort_indices>",
+          "primitive_calls": 18,
+          "calls": 18,
+          "self_seconds": 0.0023400310000000002,
+          "cumulative_seconds": 0.0023400310000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'numpy' of 'torch._C.TensorBase' objects>",
+          "primitive_calls": 870,
+          "calls": 870,
+          "self_seconds": 0.002207511,
+          "cumulative_seconds": 0.002207511
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_coo.py",
+          "line": 203,
+          "function": "_check",
+          "primitive_calls": 18,
+          "calls": 18,
+          "self_seconds": 0.00037302500000000003,
+          "cumulative_seconds": 0.002159652
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reduce' of 'numpy.ufunc' objects>",
+          "primitive_calls": 236,
+          "calls": 236,
+          "self_seconds": 0.0020202130000000003,
+          "cumulative_seconds": 0.0020202130000000003
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csr_plus_csr>",
+          "primitive_calls": 15,
+          "calls": 15,
+          "self_seconds": 0.001872717,
+          "cumulative_seconds": 0.001872717
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'max' of 'numpy.ndarray' objects>",
+          "primitive_calls": 148,
+          "calls": 148,
+          "self_seconds": 0.000181499,
+          "cumulative_seconds": 0.001816008
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd_gpu.py",
+          "line": 41,
+          "function": "solve",
+          "primitive_calls": 3,
+          "calls": 3,
+          "self_seconds": 0.0015078630000000001,
+          "cumulative_seconds": 0.0017671990000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method scipy.sparse._sparsetools.csr_tocsc>",
+          "primitive_calls": 18,
+          "calls": 18,
+          "self_seconds": 0.001709832,
+          "cumulative_seconds": 0.001709832
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_stride_tricks_impl.py",
+          "line": 588,
+          "function": "broadcast_arrays",
+          "primitive_calls": 30,
+          "calls": 30,
+          "self_seconds": 0.000221513,
+          "cumulative_seconds": 0.0017091440000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/_methods.py",
+          "line": 39,
+          "function": "_amax",
+          "primitive_calls": 148,
+          "calls": 148,
+          "self_seconds": 0.00011706100000000001,
+          "cumulative_seconds": 0.0016345090000000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd_gpu.py",
+          "line": 22,
+          "function": "liquid_fraction",
+          "primitive_calls": 3,
+          "calls": 3,
+          "self_seconds": 0.0012195440000000001,
+          "cumulative_seconds": 0.0013008750000000002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/cuda/graphs.py",
+          "line": 160,
+          "function": "capture_end",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 0.0013000630000000002,
+          "cumulative_seconds": 0.0013000630000000002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_base.py",
+          "line": 1410,
+          "function": "tocsc",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 6.182e-06,
+          "cumulative_seconds": 0.0012574370000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_stride_tricks_impl.py",
+          "line": 447,
+          "function": "_broadcast_to",
+          "primitive_calls": 60,
+          "calls": 60,
+          "self_seconds": 0.000987801,
+          "cumulative_seconds": 0.001225429
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "line": 110,
+          "function": "half_width",
+          "primitive_calls": 58,
+          "calls": 58,
+          "self_seconds": 0.000822233,
+          "cumulative_seconds": 0.0011157410000000002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_lil.py",
+          "line": 414,
+          "function": "tocsr",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_seconds": 0.0008298270000000001,
+          "cumulative_seconds": 0.0010532500000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/scipy/sparse/_compressed.py",
+          "line": 1132,
+          "function": "prune",
+          "primitive_calls": 100,
+          "calls": 100,
+          "self_seconds": 0.00047073400000000005,
+          "cumulative_seconds": 0.001018205
+        }
+      ]
+    }
+  ],
+  "device": "NVIDIA H100 80GB HBM3",
+  "source_sha256": {
+    "src/physics_engine/process/marangoni_meltpool_cfd.py": "8b7b0d68b69abb7ead6c547658914ae11ccc9cd185fa84c268d078b2ec3a61e0",
+    "src/physics_engine/process/marangoni_meltpool_cfd_gpu.py": "f2e4db82beefc48703c0cdbfa689b0615a55f5df4ad0488786863a4e9cd1620b"
+  },
+  "scope": "cProfile observed complete nominal width_ratio; CUDA synchronized only at whole-call boundaries"
+}

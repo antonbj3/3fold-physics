@@ -1,0 +1,28 @@
+{
+  "repo": "3fold-physics-e-gpu-check",
+  "cmd": "cp scripts/wave_optics_row_before.py src/physics_engine/wave_optics/wave_optics_cell_gpu.py && PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONPATH=src python scripts/verify_wave_optics_gpu.py --out reports/wave_optics_row_before_v1 && cp scripts/wave_optics_row_after.py src/physics_engine/wave_optics/wave_optics_cell_gpu.py && PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONPATH=src python scripts/verify_wave_optics_gpu.py --out reports/wave_optics_row_after_v1",
+  "gpu": "NVIDIA H100 80GB HBM3, 81559 MiB, 580.95.05",
+  "rc": 0,
+  "seconds": 40.2,
+  "stamp": "20260913T181653Z",
+  "files": [
+    "reports/process_gpu_inputs_v1/Al_Spot_TDA_Results.csv",
+    "reports/process_gpu_inputs_v1/Al_Spot_TDW_Results.csv",
+    "reports/process_gpu_inputs_v1/manifest.json",
+    "reports/wave_optics_row_after_v1/archive_0.npz",
+    "reports/wave_optics_row_after_v1/archive_1.npz",
+    "reports/wave_optics_row_after_v1/fields_0.json",
+    "reports/wave_optics_row_after_v1/fields_1.json",
+    "reports/wave_optics_row_after_v1/gate_records_0.json",
+    "reports/wave_optics_row_after_v1/gate_records_1.json",
+    "reports/wave_optics_row_after_v1/report.json",
+    "reports/wave_optics_row_before_v1/archive_0.npz",
+    "reports/wave_optics_row_before_v1/archive_1.npz",
+    "reports/wave_optics_row_before_v1/fields_0.json",
+    "reports/wave_optics_row_before_v1/fields_1.json",
+    "reports/wave_optics_row_before_v1/gate_records_0.json",
+    "reports/wave_optics_row_before_v1/gate_records_1.json",
+    "reports/wave_optics_row_before_v1/report.json"
+  ],
+  "extras": []
+}

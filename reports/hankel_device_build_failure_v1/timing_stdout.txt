@@ -1,0 +1,61 @@
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/cupy/cuda/compiler.py", line 860, in compile
+    nvrtc.compileProgram(self.ptr, options)
+  File "cupy_backends/cuda/libs/nvrtc.pyx", line 125, in cupy_backends.cuda.libs.nvrtc.compileProgram
+  File "cupy_backends/cuda/libs/nvrtc.pyx", line 138, in cupy_backends.cuda.libs.nvrtc.compileProgram
+  File "cupy_backends/cuda/libs/nvrtc.pyx", line 53, in cupy_backends.cuda.libs.nvrtc.check_status
+cupy_backends.cuda.libs.nvrtc.NVRTCError: NVRTC_ERROR_COMPILATION (6)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/work/3fold-physics-e-hankel-check/scripts/time_hankel_device.py", line 12, in <module>
+    arrays,errors=forward_suite(lambda *a:mod.solve_MS(*a),mod.far_field,lambda *a:mod.cross_sections(*a),batch=(lambda *a:mod.cross_sections_batch(*a)) if batch else None,batch_far=mod.far_field_batch if batch else None)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/3fold-physics-e-hankel-check/scripts/verify_scattering_gpu.py", line 59, in forward_suite
+    ss, _ = cs('single', 1.3, [[0., 0.]], .3, 20)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/3fold-physics-e-hankel-check/scripts/verify_scattering_gpu.py", line 50, in cs
+    ss, se, A, ns = cross(k, pos, 1., angle, m) if prepared is None else prepared
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/3fold-physics-e-hankel-check/scripts/time_hankel_device.py", line 12, in <lambda>
+    arrays,errors=forward_suite(lambda *a:mod.solve_MS(*a),mod.far_field,lambda *a:mod.cross_sections(*a),batch=(lambda *a:mod.cross_sections_batch(*a)) if batch else None,batch_far=mod.far_field_batch if batch else None)
+                                                                                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/3fold-physics-e-hankel-check/src/physics_engine/scattering/spine_scatter2d_multiple_helmholtz_forward_C_gpu.py", line 113, in cross_sections
+    A, ns, positions = solve_MS(k, pos, a, theta_inc, M, device)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/3fold-physics-e-hankel-check/src/physics_engine/scattering/spine_scatter2d_multiple_helmholtz_forward_C_gpu.py", line 80, in solve_MS
+    values = _hankel_values(distinct_orders[None, :], arguments[:, None], device)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/3fold-physics-e-hankel-check/src/physics_engine/scattering/spine_scatter2d_multiple_helmholtz_forward_C_gpu.py", line 49, in _hankel_values
+    return _device_hankel(orders, arguments, device)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/3fold-physics-e-hankel-check/src/physics_engine/scattering/spine_scatter2d_multiple_helmholtz_forward_C_gpu.py", line 42, in _device_hankel
+    _HANKEL_KERNEL(((ns.size + 127)//128,), (128,),
+  File "cupy/_core/raw.pyx", line 101, in cupy._core.raw.RawKernel.__call__
+  File "cupy/_core/raw.pyx", line 108, in cupy._core.raw.RawKernel.kernel.__get__
+  File "cupy/_core/raw.pyx", line 125, in cupy._core.raw.RawKernel._kernel
+  File "cupy/_util.pyx", line 67, in cupy._util.memoize.decorator.ret
+  File "cupy/_core/raw.pyx", line 549, in cupy._core.raw._get_raw_module
+  File "cupy/_core/core.pyx", line 2621, in cupy._core.core.compile_with_cache
+  File "cupy/_core/core.pyx", line 2639, in cupy._core.core.compile_with_cache
+  File "/usr/local/lib/python3.12/site-packages/cupy/cuda/compiler.py", line 649, in _compile_module_with_cache
+    return _compile_with_cache_cuda(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/cupy/cuda/compiler.py", line 748, in _compile_with_cache_cuda
+    ptx, mapping = _compile_using_nvrtc_no_warning(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/cupy/cuda/compiler.py", line 402, in _compile_using_nvrtc_no_warning
+    return _compile(source, options, cu_path, name_expressions,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/cupy/cuda/compiler.py", line 384, in _compile
+    compiled_obj, mapping = prog.compile(options, log_stream)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/cupy/cuda/compiler.py", line 879, in compile
+    raise CompileException(log, self.src, self.name, options,
+cupy.cuda.compiler.CompileException: /tmp/tmprlt0kq2i/9b242ccf03ccfcb84ec836d3d62fa5f8b5ca5ce7.cubin.cu(2): catastrophic error: cannot open source file "math.h"
+              #include <math.h>
+                               ^
+
+1 catastrophic error detected in the compilation of "/tmp/tmprlt0kq2i/9b242ccf03ccfcb84ec836d3d62fa5f8b5ca5ce7.cubin.cu".
+Compilation terminated.

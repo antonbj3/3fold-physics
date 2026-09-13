@@ -1,0 +1,8 @@
+{
+  "status": "OWN-GATE-FAIL",
+  "complete_repository_coverage": false,
+  "numerical_execution": "NOT_RUN",
+  "declared_rows": 158,
+  "selected_recipes": 11,
+  "reason": "Missing, stale or unavailable-runtime recipes"
+}

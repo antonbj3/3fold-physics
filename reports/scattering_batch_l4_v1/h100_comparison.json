@@ -1,0 +1,16 @@
+[
+  {
+    "repeat": 0,
+    "arrays": 394,
+    "bytes": 4442256,
+    "exact": false,
+    "normalized_parity": 0.0004255387965911204
+  },
+  {
+    "repeat": 1,
+    "arrays": 394,
+    "bytes": 4442256,
+    "exact": false,
+    "normalized_parity": 0.0004255387965911204
+  }
+]

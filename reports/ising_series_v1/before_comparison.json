@@ -1,0 +1,14 @@
+[
+  {
+    "file": "ising_1.npz",
+    "arrays": 114,
+    "bytes": 140448000,
+    "exact": true
+  },
+  {
+    "file": "ising_0.npz",
+    "arrays": 114,
+    "bytes": 140448000,
+    "exact": true
+  }
+]

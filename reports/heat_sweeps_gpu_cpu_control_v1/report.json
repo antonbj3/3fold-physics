@@ -1,0 +1,113 @@
+{
+  "device": "CPU control only",
+  "input_sha256": {
+    "Al_Spot_TDA_Results.csv": "3f0b6812f98535f5ffbb0e2fed31f084ad9a7f9cc393c04a43ed57f0bb14bf69",
+    "Al_Spot_TDW_Results.csv": "06b280222eab5f82eb9dcfb0689f20a5011c16e115548cd94ce120e5a97b4f5c"
+  },
+  "atol": 1e-08,
+  "rtol": 1e-09,
+  "rows": [
+    {
+      "module": "spot",
+      "runs": [
+        {
+          "cpu_gates": {
+            "g1": true,
+            "g2": true,
+            "g3": true
+          },
+          "gpu_gates": {
+            "g1": true,
+            "g2": true,
+            "g3": true
+          },
+          "cpu_s": 0.42650183200021274,
+          "gpu_s": 0.3168707760050893,
+          "field_count": 7,
+          "parity": 5.808191211547226e-06,
+          "max_abs_error": 6.002665031701326e-11,
+          "all_pass": true
+        },
+        {
+          "cpu_gates": {
+            "g1": true,
+            "g2": true,
+            "g3": true
+          },
+          "gpu_gates": {
+            "g1": true,
+            "g2": true,
+            "g3": true
+          },
+          "cpu_s": 0.38111698800639715,
+          "gpu_s": 0.2973737889988115,
+          "field_count": 7,
+          "parity": 5.808191211547226e-06,
+          "max_abs_error": 6.002665031701326e-11,
+          "all_pass": true
+        }
+      ],
+      "full_repeat_exact": true,
+      "all_pass": true
+    },
+    {
+      "module": "lpbf",
+      "runs": [
+        {
+          "cpu_gates": {
+            "g1": true,
+            "g2": true,
+            "g3": true,
+            "g4": true,
+            "g5": true
+          },
+          "gpu_gates": {
+            "g1": true,
+            "g2": true,
+            "g3": true,
+            "g4": true,
+            "g5": true
+          },
+          "cpu_s": 36.634070093001355,
+          "gpu_s": 15.376821894009481,
+          "field_count": 78,
+          "parity": 2.938560023254201e-06,
+          "max_abs_error": 5.4569682106375694e-12,
+          "all_pass": true
+        },
+        {
+          "cpu_gates": {
+            "g1": true,
+            "g2": true,
+            "g3": true,
+            "g4": true,
+            "g5": true
+          },
+          "gpu_gates": {
+            "g1": true,
+            "g2": true,
+            "g3": true,
+            "g4": true,
+            "g5": true
+          },
+          "cpu_s": 35.68106368900044,
+          "gpu_s": 14.869976886009681,
+          "field_count": 78,
+          "parity": 2.938560023254201e-06,
+          "max_abs_error": 5.4569682106375694e-12,
+          "all_pass": true
+        }
+      ],
+      "full_repeat_exact": true,
+      "all_pass": true
+    }
+  ],
+  "all_pass": true,
+  "source_sha256": {
+    "src/physics_engine/process/weld_goldak_spot_nist.py": "dfc9066259b962d29ae46d816cb48b7852b4c10c86c2d8aeaf8b8014bdc685eb",
+    "src/physics_engine/process/weld_goldak_spot_nist_gpu.py": "28571dea19ed24026bea55eb547446a731892921d07aecc5dc49f4119d21625e",
+    "src/physics_engine/process/lpbf_meltpool_render_match.py": "122946ffdabf7bf12635f3e53bedb4c95070a2d07f42afcae942845b63f6f843",
+    "src/physics_engine/process/lpbf_meltpool_render_match_gpu.py": "1caa3aa8a5136d4f61083917b3104b6cafc33f23eaf772dc330c9ba59e32d5d5",
+    "scripts/verify_heat_sweeps_gpu.py": "134b09dd04142844aa7c6348e5ff6dda31532a89c5365ea068da9610cb06fde4"
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "measurement": {
+    "rows": [
+      {
+        "case": "nominal",
+        "objective_mm": 0.09297423981485793,
+        "efl_mm": 105.8224262497045,
+        "vignetting": 0.2950495049504951,
+        "f_number": 0.9913731861683283,
+        "certified": true,
+        "efl_pass": true,
+        "vignetting_pass": true,
+        "f_number_pass": true
+      },
+      {
+        "case": "radius2*0.999",
+        "objective_mm": 0.0888423371892907,
+        "efl_mm": 105.82572034948224,
+        "vignetting": 0.2950495049504951,
+        "f_number": 0.9914058297008639,
+        "certified": true,
+        "efl_pass": true,
+        "vignetting_pass": true,
+        "f_number_pass": true
+      },
+      {
+        "case": "radius2*1.001",
+        "objective_mm": 0.0985148069691754,
+        "efl_mm": 105.81913893599898,
+        "vignetting": 0.2950495049504951,
+        "f_number": 0.9913406044081998,
+        "certified": true,
+        "efl_pass": true,
+        "vignetting_pass": true,
+        "f_number_pass": true
+      },
+      {
+        "case": "radius3*0.999",
+        "objective_mm": 0.08858632276576431,
+        "efl_mm": 105.8275032455799,
+        "vignetting": 0.2950495049504951,
+        "f_number": 0.9914970079427379,
+        "certified": true,
+        "efl_pass": true,
+        "vignetting_pass": true,
+        "f_number_pass": true
+      },
+      {
+        "case": "radius3*1.001",
+        "objective_mm": 0.09988728479194667,
+        "efl_mm": 105.817359883325,
+        "vignetting": 0.2950495049504951,
+        "f_number": 0.9912497588085146,
+        "certified": true,
+        "efl_pass": true,
+        "vignetting_pass": true,
+        "f_number_pass": true
+      },
+      {
+        "case": "radius7*0.999",
+        "objective_mm": 0.09515598114559884,
+        "efl_mm": 105.81836270760746,
+        "vignetting": 0.2950495049504951,
+        "f_number": 0.991264486439269,
+        "certified": true,
+        "efl_pass": true,
+        "vignetting_pass": true,
+        "f_number_pass": true
+      },
+      {
+        "case": "radius7*1.001",
+        "objective_mm": 0.09116705993316465,
+        "efl_mm": 105.82648198400257,
+        "vignetting": 0.2950495049504951,
+        "f_number": 0.9914816911096447,
+        "certified": true,
+        "efl_pass": true,
+        "vignetting_pass": true,
+        "f_number_pass": true
+      },
+      {
+        "case": "radius8*0.999",
+        "objective_mm": 0.15740622002551066,
+        "efl_mm": 105.73407880889295,
+        "vignetting": 0.2950495049504951,
+        "f_number": 0.9896625865921654,
+        "certified": true,
+        "efl_pass": true,
+        "vignetting_pass": true,
+        "f_number_pass": true
+      },
+      {
+        "case": "radius8*1.001",
+        "objective_mm": 0.07388953658417091,
+        "efl_mm": 105.91074449245345,
+        "vignetting": 0.2950495049504951,
+        "f_number": 0.993086789385931,
+        "certified": true,
+        "efl_pass": true,
+        "vignetting_pass": true,
+        "f_number_pass": true
+      },
+      {
+        "case": "radius10*0.999",
+        "objective_mm": 0.11755290190989387,
+        "efl_mm": 105.78564494271795,
+        "vignetting": 0.2950495049504951,
+        "f_number": 0.9903484004035504,
+        "certified": true,
+        "efl_pass": true,
+        "vignetting_pass": true,
+        "f_number_pass": true
+      },
+      {
+        "case": "radius10*1.001",
+        "objective_mm": 0.08357592457714577,
+        "efl_mm": 105.8591595772827,
+        "vignetting": 0.2950495049504951,
+        "f_number": 0.992397624452003,
+        "certified": true,
+        "efl_pass": true,
+        "vignetting_pass": true,
+        "f_number_pass": true
+      },
+      {
+        "case": "radius11*0.999",
+        "objective_mm": 0.12281945525163496,
+        "efl_mm": 105.75377889331413,
+        "vignetting": 0.29900990099009905,
+        "f_number": 0.9903529895852542,
+        "certified": false,
+        "efl_pass": true,
+        "vignetting_pass": false,
+        "f_number_pass": true
+      },
+      {
+        "case": "radius11*1.001",
+        "objective_mm": 0.08024151014283606,
+        "efl_mm": 105.89102536056585,
+        "vignetting": 0.2950495049504951,
+        "f_number": 0.9923934817052678,
+        "certified": true,
+        "efl_pass": true,
+        "vignetting_pass": true,
+        "f_number_pass": true
+      },
+      {
+        "case": "radius12*0.999",
+        "objective_mm": 0.12294260257860082,
+        "efl_mm": 105.79249195715467,
+        "vignetting": 0.2950495049504951,
+        "f_number": 0.9895611183515445,
+        "certified": true,
+        "efl_pass": true,
+        "vignetting_pass": true,
+        "f_number_pass": true
+      },
+      {
+        "case": "radius12*1.001",
+        "objective_mm": 0.08448639090551671,
+        "efl_mm": 105.85231762750317,
+        "vignetting": 0.2950495049504951,
+        "f_number": 0.9931822877579646,
+        "certified": true,
+        "efl_pass": true,
+        "vignetting_pass": true,
+        "f_number_pass": true
+      },
+      {
+        "case": "radius14*0.999",
+        "objective_mm": 0.08410216092033018,
+        "efl_mm": 105.86399012920714,
+        "vignetting": 0.2950495049504951,
+        "f_number": 0.992133383418421,
+        "certified": true,
+        "efl_pass": true,
+        "vignetting_pass": true,
+        "f_number_pass": true
+      },
+      {
+        "case": "radius14*1.001",
+        "objective_mm": 0.11094933552584899,
+        "efl_mm": 105.78097794169729,
+        "vignetting": 0.2950495049504951,
+        "f_number": 0.9906159585648988,
+        "certified": true,
+        "efl_pass": true,
+        "vignetting_pass": true,
+        "f_number_pass": true
+      },
+      {
+        "case": "radius15*0.999",
+        "objective_mm": 0.10700372189119996,
+        "efl_mm": 105.79553111474371,
+        "vignetting": 0.2950495049504951,
+        "f_number": 0.9905587741363868,
+        "certified": true,
+        "efl_pass": true,
+        "vignetting_pass": true,
+        "f_number_pass": true
+      },
+      {
+        "case": "radius15*1.001",
+        "objective_mm": 0.08699424871651058,
+        "efl_mm": 105.84928128509485,
+        "vignetting": 0.2950495049504951,
+        "f_number": 0.9921863454186796,
+        "certified": true,
+        "efl_pass": true,
+        "vignetting_pass": true,
+        "f_number_pass": true
+      },
+      {
+        "case": "medium12=1.48914",
+        "objective_mm": 9.282511041318894,
+        "efl_mm": 124.80552795780044,
+        "vignetting": 0.18811881188118806,
+        "f_number": 1.4167987847805872,
+        "certified": false,
+        "efl_pass": false,
+        "vignetting_pass": true,
+        "f_number_pass": false
+      },
+      {
+        "case": "medium12=1.51872",
+        "objective_mm": 6.575326335888031,
+        "efl_mm": 118.64988946553322,
+        "vignetting": 0.22376237623762374,
+        "f_number": 1.264830006355019,
+        "certified": false,
+        "efl_pass": false,
+        "vignetting_pass": true,
+        "f_number_pass": false
+      },
+      {
+        "case": "medium12=1.64128",
+        "objective_mm": 4.672933704237313,
+        "efl_mm": 98.5178867677899,
+        "vignetting": 0.36237623762376237,
+        "f_number": 0.8586817219751366,
+        "certified": false,
+        "efl_pass": false,
+        "vignetting_pass": false,
+        "f_number_pass": false
+      },
+      {
+        "case": "medium12=1.81265",
+        "objective_mm": 18.257264407395404,
+        "efl_mm": 79.62752157998341,
+        "vignetting": 0.471395881006865,
+        "f_number": 0.6642688964404562,
+        "certified": false,
+        "efl_pass": false,
+        "vignetting_pass": false,
+        "f_number_pass": false
+      }
+    ],
+    "whole_array_hashes": [
+      "91cb6b9f518d1ea6bcae3f872df09ecf21cb7881fd528412c650ad4d3387f96a",
+      "9b8cb112fb01420951ed6dba8789af3c2f8c4d555e74a16283e0a11e5d2ba953",
+      "0d85c8774d673a24d5a7addc0b82afc837c6096592faab06c1c82e080c9d4c1b",
+      "77b4d036fc985f1a2b5c8a940cf818d075ea7ec196ad3d07f2ff16f99e002a50",
+      "d7433f5a6fd54bb24fb516cdedd1eafaec6924ecc5968b68899de38e1497be37"
+    ],
+    "nominal_exact": true,
+    "max_cpu_paraxial_relative_error": 0.0,
+    "certified_count": 18
+  },
+  "sha256": "b95f79375e816ee6a62b5b0584cf9eda79bceac5ded85cb5aab2c3fcc025b873",
+  "gates": {
+    "two_whole_results_identical": true,
+    "nominal_matches_frozen": true,
+    "all_cpu_paraxial_agree": true,
+    "nominal_certified": true
+  },
+  "scope": "single-index radius/glass sensitivity; no dispersion or manufacturing certificate"
+}

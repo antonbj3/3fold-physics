@@ -1,0 +1,125 @@
+{
+  "complete_repository_coverage": false,
+  "declared_verified_rows": 158,
+  "diagnosis": "Both new chain entrypoints require the documented PYTHONPATH=src; missing package import prevented numerical execution. Original source and numerical gates unchanged.",
+  "gates": {
+    "nonempty_selected": true,
+    "selected_gates": false
+  },
+  "recipes_sha256": "a2df43606e4126e6823d50ea841b2c61edf435c43a60f2ec8bdac6f37e734435",
+  "rows": [
+    {
+      "checks": {
+        "exit_code": true,
+        "pytest_passed": true
+      },
+      "error": null,
+      "key": "src/physics_engine/chains/failure_localization_v1.py",
+      "report_sha256": null,
+      "returncode": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "d07a1be384f84d9d95b6d48bfc797264bdf209a84dca560c1775e944c8887ef5"
+    },
+    {
+      "checks": {
+        "equal:/boiling/G3_noise_ratio": true,
+        "equal:/gates/frozen_exit_parity": true,
+        "equal:/gates/input_integrity": true,
+        "equal:/gates/minimal_witnesses": true,
+        "equal:/gates/original_failures": true,
+        "equal:/gates/synthetic_boiling_control": true,
+        "exit_code": true
+      },
+      "error": null,
+      "key": "src/physics_engine/chains/physics_failure_sites_v1.py",
+      "report_sha256": "2da0a04b587e4dbe94a7e17216fcd5f7cc39c567bfcc83caf1b9dded1d16a9b7",
+      "returncode": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "2fa0330df44b47b14feb8452568ca5e11000e32bdcfb9e9453cb87b4eae8ce13"
+    },
+    {
+      "checks": {
+        "equal:/gates/all_directional_refused": true,
+        "equal:/gates/five_pinned_files": true,
+        "equal:/gates/intensity_phase_ambiguity": true,
+        "equal:/gates/known_dataset_relabel_refused": true,
+        "equal:/gates/unchanged_positive": true,
+        "equal:/synthetic_positive/kk_residual": true,
+        "exit_code": true,
+        "length:/refusals": true
+      },
+      "error": null,
+      "key": "src/physics_engine/wave_optics/kk_input_contract_v1.py",
+      "report_sha256": "3c3865c2d6ba621e93dc989f21bf2ae2cffaa94228708f5b83f7d678a57fe1d4",
+      "returncode": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "6550603e9c398a7beec5cac896afd53ac25e0a2d3c1039fbd68e7a0058efc95d"
+    },
+    {
+      "checks": {
+        "equal:/gates/complete_channels": true,
+        "equal:/gates/complete_independent_parse": true,
+        "equal:/gates/four_files": true,
+        "equal:/gates/frozen_parity": true,
+        "exit_code": true
+      },
+      "error": null,
+      "key": "src/physics_engine/electrochem/boiling_lvm_channels_v1.py",
+      "report_sha256": "cb4695a26f9a7961fa41ed73028980f19347b64920cb26d33661eb57ee92f025",
+      "returncode": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "5f1acedfc3a737d3b3313806904a114e18c0d44bda6ad0b3b1ce7d43dfdc760d"
+    },
+    {
+      "checks": {
+        "equal:/gates/aggregation_counterexample": true,
+        "equal:/gates/four_complete_records": true,
+        "equal:/gates/frozen_full_array_parity": true,
+        "equal:/gates/signed_null_retained": true,
+        "equal:/gates/stable_numeric_levels": true,
+        "equal:/gates/variance_decomposition": true,
+        "equal:/gates/whole_chf_refused": true,
+        "equal:/records/3/between_fraction": true,
+        "equal:/records/3/blocks": true,
+        "equal:/records/3/coefficient_of_variation": true,
+        "equal:/records/3/full_record_admitted": true,
+        "equal:/records/3/stable_block_count": true,
+        "equal:/records/3/tag": true,
+        "exit_code": true
+      },
+      "error": null,
+      "key": "src/physics_engine/electrochem/boiling_stationarity_v1.py",
+      "report_sha256": "9e7372393b54b6eb6da6032d0f870445241101febab41273028b2c2517558384",
+      "returncode": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "213ccdcf4e67ef7e7fb1f8ad2f96b647a636ef4f755200653a33cb253f248296"
+    },
+    {
+      "checks": {
+        "evidence_read": false
+      },
+      "error": "FileNotFoundError",
+      "key": "src/physics_engine/chains/chain_spec_certify_v1.py",
+      "report_sha256": null,
+      "returncode": 1,
+      "stderr_sha256": "4cdf04b731644919c35aeb911c3d786a2b0ee1afe1decc0f858c39b42ddc1011",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "checks": {
+        "evidence_read": false
+      },
+      "error": "FileNotFoundError",
+      "key": "src/physics_engine/chains/process_midpoint_certificate_v1.py",
+      "report_sha256": null,
+      "returncode": 1,
+      "stderr_sha256": "527a7ca5cc37b161102754ca32ff7dcf4c05c03aa96e7138c8efd5f7b1f087e6",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "runner_sha256": "437b4805208cb50bd4da8379df86c7bc97035718fc1cf919fc2ea1aead1d91cc",
+  "runtime": "cpu",
+  "schema": 1,
+  "scope": "Fresh selected declared recipes only. Unmapped rows and recipes for another runtime are NOT RUN, never implicitly passed.",
+  "status": "OWN-GATE-FAIL"
+}

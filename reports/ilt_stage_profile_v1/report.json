@@ -1,0 +1,818 @@
+{
+  "device": "NVIDIA H100 80GB HBM3",
+  "rows": [
+    {
+      "repeat": 0,
+      "wall_seconds": 0.922216358,
+      "functions": [
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt_gpu.py",
+          "line": 70,
+          "function": "section_c",
+          "calls": 1,
+          "self_seconds": 8.5998e-05,
+          "cumulative_seconds": 0.9219418410000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt_gpu.py",
+          "line": 36,
+          "function": "batch",
+          "calls": 13,
+          "self_seconds": 0.00040511400000000004,
+          "cumulative_seconds": 0.598035029
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/socs_batched_tcc_apply_gpu_api_for_ilt.py",
+          "line": 39,
+          "function": "batched_aerial",
+          "calls": 13,
+          "self_seconds": 0.059176915000000004,
+          "cumulative_seconds": 0.592587861
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt_gpu.py",
+          "line": 55,
+          "function": "prepare_candidates",
+          "calls": 1,
+          "self_seconds": 0.0012028820000000002,
+          "cumulative_seconds": 0.534806197
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 502,
+          "function": "section_c",
+          "calls": 1,
+          "self_seconds": 0.0005909540000000001,
+          "cumulative_seconds": 0.38704590600000005
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.as_tensor>",
+          "calls": 39,
+          "self_seconds": 0.28799688700000003,
+          "cumulative_seconds": 0.28800295200000003
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 529,
+          "function": "pw_of",
+          "calls": 36,
+          "self_seconds": 3.6189e-05,
+          "cumulative_seconds": 0.19623308
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 469,
+          "function": "process_window_1d",
+          "calls": 36,
+          "self_seconds": 0.006867608000000001,
+          "cumulative_seconds": 0.196196891
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 363,
+          "function": "find_edges_1d",
+          "calls": 2508,
+          "self_seconds": 0.19415885500000002,
+          "cumulative_seconds": 0.195005851
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._fft.fft_ifft>",
+          "calls": 13,
+          "self_seconds": 0.09226824600000001,
+          "cumulative_seconds": 0.09226824600000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 456,
+          "function": "jacobian_1d",
+          "calls": 1,
+          "self_seconds": 0.0019506190000000002,
+          "cumulative_seconds": 0.090496063
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 159,
+          "function": "aerial_1d",
+          "calls": 512,
+          "self_seconds": 0.017108121,
+          "cumulative_seconds": 0.087604309
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt_gpu.py",
+          "line": 47,
+          "function": "aerial",
+          "calls": 2310,
+          "self_seconds": 0.008110396,
+          "cumulative_seconds": 0.075524899
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._fft.fft_fft>",
+          "calls": 13,
+          "self_seconds": 0.066229436,
+          "cumulative_seconds": 0.066229436
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_tensor.py",
+          "line": 32,
+          "function": "wrapped",
+          "calls": 26,
+          "self_seconds": 0.000104765,
+          "cumulative_seconds": 0.056447484000000006
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'pow' of 'torch._C.TensorBase' objects>",
+          "calls": 26,
+          "self_seconds": 0.056331329000000006,
+          "cumulative_seconds": 0.056331329000000006
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 1226,
+          "function": "roll",
+          "calls": 5210,
+          "self_seconds": 0.024941257,
+          "cumulative_seconds": 0.036034893000000005
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'sum' of 'torch._C.TensorBase' objects>",
+          "calls": 13,
+          "self_seconds": 0.029129516,
+          "cumulative_seconds": 0.029129516
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/fft/_pocketfft.py",
+          "line": 58,
+          "function": "_raw_fft",
+          "calls": 3074,
+          "self_seconds": 0.024804521000000003,
+          "cumulative_seconds": 0.026883133
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/fft/_pocketfft.py",
+          "line": 219,
+          "function": "ifft",
+          "calls": 2561,
+          "self_seconds": 0.001998,
+          "cumulative_seconds": 0.024698542
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.min>",
+          "calls": 2248,
+          "self_seconds": 0.0020826250000000003,
+          "cumulative_seconds": 0.020913686
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 527,
+          "function": "<lambda>",
+          "calls": 240,
+          "self_seconds": 0.00011916800000000001,
+          "cumulative_seconds": 0.018857974
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 523,
+          "function": "cd_at",
+          "calls": 240,
+          "self_seconds": 0.00022125400000000002,
+          "cumulative_seconds": 0.018709492
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/linalg/_linalg.py",
+          "line": 1666,
+          "function": "svd",
+          "calls": 10,
+          "self_seconds": 0.014281301000000001,
+          "cumulative_seconds": 0.01457368
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 1427,
+          "function": "normalize_axis_tuple",
+          "calls": 2605,
+          "self_seconds": 0.003989418000000001,
+          "cumulative_seconds": 0.006488379000000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 151,
+          "function": "pupil_1d",
+          "calls": 521,
+          "self_seconds": 0.0017259500000000002,
+          "cumulative_seconds": 0.005460437
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/fft/_pocketfft.py",
+          "line": 120,
+          "function": "fft",
+          "calls": 513,
+          "self_seconds": 0.00045076500000000005,
+          "cumulative_seconds": 0.005061724
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt_gpu.py",
+          "line": 16,
+          "function": "kernels",
+          "calls": 9,
+          "self_seconds": 0.000578459,
+          "cumulative_seconds": 0.004879018000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/fft/_helper.py",
+          "line": 125,
+          "function": "fftfreq",
+          "calls": 522,
+          "self_seconds": 0.002105113,
+          "cumulative_seconds": 0.003336246
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.array>",
+          "calls": 2126,
+          "self_seconds": 0.001784226,
+          "cumulative_seconds": 0.001784226
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 492,
+          "function": "_mask_from_knobs",
+          "calls": 72,
+          "self_seconds": 0.0009755950000000001,
+          "cumulative_seconds": 0.001601516
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 1476,
+          "function": "<genexpr>",
+          "calls": 5210,
+          "self_seconds": 0.0011083640000000001,
+          "cumulative_seconds": 0.001579076
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reshape' of 'numpy.ndarray' objects>",
+          "calls": 2609,
+          "self_seconds": 0.001167394,
+          "cumulative_seconds": 0.001167394
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.lib.array_utils.normalize_axis_index>",
+          "calls": 5688,
+          "self_seconds": 0.001122207,
+          "cumulative_seconds": 0.001122207
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.arange>",
+          "calls": 1150,
+          "self_seconds": 0.0010499840000000001,
+          "cumulative_seconds": 0.0010499840000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.abs>",
+          "calls": 2380,
+          "self_seconds": 0.0010015150000000001,
+          "cumulative_seconds": 0.0010015150000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.zeros>",
+          "calls": 513,
+          "self_seconds": 0.0009737190000000001,
+          "cumulative_seconds": 0.0009737190000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'tobytes' of 'numpy.ndarray' objects>",
+          "calls": 2625,
+          "self_seconds": 0.0009390100000000001,
+          "cumulative_seconds": 0.0009390100000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method fromkeys>",
+          "calls": 2605,
+          "self_seconds": 0.0009056390000000001,
+          "cumulative_seconds": 0.0009056390000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.asarray>",
+          "calls": 5461,
+          "self_seconds": 0.0008832470000000001,
+          "cumulative_seconds": 0.0008832470000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'ravel' of 'numpy.ndarray' objects>",
+          "calls": 2609,
+          "self_seconds": 0.0007115880000000001,
+          "cumulative_seconds": 0.0007115880000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/multiarray.py",
+          "line": 713,
+          "function": "result_type",
+          "calls": 6148,
+          "self_seconds": 0.0006750430000000001,
+          "cumulative_seconds": 0.0006750430000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.isinstance>",
+          "calls": 3139,
+          "self_seconds": 0.0006728680000000001,
+          "cumulative_seconds": 0.0006728680000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/multiarray.py",
+          "line": 115,
+          "function": "empty_like",
+          "calls": 5679,
+          "self_seconds": 0.0006622900000000001,
+          "cumulative_seconds": 0.0006622900000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.asanyarray>",
+          "calls": 5255,
+          "self_seconds": 0.0006464610000000001,
+          "cumulative_seconds": 0.0006464610000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 1222,
+          "function": "_roll_dispatcher",
+          "calls": 5210,
+          "self_seconds": 0.0006176990000000001,
+          "cumulative_seconds": 0.0006176990000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'items' of 'dict' objects>",
+          "calls": 2614,
+          "self_seconds": 0.0006018670000000001,
+          "cumulative_seconds": 0.0006018670000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'cpu' of 'torch._C.TensorBase' objects>",
+          "calls": 13,
+          "self_seconds": 0.000588817,
+          "cumulative_seconds": 0.000588817
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'append' of 'list' objects>",
+          "calls": 3231,
+          "self_seconds": 0.0005758380000000001,
+          "cumulative_seconds": 0.0005758380000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'astype' of 'numpy.ndarray' objects>",
+          "calls": 688,
+          "self_seconds": 0.0005469110000000001,
+          "cumulative_seconds": 0.0005469110000000001
+        }
+      ]
+    },
+    {
+      "repeat": 1,
+      "wall_seconds": 0.34474460300000054,
+      "functions": [
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt_gpu.py",
+          "line": 70,
+          "function": "section_c",
+          "calls": 1,
+          "self_seconds": 4.159e-05,
+          "cumulative_seconds": 0.344552077
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 502,
+          "function": "section_c",
+          "calls": 1,
+          "self_seconds": 0.0005554630000000001,
+          "cumulative_seconds": 0.334539968
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 529,
+          "function": "pw_of",
+          "calls": 36,
+          "self_seconds": 3.3918e-05,
+          "cumulative_seconds": 0.20551912900000002
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 469,
+          "function": "process_window_1d",
+          "calls": 36,
+          "self_seconds": 0.007168705,
+          "cumulative_seconds": 0.205485211
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 363,
+          "function": "find_edges_1d",
+          "calls": 2508,
+          "self_seconds": 0.20321682900000002,
+          "cumulative_seconds": 0.20411278600000002
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 456,
+          "function": "jacobian_1d",
+          "calls": 1,
+          "self_seconds": 0.0018768460000000002,
+          "cumulative_seconds": 0.093352142
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 159,
+          "function": "aerial_1d",
+          "calls": 512,
+          "self_seconds": 0.018171956,
+          "cumulative_seconds": 0.09110488800000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 1226,
+          "function": "roll",
+          "calls": 5210,
+          "self_seconds": 0.024852685000000003,
+          "cumulative_seconds": 0.036125176
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/fft/_pocketfft.py",
+          "line": 58,
+          "function": "_raw_fft",
+          "calls": 3074,
+          "self_seconds": 0.026261862,
+          "cumulative_seconds": 0.028421018000000003
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/fft/_pocketfft.py",
+          "line": 219,
+          "function": "ifft",
+          "calls": 2561,
+          "self_seconds": 0.002131986,
+          "cumulative_seconds": 0.026188622
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.min>",
+          "calls": 2248,
+          "self_seconds": 0.0022265930000000002,
+          "cumulative_seconds": 0.021947771
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 527,
+          "function": "<lambda>",
+          "calls": 240,
+          "self_seconds": 0.00012503000000000001,
+          "cumulative_seconds": 0.019751861000000002
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 523,
+          "function": "cd_at",
+          "calls": 240,
+          "self_seconds": 0.00023575200000000002,
+          "cumulative_seconds": 0.019595991
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/linalg/_linalg.py",
+          "line": 1666,
+          "function": "svd",
+          "calls": 10,
+          "self_seconds": 0.012279454,
+          "cumulative_seconds": 0.012507188
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt_gpu.py",
+          "line": 47,
+          "function": "aerial",
+          "calls": 2310,
+          "self_seconds": 0.008464915,
+          "cumulative_seconds": 0.011409338000000002
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt_gpu.py",
+          "line": 55,
+          "function": "prepare_candidates",
+          "calls": 1,
+          "self_seconds": 0.0010788050000000002,
+          "cumulative_seconds": 0.009968411
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt_gpu.py",
+          "line": 36,
+          "function": "batch",
+          "calls": 13,
+          "self_seconds": 0.00026119500000000004,
+          "cumulative_seconds": 0.009697081
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 1427,
+          "function": "normalize_axis_tuple",
+          "calls": 2605,
+          "self_seconds": 0.003986555,
+          "cumulative_seconds": 0.006563631
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/socs_batched_tcc_apply_gpu_api_for_ilt.py",
+          "line": 39,
+          "function": "batched_aerial",
+          "calls": 13,
+          "self_seconds": 0.001749632,
+          "cumulative_seconds": 0.006353195000000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 151,
+          "function": "pupil_1d",
+          "calls": 521,
+          "self_seconds": 0.001680753,
+          "cumulative_seconds": 0.005526436
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/fft/_pocketfft.py",
+          "line": 120,
+          "function": "fft",
+          "calls": 513,
+          "self_seconds": 0.00046768900000000003,
+          "cumulative_seconds": 0.00528066
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/fft/_helper.py",
+          "line": 125,
+          "function": "fftfreq",
+          "calls": 522,
+          "self_seconds": 0.0021659170000000003,
+          "cumulative_seconds": 0.003437176
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt_gpu.py",
+          "line": 16,
+          "function": "kernels",
+          "calls": 9,
+          "self_seconds": 0.000398939,
+          "cumulative_seconds": 0.0029874600000000004
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.as_tensor>",
+          "calls": 39,
+          "self_seconds": 0.001825287,
+          "cumulative_seconds": 0.001825287
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 1476,
+          "function": "<genexpr>",
+          "calls": 5210,
+          "self_seconds": 0.001150526,
+          "cumulative_seconds": 0.001627463
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "line": 492,
+          "function": "_mask_from_knobs",
+          "calls": 72,
+          "self_seconds": 0.00087144,
+          "cumulative_seconds": 0.0014218610000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.array>",
+          "calls": 2126,
+          "self_seconds": 0.0012338470000000002,
+          "cumulative_seconds": 0.0012338470000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reshape' of 'numpy.ndarray' objects>",
+          "calls": 2609,
+          "self_seconds": 0.001204888,
+          "cumulative_seconds": 0.001204888
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.lib.array_utils.normalize_axis_index>",
+          "calls": 5688,
+          "self_seconds": 0.001138689,
+          "cumulative_seconds": 0.001138689
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.abs>",
+          "calls": 2380,
+          "self_seconds": 0.001045652,
+          "cumulative_seconds": 0.001045652
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.arange>",
+          "calls": 1150,
+          "self_seconds": 0.001040387,
+          "cumulative_seconds": 0.001040387
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method fromkeys>",
+          "calls": 2605,
+          "self_seconds": 0.0009169950000000001,
+          "cumulative_seconds": 0.0009169950000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.asarray>",
+          "calls": 5461,
+          "self_seconds": 0.000899797,
+          "cumulative_seconds": 0.000899797
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'tobytes' of 'numpy.ndarray' objects>",
+          "calls": 2625,
+          "self_seconds": 0.000868612,
+          "cumulative_seconds": 0.000868612
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/multiarray.py",
+          "line": 115,
+          "function": "empty_like",
+          "calls": 5679,
+          "self_seconds": 0.000714585,
+          "cumulative_seconds": 0.000714585
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.isinstance>",
+          "calls": 3139,
+          "self_seconds": 0.000701254,
+          "cumulative_seconds": 0.000701254
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'ravel' of 'numpy.ndarray' objects>",
+          "calls": 2609,
+          "self_seconds": 0.0006992750000000001,
+          "cumulative_seconds": 0.0006992750000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/multiarray.py",
+          "line": 713,
+          "function": "result_type",
+          "calls": 6148,
+          "self_seconds": 0.000690911,
+          "cumulative_seconds": 0.000690911
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._fft.fft_ifft>",
+          "calls": 13,
+          "self_seconds": 0.000664875,
+          "cumulative_seconds": 0.000664875
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.asanyarray>",
+          "calls": 5255,
+          "self_seconds": 0.000660855,
+          "cumulative_seconds": 0.000660855
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 1222,
+          "function": "_roll_dispatcher",
+          "calls": 5210,
+          "self_seconds": 0.000654002,
+          "cumulative_seconds": 0.000654002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'items' of 'dict' objects>",
+          "calls": 2614,
+          "self_seconds": 0.000625628,
+          "cumulative_seconds": 0.000625628
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'append' of 'list' objects>",
+          "calls": 3231,
+          "self_seconds": 0.0006093720000000001,
+          "cumulative_seconds": 0.0006093720000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._fft.fft_fft>",
+          "calls": 13,
+          "self_seconds": 0.0005462220000000001,
+          "cumulative_seconds": 0.0005462220000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'astype' of 'numpy.ndarray' objects>",
+          "calls": 688,
+          "self_seconds": 0.000542527,
+          "cumulative_seconds": 0.000542527
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_tensor.py",
+          "line": 32,
+          "function": "wrapped",
+          "calls": 26,
+          "self_seconds": 7.535300000000001e-05,
+          "cumulative_seconds": 0.000512366
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/fft/_pocketfft.py",
+          "line": 116,
+          "function": "_fft_dispatcher",
+          "calls": 3074,
+          "self_seconds": 0.000454763,
+          "cumulative_seconds": 0.000454763
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.print>",
+          "calls": 2,
+          "self_seconds": 0.000442999,
+          "cumulative_seconds": 0.000442999
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'cpu' of 'torch._C.TensorBase' objects>",
+          "calls": 13,
+          "self_seconds": 0.00043445500000000004,
+          "cumulative_seconds": 0.00043445500000000004
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'pow' of 'torch._C.TensorBase' objects>",
+          "calls": 26,
+          "self_seconds": 0.000428446,
+          "cumulative_seconds": 0.000428446
+        }
+      ]
+    }
+  ],
+  "source_sha256": "350f100d3058114353c70bdd98fb1cd5caad674acd334d2937f1423b4df2bcb2"
+}

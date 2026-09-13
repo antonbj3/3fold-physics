@@ -1,0 +1,13 @@
+{
+  "independent_reports_exact": true,
+  "report_sha256": "9e7372393b54b6eb6da6032d0f870445241101febab41273028b2c2517558384",
+  "gates": {
+    "aggregation_counterexample": true,
+    "four_complete_records": true,
+    "frozen_full_array_parity": true,
+    "signed_null_retained": true,
+    "stable_numeric_levels": true,
+    "variance_decomposition": true,
+    "whole_chf_refused": true
+  }
+}

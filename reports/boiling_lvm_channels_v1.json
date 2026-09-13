@@ -1,0 +1,213 @@
+{
+  "gates": {
+    "complete_channels": true,
+    "complete_independent_parse": true,
+    "four_files": true,
+    "frozen_parity": true
+  },
+  "records": [
+    {
+      "channel_sha256": [
+        "fe0bd2114acbf6da5a052378c27713d2ab48111b67f8c57ed69d7f82a71d2396",
+        "faaffa23f33e8e3612343f3e6de275b50449961d7c1d0286eb803398c44ac529",
+        "632d7ab6622d78f6be960709552ebf44309d9781539e7b649280416747ff85b2",
+        "2d4aaf88e24635263772dc975ff24b265dd2316db1e4617a6de3d588551c4627",
+        "d86364e209bfc2f319c315538f2ba828d2ea1ccb4e55d08ca654956f3a3f17d8",
+        "985eb8d65a7a47bfccbe2d67d97cfda9229b97f28d5c061bf67714c2512b3c3c",
+        "15e2a9f4cdd6082dd7a9d6da1a272c3bd2c22666b391c2b687e790fe012644bb"
+      ],
+      "file": "SS_Temperature_Polished_MC_0.lvm",
+      "file_sha256": "7c4e0704127c1b022f5bcefe9c9fdc812dcd832d9919a9a55d62968e45d3ae06",
+      "flux_sha256": "67a63b3e50baa2e345d6a1db023063294028df1b4c4510987f462592b0519490",
+      "full_sha256": "5ab25d7ef89eab1f08b210f824fbeec4b7ce5034fdb3854cb98825d1450b22c6",
+      "gates": {
+        "all_six_channels": true,
+        "frozen_flux": true,
+        "frozen_superheat": true,
+        "full_array_oracle": true,
+        "legacy_prefix": true
+      },
+      "legacy_sha256": "8872748809fcc7f538bc7fdc74a36e95331414d2a53470cb279a7d5d2ef655d1",
+      "metadata": {
+        "columns": [
+          "X_Value",
+          "Temperature_0",
+          "Temperature_1",
+          "Temperature_2",
+          "Temperature_3",
+          "Temperature_4",
+          "Temperature_5"
+        ],
+        "data_start": 23,
+        "temperature_unit": "Deg C"
+      },
+      "oracle_sha256": "5ab25d7ef89eab1f08b210f824fbeec4b7ce5034fdb3854cb98825d1450b22c6",
+      "retained_extra_channel": {
+        "maximum": 99.044861,
+        "mean": 98.97550269263135,
+        "minimum": 98.909926,
+        "name": "Temperature_5"
+      },
+      "shape": [
+        398336,
+        7
+      ],
+      "superheat_sha256": "ecb3a006d77b4fa8b8a2dd9238f91a14e64cda293ecdc7a43bc9315922aa3ea1"
+    },
+    {
+      "channel_sha256": [
+        "d91adfad48a248a680b7a0a25209fa31f10c6e541291796ce17870b7fbd84f4b",
+        "74d7e408140219e1bba94982ebf1fe14e2cbce6b0389cf59c3d632988e6e1621",
+        "b1cca68d87552491a2f56b3e6bee7554fc2db57d1d0af123d56f948dc0cd2878",
+        "2f9f328e0e9b1d79aa96ef9856028dafb9a573c97cb9b3756c67b9928ee5058f",
+        "3e10424503debeab1d0c589f0bd00560282d8b6fa03680b37a4db8455d7f9dea",
+        "22aa395b11fbf698bb722d24917fac7863de9fcfb5530d7b8fe584a210e1b85d",
+        "c3962a31a8fbec8ad56ef8d4c66fa31c6d75e9f30ff7ac467775233ce9095816"
+      ],
+      "file": "SS_Temperature_Polished_MC_105.lvm",
+      "file_sha256": "6f1db9ce8329cf3429bc396c04cee55ca2cf21aa47f110b7b3fbeb41cde50bbe",
+      "flux_sha256": "8e8bbae42ea93a1fc775e1faa4b52ba2e8a5add49048bc384e2721e1c6b27133",
+      "full_sha256": "91c34477f2a41c4903cac66b1c46a84ba992e9734d9c2862b2dd1cbbec52353e",
+      "gates": {
+        "all_six_channels": true,
+        "frozen_flux": true,
+        "frozen_superheat": true,
+        "full_array_oracle": true,
+        "legacy_prefix": true
+      },
+      "legacy_sha256": "98e4587bf446c5e920dfb8e99b8b6954eb1812073eefabb6c0b179e83abeae44",
+      "metadata": {
+        "columns": [
+          "X_Value",
+          "Temperature_0",
+          "Temperature_1",
+          "Temperature_2",
+          "Temperature_3",
+          "Temperature_4",
+          "Temperature_5"
+        ],
+        "data_start": 23,
+        "temperature_unit": "Deg C"
+      },
+      "oracle_sha256": "91c34477f2a41c4903cac66b1c46a84ba992e9734d9c2862b2dd1cbbec52353e",
+      "retained_extra_channel": {
+        "maximum": 99.095311,
+        "mean": 98.99970686646847,
+        "minimum": 98.918643,
+        "name": "Temperature_5"
+      },
+      "shape": [
+        392192,
+        7
+      ],
+      "superheat_sha256": "7e3eb5f62bd402c79fc69c499a5660968a7913946f090d89fd95af281ecaf65c"
+    },
+    {
+      "channel_sha256": [
+        "66ac66468e09b0e22d4eb09bf773defef44bb4a59e292176cc91d5734cbd8103",
+        "6f106e6f493bf30a81342806692f02fe4e9a5d6bab6976d6a35a824670838612",
+        "9b8d16268c221deb6c42d649e8574ff19e59ae310fcffe4697c1ec1568530e84",
+        "be445cd81eae8ca1e45afb3596b714a5182f00ff9c7d04c399bb3b2ce6b5de7a",
+        "f52b727d378995dc2188c6306caee676b78efc0b854c1cb086165e742aa99356",
+        "275455903f6cf52aba3e3187b39f4862143a1cbfc9725a49086ac92325a9a81e",
+        "1b6a5772cd7ce048e9a36b2bbde7a5876bcf10a5af2adee974c8446337b11658"
+      ],
+      "file": "SS_Temperature_Polished_MC_15.lvm",
+      "file_sha256": "9ccec5fefdf1460eae24b77c1738af89440facaf82bdfcfbbfcf4bb5481926c8",
+      "flux_sha256": "1f05dc1ad92cdf2a2066787f5524e342d8bb64ae7399fb632da549ab13d6e6ab",
+      "full_sha256": "3dfda8af400736baa56166f79cfac4a405904a66f316d5e18e1e193b667d3263",
+      "gates": {
+        "all_six_channels": true,
+        "frozen_flux": true,
+        "frozen_superheat": true,
+        "full_array_oracle": true,
+        "legacy_prefix": true
+      },
+      "legacy_sha256": "d990f7b16627f4eeedb02aa415bd33c9dde03ceefaf016e8262b1477fd03763d",
+      "metadata": {
+        "columns": [
+          "X_Value",
+          "Temperature_0",
+          "Temperature_1",
+          "Temperature_2",
+          "Temperature_3",
+          "Temperature_4",
+          "Temperature_5"
+        ],
+        "data_start": 23,
+        "temperature_unit": "Deg C"
+      },
+      "oracle_sha256": "3dfda8af400736baa56166f79cfac4a405904a66f316d5e18e1e193b667d3263",
+      "retained_extra_channel": {
+        "maximum": 99.03046,
+        "mean": 98.93431562389014,
+        "minimum": 98.885009,
+        "name": "Temperature_5"
+      },
+      "shape": [
+        390144,
+        7
+      ],
+      "superheat_sha256": "d21b486515bf02363374ce5de26b716e56e8978a4a1a9d9b10a57fa4bd4144f5"
+    },
+    {
+      "channel_sha256": [
+        "e3ecd6e3262a0bc7740d14674685d7e4c45f4721197f89b92d0317d1eef60475",
+        "c9f83368002ff9232936c162647c8945c6f59b2b37db505a4947c7cc6193788c",
+        "7230b07382c42e965ebc1863d608835027813bbb87c568f8dcb6ea2423ef6282",
+        "2007be6bbcf59d2cc26ed366e9b6f569e9ff1893cea7ba55be519f5d46279106",
+        "9babde60e6e0024ea62837409f35513924d2e7361d705c43af5164c25ddbe02a",
+        "09f2ac3e360faf25eec3935f0213d44232e834959a1486ef9fbb3662a3cc7064",
+        "acea83d4e70c468ccd3a0c0076dc1c4b179b509aedfbfe3d7feaaadd816e1df7"
+      ],
+      "file": "SS_Temperature_Polished_MC_CHF.lvm",
+      "file_sha256": "74ef94d1b915b9129e96eba03ba7b7b6bd7a74c6c2c389551c198b227da5862f",
+      "flux_sha256": "32e2a075c570d3e0279517f2b42183591da04a119b1cde1efd795b8ee03afb2b",
+      "full_sha256": "6ad1ce56d951f2ce4b297757ff6d3440934f397fb03d0cec64894e218c9d1543",
+      "gates": {
+        "all_six_channels": true,
+        "frozen_flux": true,
+        "frozen_superheat": true,
+        "full_array_oracle": true,
+        "legacy_prefix": true
+      },
+      "legacy_sha256": "a2bba64579ab06c138f63fb15d1c91adce70662af94259f4ab32d365b859c666",
+      "metadata": {
+        "columns": [
+          "X_Value",
+          "Temperature_0",
+          "Temperature_1",
+          "Temperature_2",
+          "Temperature_3",
+          "Temperature_4",
+          "Temperature_5"
+        ],
+        "data_start": 23,
+        "temperature_unit": "Deg C"
+      },
+      "oracle_sha256": "6ad1ce56d951f2ce4b297757ff6d3440934f397fb03d0cec64894e218c9d1543",
+      "retained_extra_channel": {
+        "maximum": 99.436871,
+        "mean": 98.9659173218156,
+        "minimum": 98.235273,
+        "name": "Temperature_5"
+      },
+      "shape": [
+        562176,
+        7
+      ],
+      "superheat_sha256": "2c14060c7364fe76e4c8233982ab71711faeb7fcb8ac333b17331095a87b9ba1"
+    }
+  ],
+  "schema": 1,
+  "scope": "Complete channel preservation and unchanged numerical mapping only; original boiling failures retained, no new heat-flux calibration or physical regime classification",
+  "sources": {
+    "src/physics_engine/electrochem/battery_boiling_curve_zuber_chf.py": "e0f09ee4a0ab808c64e6e692e88a7b5c4c933f07e59d3e7db4d584a9235f18cc",
+    "src/physics_engine/electrochem/boiling_lvm_channels_v1.py": "79e3d85674b81d90341b29c98f72e7159ec3734bba05ea1897fdb60a2f180f08"
+  },
+  "status": "VERIFIED-FRESH",
+  "unresolved": [
+    "Published Heat_flux.m unavailable locally; upstream dataset API returned HTTP403 during source audit",
+    "Physical depth assignment and surface-temperature reconstruction not independently verified against the published MATLAB file"
+  ]
+}

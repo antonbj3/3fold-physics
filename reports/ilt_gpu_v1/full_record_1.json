@@ -1,0 +1,225 @@
+{
+  "anchors": [
+    {
+      "airy_maxerr_mainlobe": 0.0051458088952971385,
+      "airy_first_zero_nm": 88.12502725622305,
+      "airy_first_zero_theory_nm": 87.17881481481481,
+      "airy_first_zero_relerr": 0.010853697006757654,
+      "airy_PASS": true,
+      "edge_maxerr": 0.015376882286664562,
+      "edge_overshoot_meas": 1.1875158506237784,
+      "edge_overshoot_theory": 1.1869311328725303,
+      "edge_PASS": true,
+      "PASS": true
+    },
+    {
+      "saddle_over_peak_at_rayleigh": 0.7224295971071423,
+      "saddle_target_textbook": 0.735,
+      "rayleigh_d_nm": 87.17881481481481,
+      "resolvability_onset_nm_informational": 76.81230382925298,
+      "onset_relerr_vs_0p61": 0.11891089604260356,
+      "onset_grazing_flag": true,
+      "PASS": true
+    },
+    {
+      "conv_relerr_vs_incoherent": {
+        "1.0": 0.0504440659943205,
+        "2.0": 0.03375891950500252,
+        "3.0": 0.033507118899886064
+      },
+      "additivity_residual": {
+        "1.0": 0.016501416347783966,
+        "2.0": 0.014392178926010647,
+        "3.0": 0.006333609259045735
+      },
+      "conv_decreasing": true,
+      "add_decreasing": true,
+      "PASS": true
+    },
+    {
+      "integral_image_Abbe": 495.4167429454624,
+      "integral_TCC_diagonal": 495.4167429454624,
+      "relerr": 0.0,
+      "PASS": true
+    }
+  ],
+  "b": {
+    "per_pitch": {
+      "150.0": {
+        "n_sites": 10,
+        "NILS_min": 2.9258120069465416,
+        "NILS_max": 3.019494664684269,
+        "CERTIFY": 10,
+        "ABSTAIN": 0,
+        "FAIL": 0
+      },
+      "130.0": {
+        "n_sites": 10,
+        "NILS_min": 2.6190478583431944,
+        "NILS_max": 2.6860336430863048,
+        "CERTIFY": 10,
+        "ABSTAIN": 0,
+        "FAIL": 0
+      },
+      "110.0": {
+        "n_sites": 10,
+        "NILS_min": 1.8707818226307864,
+        "NILS_max": 1.939141344719744,
+        "CERTIFY": 0,
+        "ABSTAIN": 10,
+        "FAIL": 0
+      },
+      "95.0": {
+        "n_sites": 10,
+        "NILS_min": 0.9335270341505734,
+        "NILS_max": 1.04238129984042,
+        "CERTIFY": 0,
+        "ABSTAIN": 10,
+        "FAIL": 0
+      }
+    },
+    "tol_nm": 8.0,
+    "NILS_floor": 2.0,
+    "nils_epe_dose_law_median_relerr": 0.02005903062930778,
+    "abstain_fires_at_aggressive_pitch": true,
+    "law_PASS": true,
+    "PASS": true
+  },
+  "c_cpu": {
+    "threshold": 0.2502092050209205,
+    "target_cd_nm": 45.0,
+    "tol_nm": 5.0,
+    "ilt_knobs": {
+      "main_bias_nm": 3.0,
+      "sraf_offset_nm": 110.0,
+      "sraf_width_nm": 22.0,
+      "sraf_stays_subresolution": true
+    },
+    "pw_frac_naive": 0.4603174603174603,
+    "pw_frac_ilt": 0.6190476190476191,
+    "pw_widened": true,
+    "pw_widening_factor": 1.3448275862068966,
+    "waterfill": {
+      "n_mask_dof": 256,
+      "n_identifiable_dof": 11,
+      "band_dof_theory_1plus_sigma": 11,
+      "ident_matches_band": true,
+      "transmission_floor_rel": 0.001,
+      "masquerade_ratio_null_over_top": 1.135637941842398e-13,
+      "ilt_mask_outofband_energy_frac_DROPSET": 0.28504817081583034,
+      "aerial_image_relerr_after_dropping_outofband": 1.9048920870229453e-16,
+      "sv_top5": [
+        1.000000000005897,
+        1.0000000000000784,
+        1.0000000000000782,
+        0.7999999999996609,
+        0.7999999999996028
+      ],
+      "sv_min": 1.5077742742800067e-15
+    },
+    "PASS": true
+  },
+  "c_gpu": {
+    "threshold": 0.2502092050209205,
+    "target_cd_nm": 45.0,
+    "tol_nm": 5.0,
+    "ilt_knobs": {
+      "main_bias_nm": 3.0,
+      "sraf_offset_nm": 110.0,
+      "sraf_width_nm": 22.0,
+      "sraf_stays_subresolution": true
+    },
+    "pw_frac_naive": 0.4603174603174603,
+    "pw_frac_ilt": 0.6190476190476191,
+    "pw_widened": true,
+    "pw_widening_factor": 1.3448275862068966,
+    "waterfill": {
+      "n_mask_dof": 256,
+      "n_identifiable_dof": 11,
+      "band_dof_theory_1plus_sigma": 11,
+      "ident_matches_band": true,
+      "transmission_floor_rel": 0.001,
+      "masquerade_ratio_null_over_top": 1.1598317618874693e-13,
+      "ilt_mask_outofband_energy_frac_DROPSET": 0.28504817081583034,
+      "aerial_image_relerr_after_dropping_outofband": 2.283242585178338e-16,
+      "sv_top5": [
+        1.000000000005897,
+        1.0000000000000784,
+        1.0000000000000782,
+        0.7999999999996609,
+        0.7999999999996028
+      ],
+      "sv_min": 1.5077742742800067e-15
+    },
+    "PASS": true
+  },
+  "d": {
+    "band_cutoff_vs_theory": {
+      "0.0": {
+        "band_edge_theory_nm^-1": 0.006994818652849741,
+        "measured_cutoff_nm^-1": 0.0068359375,
+        "cutoff_relerr": 0.022714120370370402,
+        "min_printable_pitch_nm": 142.96296296296296
+      },
+      "0.3": {
+        "band_edge_theory_nm^-1": 0.009093264248704663,
+        "measured_cutoff_nm^-1": 0.0087890625,
+        "cutoff_relerr": 0.03345352564102561,
+        "min_printable_pitch_nm": 109.97150997150997
+      },
+      "0.6": {
+        "band_edge_theory_nm^-1": 0.011191709844559587,
+        "measured_cutoff_nm^-1": 0.0107421875,
+        "cutoff_relerr": 0.04016565393518527,
+        "min_printable_pitch_nm": 89.35185185185185
+      }
+    },
+    "noise_1pct_recoverable_dof_absolute_floor": 23,
+    "noise_1pct_total_dof": 256,
+    "note": "SHARP anchor = the spatial-frequency band cutoff vs analytic (1+\u03c3)NA/\u03bb (relerr 2-4%); the absolute-1%-noise DOF count is a looser CRB-style informational number.",
+    "sigma06_cutoff_relerr": 0.04016565393518527,
+    "PASS": true
+  },
+  "e": {
+    "grid_convergence_relerr": {
+      "8.0": 0.08540852384283368,
+      "4.0": 0.05150227758521955,
+      "2.0": 0.023672187696237926,
+      "1.0": 0.008705285474411014
+    },
+    "measured_order": 1.098138848274262,
+    "h_star_nm": 1.0,
+    "socs_truncation": {
+      "1": {
+        "image_relerr": 0.14153368208204484,
+        "max_EPE_contam_nm": 43.86089133454175,
+        "eigval_frac": 0.7890431736609472
+      },
+      "2": {
+        "image_relerr": 0.0453376874701489,
+        "max_EPE_contam_nm": 39.86640066218024,
+        "eigval_frac": 0.9210596177216643
+      },
+      "4": {
+        "image_relerr": 0.01611779630993063,
+        "max_EPE_contam_nm": 39.54566170745443,
+        "eigval_frac": 0.9674960149119198
+      },
+      "8": {
+        "image_relerr": 0.003689632274417725,
+        "max_EPE_contam_nm": 0.16285429637252946,
+        "eigval_frac": 0.9911408894499206
+      },
+      "16": {
+        "image_relerr": 8.05250556146462e-16,
+        "max_EPE_contam_nm": 2.2737367544323206e-13,
+        "eigval_frac": 0.9999999999999998
+      }
+    },
+    "socs_kernels_for_0p5nm_EPE": 8,
+    "grazing_flags": {
+      "grid_hstar_at_finest_tested": true,
+      "socs_epe_grazing": false
+    }
+  }
+}

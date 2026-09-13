@@ -1,0 +1,18 @@
+[
+  {
+    "leg": 0,
+    "arrays": 182,
+    "values": 37333,
+    "normalized": 0.1247894270421249,
+    "max_abs": 2.55737291245693e-10,
+    "exact": false
+  },
+  {
+    "leg": 1,
+    "arrays": 182,
+    "values": 37333,
+    "normalized": 0.1247894270421249,
+    "max_abs": 2.55737291245693e-10,
+    "exact": false
+  }
+]

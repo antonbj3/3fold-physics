@@ -1,0 +1,276 @@
+{
+  "device": "cpu",
+  "atol": 1e-07,
+  "rtol": 1e-06,
+  "runs": [
+    {
+      "cases": [
+        {
+          "case": "64_geom_1.0_0.5",
+          "cpu_s": 2.348896302006324,
+          "gpu_s": 0.18343534599989653,
+          "cpu_observed_s": 3.2695382309902925,
+          "parity": 1.9720881795091966e-07,
+          "max_abs_error": 6.306066779870889e-14,
+          "cpu": {
+            "area": 0.0580902099609375,
+            "consv": 0.0,
+            "thick": 0.9444444444444444,
+            "l1": 0.06005606429813183,
+            "nsteps": 569
+          },
+          "gpu": {
+            "area": 0.0580902099609375,
+            "consv": 0.0,
+            "thick": 0.9444444444444444,
+            "l1": 0.06005606429813089,
+            "nsteps": 569
+          }
+        },
+        {
+          "case": "100_geom_1.0_0.5",
+          "cpu_s": 7.2268659160035895,
+          "gpu_s": 0.5253600139985792,
+          "cpu_observed_s": 10.0341156499926,
+          "parity": 4.319480531232678e-06,
+          "max_abs_error": 1.9662604877623835e-12,
+          "cpu": {
+            "area": 0.058225,
+            "consv": 0.0,
+            "thick": 1.0136986301369864,
+            "l1": 0.02893409141447812,
+            "nsteps": 889
+          },
+          "gpu": {
+            "area": 0.058225,
+            "consv": 0.0,
+            "thick": 1.0136986301369864,
+            "l1": 0.028934091414480993,
+            "nsteps": 889
+          }
+        },
+        {
+          "case": "128_geom_1.0_0.5",
+          "cpu_s": 13.941897790995426,
+          "gpu_s": 0.9798552569991443,
+          "cpu_observed_s": 18.82993669899588,
+          "parity": 1.309510273039252e-06,
+          "max_abs_error": 8.594236433623337e-13,
+          "cpu": {
+            "area": 0.058042526245117194,
+            "consv": 1.1954844754006484e-16,
+            "thick": 1.0,
+            "l1": 0.020822020685178064,
+            "nsteps": 1137
+          },
+          "gpu": {
+            "area": 0.05804252624511719,
+            "consv": 0.0,
+            "thick": 1.0,
+            "l1": 0.02082202068517779,
+            "nsteps": 1137
+          }
+        },
+        {
+          "case": "64_upwind_1.0_0.5",
+          "cpu_s": 0.09965517799719237,
+          "gpu_s": 0.16886780499771703,
+          "cpu_observed_s": 0.1345920220046537,
+          "parity": 0.0,
+          "max_abs_error": 0.0,
+          "cpu": {
+            "area": 0.0580902099609375,
+            "consv": 0.0,
+            "thick": 15.75925925925926,
+            "l1": 1.2101593485733262,
+            "nsteps": 569
+          },
+          "gpu": {
+            "area": 0.0580902099609375,
+            "consv": 0.0,
+            "thick": 15.75925925925926,
+            "l1": 1.2101593485733262,
+            "nsteps": 569
+          }
+        },
+        {
+          "case": "100_geom_0.5_0.5",
+          "cpu_s": 3.6869165649986826,
+          "gpu_s": 0.35343608498806134,
+          "cpu_observed_s": 5.042480058007641,
+          "parity": 1.3063687920510937e-05,
+          "max_abs_error": 3.542166560066562e-12,
+          "cpu": {
+            "area": 0.058225,
+            "consv": 0.0,
+            "thick": 1.0547945205479452,
+            "l1": 1.9999999999999991,
+            "nsteps": 444
+          },
+          "gpu": {
+            "area": 0.058225,
+            "consv": 0.0,
+            "thick": 1.0547945205479452,
+            "l1": 2.0,
+            "nsteps": 444
+          }
+        }
+      ],
+      "cpu_gates": {
+        "render_match": true,
+        "conservation<1%": true,
+        "thickness<=2": true,
+        "sigma_convergent": true,
+        "cross_method_area": true,
+        "null_fails": true
+      },
+      "gpu_gates": {
+        "render_match": true,
+        "conservation<1%": true,
+        "thickness<=2": true,
+        "sigma_convergent": true,
+        "cross_method_area": true,
+        "null_fails": true
+      },
+      "all_pass": true
+    },
+    {
+      "cases": [
+        {
+          "case": "64_geom_1.0_0.5",
+          "cpu_s": 2.342776858000434,
+          "gpu_s": 0.18259325799590442,
+          "cpu_observed_s": 3.236204367989558,
+          "parity": 1.9720881795091966e-07,
+          "max_abs_error": 6.306066779870889e-14,
+          "cpu": {
+            "area": 0.0580902099609375,
+            "consv": 0.0,
+            "thick": 0.9444444444444444,
+            "l1": 0.06005606429813183,
+            "nsteps": 569
+          },
+          "gpu": {
+            "area": 0.0580902099609375,
+            "consv": 0.0,
+            "thick": 0.9444444444444444,
+            "l1": 0.06005606429813089,
+            "nsteps": 569
+          }
+        },
+        {
+          "case": "100_geom_1.0_0.5",
+          "cpu_s": 7.197207264995086,
+          "gpu_s": 0.5216415489994688,
+          "cpu_observed_s": 9.82090496100136,
+          "parity": 4.319480531232678e-06,
+          "max_abs_error": 1.9662604877623835e-12,
+          "cpu": {
+            "area": 0.058225,
+            "consv": 0.0,
+            "thick": 1.0136986301369864,
+            "l1": 0.02893409141447812,
+            "nsteps": 889
+          },
+          "gpu": {
+            "area": 0.058225,
+            "consv": 0.0,
+            "thick": 1.0136986301369864,
+            "l1": 0.028934091414480993,
+            "nsteps": 889
+          }
+        },
+        {
+          "case": "128_geom_1.0_0.5",
+          "cpu_s": 13.92075922699587,
+          "gpu_s": 0.9709450619993731,
+          "cpu_observed_s": 18.79782702299417,
+          "parity": 1.309510273039252e-06,
+          "max_abs_error": 8.594236433623337e-13,
+          "cpu": {
+            "area": 0.058042526245117194,
+            "consv": 1.1954844754006484e-16,
+            "thick": 1.0,
+            "l1": 0.020822020685178064,
+            "nsteps": 1137
+          },
+          "gpu": {
+            "area": 0.05804252624511719,
+            "consv": 0.0,
+            "thick": 1.0,
+            "l1": 0.02082202068517779,
+            "nsteps": 1137
+          }
+        },
+        {
+          "case": "64_upwind_1.0_0.5",
+          "cpu_s": 0.09957668799324892,
+          "gpu_s": 0.1693927909946069,
+          "cpu_observed_s": 0.13357128700590692,
+          "parity": 0.0,
+          "max_abs_error": 0.0,
+          "cpu": {
+            "area": 0.0580902099609375,
+            "consv": 0.0,
+            "thick": 15.75925925925926,
+            "l1": 1.2101593485733262,
+            "nsteps": 569
+          },
+          "gpu": {
+            "area": 0.0580902099609375,
+            "consv": 0.0,
+            "thick": 15.75925925925926,
+            "l1": 1.2101593485733262,
+            "nsteps": 569
+          }
+        },
+        {
+          "case": "100_geom_0.5_0.5",
+          "cpu_s": 3.693414663997828,
+          "gpu_s": 0.3541762800014112,
+          "cpu_observed_s": 5.076849819000927,
+          "parity": 1.3063687920510937e-05,
+          "max_abs_error": 3.542166560066562e-12,
+          "cpu": {
+            "area": 0.058225,
+            "consv": 0.0,
+            "thick": 1.0547945205479452,
+            "l1": 1.9999999999999991,
+            "nsteps": 444
+          },
+          "gpu": {
+            "area": 0.058225,
+            "consv": 0.0,
+            "thick": 1.0547945205479452,
+            "l1": 2.0,
+            "nsteps": 444
+          }
+        }
+      ],
+      "cpu_gates": {
+        "render_match": true,
+        "conservation<1%": true,
+        "thickness<=2": true,
+        "sigma_convergent": true,
+        "cross_method_area": true,
+        "null_fails": true
+      },
+      "gpu_gates": {
+        "render_match": true,
+        "conservation<1%": true,
+        "thickness<=2": true,
+        "sigma_convergent": true,
+        "cross_method_area": true,
+        "null_fails": true
+      },
+      "all_pass": true
+    }
+  ],
+  "full_repeat_exact": true,
+  "all_pass": true,
+  "source_sha256": {
+    "src/physics_engine/litho/vof_zalesak_cert.py": "5ea1626a5f1a66626efb0e0cef12e24518fc4d3b1b527de13aaee44dfa6dd86f",
+    "src/physics_engine/litho/vof_zalesak_cert_gpu.py": "faf311825fbb2037484ffd18c5fbbb6db9887a8aa9daca7f326d701f2481922f",
+    "scripts/verify_vof_gpu.py": "964cff2943c4a340cc6f6da5dca537d7266ba41e04592531f8db10dddecb68d1"
+  }
+}

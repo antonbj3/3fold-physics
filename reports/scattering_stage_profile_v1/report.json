@@ -1,0 +1,3041 @@
+{
+  "device": "NVIDIA H100 80GB HBM3",
+  "rows": [
+    {
+      "repeat": 0,
+      "wall_seconds": 0.5092411739999996,
+      "errors": [
+        0.0,
+        5.95130232871638e-13,
+        5.101386113494013e-12,
+        2.3483985834120618e-11,
+        8.352038512498951e-15
+      ],
+      "hankel_calls": [
+        {
+          "order_shape": [
+            1,
+            1,
+            41,
+            41
+          ],
+          "radius_shape": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "elements": 1681,
+          "seconds": 0.000958245000001412,
+          "unique_orders": 81
+        },
+        {
+          "order_shape": [
+            41
+          ],
+          "radius_shape": [],
+          "elements": 41,
+          "seconds": 2.748200000013412e-05,
+          "unique_orders": 41
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            25,
+            25
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 22500,
+          "seconds": 0.017539973999999958,
+          "unique_orders": 49
+        },
+        {
+          "order_shape": [
+            25
+          ],
+          "radius_shape": [],
+          "elements": 25,
+          "seconds": 1.657900000040513e-05,
+          "unique_orders": 25
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            25,
+            25
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 22500,
+          "seconds": 0.016571235000000684,
+          "unique_orders": 49
+        },
+        {
+          "order_shape": [
+            25
+          ],
+          "radius_shape": [],
+          "elements": 25,
+          "seconds": 1.393099999980052e-05,
+          "unique_orders": 25
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            25,
+            25
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 22500,
+          "seconds": 0.017901420999999473,
+          "unique_orders": 49
+        },
+        {
+          "order_shape": [
+            25
+          ],
+          "radius_shape": [],
+          "elements": 25,
+          "seconds": 1.5735999999932915e-05,
+          "unique_orders": 25
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.007612075999999135,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 1.1665000000604664e-05,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            21,
+            21
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 15876,
+          "seconds": 0.011755675999999937,
+          "unique_orders": 41
+        },
+        {
+          "order_shape": [
+            21
+          ],
+          "radius_shape": [],
+          "elements": 21,
+          "seconds": 1.2939999999517227e-05,
+          "unique_orders": 21
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            25,
+            25
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 22500,
+          "seconds": 0.016126392000000322,
+          "unique_orders": 49
+        },
+        {
+          "order_shape": [
+            25
+          ],
+          "radius_shape": [],
+          "elements": 25,
+          "seconds": 1.4044000000268397e-05,
+          "unique_orders": 25
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.004251446999999686,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 9.590999999531391e-06,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.005736075999999812,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 9.720000001323115e-06,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.007024466000000729,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 9.843999999148423e-06,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.0065280599999990585,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 9.793000000257734e-06,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.006550652999999684,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 8.776999999682289e-06,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.0063640819999992715,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 9.1480000001809e-06,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.008602902999999884,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 9.350999999213627e-06,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.00811172999999954,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 1.0028000000161796e-05,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.008320270999998769,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 9.486000001501793e-06,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.007215479999999275,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 9.945999998706156e-06,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.007250060000000502,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 1.0301999999740019e-05,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.006677231000001171,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 9.314000001481304e-06,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.007116135000000412,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 9.795999998729599e-06,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.0065490849999996215,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 9.351999999296368e-06,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.006830968999999243,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 9.931000001017765e-06,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.006795831999999891,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 9.722999999794979e-06,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.006626510999998558,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 1.014999999959798e-05,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.006877788000000606,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 9.76199999946914e-06,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.006771514000000423,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 1.0919000001052837e-05,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.006969830000000954,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 1.0846999998648243e-05,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.0062683180000000505,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 1.0915000000721875e-05,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.006837432999999393,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 1.123300000038796e-05,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.006312179000000029,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 1.1183999999886396e-05,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.006325014999999823,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 1.1606999999358436e-05,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.007240847999998579,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 1.1749999998755811e-05,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            19,
+            19
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 12996,
+          "seconds": 0.009736458999999087,
+          "unique_orders": 37
+        },
+        {
+          "order_shape": [
+            19
+          ],
+          "radius_shape": [],
+          "elements": 19,
+          "seconds": 2.603300000103559e-05,
+          "unique_orders": 19
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            19,
+            19
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 12996,
+          "seconds": 0.009106159999999974,
+          "unique_orders": 37
+        },
+        {
+          "order_shape": [
+            19
+          ],
+          "radius_shape": [],
+          "elements": 19,
+          "seconds": 2.2734999999940442e-05,
+          "unique_orders": 19
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            19,
+            19
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 12996,
+          "seconds": 0.00917083100000049,
+          "unique_orders": 37
+        },
+        {
+          "order_shape": [
+            19
+          ],
+          "radius_shape": [],
+          "elements": 19,
+          "seconds": 2.2822000000033427e-05,
+          "unique_orders": 19
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            19,
+            19
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 12996,
+          "seconds": 0.009185576999998446,
+          "unique_orders": 37
+        },
+        {
+          "order_shape": [
+            19
+          ],
+          "radius_shape": [],
+          "elements": 19,
+          "seconds": 2.231100000038566e-05,
+          "unique_orders": 19
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            19,
+            19
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 12996,
+          "seconds": 0.009714556000000485,
+          "unique_orders": 37
+        },
+        {
+          "order_shape": [
+            19
+          ],
+          "radius_shape": [],
+          "elements": 19,
+          "seconds": 2.158699999910141e-05,
+          "unique_orders": 19
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            19,
+            19
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 12996,
+          "seconds": 0.008944346999999908,
+          "unique_orders": 37
+        },
+        {
+          "order_shape": [
+            19
+          ],
+          "radius_shape": [],
+          "elements": 19,
+          "seconds": 2.1721999999613217e-05,
+          "unique_orders": 19
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            19,
+            19
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 12996,
+          "seconds": 0.009455574999998717,
+          "unique_orders": 37
+        },
+        {
+          "order_shape": [
+            19
+          ],
+          "radius_shape": [],
+          "elements": 19,
+          "seconds": 2.1305999998944003e-05,
+          "unique_orders": 19
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            19,
+            19
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 12996,
+          "seconds": 0.009471559999999712,
+          "unique_orders": 37
+        },
+        {
+          "order_shape": [
+            19
+          ],
+          "radius_shape": [],
+          "elements": 19,
+          "seconds": 2.230800000013744e-05,
+          "unique_orders": 19
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            19,
+            19
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 12996,
+          "seconds": 0.008869918000000254,
+          "unique_orders": 37
+        },
+        {
+          "order_shape": [
+            19
+          ],
+          "radius_shape": [],
+          "elements": 19,
+          "seconds": 2.06130000002247e-05,
+          "unique_orders": 19
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            19,
+            19
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 12996,
+          "seconds": 0.008842942999999437,
+          "unique_orders": 37
+        },
+        {
+          "order_shape": [
+            19
+          ],
+          "radius_shape": [],
+          "elements": 19,
+          "seconds": 2.065000000150974e-05,
+          "unique_orders": 19
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            19,
+            19
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 12996,
+          "seconds": 0.008652254999999442,
+          "unique_orders": 37
+        },
+        {
+          "order_shape": [
+            19
+          ],
+          "radius_shape": [],
+          "elements": 19,
+          "seconds": 2.018500000033896e-05,
+          "unique_orders": 19
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            19,
+            19
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 12996,
+          "seconds": 0.009046052000000415,
+          "unique_orders": 37
+        },
+        {
+          "order_shape": [
+            19
+          ],
+          "radius_shape": [],
+          "elements": 19,
+          "seconds": 2.157199999963666e-05,
+          "unique_orders": 19
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            19,
+            19
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 12996,
+          "seconds": 0.009365197999999353,
+          "unique_orders": 37
+        },
+        {
+          "order_shape": [
+            19
+          ],
+          "radius_shape": [],
+          "elements": 19,
+          "seconds": 2.358700000115732e-05,
+          "unique_orders": 19
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            19,
+            19
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 12996,
+          "seconds": 0.00881832299999985,
+          "unique_orders": 37
+        },
+        {
+          "order_shape": [
+            19
+          ],
+          "radius_shape": [],
+          "elements": 19,
+          "seconds": 1.980000000045834e-05,
+          "unique_orders": 19
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            21,
+            21
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 15876,
+          "seconds": 0.011510977999998673,
+          "unique_orders": 41
+        },
+        {
+          "order_shape": [
+            21
+          ],
+          "radius_shape": [],
+          "elements": 21,
+          "seconds": 2.4493999999819493e-05,
+          "unique_orders": 21
+        }
+      ],
+      "functions": [
+        {
+          "file": "/work/3fold-physics-e-gpu-check/scripts/verify_scattering_gpu.py",
+          "line": 46,
+          "function": "forward_suite",
+          "calls": 1,
+          "self_seconds": 0.0006689570000000001,
+          "cumulative_seconds": 0.5089580650000001
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/scripts/verify_scattering_gpu.py",
+          "line": 49,
+          "function": "cs",
+          "calls": 45,
+          "self_seconds": 0.000870188,
+          "cumulative_seconds": 0.470537831
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/scattering/spine_scatter2d_multiple_helmholtz_forward_C_gpu.py",
+          "line": 13,
+          "function": "solve_MS",
+          "calls": 47,
+          "self_seconds": 0.016217751000000002,
+          "cumulative_seconds": 0.45888501600000003
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/scripts/profile_scattering_stage.py",
+          "line": 10,
+          "function": "<lambda>",
+          "calls": 45,
+          "self_seconds": 0.00022712900000000001,
+          "cumulative_seconds": 0.45366675500000003
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/scattering/spine_scatter2d_multiple_helmholtz_forward_C_gpu.py",
+          "line": 61,
+          "function": "cross_sections",
+          "calls": 45,
+          "self_seconds": 0.003235369,
+          "cumulative_seconds": 0.45343962600000004
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/scripts/profile_scattering_stage.py",
+          "line": 13,
+          "function": "observed_hankel",
+          "calls": 94,
+          "self_seconds": 0.39988507100000004,
+          "cumulative_seconds": 0.40268843600000004
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/scripts/profile_scattering_stage.py",
+          "line": 9,
+          "function": "<lambda>",
+          "calls": 2,
+          "self_seconds": 2.7216e-05,
+          "cumulative_seconds": 0.036997395
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/scattering/spine_scatter2d_multiple_helmholtz_forward_C_gpu.py",
+          "line": 52,
+          "function": "far_field",
+          "calls": 137,
+          "self_seconds": 0.0204872,
+          "cumulative_seconds": 0.03455407
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._linalg.linalg_solve>",
+          "calls": 47,
+          "self_seconds": 0.025836504000000003,
+          "cumulative_seconds": 0.025836504000000003
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.as_tensor>",
+          "calls": 601,
+          "self_seconds": 0.013022199000000002,
+          "cumulative_seconds": 0.013022199000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'cpu' of 'torch._C.TensorBase' objects>",
+          "calls": 319,
+          "self_seconds": 0.005173098,
+          "cumulative_seconds": 0.005173098
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/scripts/verify_scattering_gpu.py",
+          "line": 27,
+          "function": "array",
+          "calls": 182,
+          "self_seconds": 0.00033823100000000004,
+          "cumulative_seconds": 0.003693945
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.exp>",
+          "calls": 415,
+          "self_seconds": 0.0030912550000000002,
+          "cumulative_seconds": 0.0030912550000000002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/function_base.py",
+          "line": 27,
+          "function": "linspace",
+          "calls": 91,
+          "self_seconds": 0.001861362,
+          "cumulative_seconds": 0.002893641
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_arraysetops_impl.py",
+          "line": 145,
+          "function": "unique",
+          "calls": 94,
+          "self_seconds": 0.00021491900000000002,
+          "cumulative_seconds": 0.002342541
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'sum' of 'torch._C.TensorBase' objects>",
+          "calls": 137,
+          "self_seconds": 0.002194588,
+          "cumulative_seconds": 0.002194588
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_arraysetops_impl.py",
+          "line": 350,
+          "function": "_unique1d",
+          "calls": 94,
+          "self_seconds": 0.000514419,
+          "cumulative_seconds": 0.002048657
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.abs>",
+          "calls": 45,
+          "self_seconds": 0.0013817030000000002,
+          "cumulative_seconds": 0.0013817030000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reshape' of 'torch._C.TensorBase' objects>",
+          "calls": 141,
+          "self_seconds": 0.0012551580000000001,
+          "cumulative_seconds": 0.0012551580000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.eye>",
+          "calls": 47,
+          "self_seconds": 0.001217683,
+          "cumulative_seconds": 0.001217683
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.sin>",
+          "calls": 137,
+          "self_seconds": 0.0011826620000000001,
+          "cumulative_seconds": 0.0011826620000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.cos>",
+          "calls": 137,
+          "self_seconds": 0.001176247,
+          "cumulative_seconds": 0.001176247
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_tensor.py",
+          "line": 32,
+          "function": "wrapped",
+          "calls": 45,
+          "self_seconds": 0.000141303,
+          "cumulative_seconds": 0.000881199
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.arange>",
+          "calls": 47,
+          "self_seconds": 0.000874091,
+          "cumulative_seconds": 0.000874091
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy._core._multiarray_umath._unique_hash>",
+          "calls": 94,
+          "self_seconds": 0.00082804,
+          "cumulative_seconds": 0.00082804
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'pow' of 'torch._C.TensorBase' objects>",
+          "calls": 45,
+          "self_seconds": 0.00071822,
+          "cumulative_seconds": 0.00071822
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'numpy' of 'torch._C.TensorBase' objects>",
+          "calls": 319,
+          "self_seconds": 0.000700745,
+          "cumulative_seconds": 0.000700745
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.sum>",
+          "calls": 45,
+          "self_seconds": 0.0005514340000000001,
+          "cumulative_seconds": 0.0005514340000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.arange>",
+          "calls": 139,
+          "self_seconds": 0.000534245,
+          "cumulative_seconds": 0.000534245
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'detach' of 'torch._C.TensorBase' objects>",
+          "calls": 319,
+          "self_seconds": 0.0005210530000000001,
+          "cumulative_seconds": 0.0005210530000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 2474,
+          "function": "any",
+          "calls": 47,
+          "self_seconds": 0.00011573300000000001,
+          "cumulative_seconds": 0.00043284700000000004
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'all' of 'numpy.ndarray' objects>",
+          "calls": 94,
+          "self_seconds": 9.1451e-05,
+          "cumulative_seconds": 0.000375769
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_twodim_base_impl.py",
+          "line": 178,
+          "function": "eye",
+          "calls": 47,
+          "self_seconds": 0.000265246,
+          "cumulative_seconds": 0.000364306
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reduce' of 'numpy.ufunc' objects>",
+          "calls": 142,
+          "self_seconds": 0.00033014400000000004,
+          "cumulative_seconds": 0.00033014400000000004
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 86,
+          "function": "_wrapreduction_any_all",
+          "calls": 47,
+          "self_seconds": 0.000194372,
+          "cumulative_seconds": 0.000317114
+        }
+      ]
+    },
+    {
+      "repeat": 1,
+      "wall_seconds": 0.5155802560000016,
+      "errors": [
+        0.0,
+        5.95130232871638e-13,
+        5.101386113494013e-12,
+        2.3483985834120618e-11,
+        8.352038512498951e-15
+      ],
+      "hankel_calls": [
+        {
+          "order_shape": [
+            1,
+            1,
+            41,
+            41
+          ],
+          "radius_shape": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "elements": 1681,
+          "seconds": 0.0009390109999998231,
+          "unique_orders": 81
+        },
+        {
+          "order_shape": [
+            41
+          ],
+          "radius_shape": [],
+          "elements": 41,
+          "seconds": 2.5846999999856735e-05,
+          "unique_orders": 41
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            25,
+            25
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 22500,
+          "seconds": 0.01648330100000095,
+          "unique_orders": 49
+        },
+        {
+          "order_shape": [
+            25
+          ],
+          "radius_shape": [],
+          "elements": 25,
+          "seconds": 1.6128000000392717e-05,
+          "unique_orders": 25
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            25,
+            25
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 22500,
+          "seconds": 0.016104870999999576,
+          "unique_orders": 49
+        },
+        {
+          "order_shape": [
+            25
+          ],
+          "radius_shape": [],
+          "elements": 25,
+          "seconds": 1.5098000000435263e-05,
+          "unique_orders": 25
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            25,
+            25
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 22500,
+          "seconds": 0.016765870000000405,
+          "unique_orders": 49
+        },
+        {
+          "order_shape": [
+            25
+          ],
+          "radius_shape": [],
+          "elements": 25,
+          "seconds": 1.4774000000272736e-05,
+          "unique_orders": 25
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.007333373999999893,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 1.0335999999000478e-05,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            21,
+            21
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 15876,
+          "seconds": 0.011647290999999171,
+          "unique_orders": 41
+        },
+        {
+          "order_shape": [
+            21
+          ],
+          "radius_shape": [],
+          "elements": 21,
+          "seconds": 1.5309000000129913e-05,
+          "unique_orders": 21
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            25,
+            25
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 22500,
+          "seconds": 0.016596852999999356,
+          "unique_orders": 49
+        },
+        {
+          "order_shape": [
+            25
+          ],
+          "radius_shape": [],
+          "elements": 25,
+          "seconds": 1.5561999999746945e-05,
+          "unique_orders": 25
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.004478041999998794,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 9.329999999252436e-06,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.00539272199999985,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 9.379999999836741e-06,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.007705254999999411,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 9.815000000301666e-06,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.0065275639999988755,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 8.828000000349334e-06,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.0069656159999986755,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 1.0234000001219101e-05,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.0069387279999997276,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 9.878000000185239e-06,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.009372296000000446,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 1.1648000000974434e-05,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.008817460999999582,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 1.1803999999671078e-05,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.008552193999999957,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 9.45700000087868e-06,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.008293520000000498,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 1.1990999999156315e-05,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.008051326000000358,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 1.2126999999750865e-05,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.007654781000001165,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 1.0835999999514456e-05,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.007710836000001109,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 1.0452999999799317e-05,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.007146373000001205,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 1.0979000000688188e-05,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.008006044000000045,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 1.89900000009402e-05,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.007454485999998539,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 1.1851000000007161e-05,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.007129501999999732,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 1.0807999998974083e-05,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.00688468499999928,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 1.2379000001061513e-05,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.007289821999998836,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 1.1364000000568808e-05,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.007359486000000359,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 1.2705999999695905e-05,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.00696289999999955,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 1.2563999998604913e-05,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.006974859999999694,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 1.2069000000280994e-05,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.007142538000000087,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 1.1522999999513672e-05,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.007094999999999629,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 1.257999999992876e-05,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            17,
+            17
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 10404,
+          "seconds": 0.006857408999998427,
+          "unique_orders": 33
+        },
+        {
+          "order_shape": [
+            17
+          ],
+          "radius_shape": [],
+          "elements": 17,
+          "seconds": 1.1164000000007945e-05,
+          "unique_orders": 17
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            19,
+            19
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 12996,
+          "seconds": 0.009770379000000773,
+          "unique_orders": 37
+        },
+        {
+          "order_shape": [
+            19
+          ],
+          "radius_shape": [],
+          "elements": 19,
+          "seconds": 2.7461999998479314e-05,
+          "unique_orders": 19
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            19,
+            19
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 12996,
+          "seconds": 0.009657984000000397,
+          "unique_orders": 37
+        },
+        {
+          "order_shape": [
+            19
+          ],
+          "radius_shape": [],
+          "elements": 19,
+          "seconds": 2.4653000000540715e-05,
+          "unique_orders": 19
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            19,
+            19
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 12996,
+          "seconds": 0.00910079800000041,
+          "unique_orders": 37
+        },
+        {
+          "order_shape": [
+            19
+          ],
+          "radius_shape": [],
+          "elements": 19,
+          "seconds": 2.4230999999375058e-05,
+          "unique_orders": 19
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            19,
+            19
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 12996,
+          "seconds": 0.009608082999999823,
+          "unique_orders": 37
+        },
+        {
+          "order_shape": [
+            19
+          ],
+          "radius_shape": [],
+          "elements": 19,
+          "seconds": 2.2335000000595073e-05,
+          "unique_orders": 19
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            19,
+            19
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 12996,
+          "seconds": 0.009163555999998962,
+          "unique_orders": 37
+        },
+        {
+          "order_shape": [
+            19
+          ],
+          "radius_shape": [],
+          "elements": 19,
+          "seconds": 2.16429999984058e-05,
+          "unique_orders": 19
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            19,
+            19
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 12996,
+          "seconds": 0.010379051000001027,
+          "unique_orders": 37
+        },
+        {
+          "order_shape": [
+            19
+          ],
+          "radius_shape": [],
+          "elements": 19,
+          "seconds": 2.7313000000361853e-05,
+          "unique_orders": 19
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            19,
+            19
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 12996,
+          "seconds": 0.009460517000000834,
+          "unique_orders": 37
+        },
+        {
+          "order_shape": [
+            19
+          ],
+          "radius_shape": [],
+          "elements": 19,
+          "seconds": 2.339000000084468e-05,
+          "unique_orders": 19
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            19,
+            19
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 12996,
+          "seconds": 0.009506154000000322,
+          "unique_orders": 37
+        },
+        {
+          "order_shape": [
+            19
+          ],
+          "radius_shape": [],
+          "elements": 19,
+          "seconds": 2.325600000041561e-05,
+          "unique_orders": 19
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            19,
+            19
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 12996,
+          "seconds": 0.009796044999999864,
+          "unique_orders": 37
+        },
+        {
+          "order_shape": [
+            19
+          ],
+          "radius_shape": [],
+          "elements": 19,
+          "seconds": 2.0967999999399467e-05,
+          "unique_orders": 19
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            19,
+            19
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 12996,
+          "seconds": 0.009113539999999531,
+          "unique_orders": 37
+        },
+        {
+          "order_shape": [
+            19
+          ],
+          "radius_shape": [],
+          "elements": 19,
+          "seconds": 2.181899999875725e-05,
+          "unique_orders": 19
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            19,
+            19
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 12996,
+          "seconds": 0.00924277100000026,
+          "unique_orders": 37
+        },
+        {
+          "order_shape": [
+            19
+          ],
+          "radius_shape": [],
+          "elements": 19,
+          "seconds": 2.060499999956278e-05,
+          "unique_orders": 19
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            19,
+            19
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 12996,
+          "seconds": 0.008628055999999162,
+          "unique_orders": 37
+        },
+        {
+          "order_shape": [
+            19
+          ],
+          "radius_shape": [],
+          "elements": 19,
+          "seconds": 2.0004999999656548e-05,
+          "unique_orders": 19
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            19,
+            19
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 12996,
+          "seconds": 0.008860224999999389,
+          "unique_orders": 37
+        },
+        {
+          "order_shape": [
+            19
+          ],
+          "radius_shape": [],
+          "elements": 19,
+          "seconds": 2.493000000036716e-05,
+          "unique_orders": 19
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            19,
+            19
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 12996,
+          "seconds": 0.009396676999999798,
+          "unique_orders": 37
+        },
+        {
+          "order_shape": [
+            19
+          ],
+          "radius_shape": [],
+          "elements": 19,
+          "seconds": 2.084099999954958e-05,
+          "unique_orders": 19
+        },
+        {
+          "order_shape": [
+            1,
+            1,
+            21,
+            21
+          ],
+          "radius_shape": [
+            6,
+            6,
+            1,
+            1
+          ],
+          "elements": 15876,
+          "seconds": 0.010956222999999099,
+          "unique_orders": 41
+        },
+        {
+          "order_shape": [
+            21
+          ],
+          "radius_shape": [],
+          "elements": 21,
+          "seconds": 2.3399000001589343e-05,
+          "unique_orders": 21
+        }
+      ],
+      "functions": [
+        {
+          "file": "/work/3fold-physics-e-gpu-check/scripts/verify_scattering_gpu.py",
+          "line": 46,
+          "function": "forward_suite",
+          "calls": 1,
+          "self_seconds": 0.0006290590000000001,
+          "cumulative_seconds": 0.51537646
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/scripts/verify_scattering_gpu.py",
+          "line": 49,
+          "function": "cs",
+          "calls": 45,
+          "self_seconds": 0.000933972,
+          "cumulative_seconds": 0.47878276100000006
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/scattering/spine_scatter2d_multiple_helmholtz_forward_C_gpu.py",
+          "line": 13,
+          "function": "solve_MS",
+          "calls": 47,
+          "self_seconds": 0.017281648,
+          "cumulative_seconds": 0.463188447
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/scripts/profile_scattering_stage.py",
+          "line": 10,
+          "function": "<lambda>",
+          "calls": 45,
+          "self_seconds": 0.00023255400000000002,
+          "cumulative_seconds": 0.46055740100000003
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/scattering/spine_scatter2d_multiple_helmholtz_forward_C_gpu.py",
+          "line": 61,
+          "function": "cross_sections",
+          "calls": 45,
+          "self_seconds": 0.0033542790000000004,
+          "cumulative_seconds": 0.46032484700000004
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/scripts/profile_scattering_stage.py",
+          "line": 13,
+          "function": "observed_hankel",
+          "calls": 94,
+          "self_seconds": 0.412771268,
+          "cumulative_seconds": 0.415806178
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/scattering/spine_scatter2d_multiple_helmholtz_forward_C_gpu.py",
+          "line": 52,
+          "function": "far_field",
+          "calls": 137,
+          "self_seconds": 0.021614777,
+          "cumulative_seconds": 0.035981648000000005
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/scripts/profile_scattering_stage.py",
+          "line": 9,
+          "function": "<lambda>",
+          "calls": 2,
+          "self_seconds": 2.6898000000000002e-05,
+          "cumulative_seconds": 0.035197945
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch._C._linalg.linalg_solve>",
+          "calls": 47,
+          "self_seconds": 0.015262751000000001,
+          "cumulative_seconds": 0.015262751000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.as_tensor>",
+          "calls": 601,
+          "self_seconds": 0.013847161,
+          "cumulative_seconds": 0.013847161
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'cpu' of 'torch._C.TensorBase' objects>",
+          "calls": 319,
+          "self_seconds": 0.00539429,
+          "cumulative_seconds": 0.00539429
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/scripts/verify_scattering_gpu.py",
+          "line": 27,
+          "function": "array",
+          "calls": 182,
+          "self_seconds": 0.000375841,
+          "cumulative_seconds": 0.0040534130000000005
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.exp>",
+          "calls": 415,
+          "self_seconds": 0.0034338470000000003,
+          "cumulative_seconds": 0.0034338470000000003
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/function_base.py",
+          "line": 27,
+          "function": "linspace",
+          "calls": 91,
+          "self_seconds": 0.001902683,
+          "cumulative_seconds": 0.002946101
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_arraysetops_impl.py",
+          "line": 145,
+          "function": "unique",
+          "calls": 94,
+          "self_seconds": 0.000247263,
+          "cumulative_seconds": 0.00253154
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_arraysetops_impl.py",
+          "line": 350,
+          "function": "_unique1d",
+          "calls": 94,
+          "self_seconds": 0.000592766,
+          "cumulative_seconds": 0.0021988800000000003
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'sum' of 'torch._C.TensorBase' objects>",
+          "calls": 137,
+          "self_seconds": 0.001967659,
+          "cumulative_seconds": 0.001967659
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.abs>",
+          "calls": 45,
+          "self_seconds": 0.001408925,
+          "cumulative_seconds": 0.001408925
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reshape' of 'torch._C.TensorBase' objects>",
+          "calls": 141,
+          "self_seconds": 0.001341987,
+          "cumulative_seconds": 0.001341987
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.eye>",
+          "calls": 47,
+          "self_seconds": 0.001243374,
+          "cumulative_seconds": 0.001243374
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.cos>",
+          "calls": 137,
+          "self_seconds": 0.0012313060000000002,
+          "cumulative_seconds": 0.0012313060000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.sin>",
+          "calls": 137,
+          "self_seconds": 0.001227486,
+          "cumulative_seconds": 0.001227486
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.arange>",
+          "calls": 47,
+          "self_seconds": 0.0009016380000000001,
+          "cumulative_seconds": 0.0009016380000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy._core._multiarray_umath._unique_hash>",
+          "calls": 94,
+          "self_seconds": 0.0009009140000000001,
+          "cumulative_seconds": 0.0009009140000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/torch/_tensor.py",
+          "line": 32,
+          "function": "wrapped",
+          "calls": 45,
+          "self_seconds": 0.000139373,
+          "cumulative_seconds": 0.0008995260000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'pow' of 'torch._C.TensorBase' objects>",
+          "calls": 45,
+          "self_seconds": 0.0007386890000000001,
+          "cumulative_seconds": 0.0007386890000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'numpy' of 'torch._C.TensorBase' objects>",
+          "calls": 319,
+          "self_seconds": 0.0007251040000000001,
+          "cumulative_seconds": 0.0007251040000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method torch.sum>",
+          "calls": 45,
+          "self_seconds": 0.000603115,
+          "cumulative_seconds": 0.000603115
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'detach' of 'torch._C.TensorBase' objects>",
+          "calls": 319,
+          "self_seconds": 0.0005349990000000001,
+          "cumulative_seconds": 0.0005349990000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.arange>",
+          "calls": 139,
+          "self_seconds": 0.000521292,
+          "cumulative_seconds": 0.000521292
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 2474,
+          "function": "any",
+          "calls": 47,
+          "self_seconds": 9.471200000000001e-05,
+          "cumulative_seconds": 0.000380698
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'all' of 'numpy.ndarray' objects>",
+          "calls": 94,
+          "self_seconds": 9.7841e-05,
+          "cumulative_seconds": 0.000372284
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/lib/_twodim_base_impl.py",
+          "line": 178,
+          "function": "eye",
+          "calls": 47,
+          "self_seconds": 0.00026722700000000004,
+          "cumulative_seconds": 0.00036020400000000004
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 2122,
+          "function": "shape",
+          "calls": 188,
+          "self_seconds": 0.00031218500000000003,
+          "cumulative_seconds": 0.00034996500000000004
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reduce' of 'numpy.ufunc' objects>",
+          "calls": 142,
+          "self_seconds": 0.000288285,
+          "cumulative_seconds": 0.000288285
+        }
+      ]
+    }
+  ],
+  "arrays_repeat_exact": true,
+  "source_sha256": "1e599467ebf9b19e7d6b0031ab488d3200a704c20783bb736c4179d5ad4d1539"
+}

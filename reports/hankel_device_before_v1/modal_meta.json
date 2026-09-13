@@ -1,0 +1,16 @@
+{
+  "repo": "3fold-physics-e-hankel-check",
+  "cmd": "cp scripts/hankel_device_before.py src/physics_engine/scattering/spine_scatter2d_multiple_helmholtz_forward_C_gpu.py && OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONPATH=src python scripts/verify_scattering_gpu.py --batch-forward --out reports/hankel_device_before_v1 && cp scripts/hankel_device_after.py src/physics_engine/scattering/spine_scatter2d_multiple_helmholtz_forward_C_gpu.py && OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONPATH=src python scripts/verify_scattering_gpu.py --batch-forward --out reports/hankel_device_after_v1 && PHYSICS_TEST_DEVICE=cuda OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONPATH=src python -m pytest -q tests/test_scattering_gpu.py",
+  "gpu": "NVIDIA H100 80GB HBM3, 81559 MiB, 580.95.05",
+  "rc": 1,
+  "seconds": 18.0,
+  "stamp": "20260913T200558Z",
+  "files": [
+    "reports/hankel_device_before_v1/fields_0.npz",
+    "reports/hankel_device_before_v1/fields_1.npz",
+    "reports/hankel_device_before_v1/report.json"
+  ],
+  "extras": [
+    "cupy-cuda12x"
+  ]
+}

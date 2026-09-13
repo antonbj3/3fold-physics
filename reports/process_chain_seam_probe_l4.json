@@ -1,0 +1,91 @@
+{
+  "legs": [
+    {
+      "parameters": {
+        "P": 200.0,
+        "v": 0.8,
+        "eta": 0.35,
+        "sigma_b": 4e-05,
+        "k": 20.0,
+        "rho": 8200.0,
+        "cp": 600.0
+      },
+      "shape": [
+        121,
+        21
+      ],
+      "peak_rise": 4307.154568755041,
+      "min_peak_across_fibers": 6.476289440141114,
+      "max_initial_rise": 1.0389687804252596e-155,
+      "max_final_rise": 3.5321118504809184e-27,
+      "melt_threshold": 1757.0,
+      "molten_fibers": 3,
+      "quadrature_relative": 3.196592388222485e-07,
+      "point_relative": 0.3884461959315471,
+      "double_relative": 0.0,
+      "hashes": {
+        "coarse": "a42072e590859a1a80f601354b6750efae90238ba6bdf41ea3ac763737ecc36d",
+        "fine": "83fde367b935f119073be0cc871188b6b396758b4550f1f586aeed0261857d60",
+        "zero": "0da724c4fdf897be18912f0dd48feee46e232b8e2724edf85baf212d1a042583",
+        "double": "6bb4efd4d6ff99a2a4bf33db9cf12e0d73e17258ac16c9ef3f093b06f9a87feb",
+        "point": "3e0134f3d738f46c16e38c44b73f8ffa6877a394f9605104c543556dfea9a6c9",
+        "closed": "f57373d9023fb924c94c9249f04fa98e0fa6cbcd9f71552428752ce5f7efbbd2"
+      },
+      "gates": {
+        "finite_nonnegative": true,
+        "zero_power": true,
+        "power_linearity": true,
+        "quadrature": true,
+        "point_limit": false
+      }
+    },
+    {
+      "parameters": {
+        "P": 200.0,
+        "v": 0.8,
+        "eta": 0.35,
+        "sigma_b": 4e-05,
+        "k": 20.0,
+        "rho": 8200.0,
+        "cp": 600.0
+      },
+      "shape": [
+        121,
+        21
+      ],
+      "peak_rise": 4307.154568755041,
+      "min_peak_across_fibers": 6.476289440141114,
+      "max_initial_rise": 1.0389687804252596e-155,
+      "max_final_rise": 3.5321118504809184e-27,
+      "melt_threshold": 1757.0,
+      "molten_fibers": 3,
+      "quadrature_relative": 3.196592388222485e-07,
+      "point_relative": 0.3884461959315471,
+      "double_relative": 0.0,
+      "hashes": {
+        "coarse": "a42072e590859a1a80f601354b6750efae90238ba6bdf41ea3ac763737ecc36d",
+        "fine": "83fde367b935f119073be0cc871188b6b396758b4550f1f586aeed0261857d60",
+        "zero": "0da724c4fdf897be18912f0dd48feee46e232b8e2724edf85baf212d1a042583",
+        "double": "6bb4efd4d6ff99a2a4bf33db9cf12e0d73e17258ac16c9ef3f093b06f9a87feb",
+        "point": "3e0134f3d738f46c16e38c44b73f8ffa6877a394f9605104c543556dfea9a6c9",
+        "closed": "f57373d9023fb924c94c9249f04fa98e0fa6cbcd9f71552428752ce5f7efbbd2"
+      },
+      "gates": {
+        "finite_nonnegative": true,
+        "zero_power": true,
+        "power_linearity": true,
+        "quadrature": true,
+        "point_limit": false
+      }
+    }
+  ],
+  "gates": {
+    "finite_nonnegative": true,
+    "zero_power": true,
+    "power_linearity": true,
+    "quadrature": true,
+    "point_limit": false,
+    "exact_repeats": true
+  },
+  "scope": "Illustrative material; existing empirical stage certificates not transferred"
+}

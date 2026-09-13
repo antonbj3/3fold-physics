@@ -1,0 +1,48 @@
+{
+  "measurement": {
+    "result": {
+      "parameters": [
+        -0.01,
+        4.417e-05,
+        1.1
+      ],
+      "capacity_Ah": 1.3643,
+      "initial_energy_J": 17877.7872,
+      "peak_C": 547.8717220273647,
+      "event_time_s": 582.3981956456552,
+      "runaway": true,
+      "event_consistent": true,
+      "final_soc": 0.0,
+      "electrical_heat_J": 17877.787200000043,
+      "chemical_heat_J": 22104.66342784082,
+      "cooling_J": 39967.21907106493,
+      "sensible_energy_J": 15.231556776167258,
+      "max_relative_balance_error": 6.061634990718945e-15,
+      "electrical_depletion_error_J": 4.3655745685100555e-11,
+      "valid_states": false,
+      "completed": true,
+      "steps": 5099,
+      "trajectory_sha256": "95897120193bf8460a6a0abd6773ff1dec9654b8a37a113251954429ca220ad4"
+    },
+    "minimum_below_zero": -7.174648137343064e-43,
+    "maximum_above_one": 0.0,
+    "first_violation": {
+      "step": 1640,
+      "lower": -7.174648137343064e-43,
+      "upper_excess": 0.0,
+      "state": [
+        0.5261501311487207,
+        0.0,
+        0.5906931750215842,
+        0.969845160465538,
+        -7.174648137343064e-43
+      ]
+    }
+  },
+  "gates": {
+    "two_complete_results_identical": true,
+    "instrumentation_preserves_trajectory": true,
+    "strict_bounds": false
+  },
+  "scope": "synthetic failed-corner observation; no tolerance relaxation"
+}

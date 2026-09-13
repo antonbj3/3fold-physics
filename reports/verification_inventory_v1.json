@@ -1,0 +1,3012 @@
+{
+  "counts": {
+    "python_library": 6,
+    "python_main_candidate": 152
+  },
+  "declared_verified_rows": 158,
+  "document_sha256": "7972ec8534f798aa0a80053da3a772cdfa8217ba74718d32a909821aec9e34fd",
+  "duplicates": [],
+  "gates": {
+    "all_source_members_resolve": true,
+    "explicit_recipe_coverage": false,
+    "no_duplicate_declarations": true,
+    "nonempty_declared_inventory": true
+  },
+  "package": "physics_engine",
+  "recipe_errors": [],
+  "rows": [
+    {
+      "key": "src/physics_engine/_vendor/diff_wave_substrate.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/_vendor/diff_wave_substrate.py",
+      "line": 43,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            113
+          ],
+          "path": "src/physics_engine/_vendor/diff_wave_substrate.py",
+          "sha256": "0fee854e902235d9319c58b40d2e27089060291cf5e36428528940d4b7a87891"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/_vendor/evidence_emit.py",
+      "kind": "python_library",
+      "label": "src/physics_engine/_vendor/evidence_emit.py",
+      "line": 44,
+      "members": [
+        {
+          "kind": "python_library",
+          "main_lines": [],
+          "path": "src/physics_engine/_vendor/evidence_emit.py",
+          "sha256": "29ccb0460742c23974cfa1cd7488c6ebcf492a24a92afac27ac5063b9166b971"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/_vendor/render_match_scaffold.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/_vendor/render_match_scaffold.py",
+      "line": 45,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            92
+          ],
+          "path": "src/physics_engine/_vendor/render_match_scaffold.py",
+          "sha256": "04e1289a24dbba213c08629772e1bb15fbfa97764afb80ced17e70b1f48b4a01"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/electrochem/battery_calendar_aging.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/electrochem/battery_calendar_aging.py",
+      "line": 47,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            92
+          ],
+          "path": "src/physics_engine/electrochem/battery_calendar_aging.py",
+          "sha256": "5b760acce8e1df424cd0a697cb808563fd489e6ed512e68c3013b360a10410a4"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/electrochem/battery_capacity_fade.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/electrochem/battery_capacity_fade.py",
+      "line": 48,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            110
+          ],
+          "path": "src/physics_engine/electrochem/battery_capacity_fade.py",
+          "sha256": "6f17dd075eb1098ae9dc19aa8208423d06d5bd7a92e85d99bb566a8384d6f42a"
+        }
+      ],
+      "note_sha256": "14dc8c1ee818ba5fd2f3a54c2d3d4928d55f367fbe4cfef3131b8e80920e3cb8",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/electrochem/battery_cell_swelling_breathing.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/electrochem/battery_cell_swelling_breathing.py",
+      "line": 49,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            91
+          ],
+          "path": "src/physics_engine/electrochem/battery_cell_swelling_breathing.py",
+          "sha256": "858b30c8cedfecec22bff3cc1d479caaefebbad45882c9812cf804a8b5d730ee"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/electrochem/battery_chemomechanical_crack_sei.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/electrochem/battery_chemomechanical_crack_sei.py",
+      "line": 50,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            95
+          ],
+          "path": "src/physics_engine/electrochem/battery_chemomechanical_crack_sei.py",
+          "sha256": "ce06e5098f6601baa3de7f306b646db08a038d5eed0991bf60bed91653a70129"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/electrochem/battery_coldplate_conjugate_heat.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/electrochem/battery_coldplate_conjugate_heat.py",
+      "line": 51,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            123
+          ],
+          "path": "src/physics_engine/electrochem/battery_coldplate_conjugate_heat.py",
+          "sha256": "b3141ee9016253f748dbed65ddc57bb0677035ab2a65b763e3697ce405f99429"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/electrochem/battery_combustion_autoignition_semenov.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/electrochem/battery_combustion_autoignition_semenov.py",
+      "line": 52,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            117
+          ],
+          "path": "src/physics_engine/electrochem/battery_combustion_autoignition_semenov.py",
+          "sha256": "3d243382a20aa5fa54bf18a3f38883cb0a50e236550b82fc087b6984917e5e68"
+        }
+      ],
+      "note_sha256": "3319352a72fc4ca88f144314af4c518b8ff9448e737525d452cabb475c385063",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/electrochem/battery_coupled_electro_thermal_runaway.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/electrochem/battery_coupled_electro_thermal_runaway.py",
+      "line": 53,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            132
+          ],
+          "path": "src/physics_engine/electrochem/battery_coupled_electro_thermal_runaway.py",
+          "sha256": "e6a3b29fb1ec2bd835ce30c4a8d4d7aa35f888eb2a92a5a6e34288446bf57268"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/electrochem/battery_dc_arc_quench_disconnect.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/electrochem/battery_dc_arc_quench_disconnect.py",
+      "line": 54,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            72
+          ],
+          "path": "src/physics_engine/electrochem/battery_dc_arc_quench_disconnect.py",
+          "sha256": "408d0f5627da502bb297f6fb2a850ffb3833fc119100263782e56d5b6b578a9a"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/electrochem/battery_ejecta_velocity_projectile.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/electrochem/battery_ejecta_velocity_projectile.py",
+      "line": 55,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            76
+          ],
+          "path": "src/physics_engine/electrochem/battery_ejecta_velocity_projectile.py",
+          "sha256": "cd5efa529e0d480228a175484c5acbf7820c263e8edd63c623866483bcd6bfdb"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/electrochem/battery_entropic_heat.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/electrochem/battery_entropic_heat.py",
+      "line": 56,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            97
+          ],
+          "path": "src/physics_engine/electrochem/battery_entropic_heat.py",
+          "sha256": "4e4f3732e421d3a98d41f3c8b00c6d100587dc8c54a2d18e4048a8a6c55613c9"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/electrochem/battery_frank_kamenetskii_spatial_explosion.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/electrochem/battery_frank_kamenetskii_spatial_explosion.py",
+      "line": 57,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            103
+          ],
+          "path": "src/physics_engine/electrochem/battery_frank_kamenetskii_spatial_explosion.py",
+          "sha256": "77e58ef6db121a64d9c46e32030d66e313016c76aabb91b7f4b21a81ebec0f6f"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/electrochem/battery_griffith_particle_fracture.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/electrochem/battery_griffith_particle_fracture.py",
+      "line": 58,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            80
+          ],
+          "path": "src/physics_engine/electrochem/battery_griffith_particle_fracture.py",
+          "sha256": "66b933b7e343cc03b7963e776863a87c5cea04221620fa383bc29f7c761af482"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/electrochem/battery_isc_initiation.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/electrochem/battery_isc_initiation.py",
+      "line": 59,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            105
+          ],
+          "path": "src/physics_engine/electrochem/battery_isc_initiation.py",
+          "sha256": "7fe776c6c680826d64a39ccea0c8d4a4a087eede5dd14a7dfd2a81b2e4da4bad"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/electrochem/battery_jellyroll_thermal_anisotropy.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/electrochem/battery_jellyroll_thermal_anisotropy.py",
+      "line": 60,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            107
+          ],
+          "path": "src/physics_engine/electrochem/battery_jellyroll_thermal_anisotropy.py",
+          "sha256": "3d79114446f916196df20ee5b1171de1cbf417b0dd7e6b0e8bffe0866f800f39"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/electrochem/battery_li_plating_onset_map.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/electrochem/battery_li_plating_onset_map.py",
+      "line": 61,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            116
+          ],
+          "path": "src/physics_engine/electrochem/battery_li_plating_onset_map.py",
+          "sha256": "c35fed663bcb89042ed45fa2c64b1c78618c1ee7e5243a5c818038196dc1ac9e"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/electrochem/battery_manifold_flow_distribution.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/electrochem/battery_manifold_flow_distribution.py",
+      "line": 62,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            107
+          ],
+          "path": "src/physics_engine/electrochem/battery_manifold_flow_distribution.py",
+          "sha256": "4ee75891b85c65ec501a419fb5b8ee2a7d90a1b37de20802865eaa30241199bc"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/electrochem/battery_natural_convection_cooling.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/electrochem/battery_natural_convection_cooling.py",
+      "line": 63,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            102
+          ],
+          "path": "src/physics_engine/electrochem/battery_natural_convection_cooling.py",
+          "sha256": "6b7d3ad30a01b43829c6ea7b70c65eebe3f0c4aa1b341c8bfd44a1c6c57a02a8"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/electrochem/battery_ocv_soc_equilibrium.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/electrochem/battery_ocv_soc_equilibrium.py",
+      "line": 64,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            124
+          ],
+          "path": "src/physics_engine/electrochem/battery_ocv_soc_equilibrium.py",
+          "sha256": "bf5050ba7c66f4f73c07a5b47926e293ac1fb48ef624e41c6af592cb3b5961e0"
+        }
+      ],
+      "note_sha256": "82d775976a214484f959caa483e70dd44534c818d39366c51b232aa2ffa5654c",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/electrochem/battery_tr_criticality_early_warning.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/electrochem/battery_tr_criticality_early_warning.py",
+      "line": 65,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            154
+          ],
+          "path": "src/physics_engine/electrochem/battery_tr_criticality_early_warning.py",
+          "sha256": "ac5415e3a1e71ed6d0722790b60b726bbef18b4ec7b558b4d05bceceb3b36c73"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/electrochem/battery_vent_burst_dynamics.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/electrochem/battery_vent_burst_dynamics.py",
+      "line": 66,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            120
+          ],
+          "path": "src/physics_engine/electrochem/battery_vent_burst_dynamics.py",
+          "sha256": "0b02eb2f36f515d60130491dda72918205b4ad60dbeb97ecd5f040afb00b3b67"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/electrochem/battery_vent_jet_recoil.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/electrochem/battery_vent_jet_recoil.py",
+      "line": 67,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            81
+          ],
+          "path": "src/physics_engine/electrochem/battery_vent_jet_recoil.py",
+          "sha256": "084098b41a62acbd5c819bf2d842855d8afcadbf91b2d544857ddd9525d34f69"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/em/antenna_aperture.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/em/antenna_aperture.py",
+      "line": 68,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            42
+          ],
+          "path": "src/physics_engine/em/antenna_aperture.py",
+          "sha256": "9dd755a7c0ab7a5c772f8bd3608a8ed3f45731f724aa56feac32e3386ab7b561"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/em/antenna_sigma_budget.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/em/antenna_sigma_budget.py",
+      "line": 69,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            77
+          ],
+          "path": "src/physics_engine/em/antenna_sigma_budget.py",
+          "sha256": "19f11b162479bd9d1f3fc9880f61631ee51f1598db867d1cd27a5e109a417f9e"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/em/bearing_maxwell_ehl_edm.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/em/bearing_maxwell_ehl_edm.py",
+      "line": 70,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            97
+          ],
+          "path": "src/physics_engine/em/bearing_maxwell_ehl_edm.py",
+          "sha256": "312828acdad3588c404841f003bb07481fc488843f508cf9fceba7ab65d4f068"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/em/capacitive_sensor.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/em/capacitive_sensor.py",
+      "line": 71,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            66
+          ],
+          "path": "src/physics_engine/em/capacitive_sensor.py",
+          "sha256": "5702af2a922349871e870359d707633d9d80d00ddb9a7ea1c84439ed350a4a46"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/em/curie_weiss_ferromagnet.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/em/curie_weiss_ferromagnet.py",
+      "line": 72,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            96
+          ],
+          "path": "src/physics_engine/em/curie_weiss_ferromagnet.py",
+          "sha256": "82ca351f9e3720c51f5e90082d93df5e340e90c0cdb9687450a0e4e6ea57c9cf"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/em/dielectric_force_capacitor.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/em/dielectric_force_capacitor.py",
+      "line": 73,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            88
+          ],
+          "path": "src/physics_engine/em/dielectric_force_capacitor.py",
+          "sha256": "6dc7ca10f327118ff8cdbd4a5554cf21b17a7d2aa1073bd220c6a386f21b71ac"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/em/eddy_current_brake.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/em/eddy_current_brake.py",
+      "line": 74,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            114
+          ],
+          "path": "src/physics_engine/em/eddy_current_brake.py",
+          "sha256": "bbe7fb1125ce79ff4b0bd8d9ba4c24614f4be25df7707b2dc132e8d4fae5670a"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/em/em_magnetic_pressure.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/em/em_magnetic_pressure.py",
+      "line": 75,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            77
+          ],
+          "path": "src/physics_engine/em/em_magnetic_pressure.py",
+          "sha256": "076489a36fcfa011c4115bb9187c5f9a0b89401dc63c009eae5fb4a2d125b15b"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/em/ferrofluid_rosensweig.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/em/ferrofluid_rosensweig.py",
+      "line": 76,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            89
+          ],
+          "path": "src/physics_engine/em/ferrofluid_rosensweig.py",
+          "sha256": "04dde2f23542ac9ba6b08590cde740c43f9029928f9b9fb570b277e26456fdec"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/em/helmholtz_coil.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/em/helmholtz_coil.py",
+      "line": 77,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            136
+          ],
+          "path": "src/physics_engine/em/helmholtz_coil.py",
+          "sha256": "5e88e85d0d461af988f9b68e3318ef11d2dbf52f8810b04f182302c0ed962b76"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/em/magnetic_alfven_wave.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/em/magnetic_alfven_wave.py",
+      "line": 78,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            115
+          ],
+          "path": "src/physics_engine/em/magnetic_alfven_wave.py",
+          "sha256": "c63ed5dadee7a0190bcf4ca6699990d69b5818878276b50d85a4dd537d7298b4"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/em/magnetoconvection.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/em/magnetoconvection.py",
+      "line": 79,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            83
+          ],
+          "path": "src/physics_engine/em/magnetoconvection.py",
+          "sha256": "c02f80c3806bf356669b3b8be270c1a9a5e89924bafeda7823b8c3eb9185def0"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/em/magnetoresistance_twoband.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/em/magnetoresistance_twoband.py",
+      "line": 80,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            84
+          ],
+          "path": "src/physics_engine/em/magnetoresistance_twoband.py",
+          "sha256": "b1e61053367431a7f82ba6b010d9ad4898b42b40c7959500c5bde4d3d7309dd3"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/em/magnetostriction.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/em/magnetostriction.py",
+      "line": 81,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            90
+          ],
+          "path": "src/physics_engine/em/magnetostriction.py",
+          "sha256": "fe8ed997b6ac205ddb3973464a6e3be95a5d0df6549ac99c76554eeda90560d2"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/em/magnetron_hull_cutoff.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/em/magnetron_hull_cutoff.py",
+      "line": 82,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            102
+          ],
+          "path": "src/physics_engine/em/magnetron_hull_cutoff.py",
+          "sha256": "cda070777373803629a8c89285ef474b5e37d7fb8e648c845cddcb51e4155e13"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/em/piezo_resonator.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/em/piezo_resonator.py",
+      "line": 83,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            120
+          ],
+          "path": "src/physics_engine/em/piezo_resonator.py",
+          "sha256": "d48134bf79a400776f69bea98c73910c72b3aae316ccc20ed6d5c5e3ef1ad4b9"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/em/piezoelectric.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/em/piezoelectric.py",
+      "line": 84,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            133
+          ],
+          "path": "src/physics_engine/em/piezoelectric.py",
+          "sha256": "f30e2d7588fc1772229ee94663d196d78f335dff7798557572d9ef68d6cb4944"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/em/plasma_frequency.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/em/plasma_frequency.py",
+      "line": 85,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            73
+          ],
+          "path": "src/physics_engine/em/plasma_frequency.py",
+          "sha256": "56a2bb3ddcebe6eec6631799ffb35ac13d7d4109505f576ce0d8237bbbcccc64"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/em/spine_criticality_fisher_plasma.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/em/spine_criticality_fisher_plasma.py",
+      "line": 86,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            129
+          ],
+          "path": "src/physics_engine/em/spine_criticality_fisher_plasma.py",
+          "sha256": "63c772e540618db3309052d7e41b1ea6749a18c91c01f32f2da9e26bf5cee61c"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/em/two_stream_instability.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/em/two_stream_instability.py",
+      "line": 87,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            105
+          ],
+          "path": "src/physics_engine/em/two_stream_instability.py",
+          "sha256": "497374adf8c6607a81c4eed78bf91f3a6e9e00ea443b33c0388ab95216a6d3a1"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+      "line": 88,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            743
+          ],
+          "path": "src/physics_engine/litho/d_litho_certified_imaging_ilt.py",
+          "sha256": "c85446a13b13258e8eef4685f059e65cc1be81c2bec3b05632df9f99cb9e8563"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/litho/i_litho_synthetic_vs_real_contour_ler_reality_gap.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/litho/i_litho_synthetic_vs_real_contour_ler_reality_gap.py",
+      "line": 89,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            186
+          ],
+          "path": "src/physics_engine/litho/i_litho_synthetic_vs_real_contour_ler_reality_gap.py",
+          "sha256": "a6db9927a2a7e72e660ac5ad0073c783881570de6edf6f1f1512540c8562cbfd"
+        }
+      ],
+      "note_sha256": "6c851732a14ac4ab492aa052990ec45edb2931a6a2795c600fea9b41d16a539e",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/litho/i_reality_gap_on_real_litho_aerial.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/litho/i_reality_gap_on_real_litho_aerial.py",
+      "line": 90,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            167
+          ],
+          "path": "src/physics_engine/litho/i_reality_gap_on_real_litho_aerial.py",
+          "sha256": "c3023f18b4497f5810806bf637c5936905083f079f7e401672d25f4431ff0233"
+        }
+      ],
+      "note_sha256": "3260cc551a5822026baa145e04c132380c68b8ee45972db7c95a9ab768d4a15c",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/litho/litho_aerial_image_scalar.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/litho/litho_aerial_image_scalar.py",
+      "line": 91,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            131
+          ],
+          "path": "src/physics_engine/litho/litho_aerial_image_scalar.py",
+          "sha256": "3073bf8a23d868196d3d4ce1ed243e9fbeecb1b41d586bca4f4bf5d47e394e0f"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/litho/litho_depth_of_focus_cert.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/litho/litho_depth_of_focus_cert.py",
+      "line": 92,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            120
+          ],
+          "path": "src/physics_engine/litho/litho_depth_of_focus_cert.py",
+          "sha256": "fc1645c16269a58dc217fdf0a1d5fa5dcfc9f424926addb8d46cae2838b6d4c7"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/litho/litho_etch_arde_ion_flux.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/litho/litho_etch_arde_ion_flux.py",
+      "line": 93,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            99
+          ],
+          "path": "src/physics_engine/litho/litho_etch_arde_ion_flux.py",
+          "sha256": "6ec4240ced99502004a1c47b975dd0b42b6b38c75bce7aea855672327cf03f8a"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/litho/litho_etch_levelset_ballistic.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/litho/litho_etch_levelset_ballistic.py",
+      "line": 94,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            133
+          ],
+          "path": "src/physics_engine/litho/litho_etch_levelset_ballistic.py",
+          "sha256": "002feed2b01b1ab9e1d8a54dc0533bd6e3bc3f81f69ea59af0dbd10ccbf74673"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/litho/litho_euv_stochastic_ler_cert.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/litho/litho_euv_stochastic_ler_cert.py",
+      "line": 95,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            143
+          ],
+          "path": "src/physics_engine/litho/litho_euv_stochastic_ler_cert.py",
+          "sha256": "2252a24de9b397ef4604a72e32f7d40c7675b2b0120db4968c823e0b0788b1dc"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/litho/socs_batched_2d_fft2_aerial_engine.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/litho/socs_batched_2d_fft2_aerial_engine.py",
+      "line": 96,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            134
+          ],
+          "path": "src/physics_engine/litho/socs_batched_2d_fft2_aerial_engine.py",
+          "sha256": "f93af1063373b36dabd9a942550169be300fc51ef953831906835f729f3d6c9f"
+        }
+      ],
+      "note_sha256": "9b933d0e16f17fa39865499e8b59e0a64d2c1a35849d83ccbec2753dd936b0be",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/litho/socs_batched_tcc_apply_gpu_api_for_ilt.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/litho/socs_batched_tcc_apply_gpu_api_for_ilt.py",
+      "line": 97,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            135
+          ],
+          "path": "src/physics_engine/litho/socs_batched_tcc_apply_gpu_api_for_ilt.py",
+          "sha256": "95e545e39796a811dbd26c118e1da4695ffff2b7ef1ca045a1b49e62b3d05123"
+        }
+      ],
+      "note_sha256": "b1fc5df4c84efd508ca3170315921c4e3e485409f31d64f98223a04b5471938e",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/litho/socs_imaging_cuda_first_certified_vs_abbe_8kernel.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/litho/socs_imaging_cuda_first_certified_vs_abbe_8kernel.py",
+      "line": 98,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            196
+          ],
+          "path": "src/physics_engine/litho/socs_imaging_cuda_first_certified_vs_abbe_8kernel.py",
+          "sha256": "503f120041d1ac2f47c9161a12d09c676f4554845fd5fb7c7d9ff8bb2f0a7146"
+        }
+      ],
+      "note_sha256": "f8db50e5981b04dd40574affca347f2152f9f0b4fa8e3f1a5d2a9486e4e87ede",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/litho/vof_zalesak_cert.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/litho/vof_zalesak_cert.py",
+      "line": 99,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            271
+          ],
+          "path": "src/physics_engine/litho/vof_zalesak_cert.py",
+          "sha256": "5ea1626a5f1a66626efb0e0cef12e24518fc4d3b1b527de13aaee44dfa6dd86f"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/chains/litho_chain_v1.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/chains/litho_chain_v1.py",
+      "line": 100,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            321
+          ],
+          "path": "src/physics_engine/chains/litho_chain_v1.py",
+          "sha256": "b2990e1d7ebe914d64bd8aa21f61470fc2004cb68388c23f1bb00736782df8d3"
+        }
+      ],
+      "note_sha256": "5a1ebb8976a1e3dadd1e4350db9dc749f437b4750c255149de152173fee05f1e",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/materials/i1_lattice_engine_predicts_modulus.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/materials/i1_lattice_engine_predicts_modulus.py",
+      "line": 101,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            131
+          ],
+          "path": "src/physics_engine/materials/i1_lattice_engine_predicts_modulus.py",
+          "sha256": "59d1112cc50b879cf44957083977a0cb9e72af65ff8a5f1610ebd9e8266c0917"
+        }
+      ],
+      "note_sha256": "7a5ddb7b0be354ed37e4739b8fba1499fdd1f286a4175b28604c05e9dae5abd1",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/materials/i1_lattice_engine_sigma_min.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/materials/i1_lattice_engine_sigma_min.py",
+      "line": 102,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            137
+          ],
+          "path": "src/physics_engine/materials/i1_lattice_engine_sigma_min.py",
+          "sha256": "94da52d5f4db700864ba73026e018baea7b8bc8778be1b348dc9b63f10c91f5e"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/materials/i1_lattice_maxwell_connectivity.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/materials/i1_lattice_maxwell_connectivity.py",
+      "line": 103,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            121
+          ],
+          "path": "src/physics_engine/materials/i1_lattice_maxwell_connectivity.py",
+          "sha256": "e97ac65786d62d95e6a88918e35b01dc02aca0f67f58b3d4e2a438f62f42c782"
+        }
+      ],
+      "note_sha256": "523b751804cf6dd736debdb97de258d5f1c9f935ecaa6c76c0d6a690d7ad700c",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/materials/i1_lattice_strength_maxwell.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/materials/i1_lattice_strength_maxwell.py",
+      "line": 104,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            144
+          ],
+          "path": "src/physics_engine/materials/i1_lattice_strength_maxwell.py",
+          "sha256": "7b392a7c0891dd87ad3759cc033afd38d19e528135903ec856feb2717bb426a6"
+        }
+      ],
+      "note_sha256": "6be3a8d444c2d3e55a21fddfefc057eea47608726f716d6abf6f9812c72e5029",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/process/fillet_weld.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/process/fillet_weld.py",
+      "line": 105,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            64
+          ],
+          "path": "src/physics_engine/process/fillet_weld.py",
+          "sha256": "4c8ea4d88d7e03043101758ae8e88b128049d3a224541644e1683cf51a704009"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/process/hall_petch.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/process/hall_petch.py",
+      "line": 106,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            69
+          ],
+          "path": "src/physics_engine/process/hall_petch.py",
+          "sha256": "d40c5689e2e6ab28794de7bf93ab0ca85d63e82e459ac11e89686dae2f339a72"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/process/keyhole_absorption_jump.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/process/keyhole_absorption_jump.py",
+      "line": 107,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            105
+          ],
+          "path": "src/physics_engine/process/keyhole_absorption_jump.py",
+          "sha256": "daf17be052c8fcbd61a5abe1037dfc2124c564a37a07e8578ee430220cd5a8a4"
+        }
+      ],
+      "note_sha256": "67d53591d1324abefbfced7064843fa0a57965c344d9a41c38c78b9a2a6e33d0",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/process/laser_keyhole_absorptance.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/process/laser_keyhole_absorptance.py",
+      "line": 108,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            107
+          ],
+          "path": "src/physics_engine/process/laser_keyhole_absorptance.py",
+          "sha256": "57cf9c3d2f4431ef1271486db68e66518e6cfd60723c5fda55291637d42c1707"
+        }
+      ],
+      "note_sha256": "1514f53145099e7a72a12a775326abef5137fb64a6b8bfe9754224e25e87314f",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/process/lpbf_absorptance_render_match.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/process/lpbf_absorptance_render_match.py",
+      "line": 109,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            132
+          ],
+          "path": "src/physics_engine/process/lpbf_absorptance_render_match.py",
+          "sha256": "f924b58f286812d38014cc48103e63e799b79fc1ab666343e85ddc4dcafe582c"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/process/lpbf_keyhole_threshold_render_match.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/process/lpbf_keyhole_threshold_render_match.py",
+      "line": 110,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            114
+          ],
+          "path": "src/physics_engine/process/lpbf_keyhole_threshold_render_match.py",
+          "sha256": "6ece90ea72a272222cdafda5221719b450be3dffd11298eb9f7180272e2f56ae"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/process/lpbf_meltpool_render_match.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/process/lpbf_meltpool_render_match.py",
+      "line": 111,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            197
+          ],
+          "path": "src/physics_engine/process/lpbf_meltpool_render_match.py",
+          "sha256": "122946ffdabf7bf12635f3e53bedb4c95070a2d07f42afcae942845b63f6f843"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/process/lpbf_residual_stress_render_match.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/process/lpbf_residual_stress_render_match.py",
+      "line": 112,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            111
+          ],
+          "path": "src/physics_engine/process/lpbf_residual_stress_render_match.py",
+          "sha256": "e9563c9f63a7081c6d156a9e1453d12995414c94d8302a5b0f390d7ac18f7008"
+        }
+      ],
+      "note_sha256": "6361f0a68504438231bc6a559ab1481d1646dd72160edd3ee2800a43e4c52976",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/process/lpbf_transient_meltpool_render_match.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/process/lpbf_transient_meltpool_render_match.py",
+      "line": 113,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            216
+          ],
+          "path": "src/physics_engine/process/lpbf_transient_meltpool_render_match.py",
+          "sha256": "2a326a5a3955e70085dd21dceda78634b33d1ba93c20541d5fb968f6f0236e18"
+        }
+      ],
+      "note_sha256": "be93256985c656e7ec214e513b51a90a0bb3a32018c57ae83ebd498f6096e3d0",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/process/marangoni_meltpool_cfd.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/process/marangoni_meltpool_cfd.py",
+      "line": 114,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            258
+          ],
+          "path": "src/physics_engine/process/marangoni_meltpool_cfd.py",
+          "sha256": "8b7b0d68b69abb7ead6c547658914ae11ccc9cd185fa84c268d078b2ec3a61e0"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/process/marangoni_meltpool_number.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/process/marangoni_meltpool_number.py",
+      "line": 115,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            72
+          ],
+          "path": "src/physics_engine/process/marangoni_meltpool_number.py",
+          "sha256": "9223c29d633d72c281e5102e18d58145808dbf4d5afb8d796cf4ed6b40ae9f94"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/process/material_weld_haz_v0.py",
+      "kind": "python_library",
+      "label": "src/physics_engine/process/material_weld_haz_v0.py",
+      "line": 116,
+      "members": [
+        {
+          "kind": "python_library",
+          "main_lines": [],
+          "path": "src/physics_engine/process/material_weld_haz_v0.py",
+          "sha256": "3e584375863cb0bd567be36e357db0c59c2b20d21ad5d3b2053f9f0e685ea5d6"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/process/melt_pool_growth.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/process/melt_pool_growth.py",
+      "line": 117,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            107
+          ],
+          "path": "src/physics_engine/process/melt_pool_growth.py",
+          "sha256": "d83654f98a51739255cb9721364a9914389495238b6a7dc099514ac62f59333f"
+        }
+      ],
+      "note_sha256": "6d849263163ca6f4ea9ea2ebcce7c1725c28ad7c6d28ea960a87b092fc5ec10a",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/process/vapor_recoil_keyhole.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/process/vapor_recoil_keyhole.py",
+      "line": 118,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            91
+          ],
+          "path": "src/physics_engine/process/vapor_recoil_keyhole.py",
+          "sha256": "04cbc331736b6a409e2a432461530feb64dfd19dd5dabb2bafdef9b964e1adbc"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/process/weld_goldak_spot_nist.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/process/weld_goldak_spot_nist.py",
+      "line": 119,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            208
+          ],
+          "path": "src/physics_engine/process/weld_goldak_spot_nist.py",
+          "sha256": "dfc9066259b962d29ae46d816cb48b7852b4c10c86c2d8aeaf8b8014bdc685eb"
+        }
+      ],
+      "note_sha256": "2d53db3e52019bc4050b2dc2e4367bcbd3feae593e35d13ba24f42ee68e6970c",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/process/weld_residual_edd_in718.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/process/weld_residual_edd_in718.py",
+      "line": 120,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            124
+          ],
+          "path": "src/physics_engine/process/weld_residual_edd_in718.py",
+          "sha256": "56aa256f2adb609cca9e946cab643f36a2d03304968bee2084c5a2135256d68b"
+        }
+      ],
+      "note_sha256": "7afe0dbf0c70e50da48dad96a87a8d2a355e107f916a47317c01da6c450c0a7d",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/process/weld_resistance_spot_nugget.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/process/weld_resistance_spot_nugget.py",
+      "line": 121,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            104
+          ],
+          "path": "src/physics_engine/process/weld_resistance_spot_nugget.py",
+          "sha256": "555fe1e0c16a18c953c153525d2667024c5e93db55f2b97381a13bc35fd56666"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/quantum/band_structure.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/quantum/band_structure.py",
+      "line": 122,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            108
+          ],
+          "path": "src/physics_engine/quantum/band_structure.py",
+          "sha256": "38a20a9876e121de8473f2a8127aeec21cfda149382e5646aa2b395efa63657d"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/quantum/bethe_bloch.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/quantum/bethe_bloch.py",
+      "line": 123,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            106
+          ],
+          "path": "src/physics_engine/quantum/bethe_bloch.py",
+          "sha256": "22d6a63a4310cbed280a86ac14793df7c709aadd60dd7929cb4b266728573dd2"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/quantum/bloch_oscillation.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/quantum/bloch_oscillation.py",
+      "line": 124,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            107
+          ],
+          "path": "src/physics_engine/quantum/bloch_oscillation.py",
+          "sha256": "dc0087705c6f2f1773b7a10931b7598a2435bb54a0f2e52abf1bac57ed8ea8dd"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/quantum/compton.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/quantum/compton.py",
+      "line": 125,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            86
+          ],
+          "path": "src/physics_engine/quantum/compton.py",
+          "sha256": "eb374fcf8ce8a3b899065f9a5992d4071e1ef14c6475d4f853bc7f424cbf9e3d"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/quantum/ising_2d.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/quantum/ising_2d.py",
+      "line": 126,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            110
+          ],
+          "path": "src/physics_engine/quantum/ising_2d.py",
+          "sha256": "a846c848708c5112fe44474e0cfffa2c6c17fc058db35e736d5894bbab7aa7a0"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/quantum/maxwell_boltzmann.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/quantum/maxwell_boltzmann.py",
+      "line": 127,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            87
+          ],
+          "path": "src/physics_engine/quantum/maxwell_boltzmann.py",
+          "sha256": "1c934471d86e430c025a540e2f7cda7a749ff47a29dec31e9a6fce7d4e1e2970"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/quantum/mossbauer_recoilless.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/quantum/mossbauer_recoilless.py",
+      "line": 128,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            81
+          ],
+          "path": "src/physics_engine/quantum/mossbauer_recoilless.py",
+          "sha256": "9b5bbe900d638e70ea25257dc534f9bd9f0366a497ee838d364692ad303c162c"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/quantum/quantum_revival.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/quantum/quantum_revival.py",
+      "line": 129,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            101
+          ],
+          "path": "src/physics_engine/quantum/quantum_revival.py",
+          "sha256": "58247bfbd8432c93a60e271f2302272b6124b82f70a69aeaa3e0119ede27d339"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/quantum/quantum_tunnelling.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/quantum/quantum_tunnelling.py",
+      "line": 130,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            136
+          ],
+          "path": "src/physics_engine/quantum/quantum_tunnelling.py",
+          "sha256": "89d2ca86de00c1e63b2e58254806baeaee9ebd8350ef71bb85a6c35901020f51"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/quantum/quantum_walk.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/quantum/quantum_walk.py",
+      "line": 131,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            116
+          ],
+          "path": "src/physics_engine/quantum/quantum_walk.py",
+          "sha256": "a3e6dd0e4fa62164b815797fb05c152e71f55d9b9c7bf3b9169b6cb6ada10837"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/quantum/schrodinger_1d.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/quantum/schrodinger_1d.py",
+      "line": 132,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            110
+          ],
+          "path": "src/physics_engine/quantum/schrodinger_1d.py",
+          "sha256": "a1034a6ce23fdca8aa431531b41a2f4b454eb184b14aaf4d359b43b3d8bd31be"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/quantum/two_level_paramagnet.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/quantum/two_level_paramagnet.py",
+      "line": 133,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            82
+          ],
+          "path": "src/physics_engine/quantum/two_level_paramagnet.py",
+          "sha256": "91b42d5b1e102d505f138926fc67b687d5061b8d99219831a698744c293cfa9d"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/ray_optics/d_overlay_metrology_crb.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/ray_optics/d_overlay_metrology_crb.py",
+      "line": 134,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            448
+          ],
+          "path": "src/physics_engine/ray_optics/d_overlay_metrology_crb.py",
+          "sha256": "326f8b0f285e2b3509d89214bf0a0178a4f7ec70bb04ed544fe5e6bff0ed9469"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/ray_optics/lens_raytrace_cell.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/ray_optics/lens_raytrace_cell.py",
+      "line": 135,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            352
+          ],
+          "path": "src/physics_engine/ray_optics/lens_raytrace_cell.py",
+          "sha256": "656a2caccfb6ad12ab154138799821e9a5dfb92021cf4a5c68e1a7cbdc076ba8"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/ray_optics/lens_design_search_v1.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/ray_optics/lens_design_search_v1.py",
+      "line": 136,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            334
+          ],
+          "path": "src/physics_engine/ray_optics/lens_design_search_v1.py",
+          "sha256": "7d9d3dc67403149784455d0d09394054b6fb4fda40bdde18a015029cea7193fa"
+        }
+      ],
+      "note_sha256": "21d44ebd3694ffa388bde2b0ac4afd1d51213163e6060b3232eae0f4184e0f6e",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/ray_optics/lens_raytrace_gpu.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/ray_optics/lens_raytrace_gpu.py",
+      "line": 137,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            1068
+          ],
+          "path": "src/physics_engine/ray_optics/lens_raytrace_gpu.py",
+          "sha256": "ee88617108a74d934e93c5b3d83303b639ddd1038c9702f4b55f3902203bc6d9"
+        }
+      ],
+      "note_sha256": "4a1b1d4725293e085e97c592fc09904c120dbb75c84ae39347074e78913512eb",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/ray_optics/optics_achromat.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/ray_optics/optics_achromat.py",
+      "line": 138,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            114
+          ],
+          "path": "src/physics_engine/ray_optics/optics_achromat.py",
+          "sha256": "aa922129ce36794f977d5e64e528d328f1c6e1b61c30960b07d262c458bb86dc"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/ray_optics/optics_departure.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/ray_optics/optics_departure.py",
+      "line": 139,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            129
+          ],
+          "path": "src/physics_engine/ray_optics/optics_departure.py",
+          "sha256": "676a764cd2ec95a1176000e9d03286d4c6e41e3d82a9f468d391e8077c4a186f"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/ray_optics/optics_lens.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/ray_optics/optics_lens.py",
+      "line": 140,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            122
+          ],
+          "path": "src/physics_engine/ray_optics/optics_lens.py",
+          "sha256": "751bd055ce4a0f5b9740e5512c9237226c956d882f186d2414ab33320910db04"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/ray_optics/optics_lens_design.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/ray_optics/optics_lens_design.py",
+      "line": 141,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            116
+          ],
+          "path": "src/physics_engine/ray_optics/optics_lens_design.py",
+          "sha256": "1a188d17b8433e7af599add70f6093a85630719a311d834f0c84c0447349b6a1"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/ray_optics/photonics_ring_fsr_group_index_cert.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/ray_optics/photonics_ring_fsr_group_index_cert.py",
+      "line": 142,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            173
+          ],
+          "path": "src/physics_engine/ray_optics/photonics_ring_fsr_group_index_cert.py",
+          "sha256": "a8e2aaf8ea83f3aeba9129a78c271ed8a97e7c1558a81796d14c75ea24a43ae9"
+        }
+      ],
+      "note_sha256": "ab69d49c4e78267e872fd86d2eedb1d2bdcb3c5e19474fc968b99ebac5615f5e",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/ray_optics/photonics_ring_thermooptic_tuning_transducer.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/ray_optics/photonics_ring_thermooptic_tuning_transducer.py",
+      "line": 143,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            177
+          ],
+          "path": "src/physics_engine/ray_optics/photonics_ring_thermooptic_tuning_transducer.py",
+          "sha256": "fbaea5dc2f2d692d85ddcfd10f199f694582a74abd7d93cfe20bf9816ccd0736"
+        }
+      ],
+      "note_sha256": "d07d8f12aa1854f52844dfbacadd0f6c49706cecd7d26a32b50b8066bba48e86",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/ray_optics/photonics_slowlight_modulator_efficiency_bandwidth_tradeoff.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/ray_optics/photonics_slowlight_modulator_efficiency_bandwidth_tradeoff.py",
+      "line": 144,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            148
+          ],
+          "path": "src/physics_engine/ray_optics/photonics_slowlight_modulator_efficiency_bandwidth_tradeoff.py",
+          "sha256": "569929ad169c87b01065c04188da1e26c768189bec220a4673d351e3ac3e5227"
+        }
+      ],
+      "note_sha256": "1c33ce12f9a349361d94fc7561ec5942312781cd1612df68bbc1d81271644629",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/scattering/b2_fresnel_scattered_phase.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/scattering/b2_fresnel_scattered_phase.py",
+      "line": 145,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            158
+          ],
+          "path": "src/physics_engine/scattering/b2_fresnel_scattered_phase.py",
+          "sha256": "679c2acd89e4bf946f598c6224a740911809ea9c2d771117903292c12fb9bd8b"
+        }
+      ],
+      "note_sha256": "1777055d08993e80996e2266e15be52bcb337faa0afe97f2014ed205831b7a33",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/scattering/dielectric_sphere_permittivity_recovery_mie.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/scattering/dielectric_sphere_permittivity_recovery_mie.py",
+      "line": 146,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            205
+          ],
+          "path": "src/physics_engine/scattering/dielectric_sphere_permittivity_recovery_mie.py",
+          "sha256": "2792b714ca3544c990d1e45f34af70d5524a27ae1edc54f529edaddb5fc721c0"
+        }
+      ],
+      "note_sha256": "77b5e804bc50ab93ac08bc12bef2b6ba748aadfb145f3b5e0b10a2d2951e2970",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/scattering/emcc_rcs_cube_physical_optics_render_match_vs_real_em_scattering.py",
+      "kind": "python_library",
+      "label": "src/physics_engine/scattering/emcc_rcs_cube_physical_optics_render_match_vs_real_em_scattering.py",
+      "line": 147,
+      "members": [
+        {
+          "kind": "python_library",
+          "main_lines": [],
+          "path": "src/physics_engine/scattering/emcc_rcs_cube_physical_optics_render_match_vs_real_em_scattering.py",
+          "sha256": "ace8d5dc488eb3471fa15484c563ce5c433c86bdc03dc390554e6bbabb609e1a"
+        }
+      ],
+      "note_sha256": "64d70c91e165520372e010c85aedcb567cebdb0d40fdcf081e5e2edd2c869be1",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/scattering/p18_dielectric_sphere_mie_forced.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/scattering/p18_dielectric_sphere_mie_forced.py",
+      "line": 148,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            128
+          ],
+          "path": "src/physics_engine/scattering/p18_dielectric_sphere_mie_forced.py",
+          "sha256": "7b59426ed0c1058a5aede43cc69006959efdac19d26d8cb6d291c7a73055ae3f"
+        }
+      ],
+      "note_sha256": "4343d3253e9cac47d8ced3fb7f329d054b6bc87547fe9c67ea57a14cbcf390b5",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/scattering/p18_fresnel_field_match.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/scattering/p18_fresnel_field_match.py",
+      "line": 149,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            159
+          ],
+          "path": "src/physics_engine/scattering/p18_fresnel_field_match.py",
+          "sha256": "2700bfc3901617c305b8bb8e43630f0966b2d593825e16dc86e2b1b5e917cc15"
+        }
+      ],
+      "note_sha256": "b8b3f62d00a2ad5a1e78e87e1b303ac9fad15f8624264d0f55a4962bc9349966",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/scattering/p18_mie_scattering_render_match.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/scattering/p18_mie_scattering_render_match.py",
+      "line": 150,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            200
+          ],
+          "path": "src/physics_engine/scattering/p18_mie_scattering_render_match.py",
+          "sha256": "9f8b62b2c2306d2d61bd5b4db3203ea1cb8f49745079e0d2dc459c79744f9b97"
+        }
+      ],
+      "note_sha256": "f6c7ab47c75e6455f0adf6fc2c5ba38dde058fc99ee87c36a3cd97ef0f76bbc6",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/scattering/p18_mie_sphere_rcs_render_match.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/scattering/p18_mie_sphere_rcs_render_match.py",
+      "line": 151,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            115
+          ],
+          "path": "src/physics_engine/scattering/p18_mie_sphere_rcs_render_match.py",
+          "sha256": "612d3dbda782b428507347eaa973fe54fd64b125dfc06d62731dcb964b07104a"
+        }
+      ],
+      "note_sha256": "f468cdfd1913c23896d91947f3c754c98af44596c3e3859cd4df427eab5e46f0",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/scattering/pa_adjoint_helmholtz_envelope.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/scattering/pa_adjoint_helmholtz_envelope.py",
+      "line": 152,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            108
+          ],
+          "path": "src/physics_engine/scattering/pa_adjoint_helmholtz_envelope.py",
+          "sha256": "c13512ac7ee3ba77d0a91ad55f987252ddd06a8b56588a751dfd6fb77b8530d6"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/scattering/spine_scatter2d_multiple_helmholtz_forward_C.py",
+      "kind": "python_library",
+      "label": "src/physics_engine/scattering/spine_scatter2d_multiple_helmholtz_forward_C.py",
+      "line": 153,
+      "members": [
+        {
+          "kind": "python_library",
+          "main_lines": [],
+          "path": "src/physics_engine/scattering/spine_scatter2d_multiple_helmholtz_forward_C.py",
+          "sha256": "b7ee5b1825a813e508265c1f2ff819f83e59f17e3c4e7545eeb3fac96de3690a"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/thermal/kelvin_helmholtz_onset.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/thermal/kelvin_helmholtz_onset.py",
+      "line": 154,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            74
+          ],
+          "path": "src/physics_engine/thermal/kelvin_helmholtz_onset.py",
+          "sha256": "d617cd2e8a4dbe13a11ce8b35fbe9d3514f9c491c64d80522374b3e4c21842e7"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/thermal/spine_kelvin_helmholtz_wavelength.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/thermal/spine_kelvin_helmholtz_wavelength.py",
+      "line": 155,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            78
+          ],
+          "path": "src/physics_engine/thermal/spine_kelvin_helmholtz_wavelength.py",
+          "sha256": "81661b36852d73e768f19133010d5e49d4295200301ccb9517b0a5b59b66048c"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/thermal/tnf_sandia_flameD_T_vs_mixturefraction_burke_schumann_render_match_vs_real.py",
+      "kind": "python_library",
+      "label": "src/physics_engine/thermal/tnf_sandia_flameD_T_vs_mixturefraction_burke_schumann_render_match_vs_real.py",
+      "line": 156,
+      "members": [
+        {
+          "kind": "python_library",
+          "main_lines": [],
+          "path": "src/physics_engine/thermal/tnf_sandia_flameD_T_vs_mixturefraction_burke_schumann_render_match_vs_real.py",
+          "sha256": "df57cf9c3a366c61dceda0f0cdf749734d0274f1dba23e7da9a8d06f697793eb"
+        }
+      ],
+      "note_sha256": "fb314ee9949efa7aae271a8c38b51c55487f11f15023a7fa5445fc67d8143894",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/wave_optics/airy_diffraction_limit.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/wave_optics/airy_diffraction_limit.py",
+      "line": 157,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            91
+          ],
+          "path": "src/physics_engine/wave_optics/airy_diffraction_limit.py",
+          "sha256": "c4a40ba151b0f449c744e21fca49accc239348bcd1a57a45e2916bc5ae2ccef2"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/wave_optics/bragg_diffraction.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/wave_optics/bragg_diffraction.py",
+      "line": 158,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            79
+          ],
+          "path": "src/physics_engine/wave_optics/bragg_diffraction.py",
+          "sha256": "77577d1854eacad528d7fbe055138f000a1244a3e923b44ac8a4b4ba1b22fa21"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/wave_optics/differentiable_xray_classprior.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/wave_optics/differentiable_xray_classprior.py",
+      "line": 159,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            193
+          ],
+          "path": "src/physics_engine/wave_optics/differentiable_xray_classprior.py",
+          "sha256": "00aa8e5fbd946d1f2a46c6e95a21d4727f41d455c4af0f0adc182b2bd9a0cbbf"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/wave_optics/diffraction_grating.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/wave_optics/diffraction_grating.py",
+      "line": 160,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            106
+          ],
+          "path": "src/physics_engine/wave_optics/diffraction_grating.py",
+          "sha256": "3ac83a7ce4065c398426b2e60c0a9ff2fdbbcbd399570be772ed9b245be94c9f"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/wave_optics/gravitational_lensing.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/wave_optics/gravitational_lensing.py",
+      "line": 161,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            69
+          ],
+          "path": "src/physics_engine/wave_optics/gravitational_lensing.py",
+          "sha256": "c5b56304c07f57940c6fe562781db0bd322481c0c9ea0e1fdd33d0b9bfe6816a"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/wave_optics/inverse_design_wave.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/wave_optics/inverse_design_wave.py",
+      "line": 162,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            75
+          ],
+          "path": "src/physics_engine/wave_optics/inverse_design_wave.py",
+          "sha256": "13c5b20e7bbc571368eb436193b0b51da45eebcaa6194728b4df9eeffe989952"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/wave_optics/l_kk_susceptibility_cert.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/wave_optics/l_kk_susceptibility_cert.py",
+      "line": 164,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            92
+          ],
+          "path": "src/physics_engine/wave_optics/l_kk_susceptibility_cert.py",
+          "sha256": "25d675efa041e0f4a5c2243400742a22dd5a8fe39167ab806c3275435db7ed65"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/wave_optics/laser_speckle.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/wave_optics/laser_speckle.py",
+      "line": 165,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            111
+          ],
+          "path": "src/physics_engine/wave_optics/laser_speckle.py",
+          "sha256": "f204675cd34901143dccae41321f4e5ef6c41d6f7454bbbc2f5ba0bbee53442a"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/wave_optics/laser_threshold.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/wave_optics/laser_threshold.py",
+      "line": 166,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            88
+          ],
+          "path": "src/physics_engine/wave_optics/laser_threshold.py",
+          "sha256": "2ec5d94b901b9068a29f0711e0879ebf358c08ce58256203fcdaa0208f2daa8f"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/wave_optics/metalens_psf_imaging_cert.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/wave_optics/metalens_psf_imaging_cert.py",
+      "line": 167,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            223
+          ],
+          "path": "src/physics_engine/wave_optics/metalens_psf_imaging_cert.py",
+          "sha256": "a5597df5595f40910983eb5f669d80625ffe1a49aac78f111747a8aa0543320f"
+        }
+      ],
+      "note_sha256": "98dfdc18fd0df60d3ea0952a53f26d065f3d7a23982a422d655185965b8b8be4",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/wave_optics/metrology_photon_floor_cell.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/wave_optics/metrology_photon_floor_cell.py",
+      "line": 168,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            355
+          ],
+          "path": "src/physics_engine/wave_optics/metrology_photon_floor_cell.py",
+          "sha256": "956c41114511c9389a15bdc4ce021250011566e1b863fd73fc5fcb00b06f44e8"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/wave_optics/optical_vortex_oam.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/wave_optics/optical_vortex_oam.py",
+      "line": 169,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            102
+          ],
+          "path": "src/physics_engine/wave_optics/optical_vortex_oam.py",
+          "sha256": "d1c8a2e6db62560c8b0e2f7f1fbe4d71f7c3570178b783af0009e560466b8748"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/wave_optics/optics_sphere_psf_diffraction_lambda_scaling_real.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/wave_optics/optics_sphere_psf_diffraction_lambda_scaling_real.py",
+      "line": 170,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            190
+          ],
+          "path": "src/physics_engine/wave_optics/optics_sphere_psf_diffraction_lambda_scaling_real.py",
+          "sha256": "db93cd3d391e12b1854072ddaea15d9be435e01b196fbccd3fb5fcff68928f99"
+        }
+      ],
+      "note_sha256": "650c001bfc9d6f3e16a0dfb81b4f436a1606e73d60faf21c31cb016b71a80a2d",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/wave_optics/p18_superlens_evanescent_collapse.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/wave_optics/p18_superlens_evanescent_collapse.py",
+      "line": 171,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            57
+          ],
+          "path": "src/physics_engine/wave_optics/p18_superlens_evanescent_collapse.py",
+          "sha256": "a946ab0077ca53f51ddf479925cb5910fafcc65ab5727688816b6a83620cac4f"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/wave_optics/p20_camera_lens_per_element.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/wave_optics/p20_camera_lens_per_element.py",
+      "line": 172,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            136
+          ],
+          "path": "src/physics_engine/wave_optics/p20_camera_lens_per_element.py",
+          "sha256": "c3f3fd7e508227116fc2cbe649dc204bb09d9d7f7d873b79900a45be07261efd"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/wave_optics/p20_jwst_zernike.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/wave_optics/p20_jwst_zernike.py",
+      "line": 173,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            156
+          ],
+          "path": "src/physics_engine/wave_optics/p20_jwst_zernike.py",
+          "sha256": "5505ce9df8cffbb1b46fa5072b7ba6b038b10161a9f96b051d97b5a9e5c7eea8"
+        }
+      ],
+      "note_sha256": "3c993ae21230f07592af9483f9c82a153540663425747047e2b95b69b05a77e9",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/wave_optics/p20_metalens_chromatic.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/wave_optics/p20_metalens_chromatic.py",
+      "line": 174,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            113
+          ],
+          "path": "src/physics_engine/wave_optics/p20_metalens_chromatic.py",
+          "sha256": "bb2c06a0e56d7b65a398f9219587ccc360e76225da5c661512527b1b2b25e5f5"
+        }
+      ],
+      "note_sha256": "0f5ded1dea39e0c459643186eae5112bf8accce018acb0783148a2db85aca4ea",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/wave_optics/p20_sphere_psf_diffraction.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/wave_optics/p20_sphere_psf_diffraction.py",
+      "line": 175,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            126
+          ],
+          "path": "src/physics_engine/wave_optics/p20_sphere_psf_diffraction.py",
+          "sha256": "72eb5253f6c3ae8bc5d72ac6795fa84b6ce2568ada9bf595d210fed6ad4e3f17"
+        }
+      ],
+      "note_sha256": "c693736b8dfe7bfd3ed77bb46a9f41cc6299dfe45933acf544919d81f9c25987",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/wave_optics/photon_sphere_shadow.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/wave_optics/photon_sphere_shadow.py",
+      "line": 176,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            110
+          ],
+          "path": "src/physics_engine/wave_optics/photon_sphere_shadow.py",
+          "sha256": "e91d43886af754a7c7beb4a373bb2aa147b4a71792d5486119e46893d78987f2"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/wave_optics/relativistic_aberration.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/wave_optics/relativistic_aberration.py",
+      "line": 177,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            93
+          ],
+          "path": "src/physics_engine/wave_optics/relativistic_aberration.py",
+          "sha256": "8f4d747a5919518755067f4ae6f3f084cbc326e00dcab629f2591bd695d4caa8"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/wave_optics/schwarzschild_radius.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/wave_optics/schwarzschild_radius.py",
+      "line": 178,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            70
+          ],
+          "path": "src/physics_engine/wave_optics/schwarzschild_radius.py",
+          "sha256": "33b79a9582c05b505d57247e5f2f69022f997482b825fe482a44b3cbaa541648"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/wave_optics/shannon_capacity.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/wave_optics/shannon_capacity.py",
+      "line": 179,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            58
+          ],
+          "path": "src/physics_engine/wave_optics/shannon_capacity.py",
+          "sha256": "b7b774043690c91f30016a649adadfa344f7fc556deb720852dbfd5a7d0100a2"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/wave_optics/coupled_multiphysics_calibration.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/wave_optics/coupled_multiphysics_calibration.py",
+      "line": 180,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            111
+          ],
+          "path": "src/physics_engine/wave_optics/coupled_multiphysics_calibration.py",
+          "sha256": "51e99f5e944ad01c1c50110b5822050b0cda460dd655e2ecc0972c7cb6b94b5b"
+        }
+      ],
+      "note_sha256": "c01bb8e5a8921488e915f865a53935c4303a4b2f97d29651702589496e03078e",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/wave_optics/sigma_guided_fwi.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/wave_optics/sigma_guided_fwi.py",
+      "line": 181,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            335
+          ],
+          "path": "src/physics_engine/wave_optics/sigma_guided_fwi.py",
+          "sha256": "f146d62dd699ce0e237acf3143fd5347ca51336f22ef576c06ebd0a86a622a1c"
+        }
+      ],
+      "note_sha256": "c6b702bef3b8fd8d0b334503eeb520aa298cae648565f9bdef5553821dce32b1",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/wave_optics/twin_calibration_multisource.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/wave_optics/twin_calibration_multisource.py",
+      "line": 182,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            95
+          ],
+          "path": "src/physics_engine/wave_optics/twin_calibration_multisource.py",
+          "sha256": "8040d8af0f626ee23cd2e891d4502f989d1bc16a382418b71f88ab5f7557efec"
+        }
+      ],
+      "note_sha256": "eb076e1ce8d7d0e26e85a1e40d1ec0e24784f71ab919b4ed4adf915164d90a1d",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/wave_optics/twin_calibration_wave.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/wave_optics/twin_calibration_wave.py",
+      "line": 183,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            112
+          ],
+          "path": "src/physics_engine/wave_optics/twin_calibration_wave.py",
+          "sha256": "45172924f261d18527b356658670078d977c635354cb794f524670edf58d8704"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/wave_optics/wave_optics_cell.py",
+      "kind": "python_main_candidate",
+      "label": "src/physics_engine/wave_optics/wave_optics_cell.py",
+      "line": 184,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            229
+          ],
+          "path": "src/physics_engine/wave_optics/wave_optics_cell.py",
+          "sha256": "beda74df55b596686678c799fccf0e86512d146f81e3548c83a392d35e408c9a"
+        }
+      ],
+      "note_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/process/moving_heat_history_v1.py",
+      "kind": "python_main_candidate",
+      "label": "process/moving_heat_history_v1.py",
+      "line": 601,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            27
+          ],
+          "path": "src/physics_engine/process/moving_heat_history_v1.py",
+          "sha256": "0fd20f35300df8017bf8ec12c5c6bdc2f7d198d30acc78f9984228e145067b74"
+        }
+      ],
+      "note_sha256": "aaba9e4f4d5e93f0b0abc0139b59a40278c908e539f1a6b88ac6459b0ffb92b1",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/chains/process_heat_horizon_probe.py",
+      "kind": "python_main_candidate",
+      "label": "chains/process_heat_horizon_probe.py",
+      "line": 602,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            39
+          ],
+          "path": "src/physics_engine/chains/process_heat_horizon_probe.py",
+          "sha256": "928e33699820a5531b2249d55fab3e92728721647d7bb0171cec216ff0644f56"
+        }
+      ],
+      "note_sha256": "313beddf0defb1f8270d725649461b29258bc6fef5f00f50aace86b35d13290f",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/process/thermal_fiber_bundle_v1.py",
+      "kind": "python_main_candidate",
+      "label": "process/thermal_fiber_bundle_v1.py",
+      "line": 718,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            88
+          ],
+          "path": "src/physics_engine/process/thermal_fiber_bundle_v1.py",
+          "sha256": "9a3278a8832a03334fd80d7b35a2a7d8d308c2244f08c02a5c116d50ba4d2c57"
+        }
+      ],
+      "note_sha256": "dd7b56e04a6a012768401205236dad223179840875e9d24ba5bbef776d244656",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/fatigue/stress_life_v1.py",
+      "kind": "python_main_candidate",
+      "label": "fatigue/stress_life_v1.py",
+      "line": 719,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            40
+          ],
+          "path": "src/physics_engine/fatigue/stress_life_v1.py",
+          "sha256": "814b35d52415527be2504abba199f6c710f76b9372738cb47a93e70e9f9e3772"
+        }
+      ],
+      "note_sha256": "6df8a56c3c115ff9b13ce4f015f6e124801fe6d7e8b57b97e794c93d62ac2bc2",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/chains/process_chain_v1.py",
+      "kind": "python_main_candidate",
+      "label": "chains/process_chain_v1.py",
+      "line": 720,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            163
+          ],
+          "path": "src/physics_engine/chains/process_chain_v1.py",
+          "sha256": "13e6c3bc22261888424df0dfd037602138eb6386b188fa683e92bf99635b4b63"
+        }
+      ],
+      "note_sha256": "7a9b4bce01ed43e3d2b1a47195228463eb498f7becf70e9a2c800f4e4bb992cb",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/chains/litho_tail_probe_v1.py",
+      "kind": "python_main_candidate",
+      "label": "chains/litho_tail_probe_v1.py",
+      "line": 782,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            93
+          ],
+          "path": "src/physics_engine/chains/litho_tail_probe_v1.py",
+          "sha256": "20195afb6231be963d4e210c3cb052f44714d23694d1275fa305abdbcb2f5410"
+        }
+      ],
+      "note_sha256": "a5d3cb1da91afcf1b98254b208357dc731abbdd522518f153c7d42169e35301e",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/chains/chain_spec_v1.py",
+      "kind": "python_main_candidate",
+      "label": "chains/chain_spec_v1.py",
+      "line": 812,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            198
+          ],
+          "path": "src/physics_engine/chains/chain_spec_v1.py",
+          "sha256": "d0bb2e880072108495ccc86b50aecda771bccb5a295b700dd1ee291d5e57637e"
+        }
+      ],
+      "note_sha256": "58d8eee6676ba4dc5e829cd39a04f9fdb135f9e5f9262f6823f8323a6b4fdb21",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "UNSPECIFIED"
+    },
+    {
+      "key": "src/physics_engine/chains/chain_spec_certify_v1.py",
+      "kind": "python_main_candidate",
+      "label": "chains/chain_spec_certify_v1.py",
+      "line": 813,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            82
+          ],
+          "path": "src/physics_engine/chains/chain_spec_certify_v1.py",
+          "sha256": "3ae241655eb0b088eca615f683fb472ec951c9f2f84a7628abbfdeb820a265e8"
+        }
+      ],
+      "note_sha256": "6be6c3d5d6c687a928a945ef1e75e775931b84204a7e56dc6ea16e0d8cf0d66e",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "DECLARED"
+    },
+    {
+      "key": "src/physics_engine/chains/generated/litho_from_spec.py",
+      "kind": "python_main_candidate",
+      "label": "chains/generated/litho_from_spec.py",
+      "line": 814,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            5
+          ],
+          "path": "src/physics_engine/chains/generated/litho_from_spec.py",
+          "sha256": "f775ce5c31655c512b4fc57abeae17c24d17d3b451f8a3ba5ac664eb96bb8d5f"
+        }
+      ],
+      "note_sha256": "af42a5955a18435c3c465e84a34cb21cb30feb11688f12319d9544ef9a8c2665",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "DECLARED"
+    },
+    {
+      "key": "src/physics_engine/chains/generated/process_from_spec.py",
+      "kind": "python_main_candidate",
+      "label": "chains/generated/process_from_spec.py",
+      "line": 815,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            5
+          ],
+          "path": "src/physics_engine/chains/generated/process_from_spec.py",
+          "sha256": "0fb495b46a5c55123c3bec31778b11fdcef24724a0e60669516f27678fce83b1"
+        }
+      ],
+      "note_sha256": "9c23ecea74e98c1cd44e58353db28fa167927a64776a694a8e93ea653d57f8e8",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "DECLARED"
+    },
+    {
+      "key": "src/physics_engine/chains/generated/litho_pore_from_spec.py",
+      "kind": "python_main_candidate",
+      "label": "chains/generated/litho_pore_from_spec.py",
+      "line": 816,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            5
+          ],
+          "path": "src/physics_engine/chains/generated/litho_pore_from_spec.py",
+          "sha256": "f7f5b07e629cda06f622afb947718b078dae1ff3c746938c502a59135079c0e6"
+        }
+      ],
+      "note_sha256": "e5c449f152bdb4c72a7c4788d5c1fce239f2501121c9418679deb2369b1c3135",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "DECLARED"
+    },
+    {
+      "key": "src/physics_engine/chains/process_midpoint_v1.py",
+      "kind": "python_main_candidate",
+      "label": "chains/process_midpoint_v1.py",
+      "line": 877,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            72
+          ],
+          "path": "src/physics_engine/chains/process_midpoint_v1.py",
+          "sha256": "ca364ddc4a61a8119aebffffa7789641aae45d0c2651ccdfc17b5ff23ffc95d6"
+        }
+      ],
+      "note_sha256": "1c9377925cf53bcee3f814b50c6881c9038b46dd8a100be416c91f22db7e9f1d",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "DECLARED"
+    },
+    {
+      "key": "src/physics_engine/chains/process_midpoint_certificate_v1.py",
+      "kind": "python_main_candidate",
+      "label": "chains/process_midpoint_certificate_v1.py",
+      "line": 878,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            110
+          ],
+          "path": "src/physics_engine/chains/process_midpoint_certificate_v1.py",
+          "sha256": "813467f58f72322c84d802a7bae303248fc0f25f92ba804feae02ea99f467262"
+        }
+      ],
+      "note_sha256": "816d738f910fe1dbd9ff6cc45779348acf260827504176b9c67f796da186e91d",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "DECLARED"
+    },
+    {
+      "key": "src/physics_engine/chains/failure_localization_v1.py",
+      "kind": "python_library",
+      "label": "chains/failure_localization_v1.py",
+      "line": 910,
+      "members": [
+        {
+          "kind": "python_library",
+          "main_lines": [],
+          "path": "src/physics_engine/chains/failure_localization_v1.py",
+          "sha256": "309e6e15e93e3403fb804a1de2430c64555d3d8ff38cf821cfb035090062e446"
+        }
+      ],
+      "note_sha256": "fe2d1e9a65605696508afdc4c667c113e3feaf3f565fe8deb30b8b1a98ca9d38",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "DECLARED"
+    },
+    {
+      "key": "src/physics_engine/chains/physics_failure_sites_v1.py",
+      "kind": "python_main_candidate",
+      "label": "chains/physics_failure_sites_v1.py",
+      "line": 911,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            115
+          ],
+          "path": "src/physics_engine/chains/physics_failure_sites_v1.py",
+          "sha256": "280bf1050aa77a695e12457df19eee6f1c9b73634f16f44886070cef775882b2"
+        }
+      ],
+      "note_sha256": "ea8dcd6e9fa8f0c168d85f3e8afb91474874de6fe62e7208e97144ab20cec513",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "DECLARED"
+    },
+    {
+      "key": "src/physics_engine/wave_optics/kk_input_contract_v1.py",
+      "kind": "python_main_candidate",
+      "label": "wave_optics/kk_input_contract_v1.py",
+      "line": 927,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            90
+          ],
+          "path": "src/physics_engine/wave_optics/kk_input_contract_v1.py",
+          "sha256": "09d777470eaccc88ff0ab17e3977fbe244bde78b1694aa3bec2253f805f0dbac"
+        }
+      ],
+      "note_sha256": "b931acc36691357da8d911fd6815aaa8ac0fc0f54bd07e2ea5f32706055de4a5",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "DECLARED"
+    },
+    {
+      "key": "src/physics_engine/electrochem/boiling_lvm_channels_v1.py",
+      "kind": "python_main_candidate",
+      "label": "electrochem/boiling_lvm_channels_v1.py",
+      "line": 940,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            75
+          ],
+          "path": "src/physics_engine/electrochem/boiling_lvm_channels_v1.py",
+          "sha256": "79e3d85674b81d90341b29c98f72e7159ec3734bba05ea1897fdb60a2f180f08"
+        }
+      ],
+      "note_sha256": "47ed9eae7d0bd688e1055777d610dcf3cfa0e49adf2f8969262b4fce5c7aa4bb",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "DECLARED"
+    },
+    {
+      "key": "src/physics_engine/electrochem/boiling_stationarity_v1.py",
+      "kind": "python_main_candidate",
+      "label": "electrochem/boiling_stationarity_v1.py",
+      "line": 953,
+      "members": [
+        {
+          "kind": "python_main_candidate",
+          "main_lines": [
+            76
+          ],
+          "path": "src/physics_engine/electrochem/boiling_stationarity_v1.py",
+          "sha256": "b53e0b9bd567041557f829ad2745ee5d15411c56a85bb2266c1103cfb40113e9"
+        }
+      ],
+      "note_sha256": "07225f6f1d9752b3dd79c7811625a30fef18f12f363f8123d0b5b27e7366f881",
+      "numerical_execution": "NOT_RUN",
+      "verification_recipe": "DECLARED"
+    }
+  ],
+  "schema": 1,
+  "scope": "Readiness inventory only. A Python main guard does not establish correct arguments, working directory, dependencies, hardware, gates or expected numbers. No numerical module was imported, run or skipped as passing. Explicit execution/evidence recipes remain required for every declared row.",
+  "status": "OWN-GATE-FAIL"
+}

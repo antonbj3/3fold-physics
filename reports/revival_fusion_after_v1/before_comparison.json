@@ -1,0 +1,16 @@
+[
+  {
+    "leg": 0,
+    "values": 25152,
+    "max_abs": 7.216449660063518e-16,
+    "normalized": 2.4222906765450953e-07,
+    "exact": false
+  },
+  {
+    "leg": 1,
+    "values": 25152,
+    "max_abs": 7.216449660063518e-16,
+    "normalized": 2.4222906765450953e-07,
+    "exact": false
+  }
+]

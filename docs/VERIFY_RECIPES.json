@@ -1,0 +1,369 @@
+[
+  {
+    "argv": [
+      "python",
+      "-m",
+      "pytest",
+      "-q",
+      "tests/test_failure_localization.py"
+    ],
+    "cwd": ".",
+    "expected": {
+      "exit_code": 0,
+      "pytest_passed": 4
+    },
+    "key": "src/physics_engine/chains/failure_localization_v1.py",
+    "note_sha256": "fe2d1e9a65605696508afdc4c667c113e3feaf3f565fe8deb30b8b1a98ca9d38",
+    "runtime": "cpu",
+    "sources": {
+      "src/physics_engine/chains/failure_localization_v1.py": "309e6e15e93e3403fb804a1de2430c64555d3d8ff38cf821cfb035090062e446"
+    }
+  },
+  {
+    "argv": [
+      "python",
+      "src/physics_engine/chains/physics_failure_sites_v1.py"
+    ],
+    "cwd": ".",
+    "expected": {
+      "exit_code": 0,
+      "json_equal": {
+        "/boiling/G3_noise_ratio": 1.2039323335820125,
+        "/gates/frozen_exit_parity": true,
+        "/gates/input_integrity": true,
+        "/gates/minimal_witnesses": true,
+        "/gates/original_failures": true,
+        "/gates/synthetic_boiling_control": true
+      },
+      "report": "reports/physics_failure_sites_v1.json"
+    },
+    "key": "src/physics_engine/chains/physics_failure_sites_v1.py",
+    "note_sha256": "ea8dcd6e9fa8f0c168d85f3e8afb91474874de6fe62e7208e97144ab20cec513",
+    "runtime": "cpu",
+    "sources": {
+      "src/physics_engine/chains/physics_failure_sites_v1.py": "280bf1050aa77a695e12457df19eee6f1c9b73634f16f44886070cef775882b2"
+    }
+  },
+  {
+    "argv": [
+      "python",
+      "src/physics_engine/wave_optics/kk_input_contract_v1.py"
+    ],
+    "cwd": ".",
+    "expected": {
+      "exit_code": 0,
+      "json_equal": {
+        "/gates/all_directional_refused": true,
+        "/gates/five_pinned_files": true,
+        "/gates/intensity_phase_ambiguity": true,
+        "/gates/known_dataset_relabel_refused": true,
+        "/gates/unchanged_positive": true,
+        "/synthetic_positive/kk_residual": 0.0355
+      },
+      "json_length": {
+        "/refusals": 5
+      },
+      "report": "reports/kk_input_contract_v1.json"
+    },
+    "key": "src/physics_engine/wave_optics/kk_input_contract_v1.py",
+    "note_sha256": "b931acc36691357da8d911fd6815aaa8ac0fc0f54bd07e2ea5f32706055de4a5",
+    "runtime": "cpu",
+    "sources": {
+      "src/physics_engine/wave_optics/kk_input_contract_v1.py": "09d777470eaccc88ff0ab17e3977fbe244bde78b1694aa3bec2253f805f0dbac"
+    }
+  },
+  {
+    "argv": [
+      "python",
+      "src/physics_engine/electrochem/boiling_lvm_channels_v1.py"
+    ],
+    "cwd": ".",
+    "expected": {
+      "exit_code": 0,
+      "json_equal": {
+        "/gates/complete_channels": true,
+        "/gates/complete_independent_parse": true,
+        "/gates/four_files": true,
+        "/gates/frozen_parity": true
+      },
+      "report": "reports/boiling_lvm_channels_v1.json"
+    },
+    "key": "src/physics_engine/electrochem/boiling_lvm_channels_v1.py",
+    "note_sha256": "47ed9eae7d0bd688e1055777d610dcf3cfa0e49adf2f8969262b4fce5c7aa4bb",
+    "runtime": "cpu",
+    "sources": {
+      "src/physics_engine/electrochem/boiling_lvm_channels_v1.py": "79e3d85674b81d90341b29c98f72e7159ec3734bba05ea1897fdb60a2f180f08"
+    }
+  },
+  {
+    "argv": [
+      "python",
+      "src/physics_engine/electrochem/boiling_stationarity_v1.py"
+    ],
+    "cwd": ".",
+    "expected": {
+      "exit_code": 0,
+      "json_equal": {
+        "/gates/aggregation_counterexample": true,
+        "/gates/four_complete_records": true,
+        "/gates/frozen_full_array_parity": true,
+        "/gates/signed_null_retained": true,
+        "/gates/stable_numeric_levels": true,
+        "/gates/variance_decomposition": true,
+        "/gates/whole_chf_refused": true,
+        "/records/3/between_fraction": 0.9998836317430241,
+        "/records/3/blocks": 549,
+        "/records/3/coefficient_of_variation": 1.2039323335820125,
+        "/records/3/full_record_admitted": false,
+        "/records/3/stable_block_count": 547,
+        "/records/3/tag": "CHF"
+      },
+      "report": "reports/boiling_stationarity_v1.json"
+    },
+    "key": "src/physics_engine/electrochem/boiling_stationarity_v1.py",
+    "note_sha256": "07225f6f1d9752b3dd79c7811625a30fef18f12f363f8123d0b5b27e7366f881",
+    "runtime": "cpu",
+    "sources": {
+      "src/physics_engine/electrochem/boiling_stationarity_v1.py": "b53e0b9bd567041557f829ad2745ee5d15411c56a85bb2266c1103cfb40113e9"
+    }
+  },
+  {
+    "argv": [
+      "python",
+      "src/physics_engine/chains/chain_spec_certify_v1.py"
+    ],
+    "cwd": ".",
+    "expected": {
+      "exit_code": 0,
+      "json_equal": {
+        "/gates/litho_from_spec_contracts": true,
+        "/gates/litho_from_spec_exact_repeat": true,
+        "/gates/litho_from_spec_generated": true,
+        "/gates/litho_from_spec_oracles": true,
+        "/gates/litho_pore_from_spec_contracts": true,
+        "/gates/litho_pore_from_spec_exact_repeat": true,
+        "/gates/litho_pore_from_spec_generated": true,
+        "/gates/litho_pore_from_spec_oracles": true,
+        "/gates/process_from_spec_contracts": true,
+        "/gates/process_from_spec_exact_repeat": true,
+        "/gates/process_from_spec_generated": true,
+        "/gates/process_from_spec_oracles": true
+      },
+      "json_length": {
+        "/chains": 3
+      },
+      "report": "reports/chain_spec_certify_v1.json"
+    },
+    "key": "src/physics_engine/chains/chain_spec_certify_v1.py",
+    "note_sha256": "6be6c3d5d6c687a928a945ef1e75e775931b84204a7e56dc6ea16e0d8cf0d66e",
+    "pythonpath": [
+      "src"
+    ],
+    "runtime": "cpu",
+    "sources": {
+      "src/physics_engine/chains/chain_spec_certify_v1.py": "3ae241655eb0b088eca615f683fb472ec951c9f2f84a7628abbfdeb820a265e8"
+    }
+  },
+  {
+    "argv": [
+      "python",
+      "src/physics_engine/chains/process_midpoint_certificate_v1.py"
+    ],
+    "cwd": ".",
+    "expected": {
+      "exit_code": 0,
+      "json_equal": {
+        "/gates/both_resolution_contracts": true,
+        "/gates/ensemble_damage": true,
+        "/gates/ensemble_residual": true,
+        "/gates/exact_repeat": true,
+        "/gates/fatigue_controls": true,
+        "/gates/frozen_input_exact": true,
+        "/gates/heat_stage": true,
+        "/gates/mechanical_controls": true,
+        "/gates/refined_time_state": true,
+        "/gates/time_damage": true,
+        "/gates/time_residual": true
+      },
+      "json_length": {
+        "/legs": 2,
+        "/legs/0/refinement": 455,
+        "/legs/1/refinement": 455
+      },
+      "report": "reports/process_midpoint_certificate_v1.json"
+    },
+    "key": "src/physics_engine/chains/process_midpoint_certificate_v1.py",
+    "note_sha256": "816d738f910fe1dbd9ff6cc45779348acf260827504176b9c67f796da186e91d",
+    "pythonpath": [
+      "src"
+    ],
+    "runtime": "cpu",
+    "sources": {
+      "src/physics_engine/chains/process_midpoint_certificate_v1.py": "813467f58f72322c84d802a7bae303248fc0f25f92ba804feae02ea99f467262"
+    }
+  },
+  {
+    "argv": [
+      "python",
+      "src/physics_engine/chains/chain_spec_certify_v1.py"
+    ],
+    "cwd": ".",
+    "expected": {
+      "exit_code": 0,
+      "json_equal": {
+        "/chains/litho_from_spec/composition/ratio": [
+          0.8526513061925982,
+          0.735441163790992
+        ],
+        "/chains/litho_from_spec/generated_sha256": "f775ce5c31655c512b4fc57abeae17c24d17d3b451f8a3ba5ac664eb96bb8d5f",
+        "/gates/litho_from_spec_contracts": true,
+        "/gates/litho_from_spec_exact_repeat": true,
+        "/gates/litho_from_spec_generated": true,
+        "/gates/litho_from_spec_oracles": true,
+        "/gates/litho_pore_from_spec_contracts": true,
+        "/gates/litho_pore_from_spec_exact_repeat": true,
+        "/gates/litho_pore_from_spec_generated": true,
+        "/gates/litho_pore_from_spec_oracles": true,
+        "/gates/process_from_spec_contracts": true,
+        "/gates/process_from_spec_exact_repeat": true,
+        "/gates/process_from_spec_generated": true,
+        "/gates/process_from_spec_oracles": true
+      },
+      "json_length": {
+        "/chains": 3
+      },
+      "report": "reports/chain_spec_certify_v1.json"
+    },
+    "key": "src/physics_engine/chains/generated/litho_from_spec.py",
+    "note_sha256": "af42a5955a18435c3c465e84a34cb21cb30feb11688f12319d9544ef9a8c2665",
+    "pythonpath": [
+      "src"
+    ],
+    "runtime": "cpu",
+    "sources": {
+      "src/physics_engine/chains/generated/litho_from_spec.py": "f775ce5c31655c512b4fc57abeae17c24d17d3b451f8a3ba5ac664eb96bb8d5f"
+    }
+  },
+  {
+    "argv": [
+      "python",
+      "src/physics_engine/chains/chain_spec_certify_v1.py"
+    ],
+    "cwd": ".",
+    "expected": {
+      "exit_code": 0,
+      "json_equal": {
+        "/chains/process_from_spec/composition/ratio": [
+          0.7626863439769154
+        ],
+        "/chains/process_from_spec/generated_sha256": "0fb495b46a5c55123c3bec31778b11fdcef24724a0e60669516f27678fce83b1",
+        "/gates/litho_from_spec_contracts": true,
+        "/gates/litho_from_spec_exact_repeat": true,
+        "/gates/litho_from_spec_generated": true,
+        "/gates/litho_from_spec_oracles": true,
+        "/gates/litho_pore_from_spec_contracts": true,
+        "/gates/litho_pore_from_spec_exact_repeat": true,
+        "/gates/litho_pore_from_spec_generated": true,
+        "/gates/litho_pore_from_spec_oracles": true,
+        "/gates/process_from_spec_contracts": true,
+        "/gates/process_from_spec_exact_repeat": true,
+        "/gates/process_from_spec_generated": true,
+        "/gates/process_from_spec_oracles": true
+      },
+      "json_length": {
+        "/chains": 3
+      },
+      "report": "reports/chain_spec_certify_v1.json"
+    },
+    "key": "src/physics_engine/chains/generated/process_from_spec.py",
+    "note_sha256": "9c23ecea74e98c1cd44e58353db28fa167927a64776a694a8e93ea653d57f8e8",
+    "pythonpath": [
+      "src"
+    ],
+    "runtime": "cpu",
+    "sources": {
+      "src/physics_engine/chains/generated/process_from_spec.py": "0fb495b46a5c55123c3bec31778b11fdcef24724a0e60669516f27678fce83b1"
+    }
+  },
+  {
+    "argv": [
+      "python",
+      "src/physics_engine/chains/chain_spec_certify_v1.py"
+    ],
+    "cwd": ".",
+    "expected": {
+      "exit_code": 0,
+      "json_equal": {
+        "/chains/litho_pore_from_spec/composition/ratio": [
+          0.8609376723611317,
+          0.8500966766032144,
+          0.7796097727377522
+        ],
+        "/chains/litho_pore_from_spec/generated_sha256": "f7f5b07e629cda06f622afb947718b078dae1ff3c746938c502a59135079c0e6",
+        "/gates/litho_from_spec_contracts": true,
+        "/gates/litho_from_spec_exact_repeat": true,
+        "/gates/litho_from_spec_generated": true,
+        "/gates/litho_from_spec_oracles": true,
+        "/gates/litho_pore_from_spec_contracts": true,
+        "/gates/litho_pore_from_spec_exact_repeat": true,
+        "/gates/litho_pore_from_spec_generated": true,
+        "/gates/litho_pore_from_spec_oracles": true,
+        "/gates/process_from_spec_contracts": true,
+        "/gates/process_from_spec_exact_repeat": true,
+        "/gates/process_from_spec_generated": true,
+        "/gates/process_from_spec_oracles": true
+      },
+      "json_length": {
+        "/chains": 3
+      },
+      "report": "reports/chain_spec_certify_v1.json"
+    },
+    "key": "src/physics_engine/chains/generated/litho_pore_from_spec.py",
+    "note_sha256": "e5c449f152bdb4c72a7c4788d5c1fce239f2501121c9418679deb2369b1c3135",
+    "pythonpath": [
+      "src"
+    ],
+    "runtime": "cpu",
+    "sources": {
+      "src/physics_engine/chains/generated/litho_pore_from_spec.py": "f7f5b07e629cda06f622afb947718b078dae1ff3c746938c502a59135079c0e6"
+    }
+  },
+  {
+    "argv": [
+      "python",
+      "src/physics_engine/chains/process_midpoint_certificate_v1.py"
+    ],
+    "cwd": ".",
+    "expected": {
+      "exit_code": 0,
+      "json_equal": {
+        "/gates/both_resolution_contracts": true,
+        "/gates/ensemble_damage": true,
+        "/gates/ensemble_residual": true,
+        "/gates/exact_repeat": true,
+        "/gates/fatigue_controls": true,
+        "/gates/frozen_input_exact": true,
+        "/gates/heat_stage": true,
+        "/gates/mechanical_controls": true,
+        "/gates/refined_time_state": true,
+        "/gates/time_damage": true,
+        "/gates/time_residual": true
+      },
+      "json_length": {
+        "/legs": 2,
+        "/legs/0/refinement": 455,
+        "/legs/1/refinement": 455
+      },
+      "report": "reports/process_midpoint_certificate_v1.json"
+    },
+    "key": "src/physics_engine/chains/process_midpoint_v1.py",
+    "note_sha256": "1c9377925cf53bcee3f814b50c6881c9038b46dd8a100be416c91f22db7e9f1d",
+    "pythonpath": [
+      "src"
+    ],
+    "runtime": "cpu",
+    "sources": {
+      "src/physics_engine/chains/process_midpoint_v1.py": "ca364ddc4a61a8119aebffffa7789641aae45d0c2651ccdfc17b5ff23ffc95d6"
+    }
+  }
+]

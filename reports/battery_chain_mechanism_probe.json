@@ -1,0 +1,100 @@
+{
+  "measurement": {
+    "soc": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "ocv_V": [
+      2.9,
+      3.6999999999999997,
+      4.2
+    ],
+    "thermal_voltage_V": [
+      1.85,
+      2.7750000000000004,
+      3.7
+    ],
+    "voltage_delta_V": [
+      1.0499999999999998,
+      0.9249999999999994,
+      0.5
+    ],
+    "fade_noiseless_law": [
+      {
+        "cycle": 0,
+        "capacity_min_Ah": 1.856,
+        "capacity_max_Ah": 1.856,
+        "retention_min": 1.0,
+        "retention_max": 1.0
+      },
+      {
+        "cycle": 50,
+        "capacity_min_Ah": 1.7102196609406728,
+        "capacity_max_Ah": 1.7931446609406727,
+        "retention_min": 0.9214545586964832,
+        "retention_max": 0.9661339767999314
+      },
+      {
+        "cycle": 100,
+        "capacity_min_Ah": 1.3643,
+        "capacity_max_Ah": 1.696,
+        "retention_min": 0.7350754310344828,
+        "retention_max": 0.9137931034482758
+      }
+    ],
+    "thermal_cases": [
+      {
+        "resistance_ohm": 1.0,
+        "chemistry_on": true,
+        "peak_C": 545.8809994131442,
+        "returned_runaway": true,
+        "rise_above_200": true,
+        "event_time": 742.6339083193602
+      },
+      {
+        "resistance_ohm": 2.0,
+        "chemistry_on": true,
+        "peak_C": 153.10036262743245,
+        "returned_runaway": false,
+        "rise_above_200": false,
+        "event_time": null
+      },
+      {
+        "resistance_ohm": 3.0,
+        "chemistry_on": true,
+        "peak_C": 101.76509958880206,
+        "returned_runaway": false,
+        "rise_above_200": false,
+        "event_time": null
+      },
+      {
+        "resistance_ohm": 1.0,
+        "chemistry_on": false,
+        "peak_C": 207.8365367196265,
+        "returned_runaway": false,
+        "rise_above_200": false,
+        "event_time": null
+      },
+      {
+        "resistance_ohm": 1000000000.0,
+        "chemistry_on": true,
+        "peak_C": 25.000050861824718,
+        "returned_runaway": false,
+        "rise_above_200": false,
+        "event_time": null
+      }
+    ],
+    "thermal_stored_energy_J": 64800.0,
+    "ocv_fresh_capacity_energy_J": 24387.839999999997,
+    "returned_flag_disagreements": 0
+  },
+  "sha256": "6a0383c1a82c02de4c2e73e297c7c5d1a0d84aea70824d0eb7b6f3bcd8d013b2",
+  "gates": {
+    "two_complete_measurements_identical": true,
+    "ocv_monotonic_and_in_original_window": true,
+    "fresh_fade_retention_one": true,
+    "thermal_flag_matches_its_documented_rise": true
+  },
+  "scope": "synthetic stage laws; no transfer certificate between measured populations"
+}

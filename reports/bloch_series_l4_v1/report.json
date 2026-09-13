@@ -1,0 +1,101 @@
+{
+  "device": "NVIDIA L4",
+  "atol": 1e-10,
+  "rtol": 1e-08,
+  "rows": [
+    {
+      "module": "revival",
+      "runs": [
+        {
+          "cpu_gates": {
+            "g4": true,
+            "g5": true,
+            "scaffold": true
+          },
+          "gpu_gates": {
+            "g4": true,
+            "g5": true,
+            "scaffold": true
+          },
+          "cpu_s": 0.611097461,
+          "gpu_s": 0.04703616999999838,
+          "parity": 1.3766716945744474e-07,
+          "value_count": 25152,
+          "max_abs_error": 4.440892098500626e-16,
+          "all_pass": true
+        },
+        {
+          "cpu_gates": {
+            "g4": true,
+            "g5": true,
+            "scaffold": true
+          },
+          "gpu_gates": {
+            "g4": true,
+            "g5": true,
+            "scaffold": true
+          },
+          "cpu_s": 0.5972055440000013,
+          "gpu_s": 0.041806999000002065,
+          "parity": 1.3766716945744474e-07,
+          "value_count": 25152,
+          "max_abs_error": 4.440892098500626e-16,
+          "all_pass": true
+        }
+      ],
+      "full_repeat_exact": true,
+      "all_pass": true
+    },
+    {
+      "module": "bloch",
+      "runs": [
+        {
+          "cpu_gates": {
+            "g4": true,
+            "g5": true,
+            "scaffold": true
+          },
+          "gpu_gates": {
+            "g4": true,
+            "g5": true,
+            "scaffold": true
+          },
+          "cpu_s": 0.9419719420000021,
+          "gpu_s": 0.12254740599999892,
+          "parity": 6.18081974490454e-05,
+          "value_count": 871200,
+          "max_abs_error": 1.0125233984581428e-13,
+          "all_pass": true
+        },
+        {
+          "cpu_gates": {
+            "g4": true,
+            "g5": true,
+            "scaffold": true
+          },
+          "gpu_gates": {
+            "g4": true,
+            "g5": true,
+            "scaffold": true
+          },
+          "cpu_s": 0.9606677489999988,
+          "gpu_s": 0.07431926900000008,
+          "parity": 6.18081974490454e-05,
+          "value_count": 871200,
+          "max_abs_error": 1.0125233984581428e-13,
+          "all_pass": true
+        }
+      ],
+      "full_repeat_exact": true,
+      "all_pass": true
+    }
+  ],
+  "all_pass": true,
+  "source_sha256": {
+    "src/physics_engine/quantum/quantum_revival.py": "58247bfbd8432c93a60e271f2302272b6124b82f70a69aeaa3e0119ede27d339",
+    "src/physics_engine/quantum/quantum_revival_gpu.py": "153233f2d3641a39f97786457eb3c9d47fa6f52af9d6e847bfde95d972f3424d",
+    "src/physics_engine/quantum/bloch_oscillation.py": "dc0087705c6f2f1773b7a10931b7598a2435bb54a0f2e52abf1bac57ed8ea8dd",
+    "src/physics_engine/quantum/bloch_oscillation_gpu.py": "d526cab079662e9bb5701a202f5f0121ca7ed9bb20d9d16abcdf62324e750f8d",
+    "scripts/verify_wavepacket_gpu.py": "47876ecc82171ed12ce84d279ddf74ec6d4238e1424b23fdd4e1354b5137f0c8"
+  }
+}

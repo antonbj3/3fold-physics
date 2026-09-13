@@ -1,0 +1,137 @@
+{
+  "ambiguity_hashes": {
+    "first": "d43b5073dc233f7165f62f058141ae5fe34c146e2f4f0e262786dea226af0ded",
+    "second": "1ff4dd7d4522f279957080bb8fa9bf12d9cbdfb312a9690e9ace12510b604abf"
+  },
+  "gates": {
+    "all_directional_refused": true,
+    "five_pinned_files": true,
+    "intensity_phase_ambiguity": true,
+    "known_dataset_relabel_refused": true,
+    "unchanged_positive": true
+  },
+  "invalid_kk_calls": 0,
+  "positive_hashes": {
+    "frequency": "3403e7a41236e9e8cd92a5e03d1e61e65591e2ebbd0c8573becc1d6180e73cbf",
+    "response": "d502077de90c58fa1a5157bcc8bf8ec885bd2fb409cb76defd0ff2d61decc507"
+  },
+  "refusals": [
+    {
+      "array_sha256": "46fcd549938c083bf33457f9c3765a363a80222719f027dc175bfb4bd9412c98",
+      "columns": [
+        "Freq",
+        "Transmission_0 deg (a.u.)",
+        "Transmission_180 deg(a.u.)",
+        "Transmission_90 deg(a.u.)",
+        "Transmission_270 deg(a.u.)"
+      ],
+      "file": "FIG4_Transmission_a_61e-2um.csv",
+      "file_sha256": "2de6d82ddbd2841fb05795c4365a19615d41d24eccecef31eaeac40855214d0c",
+      "raw_frequency_range": [
+        200.0,
+        800.0
+      ],
+      "reason": "Known directional-intensity dataset is not a complex-response measurement",
+      "shape": [
+        751,
+        5
+      ]
+    },
+    {
+      "array_sha256": "19fe4a8fa589d1c441ab758431b441768aa30f32303bae2d68f8e474732aaefa",
+      "columns": [
+        "Freq",
+        "Transmission_0 deg (a.u.)",
+        "Transmission_180 deg(a.u.)",
+        "Transmission_90 deg(a.u.)",
+        "Transmission_270 deg(a.u.)"
+      ],
+      "file": "FIG4_Transmission_b_136e-2um.csv",
+      "file_sha256": "1785f6ee333f3799363b75f575cd713b629131f7f9e2a2f5e5f7142761f455a0",
+      "raw_frequency_range": [
+        200.0,
+        800.0
+      ],
+      "reason": "Known directional-intensity dataset is not a complex-response measurement",
+      "shape": [
+        751,
+        5
+      ]
+    },
+    {
+      "array_sha256": "b6fc704f7cb49ea8cf156ad70c3fe5b21a229d3cf7fa749c923ecb62afbf2bb0",
+      "columns": [
+        "Freq",
+        "Transmission_0 deg (a.u.)",
+        "Transmission_180 deg(a.u.)",
+        "Transmission_90 deg(a.u.)",
+        "Transmission_270 deg(a.u.)"
+      ],
+      "file": "FIG4_Transmission_c_92e-1um.csv",
+      "file_sha256": "3eb9275ee727bac0c803f365faf0cdf4e7ee0da2ebff915f8b187aceb0ff61bb",
+      "raw_frequency_range": [
+        200.0,
+        800.0
+      ],
+      "reason": "Known directional-intensity dataset is not a complex-response measurement",
+      "shape": [
+        751,
+        5
+      ]
+    },
+    {
+      "array_sha256": "1f29f6333b6791c23c3f4836db5774bdd9133cf927d4a465b4ae5e7c87509950",
+      "columns": [
+        "Freq",
+        "Transmission_0 deg (a.u.)",
+        "Transmission_180 deg(a.u.)",
+        "Transmission_90 deg(a.u.)",
+        "Transmission_270 deg(a.u.)"
+      ],
+      "file": "FIG4_Transmission_d_68um.csv",
+      "file_sha256": "ae848ffde0f024dc204e70f658585f2c4b90929a87514c067c2e465653add2a7",
+      "raw_frequency_range": [
+        200.0,
+        800.0
+      ],
+      "reason": "Known directional-intensity dataset is not a complex-response measurement",
+      "shape": [
+        751,
+        5
+      ]
+    },
+    {
+      "array_sha256": "35a62ab2223fc5520dc02d84decbb668fbde4917c9c1056f2933179a88e4a57b",
+      "columns": [
+        "Freq",
+        "Transmission_0 deg (a.u.)",
+        "Transmission_180 deg(a.u.)",
+        "Transmission_90 deg(a.u.)",
+        "Transmission_270 deg(a.u.)"
+      ],
+      "file": "FIG4_Transmission_e_140um.csv",
+      "file_sha256": "43136a6caca0683f0ad21d745ae5cfe2a05bd05743dd7760e30aba478c4b6f7d",
+      "raw_frequency_range": [
+        200.0,
+        800.0
+      ],
+      "reason": "Known directional-intensity dataset is not a complex-response measurement",
+      "shape": [
+        751,
+        5
+      ]
+    }
+  ],
+  "schema": 1,
+  "scope": "Input-refusal and synthetic-control certificate; no real-data KK causality conclusion. Legacy failed numerical report is retained but its measured-complex-response interpretation is invalid.",
+  "source_hashes": {
+    "docs/KK_DATA_CONTRACT.json": "2130985765f29deef67cdf70021c90d9d7de09b60ef8747864a5ad6ff839049e",
+    "src/physics_engine/wave_optics/kk_input_contract_v1.py": "09d777470eaccc88ff0ab17e3977fbe244bde78b1694aa3bec2253f805f0dbac",
+    "src/physics_engine/wave_optics/l_kk_susceptibility_cert.py": "25d675efa041e0f4a5c2243400742a22dd5a8fe39167ab806c3275435db7ed65"
+  },
+  "status": "VERIFIED-FRESH",
+  "synthetic_positive": {
+    "causal_pass": true,
+    "kk_residual": 0.0355
+  }
+}

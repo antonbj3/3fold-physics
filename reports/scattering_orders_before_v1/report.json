@@ -1,0 +1,203 @@
+{
+  "device": "NVIDIA H100 80GB HBM3",
+  "torch": "2.13.0+cu129",
+  "atol": 1e-09,
+  "rtol": 1e-08,
+  "runs": [
+    {
+      "forward_cpu_s": 0.4865691650000006,
+      "forward_gpu_s": 0.4322337960000002,
+      "forward_cpu_errors": [
+        1.580769635586991e-16,
+        1.4684501976244035e-14,
+        5.419689434488792e-12,
+        2.4835571870155034e-11,
+        2.783837849600067e-14
+      ],
+      "forward_gpu_errors": [
+        0.0,
+        5.95130232871638e-13,
+        5.101386113494013e-12,
+        2.3483985834120618e-11,
+        8.352038512498951e-15
+      ],
+      "forward_parity": 0.09861096110893011,
+      "adjoint": [
+        {
+          "kappa": 0.0,
+          "cpu_s": 0.17433145300000064,
+          "gpu_s": 0.0010482700000000733,
+          "parity": 2.8080346611447666e-07,
+          "envelope_parity": 3.794314872519767e-10,
+          "ray_parity": 3.828086227531571e-10,
+          "zero_parity": 0.0,
+          "sign_changes_cpu": 0,
+          "sign_changes_gpu": 0,
+          "residual_inf": 7.771561172376096e-15
+        },
+        {
+          "kappa": 10.0,
+          "cpu_s": 0.16733778100000052,
+          "gpu_s": 0.0010822949999997888,
+          "parity": 0.00023653762974006252,
+          "envelope_parity": 5.861023743626697e-07,
+          "ray_parity": 6.098255462513783e-07,
+          "zero_parity": 8.725885878004198e-06,
+          "sign_changes_cpu": 1,
+          "sign_changes_gpu": 1,
+          "residual_inf": 5.240252676230739e-14
+        },
+        {
+          "kappa": 20.0,
+          "cpu_s": 0.17070362699999997,
+          "gpu_s": 0.0013587830000005852,
+          "parity": 3.545828265662036e-06,
+          "envelope_parity": 1.761894541292863e-10,
+          "ray_parity": 2.2488380077215358e-10,
+          "zero_parity": 1.197873463246875e-06,
+          "sign_changes_cpu": 3,
+          "sign_changes_gpu": 3,
+          "residual_inf": 9.048317650695026e-15
+        },
+        {
+          "kappa": 40.0,
+          "cpu_s": 0.17357774899999967,
+          "gpu_s": 0.001144230999999607,
+          "parity": 5.1109774698044025e-05,
+          "envelope_parity": 1.032901857106563e-08,
+          "ray_parity": 1.942572614957676e-08,
+          "zero_parity": 1.9194703319224647e-06,
+          "sign_changes_cpu": 4,
+          "sign_changes_gpu": 4,
+          "residual_inf": 1.021405182655144e-14
+        },
+        {
+          "kappa": 70.0,
+          "cpu_s": 0.17034749000000105,
+          "gpu_s": 0.0011085909999994925,
+          "parity": 2.0680427375187982e-05,
+          "envelope_parity": 2.5304926231149912e-11,
+          "ray_parity": 6.077381462115214e-11,
+          "zero_parity": 1.8008146025351464e-07,
+          "sign_changes_cpu": 8,
+          "sign_changes_gpu": 8,
+          "residual_inf": 7.951972413877684e-15
+        }
+      ],
+      "gates": {
+        "G1_single_cylinder_matches_closed_form": true,
+        "G2_energy_conservation_optical_theorem": true,
+        "G3_reciprocity": true,
+        "G4_convergence_in_truncation": true,
+        "G5_energy_conserved_across_frequency_sweep": true,
+        "forward_full_array_parity": true,
+        "adjoint_full_array_parity": true,
+        "adjoint_sign_changes": true,
+        "adjoint_original_operator_residual": true
+      }
+    },
+    {
+      "forward_cpu_s": 0.48458082200000163,
+      "forward_gpu_s": 0.40752621400000066,
+      "forward_cpu_errors": [
+        1.580769635586991e-16,
+        1.4684501976244035e-14,
+        5.419689434488792e-12,
+        2.4835571870155034e-11,
+        2.783837849600067e-14
+      ],
+      "forward_gpu_errors": [
+        0.0,
+        5.95130232871638e-13,
+        5.101386113494013e-12,
+        2.3483985834120618e-11,
+        8.352038512498951e-15
+      ],
+      "forward_parity": 0.09861096110893011,
+      "adjoint": [
+        {
+          "kappa": 0.0,
+          "cpu_s": 0.17324588399999996,
+          "gpu_s": 0.0009344950000027552,
+          "parity": 2.8080346611447666e-07,
+          "envelope_parity": 3.794314872519767e-10,
+          "ray_parity": 3.828086227531571e-10,
+          "zero_parity": 0.0,
+          "sign_changes_cpu": 0,
+          "sign_changes_gpu": 0,
+          "residual_inf": 7.771561172376096e-15
+        },
+        {
+          "kappa": 10.0,
+          "cpu_s": 0.1682967679999976,
+          "gpu_s": 0.0011425710000025902,
+          "parity": 0.00023653762974006252,
+          "envelope_parity": 5.861023743626697e-07,
+          "ray_parity": 6.098255462513783e-07,
+          "zero_parity": 8.725885878004198e-06,
+          "sign_changes_cpu": 1,
+          "sign_changes_gpu": 1,
+          "residual_inf": 5.240252676230739e-14
+        },
+        {
+          "kappa": 20.0,
+          "cpu_s": 0.16459833700000104,
+          "gpu_s": 0.0011383139999985303,
+          "parity": 3.545828265662036e-06,
+          "envelope_parity": 1.761894541292863e-10,
+          "ray_parity": 2.2488380077215358e-10,
+          "zero_parity": 1.197873463246875e-06,
+          "sign_changes_cpu": 3,
+          "sign_changes_gpu": 3,
+          "residual_inf": 9.048317650695026e-15
+        },
+        {
+          "kappa": 40.0,
+          "cpu_s": 0.1655566199999967,
+          "gpu_s": 0.0013231999999980815,
+          "parity": 5.1109774698044025e-05,
+          "envelope_parity": 1.032901857106563e-08,
+          "ray_parity": 1.942572614957676e-08,
+          "zero_parity": 1.9194703319224647e-06,
+          "sign_changes_cpu": 4,
+          "sign_changes_gpu": 4,
+          "residual_inf": 1.021405182655144e-14
+        },
+        {
+          "kappa": 70.0,
+          "cpu_s": 0.17687619199999816,
+          "gpu_s": 0.0013259070000017914,
+          "parity": 2.0680427375187982e-05,
+          "envelope_parity": 2.5304926231149912e-11,
+          "ray_parity": 6.077381462115214e-11,
+          "zero_parity": 1.8008146025351464e-07,
+          "sign_changes_cpu": 8,
+          "sign_changes_gpu": 8,
+          "residual_inf": 7.951972413877684e-15
+        }
+      ],
+      "gates": {
+        "G1_single_cylinder_matches_closed_form": true,
+        "G2_energy_conservation_optical_theorem": true,
+        "G3_reciprocity": true,
+        "G4_convergence_in_truncation": true,
+        "G5_energy_conserved_across_frequency_sweep": true,
+        "forward_full_array_parity": true,
+        "adjoint_full_array_parity": true,
+        "adjoint_sign_changes": true,
+        "adjoint_original_operator_residual": true
+      }
+    }
+  ],
+  "exact_full_array_repeat": true,
+  "source_sha256": {
+    "src/physics_engine/scattering/spine_scatter2d_multiple_helmholtz_forward_C.py": "b7ee5b1825a813e508265c1f2ff819f83e59f17e3c4e7545eeb3fac96de3690a",
+    "src/physics_engine/scattering/pa_adjoint_helmholtz_envelope.py": "c13512ac7ee3ba77d0a91ad55f987252ddd06a8b56588a751dfd6fb77b8530d6",
+    "src/physics_engine/scattering/spine_scatter2d_multiple_helmholtz_forward_C_gpu.py": "1e599467ebf9b19e7d6b0031ab488d3200a704c20783bb736c4179d5ad4d1539",
+    "src/physics_engine/scattering/pa_adjoint_helmholtz_envelope_gpu.py": "c0f2aefae6e9dbec5efaa73f870948f4a5c3562d086aadb6b75b55659165f1ca",
+    "scripts/verify_scattering_gpu.py": "1b9f147842f6493faa241d1842083a787421b74caa4a07e4f65c0c26047c4c0f"
+  },
+  "array_count": 394,
+  "array_bytes": 4442256,
+  "all_pass": true
+}

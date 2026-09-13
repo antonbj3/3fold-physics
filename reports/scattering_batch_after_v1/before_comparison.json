@@ -1,0 +1,20 @@
+[
+  {
+    "repeat": 0,
+    "arrays": 394,
+    "bytes": 4442256,
+    "exact": false,
+    "different_arrays": 152,
+    "normalized_parity": 0.0003263153114031899,
+    "max_abs_error": 1.5099033134902129e-12
+  },
+  {
+    "repeat": 1,
+    "arrays": 394,
+    "bytes": 4442256,
+    "exact": false,
+    "different_arrays": 152,
+    "normalized_parity": 0.0003263153114031899,
+    "max_abs_error": 1.5099033134902129e-12
+  }
+]

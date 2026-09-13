@@ -1,0 +1,14 @@
+numpy
+scipy
+matplotlib
+pandas
+astropy
+openpyxl
+pillow
+pyyaml
+pytest
+
+# warp-lang: the differentiable wave/lattice modules and the CUDA skip check in tests/ (runs on its CPU backend)
+warp-lang
+# torch: only the modules marked CUDA-ONLY in docs/RUNNING.md
+torch

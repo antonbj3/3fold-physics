@@ -1,0 +1,1610 @@
+{
+  "device": "NVIDIA H100 80GB HBM3",
+  "rows": [
+    {
+      "backend": "cpu",
+      "repeat": 0,
+      "wall_seconds": 0.16070163599999887,
+      "result": [
+        0.6039485677083334,
+        13.863353482601116,
+        -1.38826171875
+      ],
+      "rng_state": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 91559577444816774585404567340359134887,
+          "inc": 78856291631749604729656725519709880197
+        },
+        "has_uint32": 0,
+        "uinteger": 3489425190
+      },
+      "functions": [
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/ising_2d.py",
+          "line": 33,
+          "function": "simulate",
+          "calls": 1,
+          "self_seconds": 0.004628969,
+          "cumulative_seconds": 0.160058046
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/ising_2d.py",
+          "line": 24,
+          "function": "sweep",
+          "calls": 2000,
+          "self_seconds": 0.059023156,
+          "cumulative_seconds": 0.134361692
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 1226,
+          "function": "roll",
+          "calls": 9200,
+          "self_seconds": 0.062249042000000004,
+          "cumulative_seconds": 0.085963047
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 1427,
+          "function": "normalize_axis_tuple",
+          "calls": 9200,
+          "self_seconds": 0.010987231,
+          "cumulative_seconds": 0.017454038
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'mean' of 'numpy.ndarray' objects>",
+          "calls": 1201,
+          "self_seconds": 0.000603876,
+          "cumulative_seconds": 0.009042586
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/_methods.py",
+          "line": 115,
+          "function": "_mean",
+          "calls": 1204,
+          "self_seconds": 0.002919067,
+          "cumulative_seconds": 0.008473721
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 1476,
+          "function": "<genexpr>",
+          "calls": 18400,
+          "self_seconds": 0.002775062,
+          "cumulative_seconds": 0.003975761
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method fromkeys>",
+          "calls": 9200,
+          "self_seconds": 0.0028179330000000003,
+          "cumulative_seconds": 0.0028179330000000003
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reduce' of 'numpy.ufunc' objects>",
+          "calls": 1207,
+          "self_seconds": 0.0027039160000000002,
+          "cumulative_seconds": 0.0027039160000000002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/_methods.py",
+          "line": 73,
+          "function": "_count_reduce_items",
+          "calls": 1204,
+          "self_seconds": 0.001696463,
+          "cumulative_seconds": 0.002038238
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.isinstance>",
+          "calls": 10404,
+          "self_seconds": 0.0018209200000000002,
+          "cumulative_seconds": 0.0018209200000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'items' of 'dict' objects>",
+          "calls": 9202,
+          "self_seconds": 0.0015971490000000002,
+          "cumulative_seconds": 0.0015971490000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.lib.array_utils.normalize_axis_index>",
+          "calls": 11604,
+          "self_seconds": 0.001542474,
+          "cumulative_seconds": 0.001542474
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.asanyarray>",
+          "calls": 10404,
+          "self_seconds": 0.001151682,
+          "cumulative_seconds": 0.001151682
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method _operator.index>",
+          "calls": 9200,
+          "self_seconds": 0.000909913,
+          "cumulative_seconds": 0.000909913
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 1222,
+          "function": "_roll_dispatcher",
+          "calls": 9200,
+          "self_seconds": 0.000846802,
+          "cumulative_seconds": 0.000846802
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/multiarray.py",
+          "line": 115,
+          "function": "empty_like",
+          "calls": 9200,
+          "self_seconds": 0.00084573,
+          "cumulative_seconds": 0.00084573
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 11915,
+          "function": "synchronize_device",
+          "calls": 1,
+          "self_seconds": 0.00047899700000000005,
+          "cumulative_seconds": 0.000529629
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'append' of 'list' objects>",
+          "calls": 1200,
+          "self_seconds": 0.00025890200000000004,
+          "cumulative_seconds": 0.00025890200000000004
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.hasattr>",
+          "calls": 1204,
+          "self_seconds": 0.00024186500000000002,
+          "cumulative_seconds": 0.00024186500000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.issubclass>",
+          "calls": 1208,
+          "self_seconds": 0.000215469,
+          "cumulative_seconds": 0.000215469
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.abs>",
+          "calls": 600,
+          "self_seconds": 0.00010753800000000001,
+          "cumulative_seconds": 0.00010753800000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 3325,
+          "function": "prod",
+          "calls": 2,
+          "self_seconds": 8.885e-06,
+          "cumulative_seconds": 4.9988e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 3737,
+          "function": "mean",
+          "calls": 3,
+          "self_seconds": 1.3142e-05,
+          "cumulative_seconds": 4.8153000000000005e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 66,
+          "function": "_wrapreduction",
+          "calls": 2,
+          "self_seconds": 2.1481e-05,
+          "cumulative_seconds": 4.1103e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 1726,
+          "function": "indices",
+          "calls": 1,
+          "self_seconds": 2.6980000000000003e-05,
+          "cumulative_seconds": 3.9657e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'disable' of '_lsprof.Profiler' objects>",
+          "calls": 1,
+          "self_seconds": 3.4342000000000004e-05,
+          "cumulative_seconds": 3.4342000000000004e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'sum' of 'numpy.ndarray' objects>",
+          "calls": 1,
+          "self_seconds": 8.088000000000001e-06,
+          "cumulative_seconds": 3.1156000000000005e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 5641,
+          "function": "is_capturing",
+          "calls": 1,
+          "self_seconds": 4.634e-06,
+          "cumulative_seconds": 2.5118000000000002e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 8468,
+          "function": "get_device",
+          "calls": 1,
+          "self_seconds": 7.711000000000001e-06,
+          "cumulative_seconds": 2.4844e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/_methods.py",
+          "line": 47,
+          "function": "_sum",
+          "calls": 1,
+          "self_seconds": 1.054e-06,
+          "cumulative_seconds": 2.3068e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.array>",
+          "calls": 1,
+          "self_seconds": 1.7156e-05,
+          "cumulative_seconds": 1.7156e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 5407,
+          "function": "is_capturing",
+          "calls": 1,
+          "self_seconds": 1.6720000000000003e-05,
+          "cumulative_seconds": 1.6720000000000003e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 8487,
+          "function": "get_current_cuda_device",
+          "calls": 1,
+          "self_seconds": 1.5032000000000001e-05,
+          "cumulative_seconds": 1.5908e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.arange>",
+          "calls": 2,
+          "self_seconds": 6.015e-06,
+          "cumulative_seconds": 6.015e-06
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.getattr>",
+          "calls": 2,
+          "self_seconds": 4.488e-06,
+          "cumulative_seconds": 4.488e-06
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reshape' of 'numpy.ndarray' objects>",
+          "calls": 2,
+          "self_seconds": 4.075e-06,
+          "cumulative_seconds": 4.075e-06
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 5685,
+          "function": "stream",
+          "calls": 2,
+          "self_seconds": 2.921e-06,
+          "cumulative_seconds": 3.6000000000000003e-06
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.empty>",
+          "calls": 1,
+          "self_seconds": 2.149e-06,
+          "cumulative_seconds": 2.149e-06
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'get' of 'dict' objects>",
+          "calls": 2,
+          "self_seconds": 2.1010000000000003e-06,
+          "cumulative_seconds": 2.1010000000000003e-06
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 5662,
+          "function": "context",
+          "calls": 3,
+          "self_seconds": 8.47e-07,
+          "cumulative_seconds": 8.47e-07
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 5636,
+          "function": "is_cuda",
+          "calls": 2,
+          "self_seconds": 6.660000000000001e-07,
+          "cumulative_seconds": 6.660000000000001e-07
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 3320,
+          "function": "_prod_dispatcher",
+          "calls": 2,
+          "self_seconds": 4.800000000000001e-07,
+          "cumulative_seconds": 4.800000000000001e-07
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 3732,
+          "function": "_mean_dispatcher",
+          "calls": 3,
+          "self_seconds": 4.56e-07,
+          "cumulative_seconds": 4.56e-07
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.len>",
+          "calls": 1,
+          "self_seconds": 4.3800000000000003e-07,
+          "cumulative_seconds": 4.3800000000000003e-07
+        }
+      ]
+    },
+    {
+      "backend": "cpu",
+      "repeat": 1,
+      "wall_seconds": 0.1630195669999992,
+      "result": [
+        0.6039485677083334,
+        13.863353482601116,
+        -1.38826171875
+      ],
+      "rng_state": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 91559577444816774585404567340359134887,
+          "inc": 78856291631749604729656725519709880197
+        },
+        "has_uint32": 0,
+        "uinteger": 3489425190
+      },
+      "functions": [
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/ising_2d.py",
+          "line": 33,
+          "function": "simulate",
+          "calls": 1,
+          "self_seconds": 0.004587122,
+          "cumulative_seconds": 0.16289516
+        },
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/ising_2d.py",
+          "line": 24,
+          "function": "sweep",
+          "calls": 2000,
+          "self_seconds": 0.060089462,
+          "cumulative_seconds": 0.136984099
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 1226,
+          "function": "roll",
+          "calls": 9200,
+          "self_seconds": 0.06328136100000001,
+          "cumulative_seconds": 0.08762435
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 1427,
+          "function": "normalize_axis_tuple",
+          "calls": 9200,
+          "self_seconds": 0.011405517,
+          "cumulative_seconds": 0.018082929
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'mean' of 'numpy.ndarray' objects>",
+          "calls": 1201,
+          "self_seconds": 0.0006155150000000001,
+          "cumulative_seconds": 0.009189574
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/_methods.py",
+          "line": 115,
+          "function": "_mean",
+          "calls": 1204,
+          "self_seconds": 0.0029594540000000003,
+          "cumulative_seconds": 0.008614371000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 1476,
+          "function": "<genexpr>",
+          "calls": 18400,
+          "self_seconds": 0.00289491,
+          "cumulative_seconds": 0.0041296020000000004
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reduce' of 'numpy.ufunc' objects>",
+          "calls": 1207,
+          "self_seconds": 0.002789755,
+          "cumulative_seconds": 0.002789755
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method fromkeys>",
+          "calls": 9200,
+          "self_seconds": 0.0027305940000000003,
+          "cumulative_seconds": 0.0027305940000000003
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/_methods.py",
+          "line": 73,
+          "function": "_count_reduce_items",
+          "calls": 1204,
+          "self_seconds": 0.0017294690000000002,
+          "cumulative_seconds": 0.002058042
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.isinstance>",
+          "calls": 10404,
+          "self_seconds": 0.001826787,
+          "cumulative_seconds": 0.001826787
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'items' of 'dict' objects>",
+          "calls": 9202,
+          "self_seconds": 0.0016368200000000002,
+          "cumulative_seconds": 0.0016368200000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.lib.array_utils.normalize_axis_index>",
+          "calls": 11604,
+          "self_seconds": 0.001563265,
+          "cumulative_seconds": 0.001563265
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.asanyarray>",
+          "calls": 10404,
+          "self_seconds": 0.001166822,
+          "cumulative_seconds": 0.001166822
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method _operator.index>",
+          "calls": 9200,
+          "self_seconds": 0.000958115,
+          "cumulative_seconds": 0.000958115
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/multiarray.py",
+          "line": 115,
+          "function": "empty_like",
+          "calls": 9200,
+          "self_seconds": 0.00088449,
+          "cumulative_seconds": 0.00088449
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 1222,
+          "function": "_roll_dispatcher",
+          "calls": 9200,
+          "self_seconds": 0.000853102,
+          "cumulative_seconds": 0.000853102
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'append' of 'list' objects>",
+          "calls": 1200,
+          "self_seconds": 0.000266775,
+          "cumulative_seconds": 0.000266775
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.hasattr>",
+          "calls": 1204,
+          "self_seconds": 0.00024339400000000002,
+          "cumulative_seconds": 0.00024339400000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.issubclass>",
+          "calls": 1208,
+          "self_seconds": 0.000204973,
+          "cumulative_seconds": 0.000204973
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.abs>",
+          "calls": 600,
+          "self_seconds": 0.00011040000000000001,
+          "cumulative_seconds": 0.00011040000000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 11915,
+          "function": "synchronize_device",
+          "calls": 1,
+          "self_seconds": 2.6457e-05,
+          "cumulative_seconds": 6.1992e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 3737,
+          "function": "mean",
+          "calls": 3,
+          "self_seconds": 1.4494e-05,
+          "cumulative_seconds": 5.4806000000000003e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 3325,
+          "function": "prod",
+          "calls": 2,
+          "self_seconds": 5.699e-06,
+          "cumulative_seconds": 4.1643e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 66,
+          "function": "_wrapreduction",
+          "calls": 2,
+          "self_seconds": 1.528e-05,
+          "cumulative_seconds": 3.5944e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/numeric.py",
+          "line": 1726,
+          "function": "indices",
+          "calls": 1,
+          "self_seconds": 2.2512e-05,
+          "cumulative_seconds": 3.1876000000000004e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'sum' of 'numpy.ndarray' objects>",
+          "calls": 1,
+          "self_seconds": 1.8170000000000001e-06,
+          "cumulative_seconds": 2.404e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'disable' of '_lsprof.Profiler' objects>",
+          "calls": 1,
+          "self_seconds": 2.3641000000000003e-05,
+          "cumulative_seconds": 2.3641000000000003e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/_methods.py",
+          "line": 47,
+          "function": "_sum",
+          "calls": 1,
+          "self_seconds": 1.168e-06,
+          "cumulative_seconds": 2.2223e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.array>",
+          "calls": 1,
+          "self_seconds": 2.1026e-05,
+          "cumulative_seconds": 2.1026e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 5641,
+          "function": "is_capturing",
+          "calls": 1,
+          "self_seconds": 2.694e-06,
+          "cumulative_seconds": 1.813e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 8468,
+          "function": "get_device",
+          "calls": 1,
+          "self_seconds": 4.281e-06,
+          "cumulative_seconds": 1.628e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 5407,
+          "function": "is_capturing",
+          "calls": 1,
+          "self_seconds": 1.3064e-05,
+          "cumulative_seconds": 1.3064e-05
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 8487,
+          "function": "get_current_cuda_device",
+          "calls": 1,
+          "self_seconds": 1.0122e-05,
+          "cumulative_seconds": 1.0938000000000001e-05
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.arange>",
+          "calls": 2,
+          "self_seconds": 4.799e-06,
+          "cumulative_seconds": 4.799e-06
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.getattr>",
+          "calls": 2,
+          "self_seconds": 4.714e-06,
+          "cumulative_seconds": 4.714e-06
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reshape' of 'numpy.ndarray' objects>",
+          "calls": 2,
+          "self_seconds": 2.4000000000000003e-06,
+          "cumulative_seconds": 2.4000000000000003e-06
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 5685,
+          "function": "stream",
+          "calls": 2,
+          "self_seconds": 1.723e-06,
+          "cumulative_seconds": 2.256e-06
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method numpy.empty>",
+          "calls": 1,
+          "self_seconds": 1.919e-06,
+          "cumulative_seconds": 1.919e-06
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'get' of 'dict' objects>",
+          "calls": 2,
+          "self_seconds": 1.8770000000000002e-06,
+          "cumulative_seconds": 1.8770000000000002e-06
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 5636,
+          "function": "is_cuda",
+          "calls": 2,
+          "self_seconds": 1.1040000000000001e-06,
+          "cumulative_seconds": 1.1040000000000001e-06
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 5662,
+          "function": "context",
+          "calls": 3,
+          "self_seconds": 6.7e-07,
+          "cumulative_seconds": 6.7e-07
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 3732,
+          "function": "_mean_dispatcher",
+          "calls": 3,
+          "self_seconds": 6.480000000000001e-07,
+          "cumulative_seconds": 6.480000000000001e-07
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+          "line": 3320,
+          "function": "_prod_dispatcher",
+          "calls": 2,
+          "self_seconds": 3.3600000000000004e-07,
+          "cumulative_seconds": 3.3600000000000004e-07
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.len>",
+          "calls": 1,
+          "self_seconds": 2.46e-07,
+          "cumulative_seconds": 2.46e-07
+        }
+      ]
+    },
+    {
+      "backend": "gpu",
+      "repeat": 0,
+      "wall_seconds": 0.1991427060000035,
+      "result": [
+        0.6039485677083334,
+        13.863353482601116,
+        -1.38826171875
+      ],
+      "rng_state": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 91559577444816774585404567340359134887,
+          "inc": 78856291631749604729656725519709880197
+        },
+        "has_uint32": 0,
+        "uinteger": 3489425190
+      },
+      "functions": [
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/ising_2d_gpu.py",
+          "line": 33,
+          "function": "simulate",
+          "calls": 1,
+          "self_seconds": 0.009149311,
+          "cumulative_seconds": 0.198582854
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 11188,
+          "function": "launch",
+          "calls": 2600,
+          "self_seconds": 0.047840457,
+          "cumulative_seconds": 0.183015493
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 11323,
+          "function": "pack_args",
+          "calls": 5200,
+          "self_seconds": 0.011120650000000001,
+          "cumulative_seconds": 0.08005438100000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 10272,
+          "function": "pack_arg",
+          "calls": 15600,
+          "self_seconds": 0.034057259,
+          "cumulative_seconds": 0.066356815
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/config.py",
+          "line": 68,
+          "function": "__getattribute__",
+          "calls": 28604,
+          "self_seconds": 0.013275249000000001,
+          "cumulative_seconds": 0.013275249000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 11132,
+          "function": "_build_launch_bounds_from_tuple",
+          "calls": 2600,
+          "self_seconds": 0.002582935,
+          "cumulative_seconds": 0.011296845000000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.isinstance>",
+          "calls": 73145,
+          "self_seconds": 0.010979017,
+          "cumulative_seconds": 0.010979017
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 11102,
+          "function": "_normalize_launch_dim",
+          "calls": 2600,
+          "self_seconds": 0.0019649750000000003,
+          "cumulative_seconds": 0.009856793
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 4648,
+          "function": "load",
+          "calls": 2600,
+          "self_seconds": 0.003211476,
+          "cumulative_seconds": 0.008803747
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 8468,
+          "function": "get_device",
+          "calls": 20979,
+          "self_seconds": 0.005654896,
+          "cumulative_seconds": 0.008692925
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/types.py",
+          "line": 2351,
+          "function": "launch_bounds_t",
+          "calls": 2600,
+          "self_seconds": 0.0033628770000000002,
+          "cumulative_seconds": 0.007721862
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 11067,
+          "function": "_canonicalize_dim",
+          "calls": 2600,
+          "self_seconds": 0.0023123980000000002,
+          "cumulative_seconds": 0.0068435250000000005
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/types.py",
+          "line": 2876,
+          "function": "is_array",
+          "calls": 15672,
+          "self_seconds": 0.004141156,
+          "cumulative_seconds": 0.006824344
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/types.py",
+          "line": 3315,
+          "function": "__init__",
+          "calls": 74,
+          "self_seconds": 0.000352584,
+          "cumulative_seconds": 0.0050765110000000006
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/types.py",
+          "line": 3442,
+          "function": "_init_from_data",
+          "calls": 34,
+          "self_seconds": 0.000627071,
+          "cumulative_seconds": 0.0046866830000000005
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/types.py",
+          "line": 2888,
+          "function": "concrete_array_type",
+          "calls": 10400,
+          "self_seconds": 0.0031190190000000002,
+          "cumulative_seconds": 0.004443054
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/codegen.py",
+          "line": 1729,
+          "function": "locked_call",
+          "calls": 2600,
+          "self_seconds": 0.002056669,
+          "cumulative_seconds": 0.004104775000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.all>",
+          "calls": 2600,
+          "self_seconds": 0.0017824520000000001,
+          "cumulative_seconds": 0.003908615
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/types.py",
+          "line": 2321,
+          "function": "__init__",
+          "calls": 2600,
+          "self_seconds": 0.0025686890000000003,
+          "cumulative_seconds": 0.002884015
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method _ctypes.addressof>",
+          "calls": 18200,
+          "self_seconds": 0.0028604850000000003,
+          "cumulative_seconds": 0.0028604850000000003
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'get' of 'dict' objects>",
+          "calls": 13536,
+          "self_seconds": 0.002723187,
+          "cumulative_seconds": 0.002723187
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'append' of 'list' objects>",
+          "calls": 15600,
+          "self_seconds": 0.0025769160000000003,
+          "cumulative_seconds": 0.0025769160000000003
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 8487,
+          "function": "get_current_cuda_device",
+          "calls": 2669,
+          "self_seconds": 0.0019100290000000002,
+          "cumulative_seconds": 0.00247802
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.len>",
+          "calls": 18313,
+          "self_seconds": 0.002454013,
+          "cumulative_seconds": 0.002454013
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 8586,
+          "function": "verify_cuda_device",
+          "calls": 2600,
+          "self_seconds": 0.001083737,
+          "cumulative_seconds": 0.00244669
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 15516,
+          "function": "init",
+          "calls": 2604,
+          "self_seconds": 0.0009113190000000001,
+          "cumulative_seconds": 0.0022571870000000003
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.issubclass>",
+          "calls": 10412,
+          "self_seconds": 0.002173496,
+          "cumulative_seconds": 0.002173496
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 11085,
+          "function": "<genexpr>",
+          "calls": 7800,
+          "self_seconds": 0.0016448110000000001,
+          "cumulative_seconds": 0.002126163
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 5787,
+          "function": "__eq__",
+          "calls": 2642,
+          "self_seconds": 0.001394381,
+          "cumulative_seconds": 0.0020878760000000002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 13904,
+          "function": "copy",
+          "calls": 36,
+          "self_seconds": 0.0016827200000000002,
+          "cumulative_seconds": 0.002000247
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'extend' of 'list' objects>",
+          "calls": 10400,
+          "self_seconds": 0.00194151,
+          "cumulative_seconds": 0.00194151
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 4160,
+          "function": "get_module_hash",
+          "calls": 2600,
+          "self_seconds": 0.001273384,
+          "cumulative_seconds": 0.001638563
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/types.py",
+          "line": 4211,
+          "function": "__ctype__",
+          "calls": 10400,
+          "self_seconds": 0.0015318,
+          "cumulative_seconds": 0.0016355480000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 3602,
+          "function": "get_kernel_hooks",
+          "calls": 2600,
+          "self_seconds": 0.001010258,
+          "cumulative_seconds": 0.0014763180000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/types.py",
+          "line": 3846,
+          "function": "_init_new",
+          "calls": 40,
+          "self_seconds": 0.000391634,
+          "cumulative_seconds": 0.0014722880000000002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 5685,
+          "function": "stream",
+          "calls": 2704,
+          "self_seconds": 0.0009087810000000001,
+          "cumulative_seconds": 0.001283992
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/types.py",
+          "line": 3061,
+          "function": "types_equal",
+          "calls": 10400,
+          "self_seconds": 0.001276706,
+          "cumulative_seconds": 0.001276706
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 5662,
+          "function": "context",
+          "calls": 8209,
+          "self_seconds": 0.00106919,
+          "cumulative_seconds": 0.00106919
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 11097,
+          "function": "_validate_launch_dim",
+          "calls": 2600,
+          "self_seconds": 0.000728711,
+          "cumulative_seconds": 0.001048293
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 11915,
+          "function": "synchronize_device",
+          "calls": 33,
+          "self_seconds": 0.0006668010000000001,
+          "cumulative_seconds": 0.000882733
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 5043,
+          "function": "allocate",
+          "calls": 38,
+          "self_seconds": 0.000775142,
+          "cumulative_seconds": 0.0008175150000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.max>",
+          "calls": 2600,
+          "self_seconds": 0.000665991,
+          "cumulative_seconds": 0.000665991
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 11167,
+          "function": "_resolve_kernel_scalar_tid_extent_limit",
+          "calls": 2600,
+          "self_seconds": 0.000665228,
+          "cumulative_seconds": 0.000665228
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.getattr>",
+          "calls": 2724,
+          "self_seconds": 0.000562995,
+          "cumulative_seconds": 0.000562995
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 5631,
+          "function": "is_cpu",
+          "calls": 2744,
+          "self_seconds": 0.000479349,
+          "cumulative_seconds": 0.000479349
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/types.py",
+          "line": 3946,
+          "function": "__del__",
+          "calls": 74,
+          "self_seconds": 0.000141514,
+          "cumulative_seconds": 0.00043708800000000003
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 12671,
+          "function": "_get_apic_capture_for_device",
+          "calls": 2712,
+          "self_seconds": 0.00042263200000000004,
+          "cumulative_seconds": 0.00042263200000000004
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 1076,
+          "function": "_validate_cluster_launch",
+          "calls": 2600,
+          "self_seconds": 0.000418878,
+          "cumulative_seconds": 0.000418878
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method '__exit__' of '_thread.RLock' objects>",
+          "calls": 2600,
+          "self_seconds": 0.000409543,
+          "cumulative_seconds": 0.000409543
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 3095,
+          "function": "get_hash",
+          "calls": 2600,
+          "self_seconds": 0.00036517900000000004,
+          "cumulative_seconds": 0.00036517900000000004
+        }
+      ]
+    },
+    {
+      "backend": "gpu",
+      "repeat": 1,
+      "wall_seconds": 0.1925391689999998,
+      "result": [
+        0.6039485677083334,
+        13.863353482601116,
+        -1.38826171875
+      ],
+      "rng_state": {
+        "bit_generator": "PCG64",
+        "state": {
+          "state": 91559577444816774585404567340359134887,
+          "inc": 78856291631749604729656725519709880197
+        },
+        "has_uint32": 0,
+        "uinteger": 3489425190
+      },
+      "functions": [
+        {
+          "file": "/work/3fold-physics-e-gpu-check/src/physics_engine/quantum/ising_2d_gpu.py",
+          "line": 33,
+          "function": "simulate",
+          "calls": 1,
+          "self_seconds": 0.008635687000000001,
+          "cumulative_seconds": 0.19097725100000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 11188,
+          "function": "launch",
+          "calls": 2600,
+          "self_seconds": 0.04572855,
+          "cumulative_seconds": 0.17632841600000002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 11323,
+          "function": "pack_args",
+          "calls": 5200,
+          "self_seconds": 0.010735382,
+          "cumulative_seconds": 0.077218296
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 10272,
+          "function": "pack_arg",
+          "calls": 15600,
+          "self_seconds": 0.033164461,
+          "cumulative_seconds": 0.063971401
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/config.py",
+          "line": 68,
+          "function": "__getattribute__",
+          "calls": 28604,
+          "self_seconds": 0.012374334,
+          "cumulative_seconds": 0.012374334
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 11132,
+          "function": "_build_launch_bounds_from_tuple",
+          "calls": 2600,
+          "self_seconds": 0.0025444200000000004,
+          "cumulative_seconds": 0.011010517000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.isinstance>",
+          "calls": 73145,
+          "self_seconds": 0.010760343,
+          "cumulative_seconds": 0.010760343
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 11102,
+          "function": "_normalize_launch_dim",
+          "calls": 2600,
+          "self_seconds": 0.0019241190000000002,
+          "cumulative_seconds": 0.009543866
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 4648,
+          "function": "load",
+          "calls": 2600,
+          "self_seconds": 0.003251898,
+          "cumulative_seconds": 0.008728813
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 8468,
+          "function": "get_device",
+          "calls": 20979,
+          "self_seconds": 0.005507939000000001,
+          "cumulative_seconds": 0.008488624
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/types.py",
+          "line": 2351,
+          "function": "launch_bounds_t",
+          "calls": 2600,
+          "self_seconds": 0.003231607,
+          "cumulative_seconds": 0.007509989000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 11067,
+          "function": "_canonicalize_dim",
+          "calls": 2600,
+          "self_seconds": 0.002155195,
+          "cumulative_seconds": 0.006584479000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/types.py",
+          "line": 2876,
+          "function": "is_array",
+          "calls": 15672,
+          "self_seconds": 0.0039018190000000004,
+          "cumulative_seconds": 0.006535255
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/types.py",
+          "line": 3315,
+          "function": "__init__",
+          "calls": 74,
+          "self_seconds": 0.00032489700000000004,
+          "cumulative_seconds": 0.004738232
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/types.py",
+          "line": 2888,
+          "function": "concrete_array_type",
+          "calls": 10400,
+          "self_seconds": 0.003076849,
+          "cumulative_seconds": 0.004389597
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/types.py",
+          "line": 3442,
+          "function": "_init_from_data",
+          "calls": 34,
+          "self_seconds": 0.000567352,
+          "cumulative_seconds": 0.004375803
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/codegen.py",
+          "line": 1729,
+          "function": "locked_call",
+          "calls": 2600,
+          "self_seconds": 0.002015364,
+          "cumulative_seconds": 0.004033384
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.all>",
+          "calls": 2600,
+          "self_seconds": 0.0017231870000000002,
+          "cumulative_seconds": 0.0038212840000000003
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/types.py",
+          "line": 2321,
+          "function": "__init__",
+          "calls": 2600,
+          "self_seconds": 0.0025332180000000003,
+          "cumulative_seconds": 0.0028392
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'get' of 'dict' objects>",
+          "calls": 13536,
+          "self_seconds": 0.002674655,
+          "cumulative_seconds": 0.002674655
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method _ctypes.addressof>",
+          "calls": 18200,
+          "self_seconds": 0.002562108,
+          "cumulative_seconds": 0.002562108
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'append' of 'list' objects>",
+          "calls": 15600,
+          "self_seconds": 0.002511513,
+          "cumulative_seconds": 0.002511513
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 8487,
+          "function": "get_current_cuda_device",
+          "calls": 2669,
+          "self_seconds": 0.001865635,
+          "cumulative_seconds": 0.002426217
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 8586,
+          "function": "verify_cuda_device",
+          "calls": 2600,
+          "self_seconds": 0.0010447,
+          "cumulative_seconds": 0.002394984
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.len>",
+          "calls": 18313,
+          "self_seconds": 0.002324238,
+          "cumulative_seconds": 0.002324238
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 15516,
+          "function": "init",
+          "calls": 2604,
+          "self_seconds": 0.000926232,
+          "cumulative_seconds": 0.002147425
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 11085,
+          "function": "<genexpr>",
+          "calls": 7800,
+          "self_seconds": 0.0016340100000000002,
+          "cumulative_seconds": 0.002098097
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.issubclass>",
+          "calls": 10412,
+          "self_seconds": 0.00204898,
+          "cumulative_seconds": 0.00204898
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 5787,
+          "function": "__eq__",
+          "calls": 2642,
+          "self_seconds": 0.001347483,
+          "cumulative_seconds": 0.0020251450000000003
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 13904,
+          "function": "copy",
+          "calls": 36,
+          "self_seconds": 0.001690373,
+          "cumulative_seconds": 0.001999645
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'extend' of 'list' objects>",
+          "calls": 10400,
+          "self_seconds": 0.001874512,
+          "cumulative_seconds": 0.001874512
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 11915,
+          "function": "synchronize_device",
+          "calls": 33,
+          "self_seconds": 0.0016608460000000001,
+          "cumulative_seconds": 0.0018623280000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 4160,
+          "function": "get_module_hash",
+          "calls": 2600,
+          "self_seconds": 0.0012410580000000002,
+          "cumulative_seconds": 0.001594563
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/types.py",
+          "line": 4211,
+          "function": "__ctype__",
+          "calls": 10400,
+          "self_seconds": 0.001438908,
+          "cumulative_seconds": 0.0015412470000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 3602,
+          "function": "get_kernel_hooks",
+          "calls": 2600,
+          "self_seconds": 0.0010318480000000001,
+          "cumulative_seconds": 0.0015006440000000002
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 5685,
+          "function": "stream",
+          "calls": 2704,
+          "self_seconds": 0.000909052,
+          "cumulative_seconds": 0.0012785680000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/types.py",
+          "line": 3846,
+          "function": "_init_new",
+          "calls": 40,
+          "self_seconds": 0.00036228700000000004,
+          "cumulative_seconds": 0.0012174900000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/types.py",
+          "line": 3061,
+          "function": "types_equal",
+          "calls": 10400,
+          "self_seconds": 0.001172806,
+          "cumulative_seconds": 0.001172806
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 5662,
+          "function": "context",
+          "calls": 8209,
+          "self_seconds": 0.001062229,
+          "cumulative_seconds": 0.001062229
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 11097,
+          "function": "_validate_launch_dim",
+          "calls": 2600,
+          "self_seconds": 0.0007172620000000001,
+          "cumulative_seconds": 0.001035268
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 11167,
+          "function": "_resolve_kernel_scalar_tid_extent_limit",
+          "calls": 2600,
+          "self_seconds": 0.0006373780000000001,
+          "cumulative_seconds": 0.0006373780000000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.max>",
+          "calls": 2600,
+          "self_seconds": 0.0006320900000000001,
+          "cumulative_seconds": 0.0006320900000000001
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 5043,
+          "function": "allocate",
+          "calls": 38,
+          "self_seconds": 0.000560556,
+          "cumulative_seconds": 0.000596377
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.getattr>",
+          "calls": 2724,
+          "self_seconds": 0.000508159,
+          "cumulative_seconds": 0.000508159
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/types.py",
+          "line": 3946,
+          "function": "__del__",
+          "calls": 74,
+          "self_seconds": 0.000158819,
+          "cumulative_seconds": 0.00046086900000000004
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 5631,
+          "function": "is_cpu",
+          "calls": 2744,
+          "self_seconds": 0.000448205,
+          "cumulative_seconds": 0.000448205
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method '__exit__' of '_thread.RLock' objects>",
+          "calls": 2600,
+          "self_seconds": 0.000423457,
+          "cumulative_seconds": 0.000423457
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 1076,
+          "function": "_validate_cluster_launch",
+          "calls": 2600,
+          "self_seconds": 0.000407164,
+          "cumulative_seconds": 0.000407164
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 12671,
+          "function": "_get_apic_capture_for_device",
+          "calls": 2712,
+          "self_seconds": 0.00039444500000000005,
+          "cumulative_seconds": 0.00039444500000000005
+        },
+        {
+          "file": "/usr/local/lib/python3.12/site-packages/warp/_src/context.py",
+          "line": 3095,
+          "function": "get_hash",
+          "calls": 2600,
+          "self_seconds": 0.000353505,
+          "cumulative_seconds": 0.000353505
+        }
+      ]
+    }
+  ],
+  "source_sha256": "48161474ddf9305ac8dbf9764692955a34ad91493cad81fa18dd9fcd0348119e"
+}

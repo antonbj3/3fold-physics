@@ -1,0 +1,24 @@
+{
+  "repo": "3fold-physics-e-gpu-check",
+  "cmd": "export PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONPATH=src; cp scripts/marangoni_gpu_before.py src/physics_engine/process/marangoni_meltpool_cfd_gpu.py && python scripts/verify_marangoni_gpu.py --out reports/marangoni_calibration_before_v1 && cp scripts/marangoni_gpu_after.py src/physics_engine/process/marangoni_meltpool_cfd_gpu.py && python scripts/verify_marangoni_gpu.py --out reports/marangoni_calibration_after_v1",
+  "gpu": "NVIDIA H100 80GB HBM3, 81559 MiB, 580.95.05",
+  "rc": 0,
+  "seconds": 150.4,
+  "stamp": "20260913T171237Z",
+  "files": [
+    "reports/marangoni_calibration_after_v1/fields_0.npz",
+    "reports/marangoni_calibration_after_v1/fields_1.npz",
+    "reports/marangoni_calibration_after_v1/records_0.json",
+    "reports/marangoni_calibration_after_v1/records_1.json",
+    "reports/marangoni_calibration_after_v1/report.json",
+    "reports/marangoni_calibration_before_v1/fields_0.npz",
+    "reports/marangoni_calibration_before_v1/fields_1.npz",
+    "reports/marangoni_calibration_before_v1/records_0.json",
+    "reports/marangoni_calibration_before_v1/records_1.json",
+    "reports/marangoni_calibration_before_v1/report.json",
+    "reports/process_gpu_inputs_v1/Al_Spot_TDA_Results.csv",
+    "reports/process_gpu_inputs_v1/Al_Spot_TDW_Results.csv",
+    "reports/process_gpu_inputs_v1/manifest.json"
+  ],
+  "extras": []
+}

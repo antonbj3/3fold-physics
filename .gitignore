@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv*/
+.DS_Store
+*.log
+artifacts/
+data/
+reports/
+evidence/
+.pytest_cache/
+RENAMES.md

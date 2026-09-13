@@ -1,0 +1,112 @@
+{
+  "device": "NVIDIA H100 NVL",
+  "rows": [
+    {
+      "case": "oscillator",
+      "repeat": 0,
+      "seconds": 0.006412625000001171,
+      "energy_error": 5.3170801095348e-12,
+      "vector_error": 7.761014053642157e-13,
+      "vector_normalized": 7.44135794359161e-05,
+      "residual": 9.094947017729282e-12,
+      "orthogonality": 5.767405895867181e-14,
+      "energies": [
+        0.49999887386911723,
+        1.4999943693455862,
+        2.499985360276696,
+        3.499971846698827,
+        4.499953829565129,
+        5.499931320280666
+      ]
+    },
+    {
+      "case": "oscillator",
+      "repeat": 1,
+      "seconds": 0.006414165999999,
+      "energy_error": 5.3170801095348e-12,
+      "vector_error": 7.761014053642157e-13,
+      "vector_normalized": 7.44135794359161e-05,
+      "residual": 9.094947017729282e-12,
+      "orthogonality": 5.767405895867181e-14,
+      "energies": [
+        0.49999887386911723,
+        1.4999943693455862,
+        2.499985360276696,
+        3.499971846698827,
+        4.499953829565129,
+        5.499931320280666
+      ]
+    },
+    {
+      "case": "well",
+      "repeat": 0,
+      "seconds": 0.006284046000001098,
+      "energy_error": 6.469242919138196e-10,
+      "vector_error": 8.074763080401226e-12,
+      "vector_normalized": 0.0006193119374384518,
+      "residual": 2.3283064365386963e-09,
+      "orthogonality": 6.345477197993651e-14,
+      "energies": [
+        4.9249414468649775,
+        19.699753646971658,
+        44.324400182580575,
+        78.79882035427727,
+        123.12292918586172
+      ]
+    },
+    {
+      "case": "well",
+      "repeat": 1,
+      "seconds": 0.006266965000000013,
+      "energy_error": 6.469242919138196e-10,
+      "vector_error": 8.074763080401226e-12,
+      "vector_normalized": 0.0006193119374384518,
+      "residual": 2.3283064365386963e-09,
+      "orthogonality": 6.345477197993651e-14,
+      "energies": [
+        4.9249414468649775,
+        19.699753646971658,
+        44.324400182580575,
+        78.79882035427727,
+        123.12292918586172
+      ]
+    },
+    {
+      "case": "asymmetric",
+      "repeat": 0,
+      "seconds": 0.006335615999999433,
+      "energy_error": 6.289635479106437e-12,
+      "vector_error": 7.628342402199451e-13,
+      "vector_normalized": 5.5837887844076396e-05,
+      "residual": 7.275957614183426e-12,
+      "orthogonality": 3.537607092372396e-14,
+      "energies": [
+        0.49450980040091963,
+        1.5030613344624726,
+        2.499508957223952,
+        3.498594807811969,
+        4.499695165892263,
+        5.5006464880152635
+      ]
+    },
+    {
+      "case": "asymmetric",
+      "repeat": 1,
+      "seconds": 0.006287276000000119,
+      "energy_error": 6.289635479106437e-12,
+      "vector_error": 7.628342402199451e-13,
+      "vector_normalized": 5.5837887844076396e-05,
+      "residual": 7.275957614183426e-12,
+      "orthogonality": 3.537607092372396e-14,
+      "energies": [
+        0.49450980040091963,
+        1.5030613344624726,
+        2.499508957223952,
+        3.498594807811969,
+        4.499695165892263,
+        5.5006464880152635
+      ]
+    }
+  ],
+  "source": "\"\"\"Temporary selected tridiagonal GPU experiment; not a production backend.\"\"\"\nimport json,time,hashlib\nfrom pathlib import Path\nimport numpy as np,torch,warp as wp\nfrom physics_engine.quantum import schrodinger_1d as cpu\nwp.set_module_options({'enable_backward':False,'fast_math':False,'fuse_fp':False})\n@wp.kernel\ndef selected(d:wp.array(dtype=wp.float64),off:wp.float64,lo:wp.float64,hi:wp.float64,ev:wp.array(dtype=wp.float64)):\n    j=wp.tid();n=d.shape[0];a=lo;b=hi\n    for it in range(64):\n        x=(a+b)*wp.float64(.5);q=d[0]-x;count=int(0)\n        if wp.abs(q)<wp.float64(1.e-100):q=wp.float64(-1.e-100)\n        if q<wp.float64(0.):count+=1\n        for i in range(1,n):\n            q=d[i]-x-off*off/q\n            if wp.abs(q)<wp.float64(1.e-100):q=wp.float64(-1.e-100)\n            if q<wp.float64(0.):count+=1\n        if count<=j:a=x\n        else:b=x\n    ev[j]=(a+b)*wp.float64(.5)\n@wp.kernel\ndef bracket_counts(d:wp.array(dtype=wp.float64),off:wp.float64,bounds:wp.array2d(dtype=wp.float64),counts:wp.array2d(dtype=wp.int32)):\n    j,lane=wp.tid();n=d.shape[0];a=bounds[j,0];b=bounds[j,1]\n    x=a+(b-a)*wp.float64(lane+1)/wp.float64(128.);q=d[0]-x;count=int(0)\n    if wp.abs(q)<wp.float64(1.e-100):q=wp.float64(-1.e-100)\n    if q<wp.float64(0.):count+=1\n    for i in range(1,n):\n        q=d[i]-x-off*off/q\n        if wp.abs(q)<wp.float64(1.e-100):q=wp.float64(-1.e-100)\n        if q<wp.float64(0.):count+=1\n    counts[j,lane]=count\n@wp.kernel\ndef bracket_update(bounds:wp.array2d(dtype=wp.float64),counts:wp.array2d(dtype=wp.int32),ev:wp.array(dtype=wp.float64)):\n    j=wp.tid();a=bounds[j,0];b=bounds[j,1];left=a;right=b\n    for lane in range(127):\n        x=a+(b-a)*wp.float64(lane+1)/wp.float64(128.)\n        if counts[j,lane]<=j:left=wp.max(left,x)\n        else:right=wp.min(right,x)\n    bounds[j,0]=left;bounds[j,1]=right;ev[j]=(left+right)*wp.float64(.5)\n@wp.kernel\ndef vectors(d:wp.array(dtype=wp.float64),off:wp.float64,ev:wp.array(dtype=wp.float64),p:wp.array2d(dtype=wp.float64),v:wp.array2d(dtype=wp.float64)):\n    j=wp.tid();n=d.shape[0];shift=ev[j]+wp.float64(1.e-7)*wp.max(wp.float64(1.),wp.abs(ev[j]))\n    p[j,0]=d[0]-shift\n    v[j,0]=wp.float64(1.)\n    for i in range(1,n):\n        q=d[i]-shift-off*off/p[j,i-1]\n        if wp.abs(q)<wp.float64(1.e-100):q=wp.float64(1.e-100)\n        p[j,i]=q;v[j,i]=wp.sin(wp.float64(i+1)*wp.float64(1.23456789))\n    for it in range(4):\n        for i in range(1,n):v[j,i]=v[j,i]-off*v[j,i-1]/p[j,i-1]\n        v[j,n-1]=v[j,n-1]/p[j,n-1]\n        for back in range(n-1):\n            i=n-2-back;v[j,i]=(v[j,i]-off*v[j,i+1])/p[j,i]\n        norm=wp.float64(0.)\n        for i in range(n):norm+=v[j,i]*v[j,i]\n        norm=wp.sqrt(norm)\n        for i in range(n):v[j,i]=v[j,i]/norm\n\ndef solve(V,dx,k):\n    diagonal=1./dx**2+V;off=-.5/dx**2;n=len(V)\n    d=wp.array(diagonal,dtype=wp.float64,device='cuda');e=wp.empty(k,dtype=wp.float64,device='cuda');p=wp.empty((k,n),dtype=wp.float64,device='cuda');v=wp.empty_like(p)\n    bounds=wp.array(np.tile([float(diagonal.min()-2*abs(off)),float(diagonal.max()+2*abs(off))],(k,1)),dtype=wp.float64,device='cuda')\n    counts=wp.empty((k,127),dtype=wp.int32,device='cuda')\n    for _ in range(10):\n        wp.launch(bracket_counts,(k,127),inputs=[d,off,bounds,counts],device='cuda')\n        wp.launch(bracket_update,k,inputs=[bounds,counts,e],device='cuda')\n    wp.launch(vectors,k,inputs=[d,off,e,p,v],device='cuda')\n    return e.numpy(),v.numpy().T/np.sqrt(dx)\nwp.init();torch.set_num_threads(1);solve(np.zeros(16),.1,3)\nrows=[]\nfor case in ('oscillator','well','asymmetric'):\n n=2000;x=np.linspace(-6,6,n);dx=x[1]-x[0];V=.5*x*x;k=6\n if case=='well':V=np.zeros(n);dx=1./(n-1);k=5\n if case=='asymmetric':V+=.12*np.sin(1.7*x)\n E,P=cpu.solve(V,dx,k)\n for repeat in range(2):\n  t=time.perf_counter();G,Q=solve(V,dx,k);elapsed=time.perf_counter()-t\n  Q*=np.where(np.sum(P*Q,axis=0)<0,-1.,1.)\n  residual=(1/dx**2+V)[:,None]*Q-G*Q;residual[1:]+=-.5/dx**2*Q[:-1];residual[:-1]+=-.5/dx**2*Q[1:]\n  rows.append(dict(case=case,repeat=repeat,seconds=elapsed,energy_error=float(np.max(np.abs(G-E))),vector_error=float(np.max(np.abs(Q-P))),vector_normalized=float(np.max(np.abs(Q-P)/(1.e-8+1.e-6*np.abs(P)))),residual=float(np.max(np.abs(residual))),orthogonality=float(np.max(np.abs(Q.T@Q*dx-np.eye(k)))),energies=G.tolist()))\nout=Path('reports/schrodinger_parallel128_experiment_v1');out.mkdir(parents=True,exist_ok=True);(out/'report.json').write_text(json.dumps(dict(device=torch.cuda.get_device_name(),rows=rows,source=Path(__file__).read_text()),indent=2)+'\\n');print(rows)\n"
+}

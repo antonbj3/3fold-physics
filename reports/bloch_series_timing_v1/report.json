@@ -1,0 +1,90 @@
+{
+  "device": "NVIDIA H100 80GB HBM3",
+  "scope": "whole original main, no observer, every GPU main constructs fresh series/operators; first calls include runtime initialization; reversed pairs",
+  "rows": [
+    {
+      "leg": 0,
+      "implementation": "cpu",
+      "seconds": 0.2498346859999998,
+      "rc": 0,
+      "source_sha256": "dc0087705c6f2f1773b7a10931b7598a2435bb54a0f2e52abf1bac57ed8ea8dd"
+    },
+    {
+      "leg": 0,
+      "implementation": "before",
+      "seconds": 0.4903603459999957,
+      "rc": 0,
+      "source_sha256": "85b13b890f628da80885ef5f4e40f240054e1f3841d509ae5b6a66e4119cc05a"
+    },
+    {
+      "leg": 0,
+      "implementation": "after",
+      "seconds": 0.018464509000004625,
+      "rc": 0,
+      "source_sha256": "d526cab079662e9bb5701a202f5f0121ca7ed9bb20d9d16abcdf62324e750f8d"
+    },
+    {
+      "leg": 1,
+      "implementation": "after",
+      "seconds": 0.017539410000004807,
+      "rc": 0,
+      "source_sha256": "d526cab079662e9bb5701a202f5f0121ca7ed9bb20d9d16abcdf62324e750f8d"
+    },
+    {
+      "leg": 1,
+      "implementation": "before",
+      "seconds": 0.038704146999997135,
+      "rc": 0,
+      "source_sha256": "85b13b890f628da80885ef5f4e40f240054e1f3841d509ae5b6a66e4119cc05a"
+    },
+    {
+      "leg": 1,
+      "implementation": "cpu",
+      "seconds": 0.2362206920000034,
+      "rc": 0,
+      "source_sha256": "dc0087705c6f2f1773b7a10931b7598a2435bb54a0f2e52abf1bac57ed8ea8dd"
+    },
+    {
+      "leg": 2,
+      "implementation": "cpu",
+      "seconds": 0.23140557699999675,
+      "rc": 0,
+      "source_sha256": "dc0087705c6f2f1773b7a10931b7598a2435bb54a0f2e52abf1bac57ed8ea8dd"
+    },
+    {
+      "leg": 2,
+      "implementation": "before",
+      "seconds": 0.038886540999996555,
+      "rc": 0,
+      "source_sha256": "85b13b890f628da80885ef5f4e40f240054e1f3841d509ae5b6a66e4119cc05a"
+    },
+    {
+      "leg": 2,
+      "implementation": "after",
+      "seconds": 0.017730430000000297,
+      "rc": 0,
+      "source_sha256": "d526cab079662e9bb5701a202f5f0121ca7ed9bb20d9d16abcdf62324e750f8d"
+    },
+    {
+      "leg": 3,
+      "implementation": "after",
+      "seconds": 0.01756460000000004,
+      "rc": 0,
+      "source_sha256": "d526cab079662e9bb5701a202f5f0121ca7ed9bb20d9d16abcdf62324e750f8d"
+    },
+    {
+      "leg": 3,
+      "implementation": "before",
+      "seconds": 0.03827913000000649,
+      "rc": 0,
+      "source_sha256": "85b13b890f628da80885ef5f4e40f240054e1f3841d509ae5b6a66e4119cc05a"
+    },
+    {
+      "leg": 3,
+      "implementation": "cpu",
+      "seconds": 0.23020668499999886,
+      "rc": 0,
+      "source_sha256": "dc0087705c6f2f1773b7a10931b7598a2435bb54a0f2e52abf1bac57ed8ea8dd"
+    }
+  ]
+}
